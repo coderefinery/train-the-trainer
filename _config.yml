@@ -1,5 +1,5 @@
-fork_me_ribbon_url: https://github.com/coderefinery/instructor-training
-baseurl: "/instructor-training"
+fork_me_ribbon_url: https://github.com/coderefinery/instructor_training
+baseurl: "/instructor_training"
 title: "CodeRefinery for contributors and instructors"
 
 # where things are
