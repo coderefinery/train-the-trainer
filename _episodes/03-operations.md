@@ -51,8 +51,9 @@ through practical aspects of organizing a workshop.
 
 #### Advertising the workshop
 
-- Set up a workshop webpage.
-- Ask an administrator of https://indico.neic.no to set up pre-workshop survey link and registration form.
+- Set up a workshop webpage (see exercise below).
+- Write an email to support@coderefinery.org to get a pre-workshop survey link and registration form on 
+  [https://indico.neic.no](https://indico.neic.no)
 - Announce the workshop via mailing lists, calendars and personal contacts. 
 - Email persons registered to the notify-me form (if relevant).
 - Maintain a waiting list.
@@ -66,6 +67,8 @@ through practical aspects of organizing a workshop.
 #### Miscellaneous
 
 - Organize sticky notes, extension cables and alternative wifi options for those without Eduroam.
+- If you wish, write to support@coderefinery.org to request CodeRefinery stickers which can 
+  be handed out to participants.
 - Prepare a shared document (e.g. Google doc) with global write permissions, consider creating a memorable short-link.
 - Order coffee and refreshments for coffee breaks, if possible.
 
