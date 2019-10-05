@@ -10,18 +10,17 @@ questions:
   - "What will you learn in this training?"
   - "How do we differ from the Carpentries?"
 objectives:
-  - "Explain what is CodeRefinery."
-  - "Discuss the main goals of CodeRefinery workshops."
-  - "Discuss how CodeRefinery differs from the Carpentries"
+  - "Explain what CodeRefinery is"
+  - "Discuss main goals of CodeRefinery workshops"
+  - "Discuss differences between CodeRefinery and The Carpentries"
   - "Understand what you will and will not learn during this training"
   - "Discuss the CodeRefinery training philosophies"
   - "Give an overview of CodeRefinery lessons"
 keypoints:
-  - "CodeRefinery teaches best practices for Software development."
-  - "CodeRefinery workshops benefit most to those who already code."
-  - "CodeRefinery lessons are programming language-independent."
-  - "CodeRefinery training philosophies."
-  - "CodeRefinery complements the Carpentries curriculum."
+  - "CodeRefinery teaches best practices for research software development"
+  - "CodeRefinery workshops benefit most those who already code"
+  - "CodeRefinery lessons are programming language-independent"
+  - "CodeRefinery complements The Carpentries curriculum"
 ---
 
 ## Welcome
