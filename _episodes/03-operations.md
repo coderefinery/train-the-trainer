@@ -130,13 +130,14 @@ WRITEME
 
 ---
 
-> ## Exercise: set up a workshop webpage
+> ## Set up a workshop webpage
 >
-> 1. Use the [GitHub importer](https://github.com/new/import) to import this workshop template [add URL].
->    Name the new repository to include some date and location.
-> 2. Clone the imported repository and inspect the template.
-> 3. Modify some of the fields (schedule, instructors, ...) and push a commit.
-> 4. Go to the rendered page on repository-name.github.io
+> 1. Go to the [workshop template repository](https://github.com/coderefinery/template-workshop-webpage). 
+> 2. Click the green "Use this template" button to import the template to your own account. 
+>    Name the new repository to include a date and a location, e.g. "2019-12-24-stockholm".
+> 3. Clone the new repository and inspect the files. Open `index.md`, update some fields and commit the changes.
+> 4. Push the commits. The workshop page should now be served on GitHub Pages
+>    (e.g., *https://username.github.io/2019-12-24-stockholm/*).
 {: .challenge}
 
 
