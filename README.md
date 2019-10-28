@@ -1,16 +1,10 @@
 
 
-# Example lesson
+# CodeRefinery instructor training lesson
 
 ## Credit and license
 
-- https://coderefinery.github.io/example-lesson/license/
-
-## Lesson development document
-
-Planning and brainstorming around this lesson in 
-[this document](brainstorming.md).
-
+- https://coderefinery.github.io/instructor_training/license/
 
 ## How to include jekyll-common
 
