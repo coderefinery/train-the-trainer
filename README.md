@@ -6,12 +6,6 @@
 
 - https://coderefinery.github.io/instructor_training/license/
 
-## Lesson development document
-
-Planning and brainstorming around this lesson in 
-[this document](brainstorming.md).
-
-
 ## How to include jekyll-common
 
 ```shell
