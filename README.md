@@ -1,10 +1,10 @@
 
 
-# Example lesson
+# CodeRefinery instructor training lesson
 
 ## Credit and license
 
-- https://coderefinery.github.io/example-lesson/license/
+- https://coderefinery.github.io/instructor_training/license/
 
 ## Lesson development document
 
