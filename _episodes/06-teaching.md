@@ -5,56 +5,157 @@ teaching: 15
 exercises: 255
 questions:
   - "What are CodeRefinery lessons' objectives?"
-  - "Do we fulfill our objectives?"
-  - "What improvements can we suggest to the lessons?"
-  - "How can we improve instructor's notes?"
+  - "How are the lessons taught?"
+  - "How can we improve instructor guides or lesson material?"
 objectives:
-  - "Review objectives, keypoints, and exercises to identify sections/exercises that could be optional, and to adjust timing."
-  - "Review instructor notes and add any missing information"
+  - "Review and discuss CodeRefinery lessons and instructor guides"
+  - "Practice teaching short snippets from lessons"
 keypoints:
 ---
 
-## Lesson discussion
+# CodeRefinery lessons
 
-> ## Exercise (3 groups)
->
-> Lesson 1: Git intro
-> Lesson 2: Documentation
-> Lesson 3: Collaborative Git
+We will now split into groups and study, teach and discuss the 
+CodeRefinery lessons. Each participant will join one group in each 
+of the three sessions.
+
+---
+
+> ## Bad and good live coding examples
+>  
+> Teaching by live coding is a 
+> [performance art which requires practice](https://teachtogether.tech/#s:performance-exercises).
+> This exercise highlights some typical pitfalls that most instructors 
+> fall into sooner or later, and also shows how to avoid them. 
+> Watch closely since we will be giving feedback!
+> - Watch first [this video](https://youtu.be/bXxBeNkKmJE)
+> - Then watch [this video](https://youtu.be/SkPmwe_WjeY)
+> - How is the second round of teaching better than the first? 
+> - Is there anything that was better in the first than in the second?
+> - Please give feedback in the shared workshop document.
 {: .task}
 
+---
 
-## Summary and lesson learnt
+## Lesson discussions 
 
-Summarize your discussions together (all groups) and discuss on how to improve the process for the next round of lesson discussions.
+- Each group will have a CodeRefinery instructor who will introduce 
+  the lesson and guide the discussions. 
+- Discussions may lead to suggestions for improvements in either lessons 
+  or lesson instructor guides. These should be recorded as issues to 
+  lesson repositories.
+- The format will be flexible and should be adapted to the specifics of 
+  each lesson, but a starting point can be:
+  1. The instructor gives a high-level overview of the lesson and 
+     reviews the instructor guide.
+  2. Discussion of the intended learning outcomes and lesson episode structure.
+  3. Episodes are distributed between subgroups (2-4 people), who study the 
+     material.
+  4. Within subgroups, participants study the episode, discuss it, and (if 
+     relevant) take turns to present and live-code selected parts for 3-5 
+     minutes. The other subgroup participants give feedback.
+  5. Subgroups present thoughts and conclusions to the whole group.
+  6. Steps 3-5 are repeated with a different distribution of episodes if 
+     time allows.
+  7. Instructor guide is again reviewed based on the discussions and 
+     improvements are made directly or via issues.
 
-## Lesson discussion
+---
 
 
-> ## Exercise (3 groups)
+### Exercises
+
+Each group should engage in exercises to practice teaching or think more 
+deeply about the material, but not all exercises are equally suitable to 
+each lesson. Here are a few exercises that can be used for each lesson.
+
+> ## Live coding practice
 >
-> Lesson 1: Modular code development
-> Lesson 2: Jupyter
-> Lesson 3: social coding
+> - Choose an episode from the lesson you are working on, and think about how 
+>   you could teach it.
+> - Teach it to your group members for 3-5 minutes using your laptop 
+>   (group members can sit next to the presenter).
+>   See if you can practice the following skills:
+>   - describing what you are doing while you type
+>   - turning typos/mistakes into valuable learning experiences
+> - After the demo, other group members give feedback on a 2x2 matrix, with 
+>   [content, presentation] on one axis and [positive, negative] on the other.
+{: .challenge}
+
+> ## Design a new exercise
+> 
+> - Choose an episode/part of the lesson you are working on and study it.
+> - Try to come up with an idea for a new exercise, and write it down.  
+> - Group members try out the new exercise and give feedback:
+>   - was it too hard or too easy?
+>   - does it relate to any intended learning outcomes for the lesson?
+>   - does it expose any possible misconceptions that learners might have?
+{: .challenge}
+
+> ## Design formative assessment
+> 
+> - Choose an episode/part of the lesson you are working on and study it.
+> - Try to come up with a *formative assessment* question/problem for this episode.
+> - The formative assessment should give feedback to both learners and 
+>   instructors on whether a topic is correctly understood or if 
+>   misconceptions remain.
+{: .challenge}
+
+> ## Create a concept map
+> 
+> - Choose an episode/part of the lesson you are working on and study it.
+> - Create a *concept map* of the episode, where facts are represented as 
+>   bubbles and lines between the bubbles denote their connections.
+{: .challenge}
+
+---
+
+### Part 1 (90 min)
+
+We begin by discussing these lessons:
+
+- [Git intro](https://coderefinery.github.io/git-intro/)
+- [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
+- [Reprodubicle research](https://coderefinery.github.io/reproducible-research/)
+
+
+> ## Summary and lessons learned
+> 
+> Summarize your discussions together (all groups) and discuss how to 
+> improve the process for the next round of lesson discussions.
 {: .task}
 
-## Summary and lesson learnt
+---
 
-As before, we gather all groups together to summarize discussions.
+### Part 2 (90 min)
 
-## Lesson discussion
+- [Documentation](https://coderefinery.github.io/git-intro/)
+- [Jupyter](https://coderefinery.github.io/jupyter/)
+- [Social coding](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
 
-> ## Exercise (3 groups)
->
-> Lesson 1: Automated testing
-> Lesson 2: Reproducible research I (first half of lesson)
-> Lesson 3: Reproducible research II (second half)
+
+> ## Summary and lessons learned
+> 
+> Summarize your discussions together (all groups) and discuss how to 
+> improve the process for the next round of lesson discussions.
 {: .task}
 
+---
 
-## Summary and lesson learnt
+### Part 3 (90 min)
 
-Discuss on the way forward for these lessons.
+
+- [Git collaborative](https://coderefinery.github.io/git-collaborative/)
+- [Automated testing](https://coderefinery.github.io/testing/)
+- Most popular lesson?
+
+
+> ## Summary and lessons learned.
+> 
+> Summarize your discussions together (all groups).  
+> What was valuable? What did you miss? What additional work is 
+> required before you would feel comfortable teaching a lesson?
+{: .task}
 
 
 
