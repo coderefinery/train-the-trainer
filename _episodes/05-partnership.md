@@ -61,5 +61,24 @@ The pitch can be quite simple - continuity of the CodeRefinery project will lead
   - Collaborative learning and knowledge transfer
 
 
+---
 
+## Building a community
 
+Building a community will be another essential requirement to reach sustainability.
+
+Several avenues should be pursued:
+
+- Train-the-trainer program
+  - Promote, train, and certify future trainers at annual train-the-trainer workshops
+- Symbiosis with The Carpentries and PRACE advanced training centers
+  - CodeRefinery can be positioned as the second step after attending a Carpentry workshop
+  - Coordinating with PRACE advanced training centers, embed CodeRefinery workshops within PRACE?
+- Symbiosis with local units
+  - Partner with universities to bring workshops to their community as a default service
+  - Aalto Science IT to serve as perfect model
+- [Research software engineer (RSE) community in the Nordics](http://nordic-rse.org/)
+  - CodeRefinery can serve as a hub 
+  - Bi-annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
+
+---
