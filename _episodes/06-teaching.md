@@ -116,7 +116,7 @@ We begin by discussing these lessons:
 
 - [Git intro](https://coderefinery.github.io/git-intro/)
 - [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-- [Reprodubicle research](https://coderefinery.github.io/reproducible-research/)
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
 
 > ## Summary and lessons learned
@@ -129,7 +129,7 @@ We begin by discussing these lessons:
 
 ### Part 2 (90 min)
 
-- [Documentation](https://coderefinery.github.io/git-intro/)
+- [Documentation](https://coderefinery.github.io/documentation/)
 - [Jupyter](https://coderefinery.github.io/jupyter/)
 - [Social coding](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
 
