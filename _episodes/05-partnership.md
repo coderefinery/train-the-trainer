@@ -35,23 +35,25 @@ October 2021**.
 
 - After phase 2, travel and accommodation for workshops will be financed by the hosting
   institution, similarly to the Carpentries model. 
-- The lesson material will be maintained by the community and volunteers but employers will be
-  encouraged to allow instructors across Nordics to participate in-kind in 1-2 workshops/year. 
+- The lesson material will be maintained by the community and volunteers.
+- Employers will be encouraged to allow instructors across Nordics to participate in-kind in 1-2 workshops/year. 
 - A completely self-financed organization may not be realistic, but we aim to arrive at
   a project which can continue using 0.5 - 1 FTE/year for coordination.
 
 Reaching this goal will depend on developing institutional recognition for the project.  
 But how do we get there?
 
-
 ---
-
 
 ## Benefits 
 
+Universities, e-Science initiatives and other organizations need to be convinced to
+support or otherwise endorse CodeRefinery.  
+
+The pitch can be quite simple - continuity of the CodeRefinery project will lead to:
 - More competent scientists and researchers
   - Software development is a core part of research for many scientists and researchers in the Nordics 
-  - CodeRefinery contributes to an increased competence in software development tools and techniques among scientists and researchers.
+  - CodeRefinery contributes to an increased competence in software development tools and techniques among scientists and researchers
   - Preparation and delivery of workshops is also a great learning opportunity for the instructors
 - Better science
   - Reproducibility of research code
