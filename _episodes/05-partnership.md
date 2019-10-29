@@ -82,3 +82,11 @@ Several avenues should be pursued:
   - Bi-annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
 
 ---
+
+## What can you do?
+
+- First and foremost: teach workshops!
+- Spread the word. Tell friends and colleagues about upcoming workshops		
+  and encourage them to become instructors
+- Talk to your higher-ups. Is your employer willing to contribute in-kind?
+
