@@ -45,6 +45,10 @@ research software.
 - Past participants share their new knowledge with colleagues
 - Usage of several tools is improved, and new tools are adopted
 
+[Free-form answers](https://coderefinery.org/#what-do-our-participants-say-after-attending-a-workshop) 
+also suggest that workshops are having the intended effects on how people develop code. A common theme is:
+> *I wish I had known this stuff already as a grad student 10+ years ago...*
+
 ---
 
 ## Carpentries membership
