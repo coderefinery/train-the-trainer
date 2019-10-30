@@ -14,7 +14,18 @@ keypoints:
 
 # Carpentries approach to teaching
 
-**This section is copied from [the Carpentries instructor training material](https://carpentries.github.io/instructor-training/).**
+Most CodeRefinery instructors have completed the 
+[Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which 
+[anyone can apply for](https://carpentries.org/become-instructor/) and 15 seats are reserved each 
+year through [NeIC's Carpentry membership](https://coderefinery.org/about/#membership-with-the-carpentries).
+
+> ## This material
+> 
+> This section is derived from the 
+> [Carpentries instructor training material](https://carpentries.github.io/instructor-training/).
+> We encourage you to further study this material later, and to sign up for a 2-day Carpentry 
+> intructor training workshop.
+{: .callout}
 
 We will give you a short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
 
