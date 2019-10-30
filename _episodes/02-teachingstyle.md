@@ -14,6 +14,8 @@ keypoints:
 
 # Carpentries approach to teaching
 
+Here we will give you a short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
+
 Most CodeRefinery instructors have completed the 
 [Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which 
 [anyone can apply for](https://carpentries.org/become-instructor/) and 15 seats are reserved each 
@@ -27,7 +29,9 @@ year through [NeIC's Carpentry membership](https://coderefinery.org/about/#membe
 > intructor training workshop.
 {: .callout}
 
-We will give you a short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
+---
+
+## Key principles
 
 In the "Carpentries" approach to teaching, emphasis is put on:
 
@@ -37,8 +41,10 @@ In the "Carpentries" approach to teaching, emphasis is put on:
 
 Before going into details, let's summarize the Carpentries teaching principles:
 
-- Learners need to practice what they are learning in real time and get feedback on what they are doing. That is why Carpentries teaching approach uses **live coding**.
-- Learners best learn in a respectful and classroom enviromment. They can help each others during the workshops as it also improves their confidence and reinforce concepts taught. The Carpentries has put in place a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). The Carpentries try to have learners do something that they think is useful in their daily work within 15 minutes of starting each lesson. 
+- Learners need to practice what they are learning in real time and get feedback on what they are doing. That is why the teaching approach relies on **live coding**.
+- Learners best learn in a respectful classroom environment, so the Carpentries use a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). 
+- Learners are encouraged to help each other during workshops as this improves their confidence and reinforces concepts taught. 
+- Carpentry instructors try to have learners do something that they think is useful in their daily work within 15 minutes of starting each lesson. 
 
 ![What to Teach](https://carpentries.github.io/instructor-training/fig/what-to-teach.png)
 
