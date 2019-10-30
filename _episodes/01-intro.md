@@ -87,15 +87,37 @@ Here CodeRefinery instructors share their training philosophy. The main goal is 
 
 It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. The goal is to help each others to find the way that is best for each of us.
 
-### Anne Fouilloux
+> ## Anne Fouilloux
+> 
+> I regularly teach Carpentries workshops so I try to apply what I have learnt to CodeRefinery workshops. However, I know our target audience is very much different and that I need to adapt my teaching style. I am still trying to find what works best in which situations and this is why I like so much CodeRefinery workshops. We usually have a wider range of skills and very mixed backgrounds so we usually have to be more careful with the pace and time given for exercises.
+> 
+> Some considerations:
+> - I spend quite a lot of time reading the CodeRefinery material and practising myself exercises. I particularly like to read the instructor notes just before teaching: they usually highlight important aspects both for preparing and teaching. 
+> - I usually do not show too much in advance the material as I think it prevents asking questions. If you have less competent practitioners in the classroom, they can easily copy-paste to avoid slowing down the entire classroom.
+> - Ideally, I'd like to give several exercises so anyone can work at its own pace. I find it is important that everybody gets something different from the workshop. 
+> - I love breaks as it gives us an opportunity to discuss with attendees on their research topics. I am especially interested to understand what software they write and how they plan to use what they learn during our workshops.
+{: .challenge}
 
-I regularly teach Carpentries workshops so I try to apply what I have learnt to CodeRefinery workshops. However, I know our target audience is very much different and that I need to adapt my teaching style. I am still trying to find what works best in which situations and this is why I like so much CodeRefinery workshops. We usually have a wider range of skills and very mixed backgrounds so we usually have to be more careful with the pace and time given for exercises.
-
-Some considerations:
-- I spend quite a lot of time reading the CodeRefinery material and practising myself exercises. I particularly like to read the instructor notes just before teaching: they usually highlight important aspects both for preparing and teaching. 
-- I usually do not show too much in advance the material as I think it prevents asking questions. If you have less competent practitioners in the classroom, they can easily copy-paste to avoid slowing down the entire classroom.
-- Ideally, I'd like to give several exercises so anyone can work at its own pace. I find it is important that everybody gets something different from the workshop. 
-- I love breaks as it gives us an opportunity to discuss with attendees on their research topics. I am especially interested to understand what software they write and how they plan to use what they learn during our workshops.
+> ## Thor Wikfeldt
+> 
+> I never want to leave any learner behind and I really don't like seeing confused, blank faces in the classroom. 
+> At the same time I sometimes worry about some participants getting bored if a lesson is progressing slowly. 
+> This is always a difficult compromise and something I struggle with!  
+> 
+> I try to focus on making concepts intuitive, to "make sense" to the learners. Of course this is usually 
+> based on how I learned the topic myself and how it makes sense to me. 
+> 
+> I try to establish connections between topics: "this thing here is similar to what we saw in the previous 
+> lesson where we learned about X...".
+> 
+> Before mastering a lesson by teaching in many times I try to "follow the script". After becoming very 
+> familiar with a lesson I start to improvise more and react more dynamically to questions, e.g. by taking a
+> detour to explain a confusing topic more clearly.
+> 
+> What I think I do too often: copy-paste code/text from lesson material. This can leave learners behind - 
+> typing out the code and describing it is slower, but more learning takes place. More advanced learners 
+> will hopefully "be compensated" by interesting advanced exercises which follow.
+{: .challenge}
 
 ---
 
