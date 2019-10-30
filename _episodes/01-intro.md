@@ -1,25 +1,22 @@
 ---
 layout: episode
 title: "The CodeRefinery project"
-teaching: 30
+teaching: 20
 exercises: 0
 questions:
   - "What is CodeRefinery?"
   - "How does CodeRefinery relate to the Carpentries?"
-  - "Discuss differences between CodeRefinery and the Carpentries"
+  - "What are the main goals of CodeRefinery workshops?"
   - "Who is in our target audience?"
   - "What is our training philosophy?"
-  - "What is usually taught in a CodeRefinery workshop?"
 objectives:
   - "Discuss main goals of CodeRefinery"
   - "Understand that CodeRefinery workshops make a difference"
-  - "Give an overview of CodeRefinery lessons"
+  - "Discuss differences between CodeRefinery and the Carpentries"
 keypoints:
   - "Workshops have an impact - past participants report improved practices"
   - "CodeRefinery teaches best practices for research software development"
   - "CodeRefinery workshops benefit most those who already code"
-  - "CodeRefinery lessons are programming language-independent"
-
 ---
 
 # The CodeRefinery project
@@ -35,7 +32,7 @@ The project has four main goals:
 
 ---
 
-## Does CodeRefinery make a difference?
+## Impact
 
 3-6 months after attending a workshop, past participants are asked to complete a short post-workshop survey.
 The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop 
@@ -63,18 +60,11 @@ and supporters who share a mission to teach foundational computational and data 
 
 ---
 
-## Goal of this workshop
-
-One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
-
-This instructor training workshop aims to increase the number of CodeRefinery instructors 
-and thus contribute to the project's sustainability.
-
-## Carpentries and CodeRefinery target audience
+## Target audience
 
 ### Carpentries audience
 
-The carpentries is primarily concerned with **novices**. 
+The Carpentries is primarily concerned with **novices**. 
 
 It aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
@@ -83,10 +73,13 @@ By showing learners how to solve specific problems with specific tools and provi
 
 In that sense, CodeRefinery differs significantly as we assume our audience already write codes and we aims at teaching them **best software practices**.
 
-Our target audience is a *competent practitioner** writing codes on a regular basis but that usually does not have a good overview of **best software practices**.
+Our target audience is a **competent practitioner** writing codes on a regular basis but that usually does not have a good overview of **best software practices**.
 
 Whenever we can, we direct **novices** to Carpentries workshops.
 
+*Novices* and *competent practitioners* will be more clearly defined in the [next section](02-teachingstyle.md).
+
+---
 
 ## CodeRefinery training philosophies
 
@@ -122,13 +115,11 @@ However, anyone is free to mix and match to define its own CodeRefinery programm
 
 ---
 
-### Lightning overview of all lessons 
+# Goal of this workshop
 
-Details on lessons will be given later, so here we mostly give a very short overview of each CodeRefinery lesson.
+One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
 
-> ## Exercise: Learning objectives
-> Split in group of 3-4 persons and choose one of the presented CodeRefinery lesson.
-> 1. Give feedback on two axes: positive vs. negative and content vs. presentation.
-> 1. Discuss the learning objectives and how they fit to CodeRefinery objectives that are to improve researcher's best software practices.
->
-{: .challenge}
+This instructor training workshop aims to increase the number of CodeRefinery instructors 
+and thus contribute to the project's sustainability.
+
+

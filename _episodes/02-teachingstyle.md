@@ -1,11 +1,10 @@
 ---
 layout: episode
 title: "CodeRefinery approach to teaching"
-teaching: 30
+teaching: 20
 exercises: 30
 questions:
   - "What pedagogical concepts underpin both CodeRefinery and Carpentry workshop?"
-  - "What are the main goals of CodeRefinery workshops?"
 objectives:
   - "Explain and practice important pedagogical concepts"
   - "Discuss the CodeRefinery training philosophies"
