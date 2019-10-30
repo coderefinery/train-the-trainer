@@ -91,6 +91,15 @@ results are easily interpretable by the learner and instructor.
 >
 {: .challenge}
 
+> ## Designing formative assessment
+> Create a multiple choice question related to a topic you have taught or intend to teach. One answer should be 
+> unambiguously correct, while the others can represent ["plausible distractors"](https://teachtogether.tech/#g:plausible-distractor) 
+> which are meant to identify possible distractors.  
+> When you are done, trade MCQs with a partner. Is their question ambiguous? 
+> Are the misconceptions plausible? Do the distractors actually test for them? 
+> Are any likely misconceptions not tested for?
+{: .challenge}
+
 ---
 
 ## Who are the learners
