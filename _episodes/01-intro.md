@@ -5,16 +5,16 @@ teaching: 60
 exercises: 30
 questions:
   - "What is CodeRefinery?"
-  - "What will you learn in this training?"
+  - "How does CodeRefinery relate to the Carpentries?"
+  - "What pedagogical concepts underpin both CodeRefinery and Carpentry workshop?"
   - "What are the main goals of CodeRefinery workshops?"
-  - "What is usually taught in a CodeRefinery workshop?"
+  - "What is the target audience?"
   - "What is our training philosophy?"
-  - "How do we differ from the Carpentries?"
+  - "What is usually taught in a CodeRefinery workshop?"
 objectives:
-  - "Explain what CodeRefinery is"
+  - "Explain and practice important pedagogical concepts"
   - "Discuss main goals of CodeRefinery workshops"
-  - "Discuss differences between CodeRefinery and The Carpentries"
-  - "Understand what you will and will not learn during this training"
+  - "Discuss differences between CodeRefinery and the Carpentries"
   - "Discuss the CodeRefinery training philosophies"
   - "Give an overview of CodeRefinery lessons"
 keypoints:
