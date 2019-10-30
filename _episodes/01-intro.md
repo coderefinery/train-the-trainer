@@ -79,6 +79,9 @@ Whenever we can, we direct **novices** to Carpentries workshops.
 
 *Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
 
+>## Remark
+>It can be useful to ask your self *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience not necessarily want to embrace all aspects of software engineering.
+{: .callout}
 ---
 
 ## CodeRefinery training philosophies
