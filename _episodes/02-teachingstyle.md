@@ -154,6 +154,15 @@ most of the complexities that a mechanical engineer would be concerned with.
 
 ![Mental Models](https://carpentries.github.io/instructor-training/fig/mental_models.svg)
 
+> ## Concept Mapping 
+> One tool for representing someone's mental model is a [concept map](https://teachtogether.tech/#s:memory-concept-maps), 
+> in which facts are bubbles and connections are labeled connections.  
+> Draw a concept map for something you would teach in five minutes (if possible, do it for the same subject that you 
+> created a multiple-choice questions for above). Trade with a partner and discuss each other's maps. 
+> Do they present concepts or surface detail? Which of the relationships in your partner's map do you 
+> consider concepts and vice versa?
+{: .challenge}
+
 ---
 
 ## How “knowledge” gets in the way
