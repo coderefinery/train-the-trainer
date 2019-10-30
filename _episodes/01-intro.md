@@ -68,20 +68,30 @@ and supporters who share a mission to teach foundational computational and data 
 
 ### Carpentries audience
 
-The Carpentries is primarily concerned with **novices**. 
 
-It aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
+The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
+
+**Learners do not need to have any prior experience in programming.**  One of the major goal of a Carpentry workshop is to raise awarness on the tools researchers can learn/use to speed up their research. 
+
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
+
+> ## Novices
+> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet. A typical example is the usage of version control: the Carpentry `git` lesson aims to give a very high level conceptual overview of git but it does not explain how it can be used in research projects.
+{: .callout}
+
 
 ### CodeRefinery audience
 
-In that sense, CodeRefinery differs significantly as we assume our audience already write codes and we aims at teaching them **best software practices**.
+In that sense, CodeRefinery differs significantly as we assume our audience already write codes and we aim at teaching them **best software practices**.
 
-Our target audience is a **competent practitioner** writing codes on a regular basis but that usually does not have a good overview of **best software practices**.
+Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (git, jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
 
-Whenever we can, we direct **novices** to Carpentries workshops.
+Whenever we can, we should direct learners that do not have sufficient coding experience to Carpentries workshops.
 
-*Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
+> ## Competent practitioners
+> We often qualify CodeRefinery learners as **competent practitioners** because they already have an understanding of their needs.
+> *Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
+{: .callout}
 
 ---
 
