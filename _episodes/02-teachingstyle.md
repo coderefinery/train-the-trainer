@@ -225,3 +225,9 @@ follows:
 1. Review the lesson's learning objectives carefully, thinking about how they will work for your audience 
 2. Scan the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met 
 3. Review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions.
+
+> ## Write learning objectives
+> Write one or more learning objectives for something you currently teach or plan to teach using Bloom's Taxonomy. 
+> Working with a partner, critique and improve the objectives. Does each one have a verifiable verb and clearly 
+> state criteria for acceptable performance?
+{: .challenge}
