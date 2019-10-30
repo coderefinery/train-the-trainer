@@ -48,9 +48,9 @@ research software.
 - Past participants share their new knowledge with colleagues
 - Usage of several tools is improved, and new tools are adopted
 
-## Carpentries membership
 
-One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
+
+## Carpentries membership
 
 Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
 
@@ -60,6 +60,14 @@ and supporters who share a mission to teach foundational computational and data 
 
 - 6 Carpentries workshops in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
 - 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
+
+## Goal of this workshop
+
+One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
+
+This instructor training workshop aims to increase the number of CodeRefinery instructors 
+and thus contribute to the project's sustainability.
+
 
 # Carpentries approach to teaching
 
