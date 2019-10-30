@@ -24,9 +24,7 @@ keypoints:
   - "CodeRefinery complements The Carpentries curriculum"
 ---
 
-# Welcome
-
-# CodeRefinery goals
+# The CodeRefinery project
 
 CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and will end in October 2021.
 
@@ -37,7 +35,18 @@ The project has four main goals:
 - Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials
 - Articulate and implement the CodeRefinery sustainability plan
 
-This instructor training lesson aims at increasing the number of CodeRefinery instructors hence contributes to the project sustainability.
+## Does CodeRefinery make a difference?
+
+3-6 months after attending a workshop, past participants are asked to complete a short post-workshop survey.
+The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop 
+research software.
+
+![post-workshop survey results](https://coderefinery.org/assets/img/heatmap_yesno.png)
+
+- Overall quality of research software has improved: more reusable, modular, reproducible and documentated.
+- Collaboration on research software development has become easier
+- Past participants share their new knowledge with colleagues
+- Usage of several tools is improved, and new tools are adopted
 
 ## Carpentries membership
 
