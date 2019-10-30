@@ -77,7 +77,7 @@ Our target audience is a **competent practitioner** writing codes on a regular b
 
 Whenever we can, we direct **novices** to Carpentries workshops.
 
-*Novices* and *competent practitioners* will be more clearly defined in the [next section](02-teachingstyle.md).
+*Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
 
 ---
 
