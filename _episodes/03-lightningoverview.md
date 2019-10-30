@@ -8,7 +8,7 @@ questions:
 objectives:
   - "Get a general overview of CodeRefinery lessons"
 keypoints:
-  - "CodeRefinery lessons focus on version control and other best practices""
+  - "CodeRefinery lessons focus on version control and other best practices"
   - "CodeRefinery lessons are programming language-independent"
 ---
 
