@@ -99,21 +99,6 @@ Some considerations:
 
 ---
 
-# CodeRefinery lessons and workshop
-
-## What is a CodeRefinery workshop?
-
-In this section, we explain briefly what is a CodeRefinery workshop and in particular how much we can mix and match lessons for new workshops.
-
-Practical information on how to organize a workshop will be given later.
-
-All our [CodeRefinery teaching material](https://coderefinery.org/lessons/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Code examples: [OSI](http://opensource.org/)-approved [MIT license](http://opensource.org/licenses/mit-license.html). You are free to use this material, but please [let us know](https://coderefinery.org/contact/) - it is important for us to know whether this material has impact outside of our workshops.
-
-We usually run our workshops in 3 days and to get an overview of a typical CodeRefinery workshop, look at the programme  [here](https://coderefinery.org/workshops/2019-10-22-trondheim/).
-
-However, anyone is free to mix and match to define its own CodeRefinery programme.
-
----
 
 # Goal of this workshop
 
