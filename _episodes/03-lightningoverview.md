@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Lightning overview of lesons"
+title: "Lightning overview of lessons"
 teaching: 20
 exercises: 0
 questions:
