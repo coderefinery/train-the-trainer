@@ -96,9 +96,9 @@ By showing learners how to solve specific problems with specific tools and provi
 
 ### CodeRefinery audience
 
-In that sense, CodeRefinery differs significantly as we assume our audience already write codes and we aim at teaching them **best software practices**.
+In that sense, CodeRefinery differs significantly as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
 
-Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (git, jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
+Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (Git, Jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
 
 Whenever we can, we should direct learners that do not have sufficient coding experience to Carpentries workshops.
 
@@ -108,7 +108,7 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 {: .callout}
 
 >## Remark
->It can be useful to ask your self *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience not necessarily want to embrace all aspects of software engineering.
+>It can be useful to ask the question: *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience will probably not need to embrace *all* aspects of software engineering.
 {: .callout}
 ---
 
