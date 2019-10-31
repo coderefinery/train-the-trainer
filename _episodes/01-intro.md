@@ -85,7 +85,7 @@ Within the membership the Nordic research community has access to:
 
 The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
 
-**Learners do not need to have any prior experience in programming.**  One of the major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
+**Learners do not need to have any prior experience in programming.**  One major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
 
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
 
@@ -114,9 +114,9 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 
 ## CodeRefinery training philosophies
 
-Here CodeRefinery instructors share their training philosophy. The main goal is to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
+Here CodeRefinery instructors share their training philosophy to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
 
-It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. The goal is to help each others to find the way that is best for each of us.
+It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. We want to help each other to find the way that is best for each of us.
 
 > ## Anne Fouilloux
 > 
@@ -239,12 +239,10 @@ It is important to explain how much we value individuals and that there is not o
 
 ---
 
-
 # Goal of this workshop
 
 One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
 
-This instructor training workshop aims to increase the number of CodeRefinery instructors 
+This instructor training workshop aims to increase the number of CodeRefinery instructors
+and to increase the visibility and exposure of the teaching material
 and thus contribute to the project's sustainability.
-
-
