@@ -40,7 +40,7 @@ research software.
 
 ![post-workshop survey results](https://coderefinery.org/assets/img/heatmap_yesno.png)
 
-- Overall quality of research software has improved: more reusable, modular, reproducible and documentated.
+- Overall quality of research software has improved: more reusable, modular, reproducible and documented.
 - Collaboration on research software development has become easier
 - Past participants share their new knowledge with colleagues
 - Usage of several tools is improved, and new tools are adopted
@@ -71,7 +71,7 @@ and supporters who share a mission to teach foundational computational and data 
 
 The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
 
-**Learners do not need to have any prior experience in programming.**  One of the major goal of a Carpentry workshop is to raise awarness on the tools researchers can learn/use to speed up their research. 
+**Learners do not need to have any prior experience in programming.**  One of the major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
 
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
 

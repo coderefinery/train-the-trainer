@@ -22,7 +22,7 @@ through practical aspects of organizing a workshop.
 
 > ## Workshop manuals
 > CodeRefinery maintains a number of [workshop manuals](https://github.com/coderefinery/manuals/) 
-> with practical tips and checklists. We will be refering to this material below.
+> with practical tips and checklists. We will be referring to this material below.
 {: .callout}
 
 ## [Before the workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#before-the-workshop)

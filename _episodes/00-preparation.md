@@ -32,7 +32,7 @@ Please read ["The Science of Learning"](https://carpentries.github.io/instructor
 
 # Go through a CodeRefinery lesson
 
-Please go to the [CodeRefinery lessons page](https://coderefinery.org/lessons/), have a look at what we currently teach, and then choose one of our lessons and read through it carefully. You will be using your selected lesson for several in-class exercises and disscussions.
+Please go to the [CodeRefinery lessons page](https://coderefinery.org/lessons/), have a look at what we currently teach, and then choose one of our lessons and read through it carefully. You will be using your selected lesson for several in-class exercises and discussions.
 
 Select one episode and write a few comments on the content (questions below are given for guidance but feel free to comment on anything):
 
