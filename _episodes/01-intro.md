@@ -166,6 +166,63 @@ It is important to explain how much we value individuals and that there is not o
 > to simplify a convoluted part of a lesson.
 {: .challenge}
 
+> ## Radovan Bast
+>
+> My teaching changed by 180 degrees after taking the Carpentries instructor
+> training.  Before that I used slides, 45 minute lecture blocks, and separate
+> exercise sessions.  After the Carpentries instructor training I embraced the
+> interaction, exercises, demos, and typos.
+>
+> My goal for a lesson is to spark curiosity to try things after the lesson,
+> both for the novices ("This looks like a useful tool, I want to try using it
+> after the workshop.") and the more experienced participants ("Aha - I did not
+> know you could do this. I wonder whether I can make it work with X." I like
+> to start lessons with a question because this makes participants look up from
+> their browsers.
+>
+> Keeping both the novices and the experts engaged during a lesson can be
+> difficult and offering additional exercises seems to be a good compromise.
+>
+> For me it is a good sign if there are many questions. I like to encourage
+> questions by asking questions to the participants. But I also try not to go
+> into a rabbit hole when I get a question where only experts will appreciate
+> the answer.
+>
+> I try to avoid jargon and "war stories" from the professional developers'
+> perspective or the business world. Most researchers may not relate to them.
+> For examples I always try to use the research context. Avoid "customer",
+> "production", also a lot of Agile jargon is hard to relate to.
+>
+> Less and clear is better than more and unclear. Simple examples are better
+> than complicated examples. Almost never I have felt or got the feedback that
+> something was too simple. I am repeating in my head to not use the words
+> "simply", "just", "easy". If participants take home one or two points from
+> a lesson, that's for me success.
+>
+> I prepare for the lesson by reading the instructor guide and all issues and
+> open pull requests. I might not be able to solve issues, but I don't want to
+> be surprised by known issues.  I learn the material to a point where I know
+> precisely what comes next and am never surprised by the next episode or
+> slide. This allows me to skip and distill the essence and not read bullet
+> point by bullet point.
+>
+> I try to never deviate from the script and if I do, be very explicit about
+> it.
+>
+> A great exercise I can recommend is to watch a tutorial on a new programming
+> language/tool you have never used. It can feel very overwhelming and fast to
+> get all these new concepts and tools thrown at self. This can prepare me for
+> how a participant might feel.
+>
+> I find it very helpful if there is somebody else in the room who helps me
+> detecting when I go too fast or become too confusing. I like when two
+> instructors complement each other during a lesson but when doing that to
+> others, I am often worried of interrupting their flow and timing too much.
+>
+> A mistake I often do is to type too fast and in my mind I force myself
+> to slow down.
+{: .challenge}
+
 ---
 
 
