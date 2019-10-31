@@ -2,7 +2,6 @@ fork_me_ribbon_url: https://github.com/coderefinery/instructor_training
 baseurl: "/instructor_training"
 title: "CodeRefinery for contributors and instructors"
 
-# where things are
 source: .
 destination: ./_site
 layouts_dir: ./jekyll-common/layouts
@@ -16,6 +15,7 @@ kramdown:
     css_class: 'codehilite'
 
 include: ['jekyll-common/pages']
+exclude: ['LICENSE']
 
 collections:
   episodes:
