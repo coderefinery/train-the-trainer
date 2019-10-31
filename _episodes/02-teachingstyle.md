@@ -182,7 +182,7 @@ CodeRefinery workshops target **competent practioners** that write code on a reg
 >
 > Split into groups (3 to 4 persons). Discuss and summarize in the etherpad:
 > 1. Why does CodeRefinery target **competent practitioner**? 
-> 2. Why is it important to be able to write code for attenting a CodeRefinery workshop? 
+> 2. Why is it important to be able to write code for attending a CodeRefinery workshop?
 > For this exercise, we suggest to read [Motivation and Demotivation](https://carpentries.github.io/instructor-training/08-motivation/index.html) from the Carpentries instructor training lesson.
 {: .challenge}
 
