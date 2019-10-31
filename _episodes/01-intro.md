@@ -21,7 +21,7 @@ keypoints:
 
 # The CodeRefinery project
 
-CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and will end in October 2021.
+CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and is funded until October 2021.
 
 The project has four main goals:
 
