@@ -25,6 +25,16 @@ CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no
 
 ---
 
+## History
+
+The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
+- [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
+- [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
+
+The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
+
+---
+
 ## Main goals
 
 - Develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
