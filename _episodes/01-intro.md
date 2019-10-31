@@ -21,14 +21,26 @@ keypoints:
 
 # The CodeRefinery project
 
-CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and will end in October 2021.
+CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and is funded until October 2021.
 
-The project has four main goals:
+---
+
+## History
+
+The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
+- [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
+- [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
+
+The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
+
+---
+
+## Main goals
 
 - Develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
-- Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries
-- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials
-- Articulate and implement the CodeRefinery sustainability plan
+- Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries.
+- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials.
+- Articulate and implement the CodeRefinery sustainability plan.
 
 ---
 
@@ -56,11 +68,13 @@ also suggest that workshops are having the intended effects on how people develo
 Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
 
 The Carpentries teaches foundational coding and data science skills to researchers worldwide and as such is complementary to CodeRefinery. 
-an international successful project that comprises Software Carpentry and Data Carpentry, communities of Instructors, Trainers, Maintainers, helpers, 
-and supporters who share a mission to teach foundational computational and data science skills to researchers. With this we have access to:
+The Carpentries is an international project that comprises Software Carpentry and Data Carpentry, communities of instructors, trainers, maintainers, helpers,
+and supporters who share a mission to teach foundational computational and data science skills to researchers.
 
-- 6 Carpentries workshops in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
-- 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
+Within the membership the Nordic research community has access to:
+
+- 6 Carpentries workshops in the Nordics each year. The workshop fee is covered by the membership, only the instructor travel is on the host institution.
+- 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skill transfer within their local communities in the Nordics.
 
 ---
 
@@ -71,7 +85,7 @@ and supporters who share a mission to teach foundational computational and data 
 
 The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
 
-**Learners do not need to have any prior experience in programming.**  One of the major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
+**Learners do not need to have any prior experience in programming.**  One major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
 
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
 
@@ -82,9 +96,9 @@ By showing learners how to solve specific problems with specific tools and provi
 
 ### CodeRefinery audience
 
-In that sense, CodeRefinery differs significantly as we assume our audience already write codes and we aim at teaching them **best software practices**.
+In that sense, CodeRefinery differs significantly as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
 
-Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (git, jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
+Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (Git, Jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
 
 Whenever we can, we should direct learners that do not have sufficient coding experience to Carpentries workshops.
 
@@ -94,15 +108,15 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 {: .callout}
 
 >## Remark
->It can be useful to ask your self *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience not necessarily want to embrace all aspects of software engineering.
+>It can be useful to ask the question: *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience will probably not need to embrace *all* aspects of software engineering.
 {: .callout}
 ---
 
 ## CodeRefinery training philosophies
 
-Here CodeRefinery instructors share their training philosophy. The main goal is to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
+Here CodeRefinery instructors share their training philosophy to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
 
-It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. The goal is to help each others to find the way that is best for each of us.
+It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. We want to help each other to find the way that is best for each of us.
 
 > ## Anne Fouilloux
 > 
@@ -225,12 +239,10 @@ It is important to explain how much we value individuals and that there is not o
 
 ---
 
-
 # Goal of this workshop
 
 One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
 
-This instructor training workshop aims to increase the number of CodeRefinery instructors 
+This instructor training workshop aims to increase the number of CodeRefinery instructors
+and to increase the visibility and exposure of the teaching material
 and thus contribute to the project's sustainability.
-
-
