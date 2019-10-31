@@ -4,9 +4,9 @@ title: "Pre-workshop preparation"
 teaching: 0
 exercises: 60
 questions:
-  - "What should I do before the CodeRefinery Instructor Training workshop?"
+  - "What should I do before the CodeRefinery instructor training workshop?"
   - "How long is the preparation work?"
-  - "Do I need to be Carpentries Instructor to attend CodeRefinery Instructor Training workshop?"
+  - "Do I need to be Carpentries instructor to attend this workshop?"
 objectives:
   - "Explain how to prepare for the workshop"
   - "Explain why it is important to be prepared for the workshop"
@@ -17,11 +17,18 @@ keypoints:
   - "Study at least one CodeRefinery lesson"
 ---
 
-Being a [Carpentry Instructor](https://carpentries.org/instructors/) is not required to attend CodeRefinery Instructor Training workshop. 
+## You don't have to be a [Carpentries instructor](https://carpentries.org/instructors/)
 
-However to fully take advantage on the CodeRefinery Instructor Training workshop, we recommend:
+Being a [Carpentries instructor](https://carpentries.org/instructors/) is not required to attend CodeRefinery Instructor Training workshop. 
 
-## The Science of Learning
+
+## Recommended reading
+
+To fully take advantage on the CodeRefinery instructor training workshop, we
+recommend to read the following resources.
+
+
+### The Science of Learning
 
 Please read ["The Science of Learning"](https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf), which provides a brief overview of some key evidence-based results in teaching. Reading this article should not take more than 10 minutes.
 
@@ -30,7 +37,7 @@ Please read ["The Science of Learning"](https://carpentries.github.io/instructor
 {: .callout}
 
 
-# Go through a CodeRefinery lesson
+### Go through a CodeRefinery lesson
 
 Please go to the [CodeRefinery lessons page](https://coderefinery.org/lessons/), have a look at what we currently teach, and then choose one of our lessons and read through it carefully. You will be using your selected lesson for several in-class exercises and discussions.
 
@@ -48,6 +55,9 @@ Select one episode and write a few comments on the content (questions below are 
 
 This exercise should take about 50 minutes.
 
-# Don't forget your laptop and charger!
+
+## Practicals
+
+### Don't forget your laptop and charger!
 
 Please also bring a laptop powerful enough to teach on so that you can take part in all of the practical exercises (a tablet won't be sufficient), and its charger.
