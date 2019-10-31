@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "CodeRefinery approach to teaching"
+title: "Teaching approach"
 teaching: 20
 exercises: 30
 questions:

@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Teaching CodeRefinery lessons"
+title: "Digging into the lessons"
 teaching: 15
 exercises: 255
 questions:

@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Running CodeRefinery workshops"
+title: "Running workshops"
 teaching: 20
 exercises: 10
 questions:
