@@ -68,11 +68,13 @@ also suggest that workshops are having the intended effects on how people develo
 Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
 
 The Carpentries teaches foundational coding and data science skills to researchers worldwide and as such is complementary to CodeRefinery. 
-an international successful project that comprises Software Carpentry and Data Carpentry, communities of Instructors, Trainers, Maintainers, helpers, 
-and supporters who share a mission to teach foundational computational and data science skills to researchers. With this we have access to:
+The Carpentries is an international project that comprises Software Carpentry and Data Carpentry, communities of instructors, trainers, maintainers, helpers,
+and supporters who share a mission to teach foundational computational and data science skills to researchers.
 
-- 6 Carpentries workshops in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
-- 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
+Within the membership the Nordic research community has access to:
+
+- 6 Carpentries workshops in the Nordics each year. The workshop fee is covered by the membership, only the instructor travel is on the host institution.
+- 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skill transfer within their local communities in the Nordics.
 
 ---
 
