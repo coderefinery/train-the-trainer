@@ -115,6 +115,19 @@ It is important to explain how much we value individuals and that there is not o
 > - I love breaks as it gives us an opportunity to discuss with attendees on their research topics. I am especially interested to understand what software they write and how they plan to use what they learn during our workshops.
 {: .challenge}
 
+> ## Bjørn Lindi
+>
+> My teaching style has changed a bit since I started with CodeRefinery. In the beginning I had this "BLOB" (Binary Large OBject) of knowledge and experience that I wanted to to convey to the participants. With experience and some help from the Carpentries Instructor training, I have realized I need to serialize the "BLOB", to be able to share it with others.
+>
+>In a similar fashion as you would do with a binary large object which you intend to send over the wire, you will need stop signals, check-sums and re-transmissions, when you give a lecture. I have come to appreciate the natural periods/breaks the lessons offers, the questions raised, the errors that appear during type-along and the re-transmission. Co-instructors are good to use for re-transmission or broadening a specific topic.
+>
+>When I started with CodeRefinery my inclination was to give a lecture. Today I am trying to be a guide during a learning experience, a learning experience which includes me as well. That may sound a bit self-centric, but is in fact the opposite, as I have to be more sensitive to what is going on in the room. The more conscious I am of being a guide, the better lesson.
+>
+>Tools that I find useful in preparing a lesson is concept maps and Learner Personas, though I have develop to few them.
+>- [Concept Maps](https://teachtogether.tech/#s:memory-concept-maps)
+>- [Learner Personas](https://teachtogether.tech/#s:process-personas)
+{: .challenge}
+
 > ## Thor Wikfeldt
 > 
 > I never want to leave any learner behind and I really don't like seeing confused, blank faces in the classroom. 
