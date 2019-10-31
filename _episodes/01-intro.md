@@ -23,12 +23,14 @@ keypoints:
 
 CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and is funded until October 2021.
 
-The project has four main goals:
+---
+
+## Main goals
 
 - Develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
-- Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries
-- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials
-- Articulate and implement the CodeRefinery sustainability plan
+- Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries.
+- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials.
+- Articulate and implement the CodeRefinery sustainability plan.
 
 ---
 
