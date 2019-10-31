@@ -136,6 +136,23 @@ It is important to explain how much we value individuals and that there is not o
 > will hopefully "be compensated" by interesting advanced exercises which follow.
 {: .challenge}
 
+> ## Stefan Negru
+> 
+> A lesson is a conversation, it is useful if both the trainer and the trainee are engaged.
+> For that reason I try to have, most of the time, a conversation with the classroom and
+> after we finish parts of a lesson, step back and see how we might use what we learned.
+>
+> That brings me to another point I follow throughout the lessons, answering questions like:
+> * How can we apply in practice what we just learned?
+> * Do you see yourself (the trainee) using that in practice, why or why not?
+>
+> Most of the times those seem like open-ended questions to the trainees that just learned
+> something new, so I try to find examples, most of the times from personal experience.
+>
+> Last thing is that analogies are important when I teach, I try to find analogies in order
+> to simplify a convoluted part of a lesson.
+{: .challenge}
+
 ---
 
 
