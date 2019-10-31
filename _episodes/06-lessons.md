@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Contributing to CodeRefinery Lesson development"
+title: "Contributing to lesson development"
 teaching: 30
 exercises: 20
 questions:

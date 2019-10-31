@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "The CodeRefinery project"
+title: "About the project"
 teaching: 20
 exercises: 0
 questions:
