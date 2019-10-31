@@ -176,7 +176,7 @@ It is important to explain how much we value individuals and that there is not o
 > My goal for a lesson is to spark curiosity to try things after the lesson,
 > both for the novices ("This looks like a useful tool, I want to try using it
 > after the workshop.") and the more experienced participants ("Aha - I did not
-> know you could do this. I wonder whether I can make it work with X." I like
+> know you could do this. I wonder whether I can make it work with X."). I like
 > to start lessons with a question because this makes participants look up from
 > their browsers.
 >
