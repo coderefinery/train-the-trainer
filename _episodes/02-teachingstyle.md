@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "Teaching approach"
-teaching: 20
+teaching: 30
 exercises: 30
 questions:
   - "What pedagogical concepts underpin CodeRefinery and Carpentry workshops?"
