@@ -4,7 +4,8 @@ title: "Teaching approach"
 teaching: 20
 exercises: 30
 questions:
-  - "What pedagogical concepts underpin both CodeRefinery and Carpentry workshop?"
+  - "What pedagogical concepts underpin CodeRefinery and Carpentry workshops?"
+  - "What is reverse instructional design?"
 objectives:
   - "Understand what is meant by feedback, cognitive development, mental models and reverse instructional design"
   - "Explain and practice important pedagogical concepts"
