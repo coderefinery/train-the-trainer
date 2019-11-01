@@ -90,3 +90,10 @@ Several avenues should be pursued:
   and encourage them to become instructors
 - Talk to your higher-ups. Is your employer willing to contribute in-kind?
 
+> ## Discussion
+> 
+> - What do you think will be needed to reach sustainability?
+> - How do you think the lesson material should be maintained after 
+>   project funding ends?
+> - What type of partnerships do you think are possible?
+{: .task}
