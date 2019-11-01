@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "About the project"
-teaching: 20
+teaching: 30
 exercises: 0
 questions:
   - "What is CodeRefinery?"
