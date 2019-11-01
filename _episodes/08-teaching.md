@@ -108,6 +108,15 @@ each lesson. Here are a few exercises that can be used for each lesson.
 >   bubbles and lines between the bubbles denote their connections.
 {: .challenge}
 
+> ## Learning objectives
+>
+> - Give feedback on the presented learning objectives on two axes:
+>   positive vs. negative and content vs. presentation.
+> - Discuss the learning objectives and how they fit to CodeRefinery objectives
+>   that are to improve researcher's best software practices.
+>
+{: .challenge}
+
 ---
 
 ### Part 1 (90 min)
