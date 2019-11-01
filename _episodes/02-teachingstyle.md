@@ -94,7 +94,9 @@ results are easily interpretable by the learner and instructor.
 > ## Designing formative assessment
 > Create a multiple choice question related to a topic you have taught or intend to teach. One answer should be 
 > unambiguously correct, while the others can represent ["plausible distractors"](https://teachtogether.tech/#g:plausible-distractor) 
-> which are meant to identify possible distractors.  
+> which are meant to identify possible distractors.
+> A plausible distractors is an incorrect (or less correct) answer
+> designed to test as specific misconception.
 > When you are done, trade MCQs with a partner. Is their question ambiguous? 
 > Are the misconceptions plausible? Do the distractors actually test for them? 
 > Are any likely misconceptions not tested for?
@@ -180,7 +182,7 @@ CodeRefinery workshops target **competent practioners** that write code on a reg
 
 > ## Exercise: Carpentries versus CodeRefinery audience
 >
-> Split into groups (3 to 4 persons). Discuss and summarize in the etherpad:
+> Split into groups (3 to 4 persons). Discuss and summarize in the hackmd pad:
 > 1. Why does CodeRefinery target **competent practitioner**? 
 > 2. Why is it important to be able to write code for attending a CodeRefinery workshop?
 > For this exercise, we suggest to read [Motivation and Demotivation](https://carpentries.github.io/instructor-training/08-motivation/index.html) from the Carpentries instructor training lesson.
