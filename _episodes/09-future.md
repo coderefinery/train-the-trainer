@@ -15,11 +15,28 @@ keypoints:
 
 ## Near future of CodeRefinery
 
+- How to get new workshop requests?
+- How to get attendee interest?
+- How to get instructor interest?
+- What's our capacity for workshops?
+
 
 ## Brainstorming about new lessons
 
+- What lessons are useful and don't exist?
+- Which of these are in the scope of CodeRefinery?
+- What is an appropriate length and level of modularity for lessons,
+  so that they can be most easily reused?
+
 
 ## Roadmap for future CodeRefinery lessons
+
+
+## Nordic Research Software Engineer network
+
+- CodeRefinery is trying to start a network of Research Software
+  Engineers in the Nordics.
+- Nordic RSE conference in 2020.
 
 
 ## Hands-on Scientific Computing
