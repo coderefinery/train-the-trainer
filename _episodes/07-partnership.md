@@ -60,6 +60,61 @@ The pitch can be quite simple - continuity of the CodeRefinery project will lead
   - Reusable and extensible code
   - Collaborative learning and knowledge transfer
 
+---
+
+## Challenges
+
+In theory, everyone is happy with training.  In practice, once it is
+no longer free, how will it continue?
+
+- Minimum effort needed for a workshop:
+  - Coordination in months before workshop
+  - Three instructor travel and accommodation for three days
+  - Time to prepare, time to teach.
+- Will institutions be able to budget for staff costs?
+
+---
+
+## Example: Recurring workshops
+
+Aalto University and soon KTH provide examples of recurring workshops:
+
+- A well-defined and connected target audience
+- Local workshops twice a year
+- One or two local (non-CodeRefinery staff) instructors locally
+- Zero or one remote CodeRefinery instructors travel (and one or two
+  CodeRefinery instructors already in the city).
+- Workshops have been made "routine" - minimal advance discussion
+  needed.
+
+---
+
+## Option 1
+
+- Routine workshops
+  - A host institution provides 1-2 local instructors
+  - Host institution pays for 1-2 remote instructors to travel, but no salary
+  - Host institution sends 1-2 instructors to some other remote
+    workshop at a different partner.
+- Bootstraping new members
+  - Other sites kickstart a new institution by sending more
+    instructors and demonstrating a full workshop.  Initial instructor
+    training begins.
+- Coordination
+  - Central coordination, new institutions can easily join.
+  - .5-1 FTE funded by NeIC or by partner fees?
+- Training and meetings
+  - Yearly meeting and training funded somehow...
+
+---
+
+## Option 2: peer to peer
+
+A smaller way to start would be to take a core group of institutions
+(e.g. Aalto and KTH) and they agree to send an instructor back and
+forth twice a year for networking and teaching a workshop.  Possibly
+as part of NordicHPC and other collaboration?  This would require less
+central coordination, and eventually merge into option 1.
 
 ---
 
