@@ -118,3 +118,30 @@ design process with the CodeRefinery manual.
 Again, lessons are developed on Github.
 
 Copy the workshop repository template (TODO: where is it).
+
+## Backwards design exercise
+
+> ## Practice backwards design
+>
+> Choose a simple lesson topic and apply backwards lesson design.  You
+> won't get all the way through, but come up with a logical
+> progression of exercises.
+>
+> Some suggestions:
+> - Regular expressions
+> - Making papers in LaTeX
+> - Making figures in your favorite programming language.
+> - Linux shell basics
+> - Something non-technical, such as painting a room
+> - An instructor training for CodeRefinery
+>
+> How does this compare to other lessons you have designed?
+>
+{: .challenge}
+
+> ## Backwards lesson design in practice (advanced)
+>
+> Was this instructor training material backwards-designed?  How can
+> you tell?
+>
+{: .challenge}
