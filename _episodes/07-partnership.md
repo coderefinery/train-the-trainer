@@ -101,9 +101,20 @@ Aalto University and soon KTH provide examples of recurring workshops:
     instructors and demonstrating a full workshop.  Initial instructor
     training begins.
 - Coordination
-  - Funded by NeIC or by partner fees?
+  - Central coordination, new institutions can easily join.
+  - .5-1 FTE funded by NeIC or by partner fees?
 - Training and meetings
   - Yearly meeting and training funded somehow...
+
+---
+
+## Option 2: peer to peer
+
+A smaller way to start would be to take a core group of institutions
+(e.g. Aalto and KTH) and they agree to send an instructor back and
+forth twice a year for networking and teaching a workshop.  Possibly
+as part of NordicHPC and other collaboration?  This would require less
+central coordination, and eventually merge into option 1.
 
 ---
 
