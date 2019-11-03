@@ -74,7 +74,7 @@ no longer free, how will it continue?
 
 ## Example: Recurring workshops
 
-Aalto University and soon KTH provide examples of recurring workshops:
+Aalto University and soon KTH and Trondheim provide examples of recurring workshops:
 
 - A well-defined and connected target audience
 - Local workshops twice a year
