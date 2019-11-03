@@ -35,7 +35,7 @@ October 2021**.
 - The lesson material will be maintained by the community, volunteers, and in-kind staff time.
 - Employers will be encouraged to allow instructors across Nordics to participate in-kind in 1-2 workshops/year. 
 - A completely self-financed organization may not be realistic, but we aim to arrive at
-  a project which can continue using 0.5 - 1 FTE/year for coordination.
+  a project which can continue using 0.5-1 FTE/year for coordination.
 
 Reaching this goal will depend on developing institutional recognition for the project.  
 But how do we get there?
