@@ -67,6 +67,11 @@ is:
    certain learning goal and misconception.
 6. Write just enough material to get from one exercise to the other.
 
+When designing exercises, consider that some participants will get stuck
+and may want to re-join at a later exercise. In other words it is nice
+if exercises build up on each other but not at the cost that if participants
+get stuck at exercise 2, they will not be able to do exercises 3 to N.
+
 In this episode, we first go over a process of reviewing existing
 lessons (that's easier and is done more often).  Then, the process of
 creating new lessons.
