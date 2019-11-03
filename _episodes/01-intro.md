@@ -40,14 +40,16 @@ and iteratively grew and improved the material to its present form.
 
 ## Main goals
 
-- Develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
+- Develop and maintain **training material on software best practices** for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 - Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries.
-- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials.
-- Articulate and implement the CodeRefinery sustainability plan.
+- Provide **training opportunities** in the Nordics using Carpentries and CodeRefinery training materials.
+- Articulate and implement the CodeRefinery **sustainability plan**.
 
 ---
 
 ## Impact
+
+We collect feedback and survey results to measure our impact.
 
 3-6 months after attending a workshop, past participants are asked to complete a short post-workshop survey.
 The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop 
