@@ -246,6 +246,20 @@ It is important to explain how much we value individuals and that there is not o
 > to slow down.
 {: .challenge}
 
+> ## Sabry Razick
+> My approach is to show it is fun to demystify concepts. Once a concept is
+> not a mystery anymore, the learners will understand  is what it means, where
+> it is coming from, why it is in place  and what it could it offer for their future.
+> I try to relate concepts to real life with a twist of humour whenever possible if
+> the outcome is certain not be offensive to any one. I use diagrams whenever possible,
+> I have spent weeks creating diagrams that is sometime three or four sentences. That
+> effort I consider  worthwhile as my intention is not to teach, but to demystify.
+> Once that is achieved, learners will learn the nitty gritty on their own easily
+> and with confidence, when they have the use-case.
+>
+>
+{: .challenge}
+
 ---
 
 # Goal of this workshop
