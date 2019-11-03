@@ -27,10 +27,7 @@ keypoints:
 - What lessons are useful and don't exist?
 - Which of these are in the scope of CodeRefinery?
 - What is an appropriate length and level of modularity for lessons,
-  so that they can be most easily reused?
-
-
-## Roadmap for future CodeRefinery lessons
+  so that they can be most easily reused and remixed?
 
 
 ## Nordic Research Software Engineer network
