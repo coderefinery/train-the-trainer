@@ -77,7 +77,7 @@ lessons (that's easier and is done more often).  Then, the process of
 creating new lessons.
 
 
-## Contributing to existing CodeRefinery lessons
+## Contributing to existing lessons
 
 Our lessons are collaboratively developed.  They are made by many
 people, and there is no single fixed master plan (but there should be,
