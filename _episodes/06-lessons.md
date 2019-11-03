@@ -165,7 +165,7 @@ Copy the workshop repository template (TODO: where is it).
 > Some suggestions:
 > - Regular expressions
 > - Making papers in LaTeX
-> - Making figures in your favorite programming language.
+> - Making figures in your favorite programming language
 > - Linux shell basics
 > - Something non-technical, such as painting a room
 > - An instructor training for CodeRefinery
