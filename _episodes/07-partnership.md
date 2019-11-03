@@ -19,7 +19,6 @@ In October 2018 CodeRefinery entered the second phase of the project, with fundi
 until autumn 2021. A key objective for CodeRefinery 2.0 is to **render the project largely self-sustained after 
 October 2021**. 
 
-
 > ## Public documents 
 > 
 > Documents relating to the management of the CodeRefinery project, 
@@ -27,9 +26,7 @@ October 2021**.
 > [this NeIC wiki page](https://wiki.neic.no/wiki/CodeRefinery)
 {: .callout}
 
-
 ---
-
 
 ## Vision
 
