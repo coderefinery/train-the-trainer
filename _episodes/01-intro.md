@@ -33,6 +33,9 @@ The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses giv
 
 The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
 
+We have started by porting own lessons to the Carpentries teaching style and format, and collaboratively
+and iteratively grew and improved the material to its present form.
+
 ---
 
 ## Main goals
