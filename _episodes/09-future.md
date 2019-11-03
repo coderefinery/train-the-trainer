@@ -4,7 +4,7 @@ title: "Future"
 teaching: 0
 exercises: 90
 questions:
-  - "Is there any missing lessons in CodeRefinery?"
+  - "Are we missing any lessons in CodeRefinery?"
   - "What teaching material should we develop?"
   - "What is our broader picture?"
 objectives:
@@ -100,7 +100,6 @@ Learner personas:
   field in this program).  Without tools such as git or shell, they
   can't work quickly.  HoSC serves as a parallel, practical guide to
   students.
-
 
 Short-term plan:
 
