@@ -79,7 +79,7 @@ creating new lessons.
 
 ## Contributing to existing lessons
 
-Our lessons are collaboratively developed.  They are made by many
+Our lessons are **collaboratively developed**.  They are made by many
 people, and there is no single fixed master plan (but there should be,
 in the instructors or maintainer's guide).  We encourage
 everyone to contribute to the lessons.
