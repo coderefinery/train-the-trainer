@@ -43,6 +43,8 @@ Why is it good to have a process?:
 * It can increase quality.
 * **We aren't perfect yet.**  CodeRefinery is still striving to get
   better at this, and we are more ad-hoc than you might think.
+  A number of our lessons have not been designed this way but we are now improving
+  these lessons with the backwards lesson design in mind.
 
 The whole process (copied from
 [lesson-design.md](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
