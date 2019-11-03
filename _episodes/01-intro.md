@@ -99,13 +99,13 @@ The Carpentries aims to teach computational **competence** to learners through a
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
 
 > ## Novices
-> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet. A typical example is the usage of version control: the Carpentry `git` lesson aims to give a very high level conceptual overview of git but it does not explain how it can be used in research projects.
+> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet. A typical example is the usage of version control: the Carpentry `git` lesson aims to give a very high level conceptual overview of Git but it does not explain how it can be used in research projects.
 {: .callout}
 
 
 ### CodeRefinery audience
 
-In that sense, CodeRefinery differs significantly as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
+In that sense, CodeRefinery workshops differ from Carpentry workshops as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
 
 Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (Git, Jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
 
@@ -116,7 +116,7 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 > *Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
 {: .callout}
 
->## Remark
+>## Best software practices for whom?
 >It can be useful to ask the question: *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience will probably not need to embrace *all* aspects of software engineering.
 {: .callout}
 ---
