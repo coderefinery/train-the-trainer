@@ -13,7 +13,7 @@ keypoints:
   - "CodeRefinery sustainability plan"
 ---
 
-# CodeRefinery Sustainability plan
+# Sustainability plan
 
 In October 2018 CodeRefinery entered the second phase of the project, with funding from [NeIC](https://neic.no)
 until autumn 2021. A key objective for CodeRefinery 2.0 is to **render the project largely self-sustained after 
