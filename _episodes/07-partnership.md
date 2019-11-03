@@ -110,7 +110,7 @@ Aalto University and soon KTH and Trondheim provide examples of recurring worksh
 A smaller way to start would be to take a core group of institutions
 (e.g. Aalto and KTH) and they agree to send an instructor back and
 forth twice a year for networking and teaching a workshop.  Possibly
-as part of NordicHPC and other collaboration?  This would require less
+as part of [NordicHPC](https://nordichpc.github.io) and other collaboration?  This would require less
 central coordination, and eventually merge into option 1.
 
 ---
