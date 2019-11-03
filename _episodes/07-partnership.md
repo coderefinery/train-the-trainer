@@ -49,7 +49,7 @@ support or otherwise endorse CodeRefinery.
 
 The pitch can be quite simple - continuity of the CodeRefinery project will lead to:
 - More competent scientists and researchers
-  - Software development is a core part of research for many scientists and researchers in the Nordics 
+  - Software development is a core part of research for many scientists and researchers
   - CodeRefinery contributes to an increased competence in software development tools and techniques among scientists and researchers
   - Preparation and delivery of workshops is also a great learning opportunity for the instructors
 - Better science
