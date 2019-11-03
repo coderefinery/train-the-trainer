@@ -131,7 +131,7 @@ Several avenues should be pursued:
   - Aalto Science IT to serve as perfect model
 - [Research software engineer (RSE) community in the Nordics](http://nordic-rse.org/)
   - CodeRefinery can serve as a hub 
-  - Bi-annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
+  - Bi-annual or annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
 
 ---
 
