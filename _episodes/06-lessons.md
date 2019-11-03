@@ -47,10 +47,10 @@ Why is it good to have a process?:
   these lessons with the backwards lesson design in mind.
 
 The whole process (copied from
-[lesson-design.md](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
+[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md))
 is:
 
-1. Brainstorm what you want to cover
+1. Brainstorm what you want to cover.
 2. Create or reuse learner personas - understand who you want to
    teach.  What do they care about?  Perhaps as important is what they
    don't care about: make sure that you don't go too in depth too
