@@ -112,6 +112,7 @@ requests (PR) about ideas and improvements.
   discussion.
 * If you see an open pull request, don't be afraid to comment and
   merge!
+* Avoid merging own pull requests.
 
 You can most likely figure out how the different pages work.  In
 short:
