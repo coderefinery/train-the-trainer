@@ -87,8 +87,7 @@ everyone to contribute to the lessons.
 
 ### Contribution process
 
-We've made [the
-lesson-review checklist](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
+We've made the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist
 to guide the review process.
 
 Lessons are reviewed very often - essentially, before each workshop by
