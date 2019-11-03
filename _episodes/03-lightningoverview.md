@@ -33,3 +33,12 @@ However, anyone is free to mix and match to define its own CodeRefinery programm
 ### Lightning overview of all lessons 
 
 Details on lessons will be given later, so here we mostly give a very short overview of each CodeRefinery lesson.
+
+- [Git intro](https://coderefinery.github.io/git-intro/) (Sabry)
+- [Collaborative Git](https://coderefinery.github.io/git-collaborative/) (Juho)
+- [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md) (Radovan)
+- [Documentation](https://coderefinery.github.io/documentation/) (Anne)
+- [Jupyter](https://coderefinery.github.io/jupyter/) (Thor)
+- [Social coding](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md) (Richard)
+- [Automated testing](https://coderefinery.github.io/testing/) (Bjørn)
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (Thor)
