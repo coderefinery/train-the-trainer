@@ -260,6 +260,18 @@ It is important to explain how much we value individuals and that there is not o
 >
 {: .challenge}
 
+> ## Juho Lehtonen
+> I'm gradually realising the different ways to get a hint wheter the workshop 
+> participants are still following or perhaps bored. I assume it's communicating
+> with the class, with excercises and simply by asking now and then. I also try
+> to remeber to observe how people look like (puzzled, bored) while I teach, not
+> so obvious for me.
+>
+> I believe that learners communicating with each other, in addition to with
+> instructors and helpers, really helps them to understand things faster. (At least
+> it helps me). So I try to make sure that no one sits or works alone at the workshops.
+{: .challenge}
+
 ---
 
 # Goal of this workshop
