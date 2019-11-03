@@ -122,6 +122,9 @@ short:
 * `index.md` is the main page, `guide.md` is the instructor's guide,
   and `reference.md` is the learner's reference guide.
 
+For substantial changes we recommend to first open an issue and describe your
+idea and collect feedback before you start with an extensive rewrite.
+
 
 ## Creating new teaching material
 
