@@ -15,12 +15,12 @@ keypoints:
 ---
 
 > ## Remark
-> We will extensively refer to [CodeRefinery manual on lesson
-> design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
-> and [CodeRefinery checklist on lesson
-> review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
 >
-> More useful documentation from [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org/)
+> We will extensively refer to the CodeRefinery [lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
+> manual
+> and the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist.
+>
+> We also use and recommend to read [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org).
 {: .callout}
 
 
