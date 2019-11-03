@@ -31,8 +31,8 @@ lessons to match learners.  Here, we will go through a practical
 process.
 
 The basic idea is called **backwards lesson design**.
-* You don't think about how do something and try to explain it.
-* Instead, you start with learner personas, and think of what is
+* You don't think about how to do something and try to explain it.
+* Instead, you start with **learner personas**, and think of what is
   useful to them.  Then, you create a sequence of exercises which test
   incrementally progressing tasks.  Then, you write the minimum amount
   of material to teach the gap between exercises.
