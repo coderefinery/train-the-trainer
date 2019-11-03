@@ -13,34 +13,31 @@ keypoints:
   - "CodeRefinery sustainability plan"
 ---
 
-# CodeRefinery Sustainability plan
+# Sustainability plan
 
 In October 2018 CodeRefinery entered the second phase of the project, with funding from [NeIC](https://neic.no)
 until autumn 2021. A key objective for CodeRefinery 2.0 is to **render the project largely self-sustained after 
 October 2021**. 
 
-
 > ## Public documents 
 > 
 > Documents relating to the management of the CodeRefinery project, 
-> including project directive and project plan, are available on 
-> [this NeIC wiki page](https://wiki.neic.no/wiki/CodeRefinery)
+> including project directive and project plan, are available on the
+> [NeIC website](https://neic.no/coderefinery/).
 {: .callout}
 
-
 ---
-
 
 ## Vision
 
 - After phase 2, travel and accommodation for workshops will be financed by the hosting
   institution, similarly to the Carpentries model. 
-- The lesson material will be maintained by the community and volunteers.
+- The lesson material will be maintained by the community, volunteers, and in-kind staff time.
 - Employers will be encouraged to allow instructors across Nordics to participate in-kind in 1-2 workshops/year. 
 - A completely self-financed organization may not be realistic, but we aim to arrive at
-  a project which can continue using 0.5 - 1 FTE/year for coordination.
+  a project which can continue using 0.5-1 FTE/year for coordination.
 
-Reaching this goal will depend on developing institutional recognition for the project.  
+Reaching this goal will depend on **developing institutional recognition** for the project.
 But how do we get there?
 
 ---
@@ -52,7 +49,7 @@ support or otherwise endorse CodeRefinery.
 
 The pitch can be quite simple - continuity of the CodeRefinery project will lead to:
 - More competent scientists and researchers
-  - Software development is a core part of research for many scientists and researchers in the Nordics 
+  - Software development is a core part of research for many scientists and researchers
   - CodeRefinery contributes to an increased competence in software development tools and techniques among scientists and researchers
   - Preparation and delivery of workshops is also a great learning opportunity for the instructors
 - Better science
@@ -77,7 +74,7 @@ no longer free, how will it continue?
 
 ## Example: Recurring workshops
 
-Aalto University and soon KTH provide examples of recurring workshops:
+Aalto University and soon KTH and Trondheim provide examples of recurring workshops:
 
 - A well-defined and connected target audience
 - Local workshops twice a year
@@ -113,7 +110,7 @@ Aalto University and soon KTH provide examples of recurring workshops:
 A smaller way to start would be to take a core group of institutions
 (e.g. Aalto and KTH) and they agree to send an instructor back and
 forth twice a year for networking and teaching a workshop.  Possibly
-as part of NordicHPC and other collaboration?  This would require less
+as part of [NordicHPC](https://nordichpc.github.io) and other collaboration?  This would require less
 central coordination, and eventually merge into option 1.
 
 ---
@@ -134,7 +131,7 @@ Several avenues should be pursued:
   - Aalto Science IT to serve as perfect model
 - [Research software engineer (RSE) community in the Nordics](http://nordic-rse.org/)
   - CodeRefinery can serve as a hub 
-  - Bi-annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
+  - Bi-annual or annual conferences, inspired by [UK-RSE](https://rse.ac.uk/conf2019/)
 
 ---
 
@@ -142,7 +139,8 @@ Several avenues should be pursued:
 
 - First and foremost: teach workshops!
 - Spread the word. Tell friends and colleagues about upcoming workshops		
-  and encourage them to become instructors
+  and encourage them to become instructors.
+- Contribute new material or ideas for new material and/or suggestions for existing material.
 - Talk to your higher-ups. Is your employer willing to contribute in-kind?
 
 > ## Discussion
