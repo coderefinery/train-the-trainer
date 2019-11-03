@@ -37,7 +37,7 @@ October 2021**.
 - A completely self-financed organization may not be realistic, but we aim to arrive at
   a project which can continue using 0.5-1 FTE/year for coordination.
 
-Reaching this goal will depend on developing institutional recognition for the project.  
+Reaching this goal will depend on **developing institutional recognition** for the project.
 But how do we get there?
 
 ---
