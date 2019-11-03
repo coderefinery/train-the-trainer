@@ -76,9 +76,9 @@ also open up funding opportunities.
 
 Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
 
-The Carpentries teaches foundational coding and data science skills to researchers worldwide and as such is complementary to CodeRefinery. 
 The Carpentries is an international project that comprises Software Carpentry and Data Carpentry, communities of instructors, trainers, maintainers, helpers,
 and supporters who share a mission to teach foundational computational and data science skills to researchers.
+The Carpentries teaches foundational coding and data science skills to researchers worldwide and as such is complementary to CodeRefinery.
 
 Within the membership the Nordic research community has access to:
 
