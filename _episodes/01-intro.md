@@ -256,3 +256,4 @@ It is important to explain how much we value individuals and that there is not o
 - Get feedback to improve the material as well as our collaboration model.
 - For us to learn how we can support related efforts and collaborate.
 - Discuss how we can make this project sustainable beyond 2021.
+- Catalyze and form new networks and collaborations of teachers and trainers of practical scientific computing.
