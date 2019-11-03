@@ -15,12 +15,12 @@ keypoints:
 ---
 
 > ## Remark
-> We will extensively refer to [CodeRefinery manual on lesson
-> design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
-> and [CodeRefinery checklist on lesson
-> review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
 >
-> More useful documentation from [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org/)
+> We will extensively refer to the CodeRefinery [lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
+> manual
+> and the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist.
+>
+> We also use and recommend to read [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org).
 {: .callout}
 
 
@@ -31,8 +31,8 @@ lessons to match learners.  Here, we will go through a practical
 process.
 
 The basic idea is called **backwards lesson design**.
-* You don't think about how do something and try to explain it.
-* Instead, you start with learner personas, and think of what is
+* You don't think about how to do something and try to explain it.
+* Instead, you start with **learner personas**, and think of what is
   useful to them.  Then, you create a sequence of exercises which test
   incrementally progressing tasks.  Then, you write the minimum amount
   of material to teach the gap between exercises.
@@ -43,12 +43,14 @@ Why is it good to have a process?:
 * It can increase quality.
 * **We aren't perfect yet.**  CodeRefinery is still striving to get
   better at this, and we are more ad-hoc than you might think.
+  A number of our lessons have not been designed this way but we are now improving
+  these lessons with the backwards lesson design in mind.
 
 The whole process (copied from
-[lesson-design.md](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
+[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md))
 is:
 
-1. Brainstorm what you want to cover
+1. Brainstorm what you want to cover.
 2. Create or reuse learner personas - understand who you want to
    teach.  What do they care about?  Perhaps as important is what they
    don't care about: make sure that you don't go too in depth too
@@ -65,14 +67,19 @@ is:
    certain learning goal and misconception.
 6. Write just enough material to get from one exercise to the other.
 
+When designing exercises, consider that some participants will get stuck
+and may want to re-join at a later exercise. In other words it is nice
+if exercises build up on each other but not at the cost that if participants
+get stuck at exercise 2, they will not be able to do exercises 3 to N.
+
 In this episode, we first go over a process of reviewing existing
 lessons (that's easier and is done more often).  Then, the process of
 creating new lessons.
 
 
-## Contributing to existing CodeRefinery lessons
+## Contributing to existing lessons
 
-Our lessons are collaboratively developed.  They are made by many
+Our lessons are **collaboratively developed**.  They are made by many
 people, and there is no single fixed master plan (but there should be,
 in the instructors or maintainer's guide).  We encourage
 everyone to contribute to the lessons.
@@ -80,8 +87,7 @@ everyone to contribute to the lessons.
 
 ### Contribution process
 
-We've made [the
-lesson-review checklist](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
+We've made the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist
 to guide the review process.
 
 Lessons are reviewed very often - essentially, before each workshop by
@@ -98,13 +104,15 @@ duplicating things here.
 ### Technical aspects
 
 There is not much special to say about contributing to existing
-lessons: it is an open project on Github.  Make issues and pull
-requests about ideas and improvements.
+lessons: they are public and open [repositories on GitHub](https://github.com/coderefinery).
+Make issues and pull
+requests (PR) about ideas and improvements.
 
 * It's OK to make issues/PRs about ideas or things still under
   discussion.
 * If you see an open pull request, don't be afraid to comment and
   merge!
+* Avoid merging own pull requests.
 
 You can most likely figure out how the different pages work.  In
 short:
@@ -114,24 +122,28 @@ short:
 * `index.md` is the main page, `guide.md` is the instructor's guide,
   and `reference.md` is the learner's reference guide.
 
+For substantial changes we recommend to first open an issue and describe your
+idea and collect feedback before you start with an extensive rewrite.
+
 
 ## Creating new teaching material
 
 Creating new teaching material is a longer process, because you should
 go through the whole backwards lesson design process and get extensive
 comments.  Still, don't feel afraid: nothing is perfect (or even good)
-the first time.
+the first time. In fact, it may be an advantage to share an imperfect
+lesson with others early to collect feedback and suggestions before the lesson
+"solidifies" too much. Draft it and collect feedback. The result will probably
+be better than working in isolation towards a "perfect" lesson.
 
 
 ### Conceptual approach
 
 We should use the backwards lesson design process, mentioned above.  This is
-extensively discussed in a [chapter of the book Teaching Teach
-Together ("A lesson design
-process")](https://teachtogether.tech/#s:process), but we have a
-shorter summary for quicker reference and discussion in [the
-coderefinery lesson-design
-manual](https://github.com/coderefinery/manuals/blob/master/lesson-design.md).
+extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
+of the book "Teaching Tech Together", but we have a
+shorter summary for quicker reference and discussion in the CodeRefinery
+[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md) manual.
 
 Instead of duplicating information here, we will directly discuss the
 design process with the CodeRefinery manual.
@@ -139,9 +151,18 @@ design process with the CodeRefinery manual.
 
 ### Technical aspects
 
-Again, lessons are developed on Github.
+Again, lessons are developed on [GitHub](https://github.com/coderefinery).
 
-Copy the workshop repository template (TODO: where is it).
+To get started, we recommend to [generate a copy](https://github.com/coderefinery/example-lesson/generate)
+from the example [lesson template](https://github.com/coderefinery/example-lesson).
+
+After creating the new lesson repository, adapt `_config.yml`.
+
+Note that the [lesson template](https://github.com/coderefinery/example-lesson) contains
+the repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as Git submodule.
+We do this to have one repository with common layout and styling and to make it relatively
+easy to update lesson repositories after layout or styling changes.
+
 
 ## Backwards design exercise
 
@@ -154,7 +175,7 @@ Copy the workshop repository template (TODO: where is it).
 > Some suggestions:
 > - Regular expressions
 > - Making papers in LaTeX
-> - Making figures in your favorite programming language.
+> - Making figures in your favorite programming language
 > - Linux shell basics
 > - Something non-technical, such as painting a room
 > - An instructor training for CodeRefinery
