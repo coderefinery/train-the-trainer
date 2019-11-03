@@ -17,6 +17,7 @@ keypoints:
 
 - How to get new workshop requests?
 - How to get attendee interest?
+- How to reach research groups who don't know about this project?
 - How to get instructor interest?
 - What's our capacity for workshops?
 
