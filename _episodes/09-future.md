@@ -34,7 +34,7 @@ keypoints:
 
 - CodeRefinery is trying to start a network of Research Software
   Engineers in the Nordics.
-- Nordic RSE conference in 2020.
+- Nordic RSE conference in 2020. Date and location is not yet set.
 
 
 ## Hands-on Scientific Computing
