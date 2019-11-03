@@ -4,7 +4,7 @@ title: "Future"
 teaching: 0
 exercises: 90
 questions:
-  - "Is there any missing lessons in CodeRefinery?"
+  - "Are we missing any lessons in CodeRefinery?"
   - "What teaching material should we develop?"
   - "What is our broader picture?"
 objectives:
@@ -17,6 +17,7 @@ keypoints:
 
 - How to get new workshop requests?
 - How to get attendee interest?
+- How to reach research groups who don't know about this project?
 - How to get instructor interest?
 - What's our capacity for workshops?
 
@@ -26,17 +27,14 @@ keypoints:
 - What lessons are useful and don't exist?
 - Which of these are in the scope of CodeRefinery?
 - What is an appropriate length and level of modularity for lessons,
-  so that they can be most easily reused?
-
-
-## Roadmap for future CodeRefinery lessons
+  so that they can be most easily reused and remixed?
 
 
 ## Nordic Research Software Engineer network
 
 - CodeRefinery is trying to start a network of Research Software
   Engineers in the Nordics.
-- Nordic RSE conference in 2020.
+- Nordic RSE conference in 2020. Date and location is not yet set.
 
 
 ## Hands-on Scientific Computing
@@ -100,7 +98,6 @@ Learner personas:
   field in this program).  Without tools such as git or shell, they
   can't work quickly.  HoSC serves as a parallel, practical guide to
   students.
-
 
 Short-term plan:
 
