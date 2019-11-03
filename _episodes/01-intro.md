@@ -250,8 +250,9 @@ It is important to explain how much we value individuals and that there is not o
 
 # Goal of this workshop
 
-One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
-
-This instructor training workshop aims to increase the number of CodeRefinery instructors
-and to increase the visibility and exposure of the teaching material
-and thus contribute to the project's sustainability.
+- Give future instructors the tools and confidence to teach best software practices and tools.
+- Increase visibility and exposure of the teaching material.
+- Motivate new instructors to take up lessons, remix them, and to contribute.
+- Get feedback to improve the material as well as our collaboration model.
+- For us to learn how we can support related efforts and collaborate.
+- Discuss how we can make this project sustainable beyond 2021.
