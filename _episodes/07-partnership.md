@@ -22,8 +22,8 @@ October 2021**.
 > ## Public documents 
 > 
 > Documents relating to the management of the CodeRefinery project, 
-> including project directive and project plan, are available on 
-> [this NeIC wiki page](https://wiki.neic.no/wiki/CodeRefinery)
+> including project directive and project plan, are available on the
+> [NeIC website](https://neic.no/coderefinery/).
 {: .callout}
 
 ---
