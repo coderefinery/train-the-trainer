@@ -66,6 +66,10 @@ research software.
 also suggest that workshops are having the intended effects on how people develop code. A common theme is:
 > *I wish I had known this stuff already as a grad student 10+ years ago...*
 
+We would love to get suggestions on how we can better quantify our impact. This
+would make it easier for us to convince institutions to partner with us and
+also open up funding opportunities.
+
 ---
 
 ## Carpentries membership
