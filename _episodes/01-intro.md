@@ -33,18 +33,23 @@ The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses giv
 
 The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
 
+We have started by porting own lessons to the Carpentries teaching style and format, and collaboratively
+and iteratively grew and improved the material to its present form.
+
 ---
 
 ## Main goals
 
-- Develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
+- Develop and maintain **training material on software best practices** for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 - Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free for all researchers based in universities and research institutes from Nordic countries.
-- Provide training opportunities in the Nordics using Carpentries and CodeRefinery training materials.
-- Articulate and implement the CodeRefinery sustainability plan.
+- Provide **training opportunities** in the Nordics using Carpentries and CodeRefinery training materials.
+- Articulate and implement the CodeRefinery **sustainability plan**.
 
 ---
 
 ## Impact
+
+We collect feedback and survey results to measure our impact.
 
 3-6 months after attending a workshop, past participants are asked to complete a short post-workshop survey.
 The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop 
@@ -61,15 +66,19 @@ research software.
 also suggest that workshops are having the intended effects on how people develop code. A common theme is:
 > *I wish I had known this stuff already as a grad student 10+ years ago...*
 
+We would love to get suggestions on how we can better quantify our impact. This
+would make it easier for us to convince institutions to partner with us and
+also open up funding opportunities.
+
 ---
 
 ## Carpentries membership
 
 Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
 
-The Carpentries teaches foundational coding and data science skills to researchers worldwide and as such is complementary to CodeRefinery. 
 The Carpentries is an international project that comprises Software Carpentry and Data Carpentry, communities of instructors, trainers, maintainers, helpers,
 and supporters who share a mission to teach foundational computational and data science skills to researchers.
+The Carpentries teach foundational coding and data science skills to researchers worldwide and as such are complementary to CodeRefinery.
 
 Within the membership the Nordic research community has access to:
 
@@ -90,13 +99,13 @@ The Carpentries aims to teach computational **competence** to learners through a
 By showing learners how to solve specific problems with specific tools and providing hands-on practice, learners develops confidence for future learning.
 
 > ## Novices
-> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet. A typical example is the usage of version control: the Carpentry `git` lesson aims to give a very high level conceptual overview of git but it does not explain how it can be used in research projects.
+> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet. A typical example is the usage of version control: the Carpentry `git` lesson aims to give a very high level conceptual overview of Git but it does not explain how it can be used in research projects.
 {: .callout}
 
 
 ### CodeRefinery audience
 
-In that sense, CodeRefinery differs significantly as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
+In that sense, CodeRefinery workshops differ from Carpentry workshops as we assume our audience already writes code and scripts and we aim at teaching them **best software practices**.
 
 Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them. Very often, they know the tools (Git, Jupyter, etc.) we are teaching but have difficulties to make the best use of them in their software development workflow.
 
@@ -107,7 +116,7 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 > *Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
 {: .callout}
 
->## Remark
+>## Best software practices for whom?
 >It can be useful to ask the question: *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience will probably not need to embrace *all* aspects of software engineering.
 {: .callout}
 ---
@@ -241,8 +250,10 @@ It is important to explain how much we value individuals and that there is not o
 
 # Goal of this workshop
 
-One important challenge of CodeRefinery is to become sustainable by the end of the project. To be able to maintain and develop further CodeRefinery lessons, it is important to have a sufficient number of qualified instructors and maintainers. 
-
-This instructor training workshop aims to increase the number of CodeRefinery instructors
-and to increase the visibility and exposure of the teaching material
-and thus contribute to the project's sustainability.
+- Give future instructors the tools and confidence to teach best software practices and tools.
+- Increase visibility and exposure of the teaching material.
+- Motivate new instructors to take up lessons, remix them, and to contribute.
+- Get feedback to improve the material as well as our collaboration model.
+- For us to learn how we can support related efforts and collaborate.
+- Discuss how we can make this project sustainable beyond 2021.
+- Catalyze and form new networks and collaborations of teachers and trainers of practical scientific computing.
