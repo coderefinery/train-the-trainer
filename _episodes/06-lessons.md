@@ -104,8 +104,9 @@ duplicating things here.
 ### Technical aspects
 
 There is not much special to say about contributing to existing
-lessons: it is an open project on Github.  Make issues and pull
-requests about ideas and improvements.
+lessons: they are public and open [repositories on GitHub](https://github.com/coderefinery).
+Make issues and pull
+requests (PR) about ideas and improvements.
 
 * It's OK to make issues/PRs about ideas or things still under
   discussion.
