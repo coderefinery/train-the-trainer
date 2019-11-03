@@ -139,7 +139,8 @@ Several avenues should be pursued:
 
 - First and foremost: teach workshops!
 - Spread the word. Tell friends and colleagues about upcoming workshops		
-  and encourage them to become instructors
+  and encourage them to become instructors.
+- Contribute new material or ideas for new material and/or suggestions for existing material.
 - Talk to your higher-ups. Is your employer willing to contribute in-kind?
 
 > ## Discussion
