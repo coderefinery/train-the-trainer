@@ -131,18 +131,19 @@ idea and collect feedback before you start with an extensive rewrite.
 Creating new teaching material is a longer process, because you should
 go through the whole backwards lesson design process and get extensive
 comments.  Still, don't feel afraid: nothing is perfect (or even good)
-the first time.
+the first time. In fact, it may be an advantage to share an imperfect
+lesson with others early to collect feedback and suggestions before the lesson
+"solidifies" too much. Draft it and collect feedback. The result will probably
+be better than working in isolation towards a "perfect" lesson.
 
 
 ### Conceptual approach
 
 We should use the backwards lesson design process, mentioned above.  This is
-extensively discussed in a [chapter of the book Teaching Teach
-Together ("A lesson design
-process")](https://teachtogether.tech/#s:process), but we have a
-shorter summary for quicker reference and discussion in [the
-coderefinery lesson-design
-manual](https://github.com/coderefinery/manuals/blob/master/lesson-design.md).
+extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
+of the book "Teaching Tech Together", but we have a
+shorter summary for quicker reference and discussion in the CodeRefinery
+[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md) manual.
 
 Instead of duplicating information here, we will directly discuss the
 design process with the CodeRefinery manual.
@@ -150,9 +151,18 @@ design process with the CodeRefinery manual.
 
 ### Technical aspects
 
-Again, lessons are developed on Github.
+Again, lessons are developed on [GitHub](https://github.com/coderefinery).
 
-Copy the workshop repository template (TODO: where is it).
+To get started, we recommend to [generate a copy](https://github.com/coderefinery/example-lesson/generate)
+from the example [lesson template](https://github.com/coderefinery/example-lesson).
+
+After creating the new lesson repository, adapt `_config.yml`.
+
+Note that the [lesson template](https://github.com/coderefinery/example-lesson) contains
+the repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as Git submodule.
+We do this to have one repository with common layout and styling and to make it relatively
+easy to update lesson repositories after layout or styling changes.
+
 
 ## Backwards design exercise
 
