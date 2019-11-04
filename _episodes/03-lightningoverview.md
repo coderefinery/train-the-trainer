@@ -50,4 +50,5 @@ important to fit the time):
 * Particularly interesting (groups of) exercises
 * How it relates to other lessons
 * Future development needed
+* Why someone would want to take part in this lesson's group
 * (History of the lesson, if interesting)
