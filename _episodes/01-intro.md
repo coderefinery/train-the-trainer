@@ -329,7 +329,6 @@ It is important to explain how much we value individuals and that there is not o
 
 
 
-{: .challenge}
 ---
 
 # Goal of this workshop
