@@ -124,6 +124,31 @@ are the following:
 - Debrief with instructors.
 - Process certificate requests.
 
+## [Post-workshop survey](https://github.com/coderefinery/post-workshop-survey)
 
+To measure the long-term impact of CodeRefinery workshops it's useful to send out a 
+post-workshop survey. This survey can identify which topics taught in workshops are 
+particularly useful and which have less benefits for the participants.
+
+The survey currently contains the following questions:
+
+- Which workshop did you attend?
+- What is your current position?
+- How has your usage of the following tools/services changed after attending the workshop? (possible answers: 1. I started using this tool; 2. I don't use this tool; 3. I'm using this tool in the same way as before; 4. I'm using this tool better than before)
+  - Version control
+  - Automated testing
+  - Travis CI
+  - Code coverage analysis
+  - Jupyter Notebooks
+  - Code review
+  - Read the Docs or GitHub/GitLab/BitBucket Pages
+
+- Would you judge your code to have become more reusable/reproducible/modular/documented after attending the workshop? (yes/no questions)
+  - Reusable
+  - Reproducible
+  - Modular
+  - Documented
+- Has it become easier for you to collaborate on software development with your colleagues and collaborators?
+- Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?
 
 
