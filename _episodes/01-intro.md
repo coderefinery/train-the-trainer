@@ -272,6 +272,28 @@ It is important to explain how much we value individuals and that there is not o
 > it helps me). So I try to make sure that no one sits or works alone at the workshops.
 {: .challenge}
 
+> ## Richard Darst
+>
+> Like many people, I've often been teaching, but rarely a teacher.  I
+> tend to teach like I am doing an informal mentorship.
+> I've realized long ago that my most important lessons weren't
+> learned in classes, but by a combination of seeing things done by
+> friends and independent study after that.  I've realized that
+> teaching (the things I teach) is trying to correct these differences
+> in backgrounds.
+>
+> My main job is supporting computing infrastructure, so my teaching
+> is very grounded in real-world problems.  I'm often start at the
+> very basics, because this is what I see missing most often.
+>
+> When teaching, I like lots of audience questions and don't mind
+> going off-script a bit (even though I know it should be minimized).
+> I find that sufficient audience interest allows any lesson to be a
+> success - you don't have to know everything perfectly, just show how
+> you'd approach a problem.
+>
+{: .challenge}
+
 ---
 
 # Goal of this workshop
