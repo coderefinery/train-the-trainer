@@ -294,6 +294,42 @@ It is important to explain how much we value individuals and that there is not o
 >
 {: .challenge}
 
+> ## João M. da Silva
+> 
+> I've been a technical instructor for twenty years, and hence my perspective
+> is perhaps more inclined towards the development of hands-on abilities and
+> capability to solve problems, independently or in a team.
+> 
+> But the development of hands-on practical skills, requires some eseential
+> knowledge about the domain and some willingness to try different approaches.
+> Some call this the "KSA approach" ("Knowledge-Skills-Attitude). Hence, I
+> try impart the essential knowledge (and where to find out more) at my
+> trainings. And to encourage and challenge students in order to make them
+> overcome their self-perceived limits (e.g. "I'm a Humanist, I can't use
+> Python virtualenv").
+>
+> I've been trying to study more about the Cognitive aspects of learning over the years,
+> and I should find out the time to return to that. There's very interesting
+> research in Problem Solving, with Learning being a respective component.
+>
+> Storytelling: humans are neurologically made for paying attention to good
+> stories, and that's something that I try to put into account: to give
+> a lesson like it would be a relevant story for the students, one that they
+> could relate to.
+>
+> I like to draw and be creative with that, but have to pay attention to
+> my handwritting during my trainings. I reckon that Architectural diagrams
+> help students undrstanding the big picture, so I should invest more on
+> those when development training material. I would also like to start looking into
+> Concept Maps and Semantic Trees in training.
+{: .challenge}
+
+
+
+
+
+
+{: .challenge}
 ---
 
 # Goal of this workshop
