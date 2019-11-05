@@ -296,7 +296,7 @@ It is important to explain how much we value individuals and that there is not o
 
 > ## João M. da Silva
 > 
-> I've been a technical instructor for twenty years, and hence my perspective
+> I started giving technical trainings twenty years ago, and hence my perspective
 > is perhaps more inclined towards the development of hands-on abilities and
 > capability to solve problems, independently or in a team.
 > 
