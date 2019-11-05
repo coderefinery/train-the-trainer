@@ -59,6 +59,12 @@ of the three sessions.
      time allows.
   7. Instructor guide is again reviewed based on the discussions and 
      improvements are made directly or via issues.
+- You can refer to the [lesson review
+  guide](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
+  and the [lesson design
+  guide](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
+  for checklists for key points.
+
 
 ---
 
