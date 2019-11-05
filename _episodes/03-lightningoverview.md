@@ -42,3 +42,13 @@ Details on lessons will be given later, so here we mostly give a very short over
 - [Social coding](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md) (Richard)
 - [Automated testing](https://coderefinery.github.io/testing/) (Bjørn)
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (Thor)
+
+Each overview can consist of some combination of (choose the most
+important to fit the time):
+* Learning objectives
+* What's covered, teaching strategy
+* Particularly interesting (groups of) exercises
+* How it relates to other lessons
+* Future development needed
+* Why someone would want to take part in this lesson's group
+* (History of the lesson, if interesting)
