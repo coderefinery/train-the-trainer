@@ -75,6 +75,22 @@ Each group should engage in exercises to practice teaching or think more
 deeply about the material, but not all exercises are equally suitable to 
 each lesson. Here are a few exercises that can be used for each lesson.
 
+> ## Learning objectives
+>
+> - Give feedback on the presented learning objectives on two axes:
+>   positive vs. negative and content vs. presentation.
+> - Discuss the learning objectives and how they fit to CodeRefinery objectives
+>   that are to improve researcher's best software practices.
+>
+{: .challenge}
+
+> ## Create a concept map
+>
+> - Choose an episode/part of the lesson you are working on and study it.
+> - Create a *concept map* of the episode, where facts are represented as
+>   bubbles and lines between the bubbles denote their connections.
+{: .challenge}
+
 > ## Live coding practice
 >
 > - Choose an episode from the lesson you are working on, and think about how 
@@ -107,21 +123,16 @@ each lesson. Here are a few exercises that can be used for each lesson.
 >   misconceptions remain.
 {: .challenge}
 
-> ## Create a concept map
-> 
-> - Choose an episode/part of the lesson you are working on and study it.
-> - Create a *concept map* of the episode, where facts are represented as 
->   bubbles and lines between the bubbles denote their connections.
+> ## Modularity and reusability
+>
+> - How can we make this lesson more modular, without falling into the
+>   framework trap (too general and not too good for anything)?
+> - How could you re-use this lesson into a similar course you are
+>   involved in?  What is missing in the lesson in order to motivate
+>   you to do so? (or make it easy)
+>
 {: .challenge}
 
-> ## Learning objectives
->
-> - Give feedback on the presented learning objectives on two axes:
->   positive vs. negative and content vs. presentation.
-> - Discuss the learning objectives and how they fit to CodeRefinery objectives
->   that are to improve researcher's best software practices.
->
-{: .challenge}
 
 ---
 
