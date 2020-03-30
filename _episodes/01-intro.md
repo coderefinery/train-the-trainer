@@ -261,10 +261,10 @@ It is important to explain how much we value individuals and that there is not o
 {: .challenge}
 
 > ## Juho Lehtonen
-> I'm gradually realising the different ways to get a hint wheter the workshop 
+> I'm gradually realising the different ways to get a hint whether the workshop 
 > participants are still following or perhaps bored. I assume it's communicating
 > with the class, with excercises and simply by asking now and then. I also try
-> to remeber to observe how people look like (puzzled, bored) while I teach, not
+> to remember to observe how people look like (puzzled, bored) while I teach, not
 > so obvious for me.
 >
 > I believe that learners communicating with each other, in addition to with
@@ -319,7 +319,7 @@ It is important to explain how much we value individuals and that there is not o
 > could relate to and help them in their work
 >
 > I like to draw and be creative with that, but have to pay attention to
-> my handwritting during my trainings. I reckon that Architectural diagrams
+> my handwriting during my trainings. I reckon that Architectural diagrams
 > help students to understand the big picture, so I should invest more on
 > those when development training material. I would also like to start looking into
 > Concept Maps and Semantic Trees in training.

@@ -179,7 +179,7 @@ In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beli
 - **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops target **competent practioners** that write code on a regular basis so we very often have learners with misconceptions. That is why it is important to get accurate feedback.
+CodeRefinery workshops target **competent practitioners** that write code on a regular basis so we very often have learners with misconceptions. That is why it is important to get accurate feedback.
 
 > ## Exercise: Carpentries versus CodeRefinery audience
 >
