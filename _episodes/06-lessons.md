@@ -94,13 +94,6 @@ creating new lessons.
 >
 {: .challenge}
 
-> ## Backwards lesson design in practice (advanced)
->
-> Was this instructor training material backwards-designed?  How can
-> you tell?
->
-{: .challenge}
-
 
 ## Contributing to existing lessons
 
