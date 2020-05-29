@@ -76,6 +76,31 @@ In this episode, we first go over a process of reviewing existing
 lessons (that's easier and is done more often).  Then, the process of
 creating new lessons.
 
+> ## Practice backwards design
+>
+> Choose a simple lesson topic and apply backwards lesson design.  You
+> won't get all the way through, but come up with a logical
+> progression of exercises.
+>
+> Some suggestions:
+> - Regular expressions
+> - Making papers in LaTeX
+> - Making figures in your favorite programming language
+> - Linux shell basics
+> - Something non-technical, such as painting a room
+> - An instructor training for CodeRefinery
+>
+> How does this compare to other lessons you have designed?
+>
+{: .challenge}
+
+> ## Backwards lesson design in practice (advanced)
+>
+> Was this instructor training material backwards-designed?  How can
+> you tell?
+>
+{: .challenge}
+
 
 ## Contributing to existing lessons
 
@@ -162,31 +187,3 @@ Note that the [lesson template](https://github.com/coderefinery/example-lesson) 
 the repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as Git submodule.
 We do this to have one repository with common layout and styling and to make it relatively
 easy to update lesson repositories after layout or styling changes.
-
-
-## Backwards design exercise
-
-> ## Practice backwards design
->
-> Choose a simple lesson topic and apply backwards lesson design.  You
-> won't get all the way through, but come up with a logical
-> progression of exercises.
->
-> Some suggestions:
-> - Regular expressions
-> - Making papers in LaTeX
-> - Making figures in your favorite programming language
-> - Linux shell basics
-> - Something non-technical, such as painting a room
-> - An instructor training for CodeRefinery
->
-> How does this compare to other lessons you have designed?
->
-{: .challenge}
-
-> ## Backwards lesson design in practice (advanced)
->
-> Was this instructor training material backwards-designed?  How can
-> you tell?
->
-{: .challenge}
