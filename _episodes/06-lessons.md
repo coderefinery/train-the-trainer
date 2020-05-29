@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Contributing to lesson development"
+title: "Lesson design and lesson development"
 teaching: 30
 exercises: 20
 questions:
