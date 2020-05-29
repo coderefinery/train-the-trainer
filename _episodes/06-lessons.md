@@ -116,9 +116,6 @@ people, and there is no single fixed master plan (but there should be,
 in the instructors or maintainer's guide).  We encourage
 everyone to contribute to the lessons.
 
-
-#### Contribution process
-
 We've made the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist
 to guide the review process.
 
@@ -132,8 +129,33 @@ hackathon period of fully revising a lesson and making major improvements.
 We now go to the lesson-review checklist (link above) and discuss it, instead of
 duplicating things here.
 
+---
 
-#### Technical aspects
+### Creating new teaching material
+
+Creating new teaching material is a longer process, because you should
+go through the whole backwards lesson design process and get extensive
+comments.  Still, don't feel afraid: nothing is perfect (or even good)
+the first time. In fact, it may be an advantage to share an imperfect
+lesson with others early to collect feedback and suggestions before the lesson
+"solidifies" too much. Draft it and collect feedback. The result will probably
+be better than working in isolation towards a "perfect" lesson.
+
+We should use the backwards lesson design process, mentioned above.  This is
+extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
+of the book "Teaching Tech Together", but we have a
+shorter summary for quicker reference and discussion in the CodeRefinery
+[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md) manual.
+
+Instead of duplicating information here, we will directly discuss the
+design process with the CodeRefinery manual.
+
+---
+
+### Technical aspects
+
+
+#### Existing lessons
 
 There is not much special to say about contributing to existing
 lessons: they are public and open [repositories on GitHub](https://github.com/coderefinery).
@@ -157,32 +179,8 @@ short:
 For substantial changes we recommend to first open an issue and describe your
 idea and collect feedback before you start with an extensive rewrite.
 
----
 
-### Creating new teaching material
-
-Creating new teaching material is a longer process, because you should
-go through the whole backwards lesson design process and get extensive
-comments.  Still, don't feel afraid: nothing is perfect (or even good)
-the first time. In fact, it may be an advantage to share an imperfect
-lesson with others early to collect feedback and suggestions before the lesson
-"solidifies" too much. Draft it and collect feedback. The result will probably
-be better than working in isolation towards a "perfect" lesson.
-
-
-#### Conceptual approach
-
-We should use the backwards lesson design process, mentioned above.  This is
-extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
-of the book "Teaching Tech Together", but we have a
-shorter summary for quicker reference and discussion in the CodeRefinery
-[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md) manual.
-
-Instead of duplicating information here, we will directly discuss the
-design process with the CodeRefinery manual.
-
-
-#### Technical aspects
+#### New lessons
 
 Again, lessons are developed on [GitHub](https://github.com/coderefinery).
 
