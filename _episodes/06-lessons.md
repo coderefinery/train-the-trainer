@@ -14,14 +14,14 @@ keypoints:
   - "We have checklists for reviewing existing lessons and creating new lessons"
 ---
 
-> ## Remark
+> ## Recommended reading
 >
 > We will extensively refer to the CodeRefinery [lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md)
 > manual
 > and the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist.
 >
 > We also use and recommend to read [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org).
-{: .callout}
+{: .prereq}
 
 
 ## Backwards lesson design
