@@ -1,8 +1,8 @@
 ---
 layout: episode
 title: "Lesson design and lesson development"
-teaching: 30
-exercises: 20
+teaching: 20
+exercises: 40
 questions:
   - "How can you contribute to CodeRefinery lessons?"
   - "How can you create new lessons?"
