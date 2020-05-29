@@ -158,42 +158,27 @@ shorter summary for quicker reference and discussion in the CodeRefinery
 
 ### Technical aspects
 
-
-#### Existing lessons
-
-There is not much special to say about contributing to existing
-lessons: they are public and open [repositories on GitHub](https://github.com/coderefinery).
-Make issues and pull
-requests (PR) about ideas and improvements.
-
-* It's OK to make issues/PRs about ideas or things still under
-  discussion.
-* If you see an open pull request, don't be afraid to comment and
-  merge!
-* Avoid merging own pull requests.
-
-You can most likely figure out how the different pages work.  In
-short:
-* `_episodes/` contains the markdown files of each episode, which get
+- All lessons are public and open [repositories on GitHub](https://github.com/coderefinery).
+- Make issues and pull requests (PR) about ideas and improvements.
+- For substantial changes we recommend to first open an issue and describe your
+  idea and collect feedback before you start with an extensive rewrite.
+- If you see an open pull request, don't be afraid to comment and merge!
+- Avoid merging own pull requests.
+- For things still under construction, open a draft pull request to collect
+  feedback and to signal to others what you are working on.
+- `_episodes/` contains the markdown files of each episode, which get
   automatically assembled.  There is YAML metadata at the top of
   each.
-* `index.md` is the main page, `guide.md` is the instructor's guide,
+- `index.md` is the main page, `guide.md` is the instructor's guide,
   and `reference.md` is the learner's reference guide.
+- To get started with new lessons, we recommend to [generate a
+  copy](https://github.com/coderefinery/example-lesson/generate) from the
+  example [lesson template](https://github.com/coderefinery/example-lesson).
+- After creating the new lesson repository, adapt `_config.yml`.
 
-For substantial changes we recommend to first open an issue and describe your
-idea and collect feedback before you start with an extensive rewrite.
-
-
-#### New lessons
-
-Again, lessons are developed on [GitHub](https://github.com/coderefinery).
-
-To get started, we recommend to [generate a copy](https://github.com/coderefinery/example-lesson/generate)
-from the example [lesson template](https://github.com/coderefinery/example-lesson).
-
-After creating the new lesson repository, adapt `_config.yml`.
-
-Note that the [lesson template](https://github.com/coderefinery/example-lesson) contains
-the repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as Git submodule.
-We do this to have one repository with common layout and styling and to make it relatively
-easy to update lesson repositories after layout or styling changes.
+Note that most lessons and the
+[lesson template](https://github.com/coderefinery/example-lesson) contain the
+repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as
+Git submodule.  We do this to have one repository with common layout and
+styling and to make it relatively easy to update lesson repositories after
+layout or styling changes.
