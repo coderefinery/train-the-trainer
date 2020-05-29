@@ -1,18 +1,22 @@
 ---
 layout: episode
 title: "Lesson design and lesson development"
-teaching: 20
-exercises: 40
+teaching: 15
+exercises: 45
 questions:
-  - "How can you contribute to CodeRefinery lessons?"
-  - "How can you create new lessons?"
-objectives:
-  - "Learn how to contribute to CodeRefinery."
-  - "Discussion on important steps for designing a new lesson."
+  - "How can you improve and contribute to CodeRefinery lessons?"
+  - "How can you design new lessons?"
 keypoints:
-  - "The backwards lesson design process saves time and increases quality"
+  - "The backwards lesson design process increases quality and relevance for the learners"
   - "We have checklists for reviewing existing lessons and creating new lessons"
 ---
+
+## Lesson design and lesson development
+
+In this episode we first discuss **backwards lesson design**, then we go over a
+process of **contributing to existing lessons** (that's easier and is done more often).
+Then, the process of **creating new lessons**.
+
 
 > ## Recommended reading
 >
@@ -24,17 +28,21 @@ keypoints:
 {: .prereq}
 
 
-## Backwards lesson design
+### Backwards lesson design
 
 Previously, we've talked about the general concept of how to design
 lessons to match learners.  Here, we will go through a practical
 process.
 
 The basic idea is called **backwards lesson design**.
-* You don't think about how to do something and try to explain it.
-* Instead, you start with **learner personas**, and think of what is
-  useful to them.  Then, you create a sequence of exercises which test
-  incrementally progressing tasks.  Then, you write the minimum amount
+- You don't think about how to do something and try to explain it.
+- Avoid the typical approach *"I want to show a number of things which I think are cool about
+  tool X - how do I press these into 90 minutes?"*
+- Instead, you start with **learner personas**, and think of what is
+  **useful to them**: *"What do I want them to be able to remember/understand/apply/analyze/evaluate/create?"*.
+  Then, you create a sequence of exercises which test
+  incrementally progressing tasks.
+- Then, you write the minimum amount
   of material to teach the gap between exercises.
 
 Why is it good to have a process?:
@@ -72,10 +80,6 @@ and may want to re-join at a later exercise. In other words it is nice
 if exercises build up on each other but not at the cost that if participants
 get stuck at exercise 2, they will not be able to do exercises 3 to N.
 
-In this episode, we first go over a process of reviewing existing
-lessons (that's easier and is done more often).  Then, the process of
-creating new lessons.
-
 > ## Practice backwards design
 >
 > Choose a simple lesson topic and apply backwards lesson design.  You
@@ -89,13 +93,23 @@ creating new lessons.
 > - Linux shell basics
 > - Something non-technical, such as painting a room
 > - An instructor training for CodeRefinery
+> - Some aspect from an already existing lesson
 >
-> How does this compare to other lessons you have designed?
+> How does this compare to other lessons or courses you have designed?
 >
+> Exercise (30 minutes):
+> - Collect notes in a shared document.
+> - Start with learner personas and learning outcomes.
+> - Come up with a logical progression of exercises.
+>
+> Discussion (15 minutes):
+> - How does this approach compare to other lessons or courses you have designed?
+> - We read, compare, and discuss our notes.
 {: .challenge}
 
+---
 
-## Contributing to existing lessons
+### Contributing to existing lessons
 
 Our lessons are **collaboratively developed**.  They are made by many
 people, and there is no single fixed master plan (but there should be,
@@ -103,7 +117,7 @@ in the instructors or maintainer's guide).  We encourage
 everyone to contribute to the lessons.
 
 
-### Contribution process
+#### Contribution process
 
 We've made the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist
 to guide the review process.
@@ -119,7 +133,7 @@ We now go to the lesson-review checklist (link above) and discuss it, instead of
 duplicating things here.
 
 
-### Technical aspects
+#### Technical aspects
 
 There is not much special to say about contributing to existing
 lessons: they are public and open [repositories on GitHub](https://github.com/coderefinery).
@@ -143,8 +157,9 @@ short:
 For substantial changes we recommend to first open an issue and describe your
 idea and collect feedback before you start with an extensive rewrite.
 
+---
 
-## Creating new teaching material
+### Creating new teaching material
 
 Creating new teaching material is a longer process, because you should
 go through the whole backwards lesson design process and get extensive
@@ -155,7 +170,7 @@ lesson with others early to collect feedback and suggestions before the lesson
 be better than working in isolation towards a "perfect" lesson.
 
 
-### Conceptual approach
+#### Conceptual approach
 
 We should use the backwards lesson design process, mentioned above.  This is
 extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
@@ -167,7 +182,7 @@ Instead of duplicating information here, we will directly discuss the
 design process with the CodeRefinery manual.
 
 
-### Technical aspects
+#### Technical aspects
 
 Again, lessons are developed on [GitHub](https://github.com/coderefinery).
 
