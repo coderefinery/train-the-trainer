@@ -100,8 +100,6 @@ get stuck at exercise 2, they will not be able to do exercises 3 to N.
 > - An instructor training for CodeRefinery
 > - Some aspect from an already existing lesson
 >
-> How does this compare to other lessons or courses you have designed?
->
 > Exercise (30 minutes):
 > - Collect notes in a shared document.
 > - Start with learner personas and learning outcomes.
