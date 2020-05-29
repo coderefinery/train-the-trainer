@@ -17,6 +17,11 @@ In this episode we first discuss **backwards lesson design**, then we go over a
 process of **contributing to existing lessons** (that's easier and is done more often).
 Then, the process of **creating new lessons**.
 
+- [Backwards lesson design](#backwards-lesson-design)
+- [Contributing to existing lessons](#contributing-to-existing-lessons)
+- [Creating new teaching material](#creating-new-teaching-material)
+- [Technical aspects](#technical-aspects)
+
 
 > ## Recommended reading
 >
