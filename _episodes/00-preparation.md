@@ -37,6 +37,12 @@ Please read ["The Science of Learning"](https://carpentries.github.io/instructor
 {: .callout}
 
 
+### Watch short videos about our lessons and our approach to teaching
+
+- Teaching philosophies: <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
+- Lightning overview of CodeRefinery lessons: <https://www.youtube.com/playlist?list=PLpLblYHCzJABvt25VY0wNIgbaQfTQaND7>
+
+
 ### Go through a CodeRefinery lesson
 
 Please go to the [CodeRefinery lessons page](https://coderefinery.org/lessons/), have a look at what we currently teach, and then choose one of our lessons and read through it carefully. You will be using your selected lesson for several in-class exercises and discussions.
