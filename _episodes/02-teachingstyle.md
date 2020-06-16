@@ -108,7 +108,8 @@ Before doing so, we will learn here to give feedback on teaching using the same 
 > This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/). 
 > As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
 > give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
-> the class add one point to a 2x2 grid on a whiteboard or in the shared notes without duplicating any points.
+> the class add one point to a 2x2 grid on a whiteboard or in the shared notes  (hackMD, etherpad, google doc) without duplicating any points.
+> For online instructor training event, use breakout room (4-5 persons per group) to facilitate discussion. Then each group reports to the shared notes.
 > You can use a [rubric](http://carpentries.github.io/instructor-training/demos_rubric/) (used during The Carpentries teaching demos) to help you take notes.
 > What did other people see that you missed? What did they think that you strongly agree or disagree with?
 >
