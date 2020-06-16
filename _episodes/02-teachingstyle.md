@@ -16,7 +16,7 @@ keypoints:
 
 # Carpentries approach to teaching
 
-Here we will give you a short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
+Here we will give you a very short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
 
 Most CodeRefinery instructors have completed the 
 [Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which 
@@ -35,28 +35,37 @@ year through [NeIC's Carpentry membership](https://coderefinery.org/about/#membe
 
 ## Key principles
 
-In the "Carpentries" approach to teaching, emphasis is put on:
+The "Carpentries" approach to teaching is based on:
 
 - Applying research-based teaching principles, especially as they apply to the Carpentries audience.
 - Understanding the importance of a respectful and inclusive classroom environment.
 
 
-Before going into details, let's summarize the Carpentries teaching principles:
+### Carpentries teaching principles
 
-- Learners need to practice what they are learning in real time and get feedback on what they are doing. That is why the teaching approach relies on **live coding**.
+- Learners need to practice what they are learning in real time and get **feedback** on what they are doing. That is why the teaching approach relies on **live coding**.
 - Learners best learn in a respectful classroom environment, so the Carpentries use a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). 
 - Learners are encouraged to help each other during workshops as this improves their confidence and reinforces concepts taught. 
-- Carpentry instructors try to have learners do something that they think is useful in their daily work within 15 minutes of starting each lesson. 
+- Carpentry instructors try to have learners do something that they think is useful in their daily work within **15 minutes of starting each lesson**. 
 
 ![What to Teach](https://carpentries.github.io/instructor-training/fig/what-to-teach.png)
 
-And now let's formalize the Carpentries teaching approach.
+In CodeRefinery, we follow The Carpentries teaching principles but in addition to **live coding** we often use **group discussions** to put in context the concepts we are teaching.
+
+Applying these teaching principles are not sufficient and in addition we need to b able to check the effectivness of our methods. 
 
 ---
 
 ## On the importance of feedback
 
-Feedback is an essential part of effective learning. To be effective, instructors need feedback on their learners' progress. This feedback comes through what is called *formative assessments* (in contrast
+Feedback is an essential part of effective learning. Feedback is bi-directional:
+- To be effective, instructors need feedback on their learners' progress. Learners can also check their progress and ask relevant questions to get clarification.
+- Instructors also need feedback on their teaching. For instance, this can help them to adapt the pace, add/skip optional exercises and improve their teaching.
+
+### Getting feedback on learners' progress
+
+This feedback comes through what is called *formative assessments* (in contrast
+://carpentries.github.io/instructor-training/fig/what-to-teach.png
   to *summative assessment*).
 
 > ## Summative Assessment
@@ -81,16 +90,8 @@ For example, a music teacher might ask a learner to play a scale very slowly
 in order to see whether they are breathing correctly,
 and if not, what they should change.
 
-Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the
-results are easily interpretable by the learner and instructor.
+Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the results are easily interpretable by the learner and instructor.
 
-> ## Give feedback on bad teaching
-> As a group, we will watch [this video of bad teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
-> give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
-> the class add one point to a 2x2 grid on a whiteboard or in the shared notes without duplicating any points.
-> What did other people see that you missed? What did they think that you strongly agree or disagree with?
->
-{: .challenge}
 
 > ## Designing formative assessment
 > Create a multiple choice question related to a topic you have taught or intend to teach. One answer should be 
@@ -101,6 +102,21 @@ results are easily interpretable by the learner and instructor.
 > When you are done, trade MCQs with a partner. Is their question ambiguous? 
 > Are the misconceptions plausible? Do the distractors actually test for them? 
 > Are any likely misconceptions not tested for?
+{: .challenge}
+
+### Getting/giving feedback on teaching
+
+Teaching is a skill. One of the objective of the CodeRefinery Instructor training is to give you the confidence in teaching CodeRefinery lessons. Later we will have group work where we will practice teaching CodeRefinery lessons.
+
+Before doing so, we will learn here to give feedback on teaching using the same positive-vs-negative and content-vs-presentation rubric.
+
+> ## Give feedback on teaching
+> As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
+> give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
+> the class add one point to a 2x2 grid on a whiteboard or in the shared notes without duplicating any points.
+> You can use a [rubric](http://carpentries.github.io/instructor-training/demos_rubric/) (used during The Carpentries teaching demos) to help you take notes.
+> What did other people see that you missed? What did they think that you strongly agree or disagree with?
+>
 {: .challenge}
 
 ---
@@ -157,15 +173,6 @@ most of the complexities that a mechanical engineer would be concerned with.
 
 ![Mental Models](https://carpentries.github.io/instructor-training/fig/mental_models.svg)
 
-> ## Concept Mapping 
-> One tool for representing someone's mental model is a [concept map](https://teachtogether.tech/#s:memory-concept-maps), 
-> in which facts are bubbles and connections are labeled connections.  
-> Draw a concept map for something you would teach in five minutes (if possible, do it for the same subject that you 
-> created a multiple-choice questions for above). Trade with a partner and discuss each other's maps. 
-> Do they present concepts or surface detail? Which of the relationships in your partner's map do you 
-> consider concepts and vice versa?
-{: .challenge}
-
 ---
 
 ## How “knowledge” gets in the way
@@ -179,7 +186,16 @@ In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beli
 - **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops target **competent practitioners** that write code on a regular basis so we very often have learners with misconceptions. That is why it is important to get accurate feedback.
+CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who code (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**. 
+
+They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
+
+> ## How to handle novices in CodeRefinery workshops
+> 
+> - We have a few prerequisites for attending CodeRefinery workshops but those are mostly recommendations (we do not have any assessment at registration). It is very common to have a few learners that never used version control and do not code on a regular basis. Even though we are trying our best to support them during CodeRefinery workshops and give them an overview of best software practices, we do not focus our attention to these learners. 
+> - We recommend (at the beginning of a CodeRefinery workshop) to clearly remind the CodeRefinery target audience about the prerequisites. This will clearly help you and the helpers during the workshop and make sure you do not demotivate potential learners.  
+> 
+{: .callout}
 
 > ## Exercise: Carpentries versus CodeRefinery audience
 >
@@ -190,18 +206,6 @@ CodeRefinery workshops target **competent practitioners** that write code on a r
 {: .challenge}
 
 ---
-
-## Reverse instructional design
-
-When writing curriculum, it is easy to allow *content*
-objectives to distract from *learning* objectives. It is especially true for CodeRefinery material as we do not target novices but competent practitioners. So for all our lessons, we try to take a "reverse" approach to instruction, as
-advanced in Wiggins and McTighe's *[Understanding by Design](http://www.worldcat.org/title/understanding-by-
-design/oclc/56491025)*, that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
-
-1.  Determine your learning objectives
-2.  Decide what constitutes evidence that objectives have been met, and design assessments to target that evidence
-3.  Design instruction: Sort assessments in order of increasing complexity, and write content that connects everything together
-
 
 ### Working with learning objectives
 
@@ -229,8 +233,3 @@ follows:
 2. Scan the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met 
 3. Review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions.
 
-> ## Write learning objectives
-> Write one or more learning objectives for something you currently teach or plan to teach using Bloom's Taxonomy. 
-> Working with a partner, critique and improve the objectives. Does each one have a verifiable verb and clearly 
-> state criteria for acceptable performance?
-{: .challenge}
