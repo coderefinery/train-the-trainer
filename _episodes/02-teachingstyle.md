@@ -93,16 +93,10 @@ and if not, what they should change.
 Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the results are easily interpretable by the learner and instructor.
 
 
-> ## Designing formative assessment
-> Create a multiple choice question related to a topic you have taught or intend to teach. One answer should be 
-> unambiguously correct, while the others can represent ["plausible distractors"](https://teachtogether.tech/#g:plausible-distractor) 
-> which are meant to identify possible distractors.
-> A plausible distractors is an incorrect (or less correct) answer
-> designed to test as specific misconception.
-> When you are done, trade MCQs with a partner. Is their question ambiguous? 
-> Are the misconceptions plausible? Do the distractors actually test for them? 
-> Are any likely misconceptions not tested for?
-{: .challenge}
+CodeRefinery uses different instruments to get feedback from learners:
+
+- Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/). 
+- Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions.  This is something that we may change in the future but the initial reason was that we build on existing knowledge (see below section on our target audience) and give recommendations for best software practices: there is no unique solution and you would like our learners to choose the approach that is most suitable for them. For the same reasons, we have many optional exercises to accommodate the different levels. We would like everyone to get something useful out of the CodeRefinery workshops.
 
 ### Getting/giving feedback on teaching
 
@@ -110,7 +104,8 @@ Teaching is a skill. One of the objective of the CodeRefinery Instructor trainin
 
 Before doing so, we will learn here to give feedback on teaching using the same positive-vs-negative and content-vs-presentation rubric.
 
-> ## Give feedback on teaching
+> ## Give feedback on teaching (optional)
+> This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/). 
 > As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
 > give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
 > the class add one point to a 2x2 grid on a whiteboard or in the shared notes without duplicating any points.
