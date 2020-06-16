@@ -104,7 +104,7 @@ Teaching is a skill. One of the objective of the CodeRefinery Instructor trainin
 
 Before doing so, we will learn here to give feedback on teaching using the same positive-vs-negative and content-vs-presentation rubric.
 
-> ## Give feedback on teaching (optional)
+> ## Give feedback on teaching (optional, 10 mn)
 > This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/). 
 > As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
 > give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
