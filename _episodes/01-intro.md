@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "About the project"
+title: "Welcome and introduction"
 teaching: 15
 exercises: 0
 questions:

@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "CodeRefinery teaching philosophies"
+title: "Our teaching philosophies"
 teaching: 0
 exercises: 30
 questions:

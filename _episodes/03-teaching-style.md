@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Teaching approach"
+title: "Carpentries and CodeRefinery approach to teaching"
 teaching: 30
 exercises: 30
 questions:
