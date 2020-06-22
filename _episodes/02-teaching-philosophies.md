@@ -18,6 +18,7 @@ questions:
 > - What is your motivation for taking this training?
 > - What difference do you notice between the teaching what we (also
 >   Carpentries) do and traditional academic teaching?
+> - What other skills need to be taught, but academic teaching isn't the right setting?
 {: .challenge}
 
 ---
