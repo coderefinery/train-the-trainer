@@ -5,23 +5,37 @@ teaching: 0
 exercises: 30
 questions:
   - "What are our teaching philosophies?"
-#objectives:
-#  - "Discuss main goals of CodeRefinery"
-#  - "Understand that CodeRefinery workshops make a difference"
-#  - "Discuss differences between CodeRefinery and the Carpentries"
-#keypoints:
-#  - "Workshops have an impact - past participants report improved practices"
-#  - "CodeRefinery teaches best practices for research software development"
-#  - "CodeRefinery workshops benefit most those who already code"
 ---
 
 ## CodeRefinery teaching philosophies
 
-Here CodeRefinery instructors share their training philosophy to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
+> ## Ice-breaker in groups (20 minutes)
+>
+> - Share your approach to teaching and your teaching philosophy with your group.
+> - Please share your tricks and solutions in the live document for others.
+>
+> Additional ice-breaker questions:
+> - What is your motivation for taking this training?
+> - What difference do you notice between the teaching what we (also
+>   Carpentries) do and traditional academic teaching?
+> - What other skills need to be taught, but academic teaching isn't the right setting?
+{: .challenge}
 
-It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. We want to help each other to find the way that is best for each of us.
+---
 
-Recently we have recorded some of the below as videos: <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
+Here CodeRefinery instructors share their training philosophy to show that we
+all have different teaching styles and how these differences are beneficial to
+CodeRefinery workshops.
+
+It is important to explain how much we value individuals and that there is not
+one way to teach but as many ways as individuals. We want to help each other to
+find the way that is best for each of us.
+
+> ## Video recordings
+>
+> Recently we have recorded some of the below as videos:
+> <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
+{: .prereq}
 
 > ## Anne Fouilloux
 >
