@@ -54,6 +54,7 @@ Why is it good to have a process?:
 
 * Having a semi-rigid design process **saves time** (hopefully).
 * It can increase quality.
+* It will probably increase relevance of lessons for learners.
 * **We aren't perfect yet.**  CodeRefinery is still striving to get
   better at this, and we are more ad-hoc than you might think.
   A number of our lessons have not been designed this way but we are now improving
@@ -99,6 +100,8 @@ get stuck at exercise 2, they will not be able to do exercises 3 to N.
 > - Something non-technical, such as painting a room
 > - An instructor training for CodeRefinery
 > - Some aspect from an already existing lesson
+> - A lesson you always wanted to teach
+> - A lesson you plan to teach this autumn (maybe independently of Carpentries and CodeRefinery)
 >
 > Exercise (30 minutes):
 > - Collect notes in a shared document.
@@ -133,7 +136,7 @@ to guide the review process.
 >
 > We now go to the
 > [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
-> checklist (link above) and discuss it, instead of duplicating things here.
+> checklist and discuss it, instead of duplicating things here.
 {: .discussion}
 
 ---
@@ -159,7 +162,7 @@ shorter summary for quicker reference and discussion in the CodeRefinery
 ### Technical aspects
 
 - All lessons are public and open [repositories on GitHub](https://github.com/coderefinery).
-- Make issues and pull requests (PR) about ideas and improvements.
+- Make issues and pull requests about ideas and improvements.
 - For substantial changes we recommend to first open an issue and describe your
   idea and collect feedback before you start with an extensive rewrite.
 - If you see an open pull request, don't be afraid to comment and merge!
