@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: "Running workshops"
+title: "Lessons learned from running online and in-person workshops"
 teaching: 20
 exercises: 10
 questions:
