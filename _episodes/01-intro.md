@@ -12,6 +12,14 @@ questions:
 
 # Welcome and introduction
 
+- [The CodeRefinery project](#the-coderefinery-project)
+- [History](#history)
+- [Main goals](#main-goals)
+- [Impact](#impact)
+- [Carpentries membership](#carpentries-membership)
+- [Target audience](#target-audience)
+- [Goals for this workshop](#goals-for-this-workshop)
+
 ---
 
 ## The CodeRefinery project
@@ -58,7 +66,7 @@ We collect feedback and survey results to measure our impact.
 The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop
 research software.
 
-![post-workshop survey results](https://coderefinery.org/assets/img/heatmap_yesno.png)
+<img src="https://coderefinery.org/assets/img/heatmap_yesno.png" alt="post-workshop survey results" width="100%">
 
 - Overall quality of research software has improved: more reusable, modular, reproducible and documented.
 - Collaboration on research software development has become easier
@@ -119,12 +127,19 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 > *Novices* and *competent practitioners* will be more clearly defined in the [next section](../02-teachingstyle).
 {: .callout}
 
->## Best software practices for whom?
->It can be useful to ask the question: *best software practices for whom*? CodeRefinery teaches *best software practices* derived from producing and shipping software. These practices are also very good for sharing software, though our audience will probably not need to embrace *all* aspects of software engineering.
+> ## Best software practices for whom?
+> It can be useful to ask the question: *best software practices for whom*?
+> CodeRefinery teaches *best software practices* derived from producing and
+> shipping software. These practices are also very good for sharing software,
+> though our audience will probably not need to embrace *all* aspects of
+> software engineering.
 {: .callout}
+
 ---
 
-> ## Goals of this workshop
+## Goals for this workshop
+
+> ## Goals for this instructor training
 >
 > - Give future instructors the **tools and confidence** to teach best software practices and tools.
 > - Motivate new instructors to take up lessons, remix them, and to contribute.
