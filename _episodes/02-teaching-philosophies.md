@@ -17,6 +17,19 @@ questions:
 
 ## CodeRefinery teaching philosophies
 
+> ## Ice-breaker in groups (20 minutes)
+>
+> - Share your approach to teaching and your teaching philosophy with your group.
+> - Please share your tricks and solutions in the live document for others.
+>
+> Additional ice-breaker questions:
+> - What is your motivation for taking this training?
+> - What difference do you notice between the teaching what we (also
+>   Carpentries) do and traditional academic teaching?
+{: .challenge}
+
+---
+
 Here CodeRefinery instructors share their training philosophy to show that we
 all have different teaching styles and how these differences are beneficial to
 CodeRefinery workshops.
