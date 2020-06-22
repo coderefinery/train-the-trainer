@@ -17,9 +17,13 @@ questions:
 
 ## CodeRefinery teaching philosophies
 
-Here CodeRefinery instructors share their training philosophy to show that we all have different teaching styles and how these differences are beneficial to CodeRefinery workshops.
+Here CodeRefinery instructors share their training philosophy to show that we
+all have different teaching styles and how these differences are beneficial to
+CodeRefinery workshops.
 
-It is important to explain how much we value individuals and that there is not one way to teach but as many ways as individuals. We want to help each other to find the way that is best for each of us.
+It is important to explain how much we value individuals and that there is not
+one way to teach but as many ways as individuals. We want to help each other to
+find the way that is best for each of us.
 
 Recently we have recorded some of the below as videos: <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
 
