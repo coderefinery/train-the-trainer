@@ -102,3 +102,5 @@ We have not set up a very formal process yet but we consider these steps:
 - Contribution to a lesson, either via pull request, issue, discussion, or as a helper.
 - Sharing a short teaching demo and discussing feedback or teaching a lesson at a CodeRefinery workshop.
 - Participating in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
+- There are many ways to learn how to teach well.  We and carpentries provide one way and basic material,
+  but we want to find a way for everyone to be a part of us.
