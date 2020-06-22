@@ -5,14 +5,6 @@ teaching: 0
 exercises: 30
 questions:
   - "What are our teaching philosophies?"
-#objectives:
-#  - "Discuss main goals of CodeRefinery"
-#  - "Understand that CodeRefinery workshops make a difference"
-#  - "Discuss differences between CodeRefinery and the Carpentries"
-#keypoints:
-#  - "Workshops have an impact - past participants report improved practices"
-#  - "CodeRefinery teaches best practices for research software development"
-#  - "CodeRefinery workshops benefit most those who already code"
 ---
 
 ## CodeRefinery teaching philosophies
