@@ -14,7 +14,7 @@ keypoints:
 
 # CodeRefinery lessons and workshop
 
-In this section, we explain briefly what's covered in a typical CodeRefinery workshop 
+In this section, we explain briefly what's covered in a typical CodeRefinery workshop
 and how much we can mix and match lessons for new workshops.
 
 Practical information on how to organize a workshop will be given later.
@@ -30,7 +30,7 @@ However, anyone is free to mix and match to define its own CodeRefinery programm
 
 ---
 
-### Lightning overview of all lessons 
+### Lightning overview of all lessons
 
 Previously this was done in-person but now we have recorded
 a couple of videos where we introduce our lessons and discuss how we present them:

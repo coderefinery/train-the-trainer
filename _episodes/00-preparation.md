@@ -19,7 +19,7 @@ keypoints:
 
 ## You don't have to be a [Carpentries instructor](https://carpentries.org/instructors/)
 
-Being a [Carpentries instructor](https://carpentries.org/instructors/) is not required to attend CodeRefinery Instructor Training workshop. 
+Being a [Carpentries instructor](https://carpentries.org/instructors/) is not required to attend CodeRefinery Instructor Training workshop.
 
 
 ## Recommended reading

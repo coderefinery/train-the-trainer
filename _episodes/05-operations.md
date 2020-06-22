@@ -15,13 +15,13 @@ keypoints:
 
 ## Organizing a CodeRefinery workshop
 
-Anyone can organize a CodeRefinery workshop and teach the CodeRefinery lessons which are 
+Anyone can organize a CodeRefinery workshop and teach the CodeRefinery lessons which are
 licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/).
-However, making it a successful workshop requires careful planning and preparation. Here we will go 
-through practical aspects of organizing a workshop. 
+However, making it a successful workshop requires careful planning and preparation. Here we will go
+through practical aspects of organizing a workshop.
 
 > ## Workshop manuals
-> CodeRefinery maintains a number of [workshop manuals](https://github.com/coderefinery/manuals/) 
+> CodeRefinery maintains a number of [workshop manuals](https://github.com/coderefinery/manuals/)
 > with practical tips and checklists. We will be referring to this material below.
 {: .callout}
 
@@ -31,13 +31,13 @@ through practical aspects of organizing a workshop.
 - Instructors and helpers
 - Lecture room
 - Advertising the workshop
-- Communication with registered participants 
+- Communication with registered participants
 - Practicals
 
 > ## Set up a workshop webpage
 >
-> 1. Go to the [workshop template repository](https://github.com/coderefinery/template-workshop-webpage). 
-> 2. Click the green "Use this template" button to import the template to your own account. 
+> 1. Go to the [workshop template repository](https://github.com/coderefinery/template-workshop-webpage).
+> 2. Click the green "Use this template" button to import the template to your own account.
 >    Name the new repository to include a date and a location, e.g. "2019-12-24-stockholm".
 > 3. Clone the new repository and inspect the files. Open `index.md`, update some fields and commit the changes.
 > 4. Push the commits. The workshop page should now be served on GitHub Pages
@@ -48,16 +48,16 @@ through practical aspects of organizing a workshop.
 
 ## [Pre-workshop survey](https://github.com/coderefinery/pre-workshop-survey)
 
-It is very useful to ask future workshop participants to fill a pre-workshop survey before 
-attending a workshop. The survey should probe the participants' previous experience 
-with different tools and programming practices, which operating system the participants use 
-and what lessons they are most interested in. 
+It is very useful to ask future workshop participants to fill a pre-workshop survey before
+attending a workshop. The survey should probe the participants' previous experience
+with different tools and programming practices, which operating system the participants use
+and what lessons they are most interested in.
 
-The questions that are currently asked in the CodeRefinery 
+The questions that are currently asked in the CodeRefinery
 [pre-workshop survey](https://github.com/coderefinery/pre-workshop-survey)
 are the following:
 - What is the operating system that you will use during the course (on your laptop)?
-- Which version of operating system are you using? If your operating system is Linux, which distribution are you using? 
+- Which version of operating system are you using? If your operating system is Linux, which distribution are you using?
 - Are you using version control? If yes, which?
 - Which programming languages are you using or will you use in your projects?
 - Are you using automated testing in your programming project(s)?
@@ -74,10 +74,10 @@ are the following:
 - What do you expect to get from this course?
 
 > ## Discussion: Pre-workshop survey questions and results
-> 
+>
 > - Take a moment to read the survey questions. Is there anything you would want to add? Or remove?
 > - How do you think the survey results look like for past workshops? Have a look at the
->   [survey repository](https://github.com/coderefinery/pre-workshop-survey) which shows the 
+>   [survey repository](https://github.com/coderefinery/pre-workshop-survey) which shows the
 >   main results, and compare them with your expectations.
 {: .task}
 
@@ -85,10 +85,10 @@ are the following:
 
 ## Preparing lessons
 
-- Go through the lesson material you will be teaching and think about how you 
+- Go through the lesson material you will be teaching and think about how you
   intend to teach it, and how much time you will be spending on each episode.
 - Are there any unsolved issues that you can fix?
-- Go through the instructor guides of the lessons you will be teaching. 
+- Go through the instructor guides of the lessons you will be teaching.
   - Review the intended learning outcomes, and try to keep these in mind while teaching.
   - Try to memorize the typical pitfalls and common questions.
 - Go through the [lesson presentation hints](https://github.com/coderefinery/manuals/blob/master/presenting.md).
@@ -100,7 +100,7 @@ are the following:
 ## [During workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#during-workshop)
 
 - Give an introductory talk, see [https://github.com/coderefinery/workshop-intro](https://github.com/coderefinery/workshop-intro).
-- Have a 10 minute ice-breaker session where participants and instructors introduce themselves 
+- Have a 10 minute ice-breaker session where participants and instructors introduce themselves
   and either describe their research in 2-3 sentences or what they hope to get out of the workshop.
 - While teaching, keep [these tips](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#during-workshop) in mind
 - Don't start off with tech details, say why this is important.
@@ -126,8 +126,8 @@ are the following:
 
 ## [Post-workshop survey](https://github.com/coderefinery/post-workshop-survey)
 
-To measure the long-term impact of CodeRefinery workshops it's useful to send out a 
-post-workshop survey. This survey can identify which topics taught in workshops are 
+To measure the long-term impact of CodeRefinery workshops it's useful to send out a
+post-workshop survey. This survey can identify which topics taught in workshops are
 particularly useful and which have less benefits for the participants.
 
 The survey currently contains the following questions:

@@ -52,7 +52,7 @@ and iteratively grew and improved the material to its present form.
 We collect feedback and survey results to measure our impact.
 
 3-6 months after attending a workshop, past participants are asked to complete a short post-workshop survey.
-The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop 
+The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop
 research software.
 
 ![post-workshop survey results](https://coderefinery.org/assets/img/heatmap_yesno.png)
@@ -62,7 +62,7 @@ research software.
 - Past participants share their new knowledge with colleagues
 - Usage of several tools is improved, and new tools are adopted
 
-[Free-form answers](https://coderefinery.org/#what-do-our-participants-say-after-attending-a-workshop) 
+[Free-form answers](https://coderefinery.org/#what-do-our-participants-say-after-attending-a-workshop)
 also suggest that workshops are having the intended effects on how people develop code. A common theme is:
 > *I wish I had known this stuff already as a grad student 10+ years ago...*
 
@@ -92,7 +92,7 @@ Within the membership the Nordic research community has access to:
 ### Carpentries audience
 
 
-The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific. 
+The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific.
 
 **Learners do not need to have any prior experience in programming.**  One major goal of a Carpentry workshop is to raise awareness on the tools researchers can learn/use to speed up their research.
 
@@ -130,13 +130,13 @@ It is important to explain how much we value individuals and that there is not o
 Recently we have recorded some of the below as videos: <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
 
 > ## Anne Fouilloux
-> 
+>
 > I regularly teach Carpentries workshops so I try to apply what I have learnt to CodeRefinery workshops. However, I know our target audience is very much different and that I need to adapt my teaching style. I am still trying to find what works best in which situations and this is why I like so much CodeRefinery workshops. We usually have a wider range of skills and very mixed backgrounds so we usually have to be more careful with the pace and time given for exercises.
-> 
+>
 > Some considerations:
-> - I spend quite a lot of time reading the CodeRefinery material and practising myself exercises. I particularly like to read the instructor notes just before teaching: they usually highlight important aspects both for preparing and teaching. 
+> - I spend quite a lot of time reading the CodeRefinery material and practising myself exercises. I particularly like to read the instructor notes just before teaching: they usually highlight important aspects both for preparing and teaching.
 > - I usually do not show too much in advance the material as I think it prevents asking questions. If you have less competent practitioners in the classroom, they can easily copy-paste to avoid slowing down the entire classroom.
-> - Ideally, I'd like to give several exercises so anyone can work at its own pace. I find it is important that everybody gets something different from the workshop. 
+> - Ideally, I'd like to give several exercises so anyone can work at its own pace. I find it is important that everybody gets something different from the workshop.
 > - I love breaks as it gives us an opportunity to discuss with attendees on their research topics. I am especially interested to understand what software they write and how they plan to use what they learn during our workshops.
 {: .challenge}
 
@@ -154,28 +154,28 @@ Recently we have recorded some of the below as videos: <https://www.youtube.com/
 {: .challenge}
 
 > ## Thor Wikfeldt
-> 
-> I never want to leave any learner behind and I really don't like seeing confused, blank faces in the classroom. 
-> At the same time I sometimes worry about some participants getting bored if a lesson is progressing slowly. 
-> This is always a difficult compromise and something I struggle with!  
-> 
-> I try to focus on making concepts intuitive, to "make sense" to the learners. Of course this is usually 
-> based on how I learned the topic myself and how it makes sense to me. 
-> 
-> I try to establish connections between topics: "this thing here is similar to what we saw in the previous 
+>
+> I never want to leave any learner behind and I really don't like seeing confused, blank faces in the classroom.
+> At the same time I sometimes worry about some participants getting bored if a lesson is progressing slowly.
+> This is always a difficult compromise and something I struggle with!
+>
+> I try to focus on making concepts intuitive, to "make sense" to the learners. Of course this is usually
+> based on how I learned the topic myself and how it makes sense to me.
+>
+> I try to establish connections between topics: "this thing here is similar to what we saw in the previous
 > lesson where we learned about X...".
-> 
-> Before mastering a lesson by teaching in many times I try to "follow the script". After becoming very 
+>
+> Before mastering a lesson by teaching in many times I try to "follow the script". After becoming very
 > familiar with a lesson I start to improvise more and react more dynamically to questions, e.g. by taking a
 > detour to explain a confusing topic more clearly.
-> 
-> What I think I do too often: copy-paste code/text from lesson material. This can leave learners behind - 
-> typing out the code and describing it is slower, but more learning takes place. More advanced learners 
+>
+> What I think I do too often: copy-paste code/text from lesson material. This can leave learners behind -
+> typing out the code and describing it is slower, but more learning takes place. More advanced learners
 > will hopefully "be compensated" by interesting advanced exercises which follow.
 {: .challenge}
 
 > ## Stefan Negru
-> 
+>
 > A lesson is a conversation, it is useful if both the trainer and the trainee are engaged.
 > For that reason I try to have, most of the time, a conversation with the classroom and
 > after we finish parts of a lesson, step back and see how we might use what we learned.
@@ -263,7 +263,7 @@ Recently we have recorded some of the below as videos: <https://www.youtube.com/
 {: .challenge}
 
 > ## Juho Lehtonen
-> I'm gradually realising the different ways to get a hint whether the workshop 
+> I'm gradually realising the different ways to get a hint whether the workshop
 > participants are still following or perhaps bored. I assume it's communicating
 > with the class, with excercises and simply by asking now and then. I also try
 > to remember to observe how people look like (puzzled, bored) while I teach, not
@@ -297,11 +297,11 @@ Recently we have recorded some of the below as videos: <https://www.youtube.com/
 {: .challenge}
 
 > ## João M. da Silva
-> 
+>
 > I started giving technical trainings twenty years ago, and hence my perspective
 > is perhaps more inclined towards the development of hands-on abilities and
 > capability to solve problems, independently or in a team.
-> 
+>
 > But the development of hands-on practical skills, requires some essential
 > knowledge about the domain and some willingness to try different approaches
 > in case one gets stuck. Some call this the "KSA approach"

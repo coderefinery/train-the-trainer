@@ -18,16 +18,16 @@ keypoints:
 
 Here we will give you a very short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
 
-Most CodeRefinery instructors have completed the 
-[Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which 
-[anyone can apply for](https://carpentries.org/become-instructor/) and 15 seats are reserved each 
+Most CodeRefinery instructors have completed the
+[Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which
+[anyone can apply for](https://carpentries.org/become-instructor/) and 15 seats are reserved each
 year through [NeIC's Carpentry membership](https://coderefinery.org/about/#membership-with-the-carpentries).
 
 > ## This material
-> 
-> This section is derived from the 
+>
+> This section is derived from the
 > [Carpentries instructor training material](https://carpentries.github.io/instructor-training/).
-> We encourage you to further study this material later, and to sign up for a 2-day Carpentry 
+> We encourage you to further study this material later, and to sign up for a 2-day Carpentry
 > intructor training workshop.
 {: .callout}
 
@@ -44,15 +44,15 @@ The "Carpentries" approach to teaching is based on:
 ### Carpentries teaching principles
 
 - Learners need to practice what they are learning in real time and get **feedback** on what they are doing. That is why the teaching approach relies on **live coding**.
-- Learners best learn in a respectful classroom environment, so the Carpentries use a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html). 
-- Learners are encouraged to help each other during workshops as this improves their confidence and reinforces concepts taught. 
-- Carpentry instructors try to have learners do something that they think is useful in their daily work within **15 minutes of starting each lesson**. 
+- Learners best learn in a respectful classroom environment, so the Carpentries use a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
+- Learners are encouraged to help each other during workshops as this improves their confidence and reinforces concepts taught.
+- Carpentry instructors try to have learners do something that they think is useful in their daily work within **15 minutes of starting each lesson**.
 
 ![What to Teach](https://carpentries.github.io/instructor-training/fig/what-to-teach.png)
 
 In CodeRefinery, we follow The Carpentries teaching principles but in addition to **live coding** we often use **group discussions** to put in context the concepts we are teaching.
 
-Applying these teaching principles are not sufficient and in addition we need to b able to check the effectivness of our methods. 
+Applying these teaching principles are not sufficient and in addition we need to b able to check the effectivness of our methods.
 
 ---
 
@@ -82,7 +82,7 @@ This feedback comes through what is called *formative assessments* (in contrast
 > a fancy term, but it can be used to describe any interaction or activity
 > that provides feedback to both instructors and learners about learners' level of understanding of the
 > material. For learners, this feedback can help focus their study efforts. For instructors, it allows them to refocus
-> their instruction to respond to challenges that learners are facing.  
+> their instruction to respond to challenges that learners are facing.
 {: .callout}
 
 Learners don't "pass" or "fail" formative assessments; they are simply a feedback mechanism.
@@ -95,7 +95,7 @@ Formative assessment is most useful when it happens frequently (we'll talk about
 
 CodeRefinery uses different instruments to get feedback from learners:
 
-- Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/). 
+- Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/).
 - Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions.  This is something that we may change in the future but the initial reason was that we build on existing knowledge (see below section on our target audience) and give recommendations for best software practices: there is no unique solution and you would like our learners to choose the approach that is most suitable for them. For the same reasons, we have many optional exercises to accommodate the different levels. We would like everyone to get something useful out of the CodeRefinery workshops.
 
 ### Getting/giving feedback on teaching
@@ -105,9 +105,9 @@ Teaching is a skill. One of the objective of the CodeRefinery Instructor trainin
 Before doing so, we will learn here to give feedback on teaching using the same positive-vs-negative and content-vs-presentation rubric.
 
 > ## Give feedback on teaching (optional, 10 mn)
-> This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/). 
-> As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and 
-> give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in 
+> This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/).
+> As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and
+> give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in
 > the class add one point to a 2x2 grid on a whiteboard or in the shared notes  (hackMD, etherpad, google doc) without duplicating any points.
 > For online instructor training event, use breakout room (4-5 persons per group) to facilitate discussion. Then each group reports to the shared notes.
 > You can use a [rubric](http://carpentries.github.io/instructor-training/demos_rubric/) (used during The Carpentries teaching demos) to help you take notes.
@@ -182,21 +182,21 @@ In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beli
 - **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who code (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**. 
+CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who code (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
 
 They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
 
 > ## How to handle novices in CodeRefinery workshops
-> 
-> - We have a few prerequisites for attending CodeRefinery workshops but those are mostly recommendations (we do not have any assessment at registration). It is very common to have a few learners that never used version control and do not code on a regular basis. Even though we are trying our best to support them during CodeRefinery workshops and give them an overview of best software practices, we do not focus our attention to these learners. 
-> - We recommend (at the beginning of a CodeRefinery workshop) to clearly remind the CodeRefinery target audience about the prerequisites. This will clearly help you and the helpers during the workshop and make sure you do not demotivate potential learners.  
-> 
+>
+> - We have a few prerequisites for attending CodeRefinery workshops but those are mostly recommendations (we do not have any assessment at registration). It is very common to have a few learners that never used version control and do not code on a regular basis. Even though we are trying our best to support them during CodeRefinery workshops and give them an overview of best software practices, we do not focus our attention to these learners.
+> - We recommend (at the beginning of a CodeRefinery workshop) to clearly remind the CodeRefinery target audience about the prerequisites. This will clearly help you and the helpers during the workshop and make sure you do not demotivate potential learners.
+>
 {: .callout}
 
 > ## Exercise: Carpentries versus CodeRefinery audience
 >
 > Split into groups (3 to 4 persons). Discuss and summarize in the hackmd pad:
-> 1. Why does CodeRefinery target **competent practitioner**? 
+> 1. Why does CodeRefinery target **competent practitioner**?
 > 2. Why is it important to be able to write code for attending a CodeRefinery workshop?
 > For this exercise, we suggest to read [Motivation and Demotivation](https://carpentries.github.io/instructor-training/08-motivation/index.html) from the Carpentries instructor training lesson.
 {: .challenge}
@@ -223,9 +223,9 @@ guiding them to look ahead to where we might not be able to take them.
 Image credit: Vanderbilt University Center for Teaching
 
 When using existing teaching material, *reverse instructional design*  principles might be applied as
-follows: 
+follows:
 
-1. Review the lesson's learning objectives carefully, thinking about how they will work for your audience 
-2. Scan the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met 
+1. Review the lesson's learning objectives carefully, thinking about how they will work for your audience
+2. Scan the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met
 3. Review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions.
 
