@@ -8,17 +8,13 @@ questions:
   - "How does CodeRefinery relate to the Carpentries?"
   - "What are the main goals of CodeRefinery workshops?"
   - "Who is in our target audience?"
-objectives:
-  - "Discuss main goals of CodeRefinery"
-  - "Understand that CodeRefinery workshops make a difference"
-  - "Discuss differences between CodeRefinery and the Carpentries"
-keypoints:
-  - "Workshops have an impact - past participants report improved practices"
-  - "CodeRefinery teaches best practices for research software development"
-  - "CodeRefinery workshops benefit most those who already code"
 ---
 
-# The CodeRefinery project
+# Welcome and introduction
+
+---
+
+## The CodeRefinery project
 
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
@@ -30,17 +26,18 @@ and building a community of instructors and contributors.
 
 ---
 
-## History
-
-The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
-- [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
-- [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
-
-The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
-
-We have started by porting own lessons to the Carpentries teaching style and
-format, and collaboratively and iteratively grew and improved the material to
-its present form.
+> ## History
+>
+> The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
+> - [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
+> - [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
+>
+> The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
+>
+> We have started by porting own lessons to the Carpentries teaching style and
+> format, and collaboratively and iteratively grew and improved the material to
+> its present form.
+{: .discussion}
 
 ---
 
