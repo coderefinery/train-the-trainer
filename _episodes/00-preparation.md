@@ -60,10 +60,3 @@ Select one episode and write a few comments on the content (questions below are 
 {: .callout}
 
 This exercise should take about 50 minutes.
-
-
-## Practicals
-
-### Don't forget your laptop and charger!
-
-Please also bring a laptop powerful enough to teach on so that you can take part in all of the practical exercises (a tablet won't be sufficient), and its charger.
