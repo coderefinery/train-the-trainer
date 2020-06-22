@@ -20,7 +20,13 @@ keypoints:
 
 # The CodeRefinery project
 
-CodeRefinery is a [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) project that has started in October 2016 and is funded until October 2021.
+CodeRefinery is a
+[Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
+project that has started in October 2016 and is
+funded until October 2021.
+
+We hope to keep this project active beyond 2021 by forming a support network
+and building a community of instructors and contributors.
 
 ---
 
@@ -32,8 +38,9 @@ The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses giv
 
 The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
 
-We have started by porting own lessons to the Carpentries teaching style and format, and collaboratively
-and iteratively grew and improved the material to its present form.
+We have started by porting own lessons to the Carpentries teaching style and
+format, and collaboratively and iteratively grew and improved the material to
+its present form.
 
 ---
 
@@ -120,12 +127,12 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 {: .callout}
 ---
 
-# Goal of this workshop
-
-- Give future instructors the tools and confidence to teach best software practices and tools.
-- Increase visibility and exposure of the teaching material.
-- Motivate new instructors to take up lessons, remix them, and to contribute.
-- Get feedback to improve the material as well as our collaboration model.
-- For us to learn how we can support related efforts and collaborate.
-- Discuss how we can make this project sustainable beyond 2021.
-- Catalyze and form new networks and collaborations of teachers and trainers of practical scientific computing.
+> ## Goals of this workshop
+>
+> - Give future instructors the **tools and confidence** to teach best software practices and tools.
+> - Motivate new instructors to take up lessons, remix them, and to contribute.
+> - Get feedback to improve the material as well as our collaboration model.
+> - For us to learn how we can support related efforts and collaborate.
+> - Catalyze and form new networks and collaborations of teachers and trainers of
+>   practical scientific computing.
+{: .discussion}
