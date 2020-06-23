@@ -65,7 +65,6 @@ Feedback is an essential part of effective learning. Feedback is bi-directional:
 ### Getting feedback on learners' progress
 
 This feedback comes through what is called *formative assessments* (in contrast
-://carpentries.github.io/instructor-training/fig/what-to-teach.png
   to *summative assessment*).
 
 > ## Summative Assessment
