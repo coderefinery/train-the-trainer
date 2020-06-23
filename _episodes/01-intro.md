@@ -23,6 +23,15 @@ questions:
 
 ---
 
+> ## What do we want to get out of this workshop
+>
+> - Introduction of instructors and helpers
+> - Each instructor can say what we want to get out of the instructor training
+> - But we want to know from everybody and collect these in the live notes
+{: .discussion}
+
+---
+
 ## The CodeRefinery project
 
 CodeRefinery is a
