@@ -85,22 +85,21 @@ There are many ways to get involved: <https://coderefinery.org/get-involved/>
 
 ## How to run own workshops
 
-- We recommend the following lessons as core workshop with the following lesson-order:
+- We recommend the following lessons as core CodeRefinery workshop with the following lesson-order:
   Introduction to Git, collaborative Git, reproducible research and FAIR data,
   social coding and open software, documentation, Jupyter, automated testing, modular code development.
 - But no problem to distribute these over several days or weeks.
 - Do not hesitate to reach out if you need support or mentoring when starting a workshop.
-- How to make a distributed galaxy of lessons?
 
 ---
 
 ## Certification for CodeRefinery instructors
 
-We have not set up a very formal process yet but we consider these steps:
+We will set up a more formal process soon but for now you would need to:
 
-- Attending an instructor training (this workshop).
-- Contribution to a lesson, either via pull request, issue, discussion, or as a helper.
-- Sharing a short teaching demo and discussing feedback or teaching a lesson at a CodeRefinery workshop.
-- Participating in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
-- There are many ways to learn how to teach well.  We and carpentries provide one way and basic material,
-  but we want to find a way for everyone to be a part of us.
+- Attend an instructor training (this workshop).
+- Contribute to a lesson, either via pull request, issue, discussion, or as a helper.
+- Share a short teaching demo or teach a lesson at a CodeRefinery workshop where you will get some feedback on your teaching.
+- Participate in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
+
+There are many ways to learn how to teach well.  We and carpentries provide one way and basic material, but we want to find a way for everyone to be a part of us.
