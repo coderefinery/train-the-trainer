@@ -73,7 +73,7 @@ through practical aspects of organizing a workshop.
 - Select a coordinator, recruit instructors (at least 3 is important),
   find helpers
 - Find a good lecture room:
-  [requirements](workshop-requirements-inperson.md)
+  [requirements](https://github.com/coderefinery/manuals/blob/master/workshop-requirements-inperson.md)
 - Set up workshop webpage using the [Github, template
   repository](https://github.com/coderefinery/template-workshop-webpage]:
   [see
