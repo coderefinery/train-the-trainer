@@ -5,16 +5,18 @@ teaching: 30
 exercises: 30
 questions:
   - "What pedagogical concepts underpin CodeRefinery and Carpentry workshops?"
-  - "What is reverse instructional design?"
+  - "How to get and give feedback?"
+  - "Who are the CodeRefinery learners?"
+  - "Why is it important to define learning objectives?"
 objectives:
+  - "Explain The Carpentries and CodeRefinery approaches to teaching"
   - "Understand what is meant by feedback, cognitive development, mental models and reverse instructional design"
   - "Explain and practice important pedagogical concepts"
 keypoints:
-  - "The Carpentry approach to teaching is based on research-based principles for how people learn"
   - "CodeRefinery lessons and teaching build on these principles"
 ---
 
-# Carpentries approach to teaching
+# The Carpentries and CodeRefinery approaches to teaching
 
 Here we will give you a very short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
 
@@ -52,17 +54,17 @@ The "Carpentries" approach to teaching is based on:
 
 In CodeRefinery, we follow The Carpentries teaching principles but in addition to **live coding** we often use **group discussions** to put in context the concepts we are teaching.
 
-Applying these teaching principles are not sufficient and in addition we need to b able to check the effectivness of our methods.
+Applying these teaching principles are not sufficient and in addition we need to be able to check the effectivness of our methods.
 
 ---
 
-## On the importance of feedback
+# On the importance of feedback
 
 Feedback is an essential part of effective learning. Feedback is bi-directional:
 - To be effective, instructors need feedback on their learners' progress. Learners can also check their progress and ask relevant questions to get clarification.
 - Instructors also need feedback on their teaching. For instance, this can help them to adapt the pace, add/skip optional exercises and improve their teaching.
 
-### Getting feedback on learners' progress
+### Getting/giving feedback on learners' progress
 
 This feedback comes through what is called *formative assessments* (in contrast
   to *summative assessment*).
@@ -116,11 +118,11 @@ Before doing so, we will learn here to give feedback on teaching using the same 
 
 ---
 
-## Who are the learners
+# Who are the learners
 
 The first task in teaching is to figure out who your learners are. The Carpentries approach is based on the work of researchers like [Patricia Benner](https://en.wikipedia.org/wiki/Patricia_Benner), who applied the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in her studies of [how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061) ([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). This work indicates that through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form, the three stages of this model are:
 
-### Novices, competent practitioners and experts
+## Novices, competent practitioners and experts
 
 ![Novice, Competent Practitioner, Expert](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
 
@@ -138,6 +140,7 @@ The first task in teaching is to figure out who your learners are. The Carpentri
     > Example: A *competent practitioner* in a Carpentries workshop might have used the shell before and understand how to
     move around directories and use individual programs, but they might not understand how they can fit these programs
     together to build scripts and automate large tasks.
+    > Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands the concepts of best software practices and its importance. He/she clearly sees the benefits of applying best software practices but he/she does not fully know yet how and what to use for their own projects.
 
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
 
@@ -145,7 +148,7 @@ The first task in teaching is to figure out who your learners are. The Carpentri
     presented with a problem, immediately sees how these skills can be used to solve the problem.
 
 
-### Cognitive Development and Mental Models
+## Cognitive Development and Mental Models
 
 Effective learning is facilitated by the creation of a well-founded mental model. A mental model is a collection of concepts and facts,
 along with the relationships between those concepts, which a person has about a topic. For example, a long-time resident of the United
@@ -165,6 +168,8 @@ which seem superficially similar.
 does not have to be completely accurate in order to be useful:
 for example, the average driver's mental model of how a car works probably doesn't include
 most of the complexities that a mechanical engineer would be concerned with.
+
+This is usually the case of our learners. Most CodeRefinery learners are *competent practitioner* that confidently write codes on a regular basis (any programming languages), use some or many of the tools we teach. They would like to understand how to be more efficient and to work collaboratively.
 
 ![Mental Models](https://carpentries.github.io/instructor-training/fig/mental_models.svg)
 
@@ -202,13 +207,22 @@ They often use version control, write code in different programming languages an
 
 ---
 
-### Working with learning objectives
+# CodeRefinery Curriculum and Reverse Instructional Design
 
-Each CodeRefinery lesson usually has a *learning objectives* section.
+When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, as advanced in Wiggins and McTighe’s [Understanding by Design](http://www.worldcat.org/title/understanding-by-design/oclc/56491025), that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
 
-The "learning objectives" section is an easy thing to pass over when you're preparing to teach. It may seem obvious or
-unnecessary. However, good learning objectives are quite specific about the intended effect of a lesson on its learners. We
-aim to create learning objectives that are specific, accurate, and informative for both learners and instructors.
+- Determine your learning objectives
+- Decide what constitutes evidence that objectives have been met, and design assessments to target that evidence
+- Design instruction: Sort assessments in order of increasing complexity, and write content that connects everything together
+
+## Working with learning objectives
+
+Each CodeRefinery lesson usually has a *learning objectives* section. 
+
+Good learning objectives are quite specific about the intended effect of a lesson on its learners. We aim to create learning objectives that are specific, accurate, and informative for both learners and instructors.
+
+
+## Using Bloom's Taxonomy to write effective learning objectives
 
 [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) is a framework for thinking about learning that breaks progress down into discrete, hierarchical steps.
 While many ideas have come and gone in education, Bloom's has remained a useful tool for educators, in particular because the
@@ -221,10 +235,15 @@ guiding them to look ahead to where we might not be able to take them.
 
 Image credit: Vanderbilt University Center for Teaching
 
+## Revisiting Learning objectives
+
 When using existing teaching material, *reverse instructional design*  principles might be applied as
 follows:
 
 1. Review the lesson's learning objectives carefully, thinking about how they will work for your audience
 2. Scan the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met
 3. Review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions.
+
+
+We strongly encourage you to read them before teaching a CodeRefinery lesson and to review whether they still match the content of the lesson: CodeRefinery lessons are regularly updated, taking into account feedback from our learners and instructors.
 
