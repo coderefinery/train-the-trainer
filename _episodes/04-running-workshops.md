@@ -68,6 +68,7 @@ through practical aspects of organizing a workshop.
 > ## Manuals link
 > - [before the
 >   workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#before-the-workshop)
+{: .callout}
 
 - Select a coordinator, recruit instructors (at least 3 is important),
   find helpers
@@ -149,7 +150,7 @@ appropriately.
 > 2. What are the advantages?
 > 3. How do you have to prepare differently?
 > 4. What is your experience with online teaching?
-{: .task}
+{: .discussion}
 
 ### Case study: Mega-CodeRefinery and Finland HPC Kickstart
 
