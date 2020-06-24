@@ -103,3 +103,43 @@ We will set up a more formal process soon but for now you would need to:
 - Participate in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
 
 There are many ways to learn how to teach well.  We and carpentries provide one way and basic material, but we want to find a way for everyone to be a part of us.
+
+---
+
+## Skills maps: what is our big picture?
+
+CodeRefinery doesn't exist in isolation: we have non-academic skills
+that need to be taught at all different levels.
+
+- We need more than just CodeRefinery: we need a network of courses, with
+  - clear prerequisites
+  - clear audience and purpose
+  - developed with hands-on style
+
+We want to develop a *galaxy* of different courses, all working together and findable:
+- Can this instructor training inspire you to make your own good courses?
+- Our attempt to organize the world is [Hands-on Scientific Computing](https://handsonscicomp.readthedocs.io/)
+
+<img src="https://handsonscicomp.readthedocs.io/en/latest/_images/levels.svg" alt="Map of skills">
+
+(Image source: [Hands-on SciComp](https://handsonscicomp.readthedocs.io/)
+
+---
+
+## Partnerships and community
+
+Teaching can't be done in isolation, we need to organize the whole computing community together:
+
+<img src="https://scicomp.aalto.fi/_images/scicomp-3-components.png" alt="Communities need to work together" width="80%">
+
+(Image source: [Aalto Scientific Computing](https://scicomp.aalto.fi/about/)
+
+We are making good progress in nordics:
+- CodeRefinery, software carpentry, etc: basic teaching
+- Infrastructures: work to make things more accessible, take part in
+  teaching, improve teaching and docs quality
+  [NordicHPC](https://nordichpc.github.io/)
+- Research software engineers for hands-on support
+  [Nordic-RSE](https://nordic-rse.org/)
+
+---
