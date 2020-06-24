@@ -5,7 +5,8 @@ teaching: 20
 exercises: 10
 questions:
   - "What are the steps for organizing a CodeRefinery workshop?"
-  - "How should I prepare before teaching or helping in a workshop?"
+  - "What can I learn about running my own workshop?"
+  - "What have we learned from running large online workshops?"
 objectives:
   - "Learn how to use the manuals to organize and teach a workshop."
 keypoints:
@@ -13,142 +14,223 @@ keypoints:
   - "CodeRefinery maintains a number of manuals - use them when preparing a workshop."
 ---
 
-## Organizing a CodeRefinery workshop
+> ## Workshop manuals
+> CodeRefinery maintains a number of [workshop manuals](https://github.com/coderefinery/manuals/)
+> with most of the "primary" information.  This episode condenses this
+> into a quick overview.
+{: .callout}
+
+
+## Organize a CodeRefinery workshop
+
+You or us?
+- Historically, most workshops are CodeRefinery workshops were
+  organized centrally with a local host.
+- Now, we want to transition to locally-invited workshops, so we know
+  we have a audience and advertisement.
+- In the future, we need to transition to "independently run".
 
 Anyone can organize a CodeRefinery workshop and teach the CodeRefinery lessons which are
 licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 However, making it a successful workshop requires careful planning and preparation. Here we will go
 through practical aspects of organizing a workshop.
 
-> ## Workshop manuals
-> CodeRefinery maintains a number of [workshop manuals](https://github.com/coderefinery/manuals/)
-> with practical tips and checklists. We will be referring to this material below.
-{: .callout}
+### Centrally organized workshops
 
-## [Before the workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#before-the-workshop)
+- CodeRefinery staff organize, we try to reach as many people as
+  possible.
+- Workshops in our own institutions tend to be best-attended, going to
+  a new institution sometimes has low attendance.
+- We started this way.
 
-- Select workshop coordinator
-- Instructors and helpers
-- Lecture room
+
+### Locally invited workshops
+
+- A local team requests CodeRefinery (usually with a known audience).
+- There is usually pretty good attendance.
+- CodeRefinery staff travels to site and teaches - at least with local
+  helpers, ideally with a local instructor.
+
+### Independently organized workshops
+
+- In the future, we want to encourage independently organized
+  workshops: a site can organize the workshops without needing to go
+  through the core team.
+- We don't yet know exactly how this will work, but this instructor
+  training is part of it.
+
+
+## How to run a successful workshop: CodeRefinery or otherwise
+
+
+### Arranging the workshop
+
+> ## Manuals link
+> - [before the
+>   workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#before-the-workshop)
+
+- Select a coordinator, recruit instructors (at least 3 is important),
+  find helpers
+- Find a good lecture room:
+  [requirements](workshop-requirements-inperson.md)
+- Set up workshop webpage using the [Github, template
+  repository](https://github.com/coderefinery/template-workshop-webpage]:
+  [see
+  manuals](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#set-up-workshop-page)
 - Advertising the workshop
 - Communication with registered participants
-- Practicals
 
-> ## Set up a workshop webpage
+
+### Preparing for the workshop
+
+- Train helpers:
+  [manuals](https://github.com/coderefinery/manuals/#helper-training).
+  Good helpers can make a big difference.
+- Get participants ready
+  - Right equipment
+  - Right mindset
+  - Installation help in advance!
+
+### Running the workshop
+
+- Mostly nothing specific to CodeRefinery here, but we have many of
+  our own checklists:
+  - [in-class
+    checklist](https://github.com/coderefinery/manuals/blob/master/presenting.md)
+  - [helping and teaching](https://github.com/coderefinery/manuals/blob/master/helping-and-teaching.md)
+- Online workshop have their own checklists (more below):
+
+### Online procedures
+
+Main article: [Online training manual](https://github.com/coderefinery/manuals/blob/master/online-training.md)
+
+For the obvious reason in March 2019, we transitioned to online
+workshops.
+- We have less interaction with learners
+- We can reach many more people at once
+- You can't just move things straight to online: it actually requires
+  thinking about it.  Details at the bottom.
+
+- Zoom
+  - Not the most ethical platform, but worked quickly and has good
+    features for group work.
+  - [Zoom mechanics: instructions for
+    students](https://github.com/coderefinery/manuals/blob/master/zoom-mechanics.md).
+  - Being able to divide people into breakout rooms is a key point to
+    scale to many people
+  - Breakout room helpers need training: [Helpers managing breakout rooms](https://github.com/coderefinery/manuals/blob/master/breakout-rooms-groups-help.md)
+
+- HackMD
+  - Online "collaborative notes"
+  - HackMD is alternative to Google Docs
+- We found that it takes about the same amount of time as in-person,
+  but you much longer breaks and much less per day. (5 min too short,
+  15-20 min best.  Max 3-4h/day.)
+
+
+## Lessons learned from our online Mega-CodeRefinery workshop
+
+In May 2020, we have a "mega-workshop" online: 150 people registered,
+120 were accepted, and our audience was around 90-100 each day.
+
+The workshop *did* work well, and required preparation but not so much
+more than an in person or online workshop of 20-30 people.
+
+However, you *have* to think about it differently and prepare
+appropriately.
+
+> ## Online workshop differences
 >
-> 1. Go to the [workshop template repository](https://github.com/coderefinery/template-workshop-webpage).
-> 2. Click the green "Use this template" button to import the template to your own account.
->    Name the new repository to include a date and a location, e.g. "2019-12-24-stockholm".
-> 3. Clone the new repository and inspect the files. Open `index.md`, update some fields and commit the changes.
-> 4. Push the commits. The workshop page should now be served on GitHub Pages
->    (e.g., *https://username.github.io/2019-12-24-stockholm/*).
+> What do you think you have to do differently for a massive online
+> workshop.  Answer in the collaborative document / discuss in
+> breakout rooms.
+>
+> 1. What are the possible problems/disadvantages?
+> 2. What are the advantages?
+> 3. How do you have to prepare differently?
+> 4. What is your experience with online teaching?
 {: .task}
 
----
+### Case study: Mega-CodeRefinery and Finland HPC Kickstart
 
-## [Pre-workshop survey](https://github.com/coderefinery/pre-workshop-survey)
-
-It is very useful to ask future workshop participants to fill a pre-workshop survey before
-attending a workshop. The survey should probe the participants' previous experience
-with different tools and programming practices, which operating system the participants use
-and what lessons they are most interested in.
-
-The questions that are currently asked in the CodeRefinery
-[pre-workshop survey](https://github.com/coderefinery/pre-workshop-survey)
-are the following:
-- What is the operating system that you will use during the course (on your laptop)?
-- Which version of operating system are you using? If your operating system is Linux, which distribution are you using?
-- Are you using version control? If yes, which?
-- Which programming languages are you using or will you use in your projects?
-- Are you using automated testing in your programming project(s)?
-- Are you using code coverage analysis in your programming project(s)? These are tools and services like Gcov, Cobertura, Codecov, Coveralls, Code Climate, etc.
-- Are you employing code review in your programming project(s)?
-- Are you using the Travis or Jenkins or GitLab CI continuous integration service in your programming project(s)?
-- How do you document your code?
-- Are you using a web-based repository for your code(s)? Which ones?
-- How would you describe your programming experience?
-- How comfortable are you with the Unix/Linux command line working in a terminal window?
-- Are you using an integrated development environment (IDE) for your programming project(s)?
-- Please specify your main academic discipline. Please take the entry which is closest to your main field of study/work.
-- Please select the sessions that you are most interested in.
-- What do you expect to get from this course?
-
-> ## Discussion: Pre-workshop survey questions and results
->
-> - Take a moment to read the survey questions. Is there anything you would want to add? Or remove?
-> - How do you think the survey results look like for past workshops? Have a look at the
->   [survey repository](https://github.com/coderefinery/pre-workshop-survey) which shows the
->   main results, and compare them with your expectations.
-{: .task}
-
----
-
-## Preparing lessons
-
-- Go through the lesson material you will be teaching and think about how you
-  intend to teach it, and how much time you will be spending on each episode.
-- Are there any unsolved issues that you can fix?
-- Go through the instructor guides of the lessons you will be teaching.
-  - Review the intended learning outcomes, and try to keep these in mind while teaching.
-  - Try to memorize the typical pitfalls and common questions.
-- Go through the [lesson presentation hints](https://github.com/coderefinery/manuals/blob/master/presenting.md).
-- Go through the [helping and teaching guide](https://github.com/coderefinery/manuals/blob/master/helping-and-teaching.md),
-  and request all helpers to go through it too.
-
----
-
-## [During workshop](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#during-workshop)
-
-- Give an introductory talk, see [https://github.com/coderefinery/workshop-intro](https://github.com/coderefinery/workshop-intro).
-- Have a 10 minute ice-breaker session where participants and instructors introduce themselves
-  and either describe their research in 2-3 sentences or what they hope to get out of the workshop.
-- While teaching, keep [these tips](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md#during-workshop) in mind
-- Don't start off with tech details, say why this is important.
-- Try to [stick to the material](https://github.com/coderefinery/manuals/blob/master/presenting.md#try-to-stick-to-the-material),
-  although some excursions are useful.
-- [Wrap up](https://github.com/coderefinery/manuals/blob/master/presenting.md#wrap-up),
-  say what you taught and why, and what comes next.
-
----
-
-## End of workshop
-
-- Give credit to those who contributed and helped.
-- Say some [final words](https://github.com/coderefinery/workshop-outro).
-
----
-
-## Post-workshop
-
-- Process final feedback and distribute to co-instructors (e.g. type up in shared document)
-- Debrief with instructors.
-- Process certificate requests.
-
-## [Post-workshop survey](https://github.com/coderefinery/post-workshop-survey)
-
-To measure the long-term impact of CodeRefinery workshops it's useful to send out a
-post-workshop survey. This survey can identify which topics taught in workshops are
-particularly useful and which have less benefits for the participants.
-
-The survey currently contains the following questions:
-
-- Which workshop did you attend?
-- What is your current position?
-- How has your usage of the following tools/services changed after attending the workshop? (possible answers: 1. I started using this tool; 2. I don't use this tool; 3. I'm using this tool in the same way as before; 4. I'm using this tool better than before)
-  - Version control
-  - Automated testing
-  - Travis CI
-  - Code coverage analysis
-  - Jupyter Notebooks
-  - Code review
-  - Read the Docs or GitHub/GitLab/BitBucket Pages
-
-- Would you judge your code to have become more reusable/reproducible/modular/documented after attending the workshop? (yes/no questions)
-  - Reusable
-  - Reproducible
-  - Modular
-  - Documented
-- Has it become easier for you to collaborate on software development with your colleagues and collaborators?
-- Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?
+- Mega-CodeRefinery
+  - Audience of around 90-100
+  - "bring your own breakout room" (see below)
+  - 3 days/week, 6 days total
+  - Lessons as normal in CodeRefinery
+- HPC Kickstart
+  - 250 registered, ~180 max participants
+  - Multi-university: local differences made this much harder to manage.
+  - Breakout
 
 
+### Main differences with mega-online
+
+- Less tolerance for problems
+- More diversity in skill levels
+
+### Key adaption mechanisms
+
+This will be later published in a final report
+
+- Breakout rooms
+  - Consistent members over sessions and days - form community
+  - Requires Zoom naming like "(4) First Last", so that rooms can be
+    managed efficiently.
+- Teams
+  - Teams adapt tools better when there are multiple adopters.
+  - Offer team registrations
+  - Bring your own helper: "bring your own breakout room"
+  - Anyone bringing own helper can be accepted
+  - Must already be considered at the registration phase!
+- Helpers
+  - [Helper training for breakout
+    rooms](https://github.com/coderefinery/manuals/blob/master/breakout-rooms-groups-help.md)
+  - "helper sessions" - two the previous week, expect all helpers to
+    attend at least one to learn about what to do
+  - Recommend make these sessions 60 minutes, prepare a lesson which
+    demonstrates all the main tech and also preparation
+  - Helpers: stay in each room consistently
+  - Expert helpers: move between rooms, make sure things stay on track.
+- Installation help
+  - Two installation help sessions the week before
+  - Expect everyone to attend one, otherwise you are on your own.
+  - Right after the "helper intro sessions" - helpers stay and give
+    install help.
+- HackMD: Asking questions during the workshop
+  - Most questions asked via collaborative notes, not by voice.
+  - Voice still allowed.
+  - This provides a safer way for most people to ask questions - and
+    without interrupting the flow
+  - And multiple people can answer, asynchronously
+  - Beware: don't go too in-depth.
+  - Always write at the every bottom (only one palace needs to be watched)
+  - HackMD worked even with the 180-person workshop.  We recommend
+    keeping the length short, and having people switch to view mode if
+    more than 50 people.
+- Recording
+  - With 100 people, main room is already quite silent, thus we lose
+    less by recording.
+  - Collaborative notes provide a way to ask questions other than
+    voice which would be recorded.
+  - Breakout rooms never recorded.
+- Lesson adjustments
+  - Make breakout sessions as long as possible: effectively, assume 5
+    minutes overhead each time you start a breakout session.
+  - Don't combine breaks and breakout time
+  - Be very clear about exercise expectations: write down end time,
+    expected outcomes, links for exercises.  "Meta-talk": the more,
+    the better.
+  - Also discuss overall expectations: more people will be both
+    overwhelmed and underwhelmed.  Set expectations right: is this
+    basic or advanced?
+
+- Roles:
+  - Zoom host (Zoom tech, watches chat)
+  - HackMD master (watches, answers questions, organizes)
+  - Instructors
+  - Helpers
+  - Expert helpers
+  - All of these should be different, even if in practice everyone
+    does a bit of everything!  Otherwise cognitive load becomes too
+    much.
