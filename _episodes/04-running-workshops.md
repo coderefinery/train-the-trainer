@@ -186,7 +186,7 @@ This will be later published in a final report
   - Must already be considered at the registration phase!
 - Helpers
   - [Helper training for breakout
-    rooms](https://github.com/coderefinery/manuals/blob/master/breakout-rooms-groups-help.md)
+    rooms](https://github.com/coderefinery/manuals/blob/master/breakout-rooms-helping.md)
   - "helper sessions" - two the previous week, expect all helpers to
     attend at least one to learn about what to do
   - Recommend make these sessions 60 minutes, prepare a lesson which
