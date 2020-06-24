@@ -135,7 +135,7 @@ Teaching can't be done in isolation, we need to organize the whole computing com
 (Image source: [Aalto Scientific Computing](https://scicomp.aalto.fi/about/)
 
 We are making good progress in nordics:
-- CodeRefinery, software carpentry, etc: basic teaching
+- CodeRefinery, Carpentries, etc: basic teaching
 - Infrastructures: work to make things more accessible, take part in
   teaching, improve teaching and docs quality
   [NordicHPC](https://nordichpc.github.io/)
