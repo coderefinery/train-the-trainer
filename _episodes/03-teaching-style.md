@@ -186,7 +186,7 @@ In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beli
 - **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who code (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
+CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
 
 They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
 
