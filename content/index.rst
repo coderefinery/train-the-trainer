@@ -1,5 +1,5 @@
-LESSON NAME
-===========
+CodeRefinery instructor training
+================================
 
 Intro
 
