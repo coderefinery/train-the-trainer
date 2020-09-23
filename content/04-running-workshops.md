@@ -21,7 +21,7 @@ keypoints:
 {: .callout}
 
 
-## Organize a CodeRefinery workshop
+# Organize a CodeRefinery workshop
 
 You or us?
 - Historically, most workshops are CodeRefinery workshops were
@@ -35,7 +35,7 @@ licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 However, making it a successful workshop requires careful planning and preparation. Here we will go
 through practical aspects of organizing a workshop.
 
-### Centrally organized workshops
+## Centrally organized workshops
 
 - CodeRefinery staff organize, we try to reach as many people as
   possible.
@@ -44,14 +44,14 @@ through practical aspects of organizing a workshop.
 - We started this way.
 
 
-### Locally invited workshops
+## Locally invited workshops
 
 - A local team requests CodeRefinery (usually with a known audience).
 - There is usually pretty good attendance.
 - CodeRefinery staff travels to site and teaches - at least with local
   helpers, ideally with a local instructor.
 
-### Independently organized workshops
+## Independently organized workshops
 
 - In the future, we want to encourage independently organized
   workshops: a site can organize the workshops without needing to go
