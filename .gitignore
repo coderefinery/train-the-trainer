@@ -1,3 +1,5 @@
-_drafts/
-_site/
-.sass-cache
+/_build
+/venv
+.ipynb_checkpoints
+venv*
+jupyter_execute

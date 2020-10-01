@@ -58,7 +58,7 @@ Applying these teaching principles are not sufficient and in addition we need to
 
 ---
 
-# On the importance of feedback
+## On the importance of feedback
 
 Feedback is an essential part of effective learning. Feedback is bi-directional:
 - To be effective, instructors need feedback on their learners' progress. Learners can also check their progress and ask relevant questions to get clarification.
@@ -118,11 +118,11 @@ Before doing so, we will learn here to give feedback on teaching using the same 
 
 ---
 
-# Who are the learners
+## Who are the learners
 
 The first task in teaching is to figure out who your learners are. The Carpentries approach is based on the work of researchers like [Patricia Benner](https://en.wikipedia.org/wiki/Patricia_Benner), who applied the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in her studies of [how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061) ([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). This work indicates that through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form, the three stages of this model are:
 
-## Novices, competent practitioners and experts
+### Novices, competent practitioners and experts
 
 ![Novice, Competent Practitioner, Expert](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
 
@@ -148,7 +148,7 @@ The first task in teaching is to figure out who your learners are. The Carpentri
     presented with a problem, immediately sees how these skills can be used to solve the problem.
 
 
-## Cognitive Development and Mental Models
+### Cognitive Development and Mental Models
 
 Effective learning is facilitated by the creation of a well-founded mental model. A mental model is a collection of concepts and facts,
 along with the relationships between those concepts, which a person has about a topic. For example, a long-time resident of the United
@@ -175,7 +175,7 @@ This is usually the case of our learners. Most CodeRefinery learners are *compet
 
 ---
 
-## How “knowledge” gets in the way
+### How “knowledge” gets in the way
 
 Mental models are hardly ever built from scratch. Every learner comes to a topic with some amount of information, ideas and opinions about the topic. This is true even in the case where a learner can’t articulate their prior knowledge and beliefs.
 
@@ -186,7 +186,7 @@ In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beli
 - **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who code (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
+CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
 
 They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
 
@@ -207,7 +207,7 @@ They often use version control, write code in different programming languages an
 
 ---
 
-# CodeRefinery Curriculum and Reverse Instructional Design
+## CodeRefinery Curriculum and Reverse Instructional Design
 
 When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, as advanced in Wiggins and McTighe’s [Understanding by Design](http://www.worldcat.org/title/understanding-by-design/oclc/56491025), that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
 
@@ -215,14 +215,14 @@ When writing a CodeRefinery lesson, we take a “reverse” approach to instruct
 - Decide what constitutes evidence that objectives have been met, and design assessments to target that evidence
 - Design instruction: Sort assessments in order of increasing complexity, and write content that connects everything together
 
-## Working with learning objectives
+### Working with learning objectives
 
 Each CodeRefinery lesson usually has a *learning objectives* section. 
 
 Good learning objectives are quite specific about the intended effect of a lesson on its learners. We aim to create learning objectives that are specific, accurate, and informative for both learners and instructors.
 
 
-## Using Bloom's Taxonomy to write effective learning objectives
+### Using Bloom's Taxonomy to write effective learning objectives
 
 [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) is a framework for thinking about learning that breaks progress down into discrete, hierarchical steps.
 While many ideas have come and gone in education, Bloom's has remained a useful tool for educators, in particular because the
@@ -235,7 +235,7 @@ guiding them to look ahead to where we might not be able to take them.
 
 Image credit: Vanderbilt University Center for Teaching
 
-## Revisiting Learning objectives
+### Revisiting Learning objectives
 
 When using existing teaching material, *reverse instructional design*  principles might be applied as
 follows:
