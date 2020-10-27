@@ -1,4 +1,5 @@
 Sphinx
 sphinx_rtd_theme
 myst_nb
-https://github.com/coderefinery/sphinx-lesson/archive/master.zip
+sphinx-lesson
+sphinx_rtd_theme_ext_color_contrast
