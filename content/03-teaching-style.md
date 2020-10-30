@@ -108,9 +108,12 @@ CodeRefinery uses different instruments to get feedback from learners:
 
 ### Getting/giving feedback on teaching
 
-Teaching is a skill. One of the objective of the CodeRefinery Instructor training is to give you the confidence in teaching CodeRefinery lessons. Later we will have group work where we will practice teaching CodeRefinery lessons.
+Teaching is a skill. One of the objective of the CodeRefinery Instructor training is to give you 
+the confidence in teaching CodeRefinery lessons. Later we will have group work where we will 
+practice teaching CodeRefinery lessons.
 
-Before doing so, we will learn here to give feedback on teaching using the same positive-vs-negative and content-vs-presentation rubric.
+Before doing so, we will learn here to give feedback on teaching using the same 
+positive-vs-negative and content-vs-presentation rubric.
 
 > ## Give feedback on teaching (optional, 10 mn)
 > This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/).
