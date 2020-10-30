@@ -112,7 +112,7 @@ CodeRefinery uses different instruments to get feedback from learners:
 
 Teaching is a skill. One of the objective of the CodeRefinery Instructor training is to give you 
 the confidence in teaching CodeRefinery lessons. Later we will have group work where we will 
-practice teaching CodeRefinery lessons.
+practice teaching some lessons.
 
 Before doing so, we will learn here to give feedback on teaching using the same 
 positive-vs-negative and content-vs-presentation rubric.
