@@ -197,7 +197,8 @@ practitioner* for a given domain based on the complexity of their mental models.
       probably doesn't include most of the complexities that a mechanical engineer 
       would be concerned with.
 
-This is usually the case of our learners. Most CodeRefinery learners are *competent practitioner* that confidently write codes on a regular basis (any programming languages), use some or many of the tools we teach. They would like to understand how to be more efficient and to work collaboratively.
+We could expect a mixture of learners from *novice* and *competent practitioner* groups
+in HPC training events. 
 
 ![Mental Models](https://carpentries.github.io/instructor-training/fig/mental_models.svg)
 
