@@ -165,24 +165,25 @@ https://hpc-carpentry.github.io/hpc-intro/
 
 ### Cognitive Development and Mental Models
 
-Effective learning is facilitated by the creation of a well-founded mental model. A mental model is a collection of concepts and facts,
-along with the relationships between those concepts, which a person has about a topic. For example, a long-time resident of the United
-States may have an advanced understanding of the location of US states, major cities and landmarks, weather patterns, regional
-economies and demographic patterns, as well as the relationships among these, compared with their understanding of these relationships
-for other countries. In other words, their mental model of the United States is more complex compared with their mental model of other
-countries.
+Effective learning is facilitated by the creation of a well-founded mental model. A mental model
+is a collection of concepts and facts, along with the relationships between those concepts, which 
+a person has about a topic. For example, a long-time resident of the United States may have an 
+advanced understanding of the location of US states, major cities and landmarks, weather patterns,
+regional economies and demographic patterns, as well as the relationships among these, compared 
+with their understanding of these relationships for other countries. In other words, their mental
+model of the United States is more complex compared with their mental model of other countries.
 
 We can distinguish between a *novice* and a *competent
 practitioner* for a given domain based on the complexity of their mental models.
 
 *     A *novice* is someone who has not yet built a mental model of the domain.
-They therefore reason by analogy and guesswork,
-borrowing bits and pieces of their mental models of other domains
-which seem superficially similar.
-*     A *competent practitioner* is someone who has a mental model that's good enough for everyday purposes. This model
-does not have to be completely accurate in order to be useful:
-for example, the average driver's mental model of how a car works probably doesn't include
-most of the complexities that a mechanical engineer would be concerned with.
+      They therefore reason by analogy and guesswork, borrowing bits and pieces 
+      of their mental models of other domains  which seem superficially similar.
+*     A *competent practitioner* is someone who has a mental model that's good enough 
+      for everyday purposes. This model does not have to be completely accurate in order 
+      to be useful: for example, the average driver's mental model of how a car works 
+      probably doesn't include most of the complexities that a mechanical engineer 
+      would be concerned with.
 
 This is usually the case of our learners. Most CodeRefinery learners are *competent practitioner* that confidently write codes on a regular basis (any programming languages), use some or many of the tools we teach. They would like to understand how to be more efficient and to work collaboratively.
 
