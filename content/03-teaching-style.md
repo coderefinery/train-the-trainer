@@ -206,13 +206,24 @@ in HPC training events.
 
 ### How “knowledge” gets in the way
 
-Mental models are hardly ever built from scratch. Every learner comes to a topic with some amount of information, ideas and opinions about the topic. This is true even in the case where a learner can’t articulate their prior knowledge and beliefs.
+Mental models are hardly ever built from scratch. Every learner comes to a topic with
+some amount of information, ideas and opinions about the topic. This is true even in
+the case where a learner can’t articulate their prior knowledge and beliefs.
 
-In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beliefs can be termed “misconceptions” and can impede learning by making it more difficult for learners to incorporate new, correct information into their mental models. Correcting learners’ misconceptions is at least as important as presenting them with correct information. Broadly speaking, misconceptions fall into three categories:
+In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beliefs
+can be termed “misconceptions” and can impede learning by making it more difficult for
+learners to incorporate new, correct information into their mental models. 
+Correcting learners’ misconceptions is at least as important as presenting them with 
+correct information. Broadly speaking, misconceptions fall into three categories:
 
-- **Simple factual errors**, such as believing that Vancouver is the capital of British Columbia. These are the easiest to correct.
-- **Broken models**, such as believing that motion and acceleration must be in the same direction. We can address these by having learners reason through examples to see contradictions.
-- **Fundamental beliefs**, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
+- **Simple factual errors**, such as believing that Vancouver is the capital of 
+    British Columbia. These are the easiest to correct.
+- **Broken models**, such as believing that motion and acceleration must be in the 
+    same direction. We can address these by having learners reason through examples to
+    see contradictions.
+- **Fundamental beliefs**, such as “the world is only a few thousand years old” or
+    “human beings cannot affect the planet’s climate”. These beliefs are deeply connected
+    to the learner’s social identity and are the hardest to change.
 
 
 CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
