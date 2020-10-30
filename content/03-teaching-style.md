@@ -18,12 +18,12 @@ keypoints:
 
 # The Carpentries and CodeRefinery approaches to teaching
 
-Here we will give you a very short overview of the Carpentries approach to teaching and highlight parts that are most important for teaching CodeRefinery lessons.
+Here we will give you a very short overview of the Carpentries approach to teaching and highlight
+parts that are most important for teaching CodeRefinery lessons.
 
 Most CodeRefinery instructors have completed the
 [Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which
-[anyone can apply for](https://carpentries.org/become-instructor/) and 15 seats are reserved each
-year through [NeIC's Carpentry membership](https://coderefinery.org/about/#membership-with-the-carpentries).
+[anyone can apply for](https://carpentries.org/become-instructor/) 
 
 > ## This material
 >
