@@ -91,12 +91,14 @@ For example, a music teacher might ask a learner to play a scale very slowly
 in order to see whether they are breathing correctly,
 and if not, what they should change.
 
-Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the results are easily interpretable by the learner and instructor.
+Formative assessment is most useful when it happens frequently (we'll talk about how frequently later)
+and when the results are easily interpretable by the learner and instructor.
 
 
 CodeRefinery uses different instruments to get feedback from learners:
 
-- Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/).
+- Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode
+  [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/).
 - Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions. 
   This is something that we may change in the future but the initial reason was that we build on existing knowledge 
   (see below section on our target audience) and give recommendations for best software practices:
