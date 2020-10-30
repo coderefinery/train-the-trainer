@@ -19,7 +19,7 @@ keypoints:
 # The Carpentries and CodeRefinery approaches to teaching
 
 Here we will give you a very short overview of the Carpentries approach to teaching and highlight
-parts that are most important for teaching CodeRefinery lessons.
+parts that are most important for teaching CodeRefinery style lessons.
 
 Most CodeRefinery instructors have completed the
 [Carpentry instructor training workshop](https://carpentries.github.io/instructor-training/), which
@@ -97,7 +97,12 @@ Formative assessment is most useful when it happens frequently (we'll talk about
 CodeRefinery uses different instruments to get feedback from learners:
 
 - Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/).
-- Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions.  This is something that we may change in the future but the initial reason was that we build on existing knowledge (see below section on our target audience) and give recommendations for best software practices: there is no unique solution and you would like our learners to choose the approach that is most suitable for them. For the same reasons, we have many optional exercises to accommodate the different levels. We would like everyone to get something useful out of the CodeRefinery workshops.
+- Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions. 
+  This is something that we may change in the future but the initial reason was that we build on existing knowledge 
+  (see below section on our target audience) and give recommendations for best software practices:
+  there is no unique solution and you would like our learners to choose the approach that is most suitable for them.
+  For the same reasons, we have many optional exercises to accommodate the different levels. 
+  We would like everyone to get something useful out of the CodeRefinery workshops.
 
 ### Getting/giving feedback on teaching
 
