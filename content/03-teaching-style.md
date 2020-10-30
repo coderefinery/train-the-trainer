@@ -72,6 +72,7 @@ This feedback comes through what is called *formative assessments* (in contrast
 > ## Summative Assessment
 > *Summative assessment* is used
 > to judge whether a learner has reached an acceptable level of competence.
+> Usually at the end of a course 
 > Learners either "pass" or "fail" a summative assessment.
 > One example is a driving exam,
 > which tells the rest of society whether someone can safely be allowed on the road. Most assessment done in university
@@ -84,6 +85,7 @@ This feedback comes through what is called *formative assessments* (in contrast
 > that provides feedback to both instructors and learners about learners' level of understanding of the
 > material. For learners, this feedback can help focus their study efforts. For instructors, it allows them to refocus
 > their instruction to respond to challenges that learners are facing.
+> Used continuously
 {: .callout}
 
 Learners don't "pass" or "fail" formative assessments; they are simply a feedback mechanism.
