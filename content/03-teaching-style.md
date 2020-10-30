@@ -118,7 +118,8 @@ Before doing so, we will learn here to give feedback on teaching using the same
 positive-vs-negative and content-vs-presentation rubric.
 
 > ## Give feedback on teaching (optional, 10 mn)
-> This exercise aims at learning to give feedback. It is optional as we have similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/).
+> This exercise aims at learning to give feedback. It is optional as we have 
+> similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/).
 > As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and
 > give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in
 > the class add one point to a 2x2 grid on a whiteboard or in the shared notes  (hackMD, etherpad, google doc) without duplicating any points.
@@ -152,10 +153,12 @@ The first task in teaching is to figure out who your learners are. The Carpentri
     > Example: A *competent practitioner* in a Carpentries workshop might have used the shell before and understand how to
     move around directories and use individual programs, but they might not understand how they can fit these programs
     together to build scripts and automate large tasks.
-    > Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands the concepts of best software practices and its importance. He/she clearly sees the benefits of applying best software practices but he/she does not fully know yet how and what to use for their own projects.
+    > Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands the concepts of best
+     software practices and its importance. He/she clearly sees the benefits of applying best software practices but 
+     he/she does not fully know yet how and what to use for their own projects.
 
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
-
+https://hpc-carpentry.github.io/hpc-intro/
     > Example: An *expert* in a Carpentries workshop may have experience writing and running shell scripts and, when
     presented with a problem, immediately sees how these skills can be used to solve the problem.
 
