@@ -205,14 +205,14 @@ model of the United States is more complex compared with their mental model of o
 We can distinguish between a *novice* and a *competent
 practitioner* for a given domain based on the complexity of their mental models.
 
-*     A *novice* is someone who has not yet built a mental model of the domain.
-      They therefore reason by analogy and guesswork, borrowing bits and pieces 
-      of their mental models of other domains  which seem superficially similar.
-*     A *competent practitioner* is someone who has a mental model that's good enough 
-      for everyday purposes. This model does not have to be completely accurate in order 
-      to be useful: for example, the average driver's mental model of how a car works 
-      probably doesn't include most of the complexities that a mechanical engineer 
-      would be concerned with.
+* A *novice* is someone who has not yet built a mental model of the domain.
+  They therefore reason by analogy and guesswork, borrowing bits and pieces 
+  of their mental models of other domains  which seem superficially similar.
+* A *competent practitioner* is someone who has a mental model that's good enough 
+  for everyday purposes. This model does not have to be completely accurate in order 
+  to be useful: for example, the average driver's mental model of how a car works 
+  probably doesn't include most of the complexities that a mechanical engineer 
+  would be concerned with.
 
 We could expect a mixture of learners from *novice* and *competent practitioner* groups
 in HPC training events. 
