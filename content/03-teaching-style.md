@@ -255,7 +255,7 @@ important to get accurate feedback, before and during the workshops to understan
 > ## Exercise: How to identify learner profiles?
 >
 > 1. How to identify leaner profiles from surveys and during the class
-> 2. Which types of leaners should the leassons focus on
+> 2. Which types of learners should the leassons focus on
 {: .challenge}
 
 ---
@@ -305,4 +305,3 @@ follows:
 
 
 We strongly encourage you to read them before teaching a lesson and to review whether they still match the content of the lesson: 
-
