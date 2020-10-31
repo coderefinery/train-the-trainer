@@ -141,5 +141,3 @@ We are making good progress in nordics:
   [NordicHPC](https://nordichpc.github.io/)
 - Research software engineers for hands-on support
   [Nordic-RSE](https://nordic-rse.org/)
-
----
