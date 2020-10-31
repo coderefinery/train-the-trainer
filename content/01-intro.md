@@ -134,7 +134,7 @@ Whenever we can, we should direct learners that do not have sufficient coding ex
 
 > ## Competent practitioners
 > We often qualify CodeRefinery learners as **competent practitioners** because they already have an understanding of their needs.
-> *Novices* and *competent practitioners* will be more clearly defined in the [next section](02-teachingstyle).
+> *Novices* and *competent practitioners* will be more clearly defined in the {doc}`next section <03-teaching-style>`.
 {: .callout}
 
 > ## Best software practices for whom?

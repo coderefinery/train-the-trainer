@@ -21,10 +21,10 @@ keypoints:
 {: .callout}
 
 
-## Running a workshop
+# Running a workshop
 
 
-### Arranging the workshop
+## Arranging the workshop
 
 > ## Manuals link
 > - [before the
@@ -43,7 +43,7 @@ keypoints:
 - Communication with registered participants
 
 
-### Preparing for the workshop
+## Preparing for the workshop
 
 - Train helpers:
   [manuals](https://github.com/coderefinery/manuals/#helper-training).
@@ -53,7 +53,7 @@ keypoints:
   - Right mindset
   - Installation help in advance!
 
-### Running the workshop
+## Running the workshop
 
 - Mostly nothing specific to CodeRefinery here, but we have many of
   our own checklists:
@@ -62,7 +62,7 @@ keypoints:
   - [helping and teaching](https://github.com/coderefinery/manuals/blob/master/helping-and-teaching.md)
 - Online workshop have their own checklists (more below):
 
-### Online procedures
+## Online procedures
 
 Main article: [Online training manual](https://github.com/coderefinery/manuals/blob/master/online-training.md)
 
@@ -126,7 +126,7 @@ appropriately.
   - Breakout
 
 
-### Main differences with mega-online
+## Main differences with mega-online
 
 - Less tolerance for problems
 - More diversity in skill levels

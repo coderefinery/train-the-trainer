@@ -11,7 +11,7 @@ keypoints:
 
 # Collaborative lesson development
 
-### Contributing to existing lessons
+## Contributing to existing lessons
 
 Our lessons are **collaboratively developed**.  They are made by many
 people, and there is no single fixed master plan (but there should be,
@@ -37,7 +37,7 @@ to guide the review process.
 
 ---
 
-### Creating new teaching material
+## Creating new teaching material
 
 Creating new teaching material is a longer process, because you should
 go through the whole backwards lesson design process and get extensive
@@ -55,7 +55,7 @@ shorter summary for quicker reference and discussion in the CodeRefinery
 
 ---
 
-### Technical aspects
+## Technical aspects
 
 - All lessons are public and open [repositories on GitHub](https://github.com/coderefinery).
 - Make issues and pull requests about ideas and improvements.
