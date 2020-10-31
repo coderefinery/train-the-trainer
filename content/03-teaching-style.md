@@ -263,7 +263,7 @@ important to get accurate feedback, before and during the workshops to understan
 ## CodeRefinery Curriculum and Reverse Instructional Design (with recomendations for HPC capentries)
 
 When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, 
-as advanced in Wiggins and McTighe’s 
+as described in Wiggins and McTighe’s 
 [Understanding by Design](http://www.worldcat.org/title/understanding-by-design/oclc/56491025),
 that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
 
@@ -304,5 +304,5 @@ follows:
 3. Review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions.
 
 
-We strongly encourage you to read them before teaching a CodeRefinery lesson and to review whether they still match the content of the lesson: CodeRefinery lessons are regularly updated, taking into account feedback from our learners and instructors.
+We strongly encourage you to read them before teaching a lesson and to review whether they still match the content of the lesson: 
 
