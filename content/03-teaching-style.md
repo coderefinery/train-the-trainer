@@ -237,10 +237,6 @@ they have inherited but lack a in-depth understanding of what's going on. That i
 important to get accurate feedback, before and during the workshops to understand the learner profiles. 
 
 > ## How to handle novices in CodeRefinery workshops
->
-> - We have a few prerequisites for attending CodeRefinery workshops but those are mostly recommendations (we do not have any assessment at registration). It is very common to have a few learners that never used version control and do not code on a regular basis. Even though we are trying our best to support them during CodeRefinery workshops and give them an overview of best software practices, we do not focus our attention to these learners.
-> - We recommend (at the beginning of a CodeRefinery workshop) to clearly remind the CodeRefinery target audience about the prerequisites. This will clearly help you and the helpers during the workshop and make sure you do not demotivate potential learners.
->
 {: .callout}
 
 > ## Exercise: Carpentries versus CodeRefinery audience
