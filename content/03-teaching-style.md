@@ -245,19 +245,25 @@ important to get accurate feedback, before and during the workshops to understan
 
 ---
 
-## CodeRefinery Curriculum and Reverse Instructional Design
+## CodeRefinery Curriculum and Reverse Instructional Design (with recomendations for HPC capentries)
 
-When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, as advanced in Wiggins and McTighe’s [Understanding by Design](http://www.worldcat.org/title/understanding-by-design/oclc/56491025), that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
+When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, 
+as advanced in Wiggins and McTighe’s 
+[Understanding by Design](http://www.worldcat.org/title/understanding-by-design/oclc/56491025),
+that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes
 
 - Determine your learning objectives
-- Decide what constitutes evidence that objectives have been met, and design assessments to target that evidence
-- Design instruction: Sort assessments in order of increasing complexity, and write content that connects everything together
+- Decide what constitutes evidence that objectives have been met, and design assessments 
+  to target that evidence
+- Design instruction: Sort assessments in order of increasing complexity, 
+  and write content that connects everything together
 
 ### Working with learning objectives
 
-Each CodeRefinery lesson usually has a *learning objectives* section. 
-
-Good learning objectives are quite specific about the intended effect of a lesson on its learners. We aim to create learning objectives that are specific, accurate, and informative for both learners and instructors.
+Each CodeRefinery lesson (also the HPC capentries lessons) usually has a *learning objectives* section.
+Good learning objectives are quite specific about the intended effect of a lesson on its learners.
+We aim to create learning objectives that are specific, accurate, and informative for 
+both learners and instructors.
 
 
 ### Using Bloom's Taxonomy to write effective learning objectives
