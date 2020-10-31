@@ -164,7 +164,9 @@ The first task in teaching is to figure out who your learners are. The Carpentri
       benefits of applying best software practices but he/she does not fully know yet how and 
       what to use for their own projects.
     > Example HPC: Knows how to establish a connection to a cluster and have submitted jobs.
-      But may not know how to request optimal amount of resources in a job or parallel processing
+      But may not know how to request optimal amount of resources in a job and how to setup
+      parallel jobs
+     
 
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
     > Example: An *expert* in a Carpentries workshop may have experience writing and running shell
@@ -226,7 +228,10 @@ correct information. Broadly speaking, misconceptions fall into three categories
     to the learner’s social identity and are the hardest to change.
 
 
-CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
+HPC carpentry workshops are aimed at  *Novice* and **competent practitioners** of HPC
+
+CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or
+ anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
 
 They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
 
