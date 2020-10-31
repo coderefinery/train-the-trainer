@@ -19,11 +19,12 @@ Intro
    xx min ; :doc:`01-intro`
    xx min ; :doc:`02-teaching-philosophies`
    xx min ; :doc:`03-teaching-style`
-   xx min ; :doc:`04-running-workshops`
+   25 min ; :doc:`04-running-workshops`
    20 min ; :doc:`lesson-design`
    30 min ; :doc:`lesson-development`
    xx min ; :doc:`06-teaching`
    xx min ; :doc:`07-future`
+    5 min ; :doc:`coderefinery-workshops`
 
 
 .. toctree::
