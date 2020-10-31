@@ -236,15 +236,11 @@ Then among the  **competent practitioners** There might be learners who repeat s
 they have inherited but lack a in-depth understanding of what's going on. That is why it is 
 important to get accurate feedback, before and during the workshops to understand the learner profiles. 
 
-> ## How to handle novices in CodeRefinery workshops
-{: .callout}
 
-> ## Exercise: Carpentries versus CodeRefinery audience
+> ## Exercise: How to identify learner profiles?
 >
-> Split into groups (3 to 4 persons). Discuss and summarize in the hackmd pad:
-> 1. Why does CodeRefinery target **competent practitioner**?
-> 2. Why is it important to be able to write code for attending a CodeRefinery workshop?
-> For this exercise, we suggest to read [Motivation and Demotivation](https://carpentries.github.io/instructor-training/08-motivation/index.html) from the Carpentries instructor training lesson.
+> 1. How to idenitfy leaner profiles from surveys and during the class
+> 2. Which types of leaners should the leassons focus on
 {: .challenge}
 
 ---
