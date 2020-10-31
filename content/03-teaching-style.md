@@ -230,10 +230,11 @@ correct information. Broadly speaking, misconceptions fall into three categories
 
 HPC carpentry workshops are aimed at  *Novice* and **competent practitioners** of HPC
 
-CodeRefinery workshops are aimed for researchers and/or Research Software Engineers or
- anyone who codes (in any programming language) on a regular basus. In that sense, our learners are not novices but **competent practitioners**.
-
-They often use version control, write code in different programming languages and very often are familiar with the command line. Some have attended Carpentries workshops but very often developed their programming skills on their own. Therefore, they may have misconceptions. That is why it is important to get accurate feedback.
+Among  *Novice*  learners there might be learners who are experts in their domain and very 
+competent in the program they are executing, but may not have used a HPC system before. 
+Then among the  **competent practitioners** There might be learners who repeat some procedures
+they have inherited but lack a in-depth understanding of what's going on. That is why it is 
+important to get accurate feedback, before and during the workshops to understand the learner profiles. 
 
 > ## How to handle novices in CodeRefinery workshops
 >
