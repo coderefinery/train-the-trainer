@@ -9,7 +9,7 @@ keypoints:
   - "We have checklists for reviewing existing lessons and creating new lessons"
 ---
 
-## Lesson development
+# Collaborative lesson development
 
 ### Contributing to existing lessons
 

@@ -20,8 +20,8 @@ Intro
    xx min ; :doc:`02-teaching-philosophies`
    xx min ; :doc:`03-teaching-style`
    xx min ; :doc:`04-running-workshops`
-   xx min ; :doc:`lesson-design`
-   xx min ; :doc:`lesson-development`
+   20 min ; :doc:`lesson-design`
+   30 min ; :doc:`lesson-development`
    xx min ; :doc:`06-teaching`
    xx min ; :doc:`07-future`
 

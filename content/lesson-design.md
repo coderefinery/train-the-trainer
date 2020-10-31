@@ -10,7 +10,7 @@ keypoints:
   - "We have checklists for reviewing existing lessons and creating new lessons"
 ---
 
-## Lesson design
+# Lesson design
 
 > ## Recommended reading
 >
