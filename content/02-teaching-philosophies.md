@@ -7,7 +7,7 @@ questions:
   - "What are our teaching philosophies?"
 ---
 
-## CodeRefinery teaching philosophies
+# CodeRefinery teaching philosophies
 
 > ## Ice-breaker in groups (20 minutes)
 >
