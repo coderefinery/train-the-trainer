@@ -39,22 +39,29 @@ Most CodeRefinery instructors have completed the
 
 The "Carpentries" approach to teaching is based on:
 
-- Applying research-based teaching principles, especially as they apply to the Carpentries audience.
+- Applying research-based teaching principles, especially as they apply to the 
+  Carpentries audience.
 - Understanding the importance of a respectful and inclusive classroom environment.
 
 
 ### Carpentries teaching principles
 
-- Learners need to practice what they are learning in real time and get **feedback** on what they are doing. That is why the teaching approach relies on **live coding**.
-- Learners best learn in a respectful classroom environment, so the Carpentries use a [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
-- Learners are encouraged to help each other during workshops as this improves their confidence and reinforces concepts taught.
-- Carpentry instructors try to have learners do something that they think is useful in their daily work within **15 minutes of starting each lesson**.
+- Learners need to practice what they are learning in real time and get **feedback** on what they
+  are doing. That is why the teaching approach relies on **live coding**.
+- Learners best learn in a respectful classroom environment, so the Carpentries use a 
+  [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
+- Learners are encouraged to help each other during workshops as this improves their confidence
+  and reinforces concepts taught.
+- Carpentry instructors try to have learners do something that they think is useful in their
+  daily work within **15 minutes of starting each lesson**.
 
 ![What to Teach](https://carpentries.github.io/instructor-training/fig/what-to-teach.png)
 
-In CodeRefinery, we follow The Carpentries teaching principles but in addition to **live coding** we often use **group discussions** to put in context the concepts we are teaching.
+In CodeRefinery, we follow The Carpentries teaching principles but in addition to **live coding** 
+we often use **group discussions** to put in context the concepts we are teaching.
 
-Applying these teaching principles are not sufficient and in addition we need to be able to check the effectivness of our methods.
+Applying these teaching principles are not sufficient and in addition we need to be able to check
+the effectivness of our methods.
 
 ---
 
@@ -133,7 +140,15 @@ positive-vs-negative and content-vs-presentation rubric.
 
 ## Who are the learners
 
-The first task in teaching is to figure out who your learners are. The Carpentries approach is based on the work of researchers like [Patricia Benner](https://en.wikipedia.org/wiki/Patricia_Benner), who applied the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) in her studies of [how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061) ([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). This work indicates that through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form, the three stages of this model are:
+The first task in teaching is to figure out who your learners are. The Carpentries approach is 
+based on the work of researchers like [Patricia Benner](https://en.wikipedia.org/wiki/Patricia_Benner), 
+who applied the 
+[Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
+in her studies of 
+[how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061)
+([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)).
+This work indicates that through practice and formal instruction, learners acquire skills and advance
+through distinct stages. In simplified form, the three stages of this model are:
 
 ### Novices, competent practitioners and experts
 
