@@ -40,6 +40,7 @@ Intro
    lesson-development.md
    06-teaching.md
    07-future.md
+   coderefinery-workshops
 
 
 .. toctree::
