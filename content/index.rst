@@ -20,7 +20,8 @@ Intro
    xx min ; :doc:`02-teaching-philosophies`
    xx min ; :doc:`03-teaching-style`
    xx min ; :doc:`04-running-workshops`
-   xx min ; :doc:`05-lesson-design`
+   xx min ; :doc:`lesson-design`
+   xx min ; :doc:`lesson-development`
    xx min ; :doc:`06-teaching`
    xx min ; :doc:`07-future`
 
@@ -34,7 +35,8 @@ Intro
    02-teaching-philosophies.md
    03-teaching-style.md
    04-running-workshops.md
-   05-lesson-design.md
+   lesson-design.md
+   lesson-development.md
    06-teaching.md
    07-future.md
 
