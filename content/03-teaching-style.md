@@ -15,8 +15,10 @@ objectives:
 keypoints:
   - "CodeRefinery lessons and teaching build on these principles"
 ---
+# Interactive teaching style
 
-# What are the top issues new instructors face?
+
+## What are the top issues new instructors face?
 
 ```{solution} 
  -  Breaks are not negotiable, minimum 10 minutes.
