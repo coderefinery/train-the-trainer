@@ -8,7 +8,6 @@ gradual pathway of learner → helper → advanced helper → instructor as
 well.
 
 
-
 .. prereq::
 
    This course has no strict prerequisites, but
@@ -25,7 +24,6 @@ well.
      is necessary to contribute to lessons development the way we show
      here (but the lesson design concepts are applicable to other
      styles, too).
-
 
 
 .. csv-table::
@@ -70,7 +68,6 @@ well.
    guide
 
 
-
 .. _learner-personas:
 
 Who is the course for?
@@ -90,7 +87,6 @@ instructor training/lesson design philosophy, but can not take the
 time for the full Carpentries program.
 
 
-
 About the course
 ----------------
 
@@ -101,13 +97,10 @@ This course gives an introduction to
 * How to design interactive, hands-on lessons
 * How CodeRefinery runs workshops
 * How CodeRefinery has scaled up and taken the best advantage of
-  online teaching.
+  online teaching
 * CodeRefinery itself
 * The CodeRefinery collaboration network (and related networks in the
   Nordics)
-
-
-
 
 
 See also
@@ -127,8 +120,3 @@ See also
   about similar topics by someone involved in Carpentries.
 * `Carpentries general organizational documentation
   <https://docs.carpentries.org/>`__
-
-
-
-Credits
--------
