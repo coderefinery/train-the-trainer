@@ -97,7 +97,7 @@ This course gives an introduction to
 * How to design interactive, hands-on lessons
 * How CodeRefinery runs workshops
 * How CodeRefinery has scaled up and taken the best advantage of
-  online teaching.
+  online teaching
 * CodeRefinery itself
 * The CodeRefinery collaboration network (and related networks in the
   Nordics)
