@@ -1,6 +1,6 @@
 # Teaching practice and feedback
 
-Goals of this exercise:
+Goals of the teaching practice:
 
 - In groups of 4-5 persons we will practice teaching a **5-minute segment
   of a lesson of your choice**.
@@ -14,7 +14,20 @@ Goals of this exercise:
 
 ---
 
-```{challenge} Exercise part 1 (group rooms, 50 minutes): First round of 5-minute teaching demos
+## Instructor demo
+
+- In order to demonstrate the goals of this section, the instructor
+  will make a 5-minute demo for your evaluation.
+- It is designed to include some good and bad practices for you to
+  notice.
+
+---
+
+## Teaching demos part 1
+
+In group rooms, 50 minutes.
+
+```{challenge}
 - We organize the breakout rooms to not only discuss one lesson/topic so that it is more interesting
   to listen and also probably we will all get more useful feedback.
 - Give each other **constructive verbal feedback** on the teaching demos, for example
@@ -24,7 +37,11 @@ Goals of this exercise:
   share with others.
 ```
 
-```{challenge} Exercise part 2 (group rooms, 50 minutes): Second round of 5-minute teaching demos
+## Teaching demos, part 2
+
+In group rooms, 50 minutes.
+
+```{challenge}
 - In the second round we distribute the rooms differently so that you can
   present it to a **new group of workshop participants** and can receive new
   feedback.
@@ -36,13 +53,17 @@ Goals of this exercise:
 
 ---
 
-```{discussion} Discussion (main room)
+## Discussion
+
+```{discussion} Main room discussion
  - We discuss questions and conclusions which came up during the group work session.
 ```
 
 ---
 
-```{challenge} Optional exercise/discussion: Feedback for two live-coding examples
+## Optional: feedback for two live-coding examples
+
+```{challenge}
 Teaching by live coding is a
 [performance art which requires practice](https://teachtogether.tech/#s:performance-exercises).
 This exercise highlights some typical pitfalls that most instructors
