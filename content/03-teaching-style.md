@@ -179,7 +179,7 @@ through distinct stages. In simplified form, the three stages of this model are:
     
     -  Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands
        the concepts of best software practices and its importance. He/she clearly sees the
-       benefits of applying best software practices but he/she does not fully know yet how and 
+       benefits of applying best software practices but he/she does not fully know yet how and
        what to use for their own projects.
     
     -  Example HPC: Knows how to establish a connection to a cluster and have submitted jobs.
@@ -190,11 +190,11 @@ through distinct stages. In simplified form, the three stages of this model are:
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
 
     -  Example: An *expert* in a Carpentries workshop may have experience writing and running shell
-       scripts and, when presented with a problem, immediately sees how these skills can be used 
+       scripts and, when presented with a problem, immediately sees how these skills can be used
        to solve the problem.
 
     -  Example HPC: A learner who has a good understanding of the queue system, parallel processing
-       and understand how to interpret error reports when something goes wrong and knows how to 
+       and understand how to interpret error reports when something goes wrong and knows how to
        get help. 
 
 
@@ -208,8 +208,8 @@ regional economies and demographic patterns, as well as the relationships among 
 with their understanding of these relationships for other countries. In other words, their mental
 model of the United States is more complex compared with their mental model of other countries.
 
-We can distinguish between a *novice* and a *competent
-practitioner* for a given domain based on the complexity of their mental models.
+We can distinguish between a *novice* and a *competent practitioner* for a given domain based 
+on the complexity of their mental models.
 
 * A *novice* is someone who has not yet built a mental model of the domain.
   They therefore reason by analogy and guesswork, borrowing bits and pieces 
@@ -249,7 +249,7 @@ correct information. Broadly speaking, misconceptions fall into three categories
     to the learner’s social identity and are the hardest to change.
 
 
-HPC carpentry workshops are aimed at  *Novice* and **competent practitioners** of HPC
+HPC carpentry workshops are aimed at **Novice** and **competent practitioners** of HPC
 
 Among  *Novice*  learners there might be learners who are experts in their domain and very 
 competent in the program they are executing, but may not have used a HPC system before. 
