@@ -272,7 +272,7 @@ correct information. Broadly speaking, misconceptions fall into three categories
     to the learner’s social identity and are the hardest to change.
 
 
-HPC carpentry workshops are aimed at **Novice** and **competent practitioners** of HPC
+The current HPC carpentry workshop material are aimed at **Novice** of HPC
 
 Among  *Novice*  learners there might be learners who are experts in their domain and very 
 competent in the program they are executing, but may not have used a HPC system before. 
