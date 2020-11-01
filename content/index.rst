@@ -57,7 +57,18 @@ Intro
 Who is the course for?
 ----------------------
 
+You are interested in teaching CodeRefinery lessons, and would like a
+comprehensive kickstart to how CodeRefinery works either to join us,
+or teach its lessons with our or independently.
 
+You are a technical expert who is frustrated with the way you
+currently try to teach others who need to use your software or
+infrastructure.  You would like to adopt some of the best practices of
+designing and teaching interactive, hands-on workshops.
+
+You would like the most important practices from the Carpentries
+instructor training/lesson design philosophy, but can not take the
+time for the full Carpentries program.
 
 
 
