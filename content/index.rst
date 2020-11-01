@@ -33,7 +33,8 @@ well.
    :delim: ;
 
    xx min ; :doc:`00-preparation`
-   xx min ; :doc:`01-intro`
+   10 min ; :doc:`welcome`
+   15 min ; :doc:`about-coderefinery`
    xx min ; :doc:`02-teaching-philosophies`
    xx min ; :doc:`03-teaching-style`
    25 min ; :doc:`04-running-workshops`
@@ -49,7 +50,8 @@ well.
    :caption: The lesson
 
    00-preparation.md
-   01-intro.md
+   welcome.md
+   about-coderefinery.md
    02-teaching-philosophies.md
    03-teaching-style.md
    04-running-workshops.md
