@@ -109,10 +109,24 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
 
 ```
 
+```{challenge} Demo
+Before we let participants present to their groups, one of the instructors
+presents a 5-minute segment and we practice together giving feedback.
+
+The section we demo should require screen sharing and be of some follow-along
+task.
+
+If there is time, we present one demo on the day before, and one demo just
+before the group exercise.
+```
+
 ```{challenge} Exercise
 Choose a simple lesson topic and apply backwards lesson design.  You
 won't get all the way through, but come up with a logical
 progression of exercises.
+
+The section you pick should require **screen sharing** and be of some **follow-along
+task** (preferably using a shell).
 
 Some suggestions:
 - Regular expressions
