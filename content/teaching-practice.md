@@ -1,4 +1,4 @@
-# Practicing teaching and feedback
+# Teaching practice and feedback
 
 Goals of this exercise:
 
