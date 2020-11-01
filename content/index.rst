@@ -75,12 +75,18 @@ Who is the course for?
 
 You are interested in teaching CodeRefinery lessons, and would like a
 comprehensive kickstart to how CodeRefinery works either to join us,
-or teach its lessons with our or independently.
+or teach its lessons with us or independently.
 
-You are a technical expert who is frustrated with the way you
+You are a technical specialist who is frustrated with the way you
 currently try to teach others who need to use your software or
-infrastructure.  You would like to adopt some of the best practices of
+infrastructure.  You can't spend too much time to become a
+professional, but you know you need something more than what you've
+been doing.  Thus, you would like to adopt some of the best practices of
 designing and teaching interactive, hands-on workshops.
+
+You've been teaching alone, but would like to join a collaboration
+network for more co-teaching and to reduce the amount of duplication
+of effort.
 
 You would like the most important practices from the Carpentries
 instructor training/lesson design philosophy, but can not take the
