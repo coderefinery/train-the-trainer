@@ -36,7 +36,7 @@ keypoints:
  -  Assuming learners remember what they have already learned, or know the prerequisites. Or have stuff installed and configured.
  -  Not managing expectations: learners think that you will accomplish everything, and feel sad when you don't.
  -  Special issues when lessons delivered online (discussed during Workshop preparation and organization)
-````
+```
 
 
 # The Carpentries and CodeRefinery approaches to teaching
