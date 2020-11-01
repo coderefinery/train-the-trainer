@@ -1,15 +1,33 @@
----
-layout: episode
-title: "Lesson development"
-teaching: 15
-exercises: 45
-questions:
-  - "How can you improve and contribute to CodeRefinery lessons?"
-keypoints:
-  - "We have checklists for reviewing existing lessons and creating new lessons"
----
-
 # Collaborative lesson development
+
+This session focuses on **organizational** and **technical aspects**
+of collaborative lesson development.
+
+```{discussion}
+This session is about **collaborative** lesson development. What advantages do
+you see in developing lessons collaboratively and sharing lessons (making
+material accessible)?
+```
+
+## Creating new teaching material
+
+Creating new teaching material is a longer process, because you should
+go through the whole
+[backwards lesson design process](/lesson-design/)
+and get extensive comments.
+Still, don't feel afraid: nothing is perfect (or even good)
+the first time. In fact, **it may be an advantage to share an imperfect
+lesson with others early** to collect feedback and suggestions before the lesson
+"solidifies" too much. Draft it and collect feedback. The result will probably
+be better than working in isolation towards a "perfect" lesson.
+
+```{discussion}
+How can we share unfinished work/ideas?
+- Draft pull requests (GitHub) or WIP (work in progress) merge requests (GitLab).
+- Open an issue and discuss your idea before implementing it.
+```
+
+---
 
 ## Contributing to existing lessons
 
@@ -25,33 +43,14 @@ at issues and fixing easy things, or more thorough.
 Every so often (such as at this training), there is an extensive
 hackathon period of fully revising a lesson and making major improvements.
 
-We've made the [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md) checklist
+We've made the [lesson-review](https://coderefinery.github.io/manuals/lesson-review/) checklist
 to guide the review process.
 
-> ## Discussion
->
-> We now go to the
-> [lesson-review](https://github.com/coderefinery/manuals/blob/master/lesson-review.md)
-> checklist and discuss it, instead of duplicating things here.
-{: .discussion}
-
----
-
-## Creating new teaching material
-
-Creating new teaching material is a longer process, because you should
-go through the whole backwards lesson design process and get extensive
-comments.  Still, don't feel afraid: nothing is perfect (or even good)
-the first time. In fact, **it may be an advantage to share an imperfect
-lesson with others early** to collect feedback and suggestions before the lesson
-"solidifies" too much. Draft it and collect feedback. The result will probably
-be better than working in isolation towards a "perfect" lesson.
-
-We should use the backwards lesson design process, mentioned above.  This is
-extensively discussed in the chapter ["A lesson design process"](https://teachtogether.tech/#s:process)
-of the book "Teaching Tech Together", but we have a
-shorter summary for quicker reference and discussion in the CodeRefinery
-[lesson-design](https://github.com/coderefinery/manuals/blob/master/lesson-design.md) manual.
+```{discussion}
+We now go to the
+[lesson-review](https://coderefinery.github.io/manuals/lesson-review/)
+checklist and discuss it, instead of duplicating things here.
+```
 
 ---
 
@@ -65,6 +64,10 @@ shorter summary for quicker reference and discussion in the CodeRefinery
 - Avoid merging own pull requests.
 - For things still under construction, open a draft pull request to collect
   feedback and to signal to others what you are working on.
+
+
+### Jekyll-based material
+
 - `_episodes/` contains the markdown files of each episode, which get
   automatically assembled.  There is YAML metadata at the top of
   each.
@@ -81,3 +84,24 @@ repository [jekyll-common](https://github.com/coderefinery/jekyll-common) as
 Git submodule.  We do this to have one repository with common layout and
 styling and to make it relatively easy to update lesson repositories after
 layout or styling changes.
+
+
+### Sphinx-based material
+
+For some lessons, including this course, we use [sphinx-lesson](https://github.com/coderefinery/sphinx-lesson)
+as starting point. See also the [sphinx-lesson documentation](https://coderefinery.github.io/sphinx-lesson/).
+
+---
+
+## Recommendations and lessons learned
+
+- Convert feedback about lessons and suggestions for improvements into *issues*
+  so that these don't get lost.
+- Make your lesson citable: get a DOI.
+- Credit contributors (not only Git commits).
+- Instructor guide is essential for new instructors.
+- Lesson changes should be accompanied with instructor guide changes (it's like
+  a documentation for the lesson material).
+- Apply and validate backwards lesson design again and again.
+- Make it possible to try out new ideas (by making the lesson branch-able).
+- Before making larger changes, talk with somebody and discuss these changes.
