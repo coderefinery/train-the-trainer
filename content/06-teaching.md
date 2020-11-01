@@ -17,7 +17,8 @@ Goals of this exercise:
 ```{challenge} Exercise part 1 (group rooms, 50 minutes): First round of 5-minute teaching demos
 - We organize the breakout rooms to not only discuss one lesson/topic so that it is more interesting
   to listen and also probably we will all get more useful feedback.
-- Give each other **constructive verbal feedback** on the teaching demos.
+- Give each other **constructive verbal feedback** on the teaching demos, for example
+  using [this demo rubric](https://carpentries.github.io/instructor-training/demos_rubric/).
 - Write down questions (in the collaborative document) that you would like to
   discuss in the main room or interesting conclusions which you would like to
   share with others.
