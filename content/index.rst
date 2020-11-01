@@ -22,7 +22,7 @@ Intro
    25 min ; :doc:`04-running-workshops`
    20 min ; :doc:`lesson-design`
    30 min ; :doc:`lesson-development`
-   xx min ; :doc:`06-teaching`
+   100 min ; :doc:`06-teaching`
    xx min ; :doc:`07-future`
     5 min ; :doc:`coderefinery-workshops`
 
