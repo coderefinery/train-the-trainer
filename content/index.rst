@@ -64,6 +64,17 @@ Who is the course for?
 About the course
 ----------------
 
+This course gives an introduction to
+
+* Science and philosophy of teaching
+* How to teach interactive, hands-on lessons
+* How to design interactive, hands-on lessons
+* How CodeRefinery runs workshops
+* How CodeRefinery has scaled up and taken the best advantage of
+  online teaching.
+* CodeRefinery itself
+* The CodeRefinery collaboration network (and related networks in the
+  Nordics)
 
 
 
@@ -72,7 +83,20 @@ About the course
 See also
 --------
 
-
+* `CodeRefinery manuals <https://coderefinery.github.io/manuals/>`__
+* Our gradual pathway to instructor from the manuals: `helper intro
+  <https://coderefinery.github.io/manuals/helper-intro/>`__ and
+  `instructor intro
+  <https://coderefinery.github.io/manuals/instructor-intro/>`__.
+* `Carpentries instructor training
+  <https://carpentries.github.io/instructor-training/>`__ - more
+  intensive, but focused only on teaching.
+* `Carpentries curriculum development handbook
+  <https://cdh.carpentries.org/>`__
+* `Teaching Tech Together <https://teachtogether.tech/>`__, a book
+  about similar topics by someone involved in Carpentries.
+* `Carpentries general organizational documentation
+  <https://docs.carpentries.org/>`__
 
 
 
