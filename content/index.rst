@@ -30,17 +30,17 @@ well.
    :widths: auto
    :delim: ;
 
-   xx min ; :doc:`00-preparation`
+   60 min ; :doc:`00-preparation`
    10 min ; :doc:`welcome`
    15 min ; :doc:`about-coderefinery`
-   xx min ; :doc:`02-teaching-philosophies`
-   xx min ; :doc:`03-teaching-style`
+   30 min ; :doc:`02-teaching-philosophies`
+   20 min ; :doc:`03-teaching-style`
    25 min ; :doc:`04-running-workshops`
    20 min ; :doc:`lesson-design`
    30 min ; :doc:`lesson-development`
    100 min ; :doc:`06-teaching`
-   xx min ; :doc:`07-future`
-    5 min ; :doc:`coderefinery-workshops`
+   20 min ; :doc:`07-future`
+   5 min ; :doc:`coderefinery-workshops`
 
 
 .. toctree::
