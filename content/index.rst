@@ -38,7 +38,8 @@ well.
    25 min ; :doc:`04-running-workshops`
    20 min ; :doc:`lesson-design`
    30 min ; :doc:`lesson-development`
-   100 min ; :doc:`06-teaching`
+   30 min ; :doc:`teaching-strategies`
+   100 min ; :doc:`teaching-practice`
    20 min ; :doc:`07-future`
    5 min ; :doc:`coderefinery-workshops`
 
@@ -55,7 +56,8 @@ well.
    04-running-workshops.md
    lesson-design.md
    lesson-development.md
-   06-teaching.md
+   teaching-strategies
+   teaching-practice.md
    07-future.md
    coderefinery-workshops
 
