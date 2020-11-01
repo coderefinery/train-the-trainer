@@ -125,6 +125,9 @@ Choose a simple lesson topic and apply backwards lesson design.  You
 won't get all the way through, but come up with a logical
 progression of exercises.
 
+The section you pick should require **screen sharing** and be of some **follow-along
+task** (preferably using a shell).
+
 Some suggestions:
 - Regular expressions
 - Making papers in LaTeX
