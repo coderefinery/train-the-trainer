@@ -158,11 +158,13 @@ through distinct stages. In simplified form, the three stages of this model are:
     they don't yet know what the key ideas in the domain are or how they relate.
     One sign that someone is a novice is that their questions "aren't even wrong".
 
-     > Example: A *novice* learner in a Carpentries workshop might never have heard of the bash 
+    -  Example: A *novice* learner in a Carpentries workshop might never have heard of the bash 
        shell, and therefore may have no understanding of how it relates to their file system or
        other programs on their computer.
-     > Example HPC: A learner who has never executed a program on remote computer in headless mode
-     > Example HPC: A learner who has no understanding about using a queue system and having a 
+    
+    -  Example HPC: A learner who has never executed a program on remote computer in headless mode
+
+    -  Example HPC: A learner who has no understanding about using a queue system and having a 
        hard time why a program can not be run directly after login in. 
 
 *   *Competent practitioner*: someone who has enough understanding for everyday purposes. 
@@ -170,26 +172,30 @@ through distinct stages. In simplified form, the three stages of this model are:
     be entirely accurate, but it is sufficient for completing normal  tasks with normal 
     effort under normal circumstances.
 
-    > Example: A *competent practitioner* in a Carpentries workshop might have used the shell 
-      before and understand how to  move around directories and use individual programs, but
-      they might not understand how they can fit these programs together to build scripts
-      and automate large tasks.
-    > Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands
-      the concepts of best software practices and its importance. He/she clearly sees the
-      benefits of applying best software practices but he/she does not fully know yet how and 
-      what to use for their own projects.
-    > Example HPC: Knows how to establish a connection to a cluster and have submitted jobs.
-      But may not know how to request optimal amount of resources in a job and how to setup
-      parallel jobs
+    -  Example: A *competent practitioner* in a Carpentries workshop might have used the shell 
+       before and understand how to  move around directories and use individual programs, but
+       they might not understand how they can fit these programs together to build scripts
+       and automate large tasks.
+    
+    -  Example: A *competent practitioner* in a CodeRefinery workshop is someone that understands
+       the concepts of best software practices and its importance. He/she clearly sees the
+       benefits of applying best software practices but he/she does not fully know yet how and
+       what to use for their own projects.
+    
+    -  Example HPC: Knows how to establish a connection to a cluster and have submitted jobs.
+       But may not know how to request optimal amount of resources in a job and how to setup
+       parallel jobs
      
 
 *   *Expert*: someone who can easily handle situations that are out of the ordinary.
-    > Example: An *expert* in a Carpentries workshop may have experience writing and running shell
-      scripts and, when presented with a problem, immediately sees how these skills can be used 
-      to solve the problem.
-    > Example HPC: A learner who has a good understanding of the queue system, parallel processing
-      and understand how to interpret error reports when something goes wrong and knows how to 
-      get help. 
+
+    -  Example: An *expert* in a Carpentries workshop may have experience writing and running shell
+       scripts and, when presented with a problem, immediately sees how these skills can be used
+       to solve the problem.
+
+    -  Example HPC: A learner who has a good understanding of the queue system, parallel processing
+       and understand how to interpret error reports when something goes wrong and knows how to
+       get help. 
 
 
 ### Cognitive Development and Mental Models
@@ -202,8 +208,8 @@ regional economies and demographic patterns, as well as the relationships among 
 with their understanding of these relationships for other countries. In other words, their mental
 model of the United States is more complex compared with their mental model of other countries.
 
-We can distinguish between a *novice* and a *competent
-practitioner* for a given domain based on the complexity of their mental models.
+We can distinguish between a *novice* and a *competent practitioner* for a given domain based 
+on the complexity of their mental models.
 
 * A *novice* is someone who has not yet built a mental model of the domain.
   They therefore reason by analogy and guesswork, borrowing bits and pieces 
@@ -243,7 +249,7 @@ correct information. Broadly speaking, misconceptions fall into three categories
     to the learner’s social identity and are the hardest to change.
 
 
-HPC carpentry workshops are aimed at  *Novice* and **competent practitioners** of HPC
+HPC carpentry workshops are aimed at **Novice** and **competent practitioners** of HPC
 
 Among  *Novice*  learners there might be learners who are experts in their domain and very 
 competent in the program they are executing, but may not have used a HPC system before. 
