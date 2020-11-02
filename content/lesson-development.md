@@ -65,6 +65,7 @@ checklist and discuss it, instead of duplicating things here.
 - For things still under construction, open a draft pull request to collect
   feedback and to signal to others what you are working on.
 
+These are our tool choices and templates can be freely re-used:
 
 ### Jekyll-based material
 
