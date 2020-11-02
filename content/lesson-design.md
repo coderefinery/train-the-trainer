@@ -28,7 +28,7 @@ Discuss either in groups or via collaborative document:
 - Avoid the typical approach *"I want to show a number of things which I think are cool about
   tool X - how do I press these into 90 minutes?"*
 - Instead, you start defining your target audience by answering to questions such **What is the expected educational level of my audience?**, **Have they been already exposed to the technologies I am planning to teach?**, **What tools do they already use?**, **what are the main issues they are currently experiencing**. It is important to discuss these points with a group of colleagues, preferably from diverse backgrounds and institutions to reduce biases. Once you clarified your target audience, it is useful to create **learner personas**; that will help you during the development process by providing concrete examples of potential learners showing up at your workshops. For each **learner personas**, try to think of what is
-  **useful to them**: *"What do they **need** to [remember/understand/apply/analyze/evaluate/create](https://coderefinery.github.io/instructor-training/03-teaching-style/#using-bloom-s-taxonomy-to-write-effective-learning-objectives)?"*. Asking and answering to these questions will allow you to define the background knowledge (starting points) and goals (end points) of your learners. 
+  **useful to them**: *"What do they **need** to [remember/understand/apply/analyze/evaluate/create](https://coderefinery.github.io/instructor-training/03-teaching-style/#using-bloom-s-taxonomy-to-write-effective-learning-objectives)?"*. Asking and answering to these questions will allow you to define the background knowledge (starting points) and goals (end points) of your learners.
   Then, you create a sequence of exercises which test
   incrementally progressing tasks and acquisition of the new skills (from starting to end points).
 - Then, you write the minimum amount
@@ -57,7 +57,7 @@ manual](https://coderefinery.github.io/manuals/lesson-design/#backwards-lesson-d
 
 The goal of exercises is twofold:
 - instructors can assess the progress of learners.
-- learners put in practice the skills that you have included in your skills list. 
+- learners put in practice the skills that you have included in your skills list.
 
 When designing exercises, consider that some participants will get stuck
 and may want to re-join at a later exercise. In other words it is nice
@@ -82,10 +82,10 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
       - serial codes, multi-threaded codes, data parallelism; usually out-of-the-box tools.
       - they may have tried to "scale" their code (multiprocessing, threading, GPUs) with more or less success.
   - What are the main issues they are currently experiencing?
-      - they cannot solve their problems either because they would like to run the same code but with many different datasets or because their problem is larger (more computations/memory). 
+      - they cannot solve their problems either because they would like to run the same code but with many different datasets or because their problem is larger (more computations/memory).
       - most of the time they know their codes can run on HPC (from the documentation) but never really had the opportunity to try it out.
       - Very few will have their own codes where they may have tried different things to speed it up (threading, task parallelism) but have no clear strategy.
-      
+
 **Learner persona**
   - Sonya is a 1st year PhD student: she recently moved to Oslo and joined the Computational and Systems Neuroscience group. She will be using the [NEST](https://nest-simulator.readthedocs.io/) a simulator for spiking neural network model. She used NEST during her master thesis but on her small cluster: she never used an HPC and is really excited about it.
   - Robert is a field ecologist who obtained his PhD 6 months ago. He is now working on a new project with Climate scientists and as a consequence will need to run global climate models. He is not very familiar with command line even though he attended a Software Carpentry workshop and the idea to use HPC is a bit terrifying. He knows that he will get support from his team who has extensive experience with HPC but would like to become more independent and be able to run his own simulations (rather than copying existing cases).
@@ -97,7 +97,7 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
   - Understand the notion of login nodes.
   - Understand the need for a scheduler and how to use it appropriately
   - Understand why optimising I/Os is important on HPC and how to best use HPC filesystems
-  - Understand the need to parallelize (or use existing parallel) codes and in which cases HPCs is a must (when communications is required) 
+  - Understand the need to parallelize (or use existing parallel) codes and in which cases HPCs is a must (when communications is required)
   - Understand how to get your code ready to use on HPC (access to libraries, installation of your own libraries/software, etc.)
   - Understand that an HPC is an operational machine and is not meant for developing codes.
 
