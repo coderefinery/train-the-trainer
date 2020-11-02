@@ -6,7 +6,7 @@ of collaborative lesson development.
 ```{discussion}
 This session is about **collaborative** lesson development. What advantages do
 you see in developing lessons collaboratively and sharing lessons (making
-material accessible)?
+material accessible)?  What difficulties are there?
 ```
 
 ## Creating new teaching material
