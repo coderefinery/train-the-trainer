@@ -183,10 +183,10 @@ Disadvantage:
     follow too closely
   - With too few people, it can turn out to be very quiet.
 - We will learn more about HackMD questions tomorrow in
-  {doc}`04-running-workshops`.
+  {doc}`workshops-online`.
 
 ```{seealso}
-* {doc}`04-running-workshops`
+* {doc}`workshops-online`
 * [HackMD
 mechanics](https://coderefinery.github.io/manuals/hackmd-mechanics/)
 and [HackMD
@@ -207,7 +207,7 @@ apply these strategies to a five-minute example session.
 
 In this lesson:
 
-* {doc}`04-running-workshops`
+* {doc}`workshops-online`
 
 CodeRefinery manuals:
 

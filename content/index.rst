@@ -35,7 +35,7 @@ well.
    15 min ; :doc:`about-coderefinery`
    30 min ; :doc:`02-teaching-philosophies`
    20 min ; :doc:`03-teaching-style`
-   25 min ; :doc:`04-running-workshops`
+   25 min ; :doc:`workshops-online`
    20 min ; :doc:`lesson-design`
    30 min ; :doc:`lesson-development`
    30 min ; :doc:`teaching-strategies`
@@ -53,7 +53,7 @@ well.
    about-coderefinery.md
    02-teaching-philosophies.md
    03-teaching-style.md
-   04-running-workshops.md
+   workshops-online.md
    lesson-design.md
    lesson-development.md
    teaching-strategies
