@@ -171,6 +171,35 @@ Disadvantage:
 
 
 
+## Questions
+
+- Questions are great, and important for any practical and interactive
+  class
+- But questions in main room doesn't scale to very large rooms.
+- CodeRefinery strategy: HackMD for questions
+  - Chat is not good enough, you can't reply to old things
+  - HackMD allows threaded replies and follow up later
+  - You need some other helpers to watch HackMD and answer, and bring
+    things up to you.  And let you know how things are going.
+  - Learners can ask anonymously
+  - Learners don't have to worry about interrupting the flow.
+  - Disadvantage: can produce information overload, warn people to not
+    follow too closely
+  - With too few people, it can turn out to be very quiet.
+- We will learn more about HackMD questions tomorrow in
+  {doc}`04-running-workshops`.
+
+```{seealso}
+* {doc}`04-running-workshops`
+* [HackMD
+mechanics](https://coderefinery.github.io/manuals/hackmd-mechanics/)
+and [HackMD
+helpers](https://coderefinery.github.io/manuals/hackmd-helper/) on
+CodeRefinery manulas.
+```
+
+
+
 ## Teaching practice
 
 In {doc}`teaching-practice`, you will break into groups and try to
