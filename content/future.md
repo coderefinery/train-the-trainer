@@ -48,7 +48,7 @@ There are many ways to get involved: <https://coderefinery.org/get-involved/>
 - How to give helpers and contributors more credit and visibility
 - How to promote/engage new members
 - We don't know how we should be in relation with Carpentries
-- What are we? Non-profit? Organization? Selling services?
+- What are we? Non-profit? Institution collaboration network? Selling services?
 - Funding and sustainability (but we have ideas: collaboration network)
 - Scalability and marketing question: How to reach more people?
   ([Research Software Hour](https://researchsoftwarehour.github.io/), Twitch, streaming-only
