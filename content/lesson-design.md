@@ -101,28 +101,28 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
 
 **Learner persona**
   - Sonya is a 1st year PhD student: she recently moved to Oslo and joined the
-	Computational and Systems Neuroscience group. She will be using the
-	[NEST](https://nest-simulator.readthedocs.io/) a simulator for spiking
-	neural network model. She used NEST during her master thesis but on her
-	small cluster: she never used an HPC and is really excited about it.
+    Computational and Systems Neuroscience group. She will be using the
+    [NEST](https://nest-simulator.readthedocs.io/) a simulator for spiking
+    neural network model. She used NEST during her master thesis but on her
+    small cluster: she never used an HPC and is really excited about it.
   - Robert is a field ecologist who obtained his PhD 6 months ago. He is now
-	working on a new project with Climate scientists and as a consequence will
-	need to run global climate models. He is not very familiar with command
-	line even though he attended a Software Carpentry workshop and the idea to
-	use HPC is a bit terrifying. He knows that he will get support from his
-	team who has extensive experience with HPC but would like to become more
-	independent and be able to run his own simulations (rather than copying
-	existing cases).
+    working on a new project with Climate scientists and as a consequence will
+    need to run global climate models. He is not very familiar with command
+    line even though he attended a Software Carpentry workshop and the idea to
+    use HPC is a bit terrifying. He knows that he will get support from his
+    team who has extensive experience with HPC but would like to become more
+    independent and be able to run his own simulations (rather than copying
+    existing cases).
   - Jessica is a postdoc working on a project that investigates numerically the
-	complex dynamics arising at the tip of a fluid-driven rupture. Fluid
-	dynamics will be computed by a finite element method solving the
-	compressible Navier-Stokes equations on a moving mesh. She uses a code she
-	has developed during her PhD and that is based on existing libraries. She
-	has mostly ran it on a local desktop; her work during her PhD was very
-	limited due to the lack of computing resources and she is now very keen is
-	moving to HPC; she knows that it will requres some work, in particular to
-	parallelize her code. This HPC training will be her first experience with
-	HPC.
+    complex dynamics arising at the tip of a fluid-driven rupture. Fluid
+    dynamics will be computed by a finite element method solving the
+    compressible Navier-Stokes equations on a moving mesh. She uses a code she
+    has developed during her PhD and that is based on existing libraries. She
+    has mostly ran it on a local desktop; her work during her PhD was very
+    limited due to the lack of computing resources and she is now very keen is
+    moving to HPC; she knows that it will requres some work, in particular to
+    parallelize her code. This HPC training will be her first experience with
+    HPC.
 
 **Learning outcomes**
   - Understand the difference between HPCs and other local/remote machines
