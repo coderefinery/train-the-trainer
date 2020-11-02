@@ -130,7 +130,7 @@ and when the results are easily interpretable by the learner and instructor.
 CodeRefinery uses different instruments to get feedback from learners:
 
 - Surveys: we will discuss about CodeRefinery pre/post-surveys in the episode
-  [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/).
+  {doc}`workshops-online`.
 - Exercises: we have many exercises during CodeRefinery workshops and use polls too but not necessarily many multiple-choice questions. 
   This is something that we may change in the future but the initial reason was that we build on existing knowledge 
   (see below section on our target audience) and give recommendations for best software practices:
@@ -149,7 +149,7 @@ positive-vs-negative and content-vs-presentation rubric.
 
 > ## Give feedback on teaching (optional, 10 mn)
 > This exercise aims at learning to give feedback. It is optional as we have 
-> similar exercises when [practising teaching](https://coderefinery.github.io/instructor-training/08-teaching/).
+> similar exercises when {doc}`practising teaching <teaching-practice>`).
 > As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) and
 > give feedback on two axes: positive vs. negative and content vs. presentation. Have each person in
 > the class add one point to a 2x2 grid on a whiteboard or in the shared notes  (hackMD, etherpad, google doc) without duplicating any points.
