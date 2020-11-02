@@ -129,14 +129,14 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
   - Understand the notion of core, nodes, cluster, shared/distributed memory, etc.
   - Understand the notion of login nodes.
   - Understand the need for a scheduler and how to use it appropriately
-  - Understand why optimising I/Os is important on HPC and how to best use HPC filesystems
+  - Understand why optimising I/O is important on HPC and how to best use HPC filesystems
   - Understand the need to parallelize (or use existing parallel) codes and in which cases HPCs is a must (when communications is required)
   - Understand how to get your code ready to use on HPC (access to libraries, installation of your own libraries/software, etc.)
   - Understand that an HPC is an operational machine and is not meant for developing codes.
 
 **Exercises**
   - Get basic information such the number of CPUs, memory from your laptop and try to do the same on a HPC. Discuss outcomes.
-  - Experiment the usage of the different filesystems on your HPCs.
+  - Try to create files on the different filesystems on your HPC resource and access them.
   - Create different types of job scripts, submit and check outputs.
   - Make a concrete exaple to run a specific software on your HPC (something like GROMACS).
 ```
