@@ -34,7 +34,7 @@ There are many ways to get involved: <https://coderefinery.org/get-involved/>
 - Become a workshop helper
 - Become a CodeRefinery workshop instructor
 - Become a Carpentries workshop instructor
-- Contribute to teaching material: <https://github.com/coderefinery>
+- Contribute to teaching material: <https://github.com/coderefinery/>
 - Create your own teaching material in our constellation of teaching.
 - Reuse our material
 - Become an institutional partner as a training hub
