@@ -1,8 +1,5 @@
 # How to teach online
 
-```{questions}
-```
-
 ```{objectives}
 - Understand the benefits and disadvantage of online teaching,
   compared to in-person
