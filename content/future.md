@@ -66,3 +66,5 @@ We will set up a more formal process soon but for now you would need to:
 - Participate in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
 
 There are many ways to learn how to teach well.  We and carpentries provide one way and basic material, but we want to find a way for everyone to be a part of us.
+
+See also https://coderefinery.github.io/manuals/instructor-intro/#from-helper-to-more.
