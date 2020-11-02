@@ -30,8 +30,8 @@ Discuss either in groups or via collaborative document:
 - Instead, you start defining your target audience by answering to questions
   such **What is the expected educational level of my audience?**, **Have they
   been already exposed to the technologies I am planning to teach?**, **What
-  tools do they already use?**, **what are the main issues they are currently
-  experiencing**. It is important to discuss these points with a group of
+  tools do they already use?**, **What are the main issues they are currently
+  experiencing?**. It is important to discuss these points with a group of
   colleagues, preferably from diverse backgrounds and institutions to reduce
   biases. Once you clarified your target audience, it is useful to create
   **learner personas**; that will help you during the development process by
