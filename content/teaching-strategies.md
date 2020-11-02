@@ -9,16 +9,13 @@
 
 - Set up a good screen share
 
-- Be able to take full advantage of online teaching tools (recording,
-  streaming, etc - or does that go somewhere else?)
-
 - Understand the benefits and disadvantages of team teaching
 
 - Prepare for the teaching practice
 ```
 
 
-## Why teaching mechanics matters
+## Why teaching mechanics matter
 
 - When you teach, you are mainly showing a basic example for the
   learner to follow along
@@ -26,25 +23,27 @@
   to minimize the possible distractions and unnecessary weirdness.
 - A learner will often only one small screen, limiting the number of
   things that they can think about.
+- It's easy to save it until the end, and then you run out of time.
 
 
 
 ## Shell sharing
 
-```{discussion} What goes into a good shell share or demonstration?
+```{discussion} Discussion: what goes into a good shell share or demonstration?
 
-When you are following along with a demonstration, what things:
+When you are following along with a type-along demonstration, what
+things:
 
-- Make the presentation work well
-- Distract from the learners
+- Are useful to make it easy to follow along
+- Make it harder to follow along
 
 Answer in the collaborative notes
 ```
 
 When doing any demonstration, there are difficulties:
 
-- If one misses something, it can disappear from the screen and there
-  is no chance to catch up.
+- If one misses something, you can't rewind to see it - is there any
+  way to catch up?
 - The learner must get oriented with the whole picture, while
   instructor knows precisely where to focus.
 
@@ -54,22 +53,49 @@ A good **shell share** has some of the following properties:
 - Shell history, available separately from the main shell window
 - Closely matches the type-along instructions
 
-Find a good system and copy it:
-- We will look over [Lesson presentation
-hints](https://coderefinery.github.io/manuals/instructor-tech-setup/).
+We have a collection of shell sharing systems:
+- We will look over [lesson presentation
+hints](https://coderefinery.github.io/manuals/instructor-tech-setup/#terminal-history-window).
 - There are other things you can copy
 - Whatever you do, do *something*.
+
+```{discussion}
+The instructor will demonstrate several shell-sharing systems.  You
+will use this in the teaching practice.
+```
 
 
 
 ## Screen sharing
 
-```{discussion}
+`````{discussion}
 
 Look at the various [screen layouts in the CodeRefinery
 manuals](https://coderefinery.github.io/manuals/instructor-tech-setup/#screen-sharing).
-What are their main advantages and disadvantages?
+Use the HackMD to comment about what which are better or worse.
+
+````{output} HackMD prototype
+:class: dropdown
 ```
+- S1
+  - good:
+  - bad:
+- S2
+  - good:
+  - bad:
+- S3
+  - good:
+  - bad:
+- S4
+  - good:
+  - bad:
+- Student layouts:
+  - ...
+- Instructor layouts:
+  - ...
+```
+````
+`````
 
 - Many learners will have a smaller screen than you.
 - You should plan for learners with only one small screen.
@@ -96,6 +122,7 @@ Vertical sharing:
 In notes:
 - Compare and contrast the benefits of online teaching with
   in-person.
+- {advantage, disadvantage} × {content, presentation}
 ```
 
 
@@ -131,7 +158,7 @@ In notes:
 Advantages:
 - This reduces the pressure on each person (reduces demo effect)
 - You are less likely to forget things
-- It slows you down
+- It slows you down in teaching
 - It makes the lesson more interesting to listen to
 - One person can follow questions
 - Great for introducing new instructors (which half is easier to start
@@ -139,7 +166,7 @@ Advantages:
 
 Disadvantage:
 - Requires two people's time
-- Requires coordination when preparing
+- Requires coordination when preparing (slows you down in preparation)
 - Unfamiliar concept to most people
 
 
