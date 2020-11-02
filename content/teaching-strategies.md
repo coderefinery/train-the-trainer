@@ -23,7 +23,11 @@
   to minimize the possible distractions and unnecessary weirdness.
 - A learner will often only one small screen, limiting the number of
   things that they can think about.
-- It's easy to save it until the end, and then you run out of time.
+- You are must faster than learners (5 times possibly?)  You have to
+  do things to slow yourself down.
+- It's easy to save these mechanics until the end, and then you run
+  out of time.
+
 
 
 
@@ -115,21 +119,10 @@ Vertical sharing:
 
 
 
-## Online teaching tools
-
-```{discussion} Discussion: Online vs in-person
-
-In notes:
-- Compare and contrast the benefits of online teaching with
-  in-person.
-- {advantage, disadvantage} × {content, presentation}
-```
-
-
-
-
-
 ## Meta-talk
+
+Don't just teach, also make sure you guide the learners through the
+course.
 
 - You know what you just discussed, and what is coming next, but
   learners are often stuck thinking about now.
@@ -140,6 +133,9 @@ In notes:
   - What is the purpose of each exercise
   - Clearly state what someone should accomplish in each exercise and
     how long it will take - don't assume this is obvious.
+  - What is the point of each lesson.  How much should people expect
+    to get from it?  Should you follow everything, or are some things
+    advanced and optional?  Make that clear.
 
 
 
@@ -175,3 +171,24 @@ Disadvantage:
 
 In {doc}`teaching-practice`, you will break into groups and try to
 apply these strategies to a five-minute example session.
+
+
+
+## See also
+
+In this lesson:
+
+* {doc}`04-running-workshops`
+
+CodeRefinery manuals:
+
+* [Instructor tech
+  setup](https://coderefinery.github.io/manuals/instructor-tech-setup/)
+* [Lesson preparation
+  hints](https://coderefinery.github.io/manuals/presenting/) (more
+  focused on in-person)
+* [Instructor
+  introduction](https://coderefinery.github.io/manuals/presenting/) -
+  has a lot of tips for new instructors, but also more things about
+  the workshop.
+* [Workshop prep call](https://coderefinery.github.io/manuals/workshop-prep-call/)
