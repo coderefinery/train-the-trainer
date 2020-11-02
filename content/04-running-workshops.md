@@ -24,6 +24,17 @@ keypoints:
 # Running a workshop
 
 
+## Online teaching discussion
+
+```{discussion} Discussion: Online vs in-person
+
+In notes:
+- Compare and contrast the benefits of online teaching with
+  in-person.
+- {advantage, disadvantage} × {content, presentation}
+```
+
+
 ## Arranging the workshop
 
 > ## Manuals link
