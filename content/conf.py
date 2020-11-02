@@ -21,7 +21,7 @@ project = 'CodeRefinery instructor training'
 copyright = '2020, The contributors'
 author = 'The contributors'
 github_user = 'coderefinery'
-github_repo_name = ''  # auto-detected from dirname if blank
+github_repo_name = 'instructor-training'  # auto-detected from dirname if blank
 github_version = 'master/' # with trailing slash
 
 
