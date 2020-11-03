@@ -14,7 +14,7 @@
 - Should we collaborate on HPC Carpentry workshops?
 - Who will end up teaching HPC Carpentry? What do you need from us/somebody as support?
 
-### Nordic-RSE
+### Nordic-RSE (research software engineers)
 - [Nordic-RSE Get together online event, Nov 30 - Dec 2, 2020](https://nordic-rse.org/events/2020-online-get-together/)
 - [Conference May 2021](https://nordic-rse.org/conference/)
 - [Map](https://nordic-rse.org/map/)
