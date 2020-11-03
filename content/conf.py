@@ -22,7 +22,7 @@ copyright = '2020, The contributors'
 author = 'The contributors'
 github_user = 'coderefinery'
 github_repo_name = 'instructor-training'  # auto-detected from dirname if blank
-github_version = 'master/' # with trailing slash
+github_version = 'master/content/' # with trailing slash
 
 
 # -- General configuration ---------------------------------------------------
