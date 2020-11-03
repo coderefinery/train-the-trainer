@@ -17,7 +17,6 @@
 ### Nordic-RSE
 - [Nordic-RSE Get together online event, Nov 30 - Dec 2, 2020](https://nordic-rse.org/events/2020-online-get-together/)
 - [Conference May 2021](https://nordic-rse.org/conference/)
-- [Conference May 2021](https://nordic-rse.org/conference/)
 - [Map](https://nordic-rse.org/map/)
 - Bi-weekly meetings
 
