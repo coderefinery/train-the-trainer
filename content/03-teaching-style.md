@@ -84,7 +84,7 @@ In CodeRefinery, we follow The Carpentries teaching principles but in addition t
 we often use **group discussions** to put in context the concepts we are teaching.
 
 Applying these teaching principles are not sufficient and in addition we need to be able to check
-the effectivness of our methods.
+the effectiveness of our methods.
 
 ---
 
@@ -289,7 +289,7 @@ important to get accurate feedback, before and during the workshops to understan
 
 ---
 
-## CodeRefinery Curriculum and Reverse Instructional Design (with recomendations for HPC capentries)
+## CodeRefinery Curriculum and Reverse Instructional Design (with recommendations for HPC carpentries)
 
 When writing a CodeRefinery lesson, we take a “reverse” approach to instruction, 
 as described in Wiggins and McTighe’s 

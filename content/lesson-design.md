@@ -120,7 +120,7 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
     has developed** during her PhD and that is based on existing libraries. She
     has mostly ran it on a local desktop; her work during her PhD was very
     limited due to the lack of computing resources and she is now very keen is
-    **moving to HPC**; she knows that it will requres some work, in particular to
+    **moving to HPC**; she knows that it will requires some work, in particular to
     parallelize her code. This HPC training will be her first experience with
     HPC.
 
@@ -138,7 +138,7 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
   - Get basic information such the number of CPUs, memory from your laptop and try to do the same on a HPC. Discuss outcomes.
   - Try to create files on the different filesystems on your HPC resource and access them.
   - Create different types of job scripts, submit and check outputs.
-  - Make a concrete exaple to run a specific software on your HPC (something like GROMACS).
+  - Make a concrete example to run a specific software on your HPC (something like GROMACS).
 ```
 
 ```{challenge} Demo
