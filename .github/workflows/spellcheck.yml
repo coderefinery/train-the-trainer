@@ -1,10 +1,11 @@
-name: Spelling Erros Check
+name: Spelling Errors Check
 
 on: 
   push:
     branches:
       - 'master'
       - 'main'
+      - 'codespell-ci'
   pull_request:
 
 jobs:
