@@ -1,6 +1,11 @@
 name: Spelling Erros Check
 
-on: [push]
+on: 
+  push:
+    branches:
+      - 'master'
+      - 'main'
+  pull_request:
 
 jobs:
   build:
@@ -13,11 +18,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Install dependencies
-      run: curl -L https://git.io/misspell | bash
 
-    # This will return an exit code of 2, thus triggering a failed build
-    - name: Test spelling errors
-      shell: bash
-      run: |
-        bin/misspell -error *
+    - uses: codespell-project/actions-codespell@master
+      with:
+        ignore_words_list: abandonned,ackward

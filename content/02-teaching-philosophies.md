@@ -174,7 +174,7 @@ find the way that is best for each of us.
 > ## Juho Lehtonen
 > I'm gradually realising the different ways to get a hint whether the workshop
 > participants are still following or perhaps bored. I assume it's communicating
-> with the class, with excercises and simply by asking now and then. I also try
+> with the class, with exercises and simply by asking now and then. I also try
 > to remember to observe how people look like (puzzled, bored) while I teach, not
 > so obvious for me.
 >
