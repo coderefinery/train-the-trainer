@@ -1,12 +1,26 @@
-CodeRefinery instructor training
-================================
+Community teaching training
+===========================
 
-CodeRefinery instructor training is focused on helping competent practitioners
-and experts teach their knowledge to others.  It also serves a
-kickstart to teaching CodeRefinery lessons, but we also have a
-gradual pathway of learner → helper → advanced helper → instructor as
-well.
+In 2020, we got farther from our offices but closer to each other.  If
+you could adapt to the circumstances, a huge number of possibilities
+were opened - in particular with collaborative teaching.  In this
+training, you will learn how to use them.  Teaching from 2019 is
+almost obsolete - join us to learn more.
 
+Teaching is a profession, but also something that everyone needs to be
+able to do to some degree, since everyone has their own personal
+specialties they will either teach or mentor.
+
+Broadly, this covers:
+
+- **Tools of teaching**: how to make the most out of online (and
+  other) teaching
+- **Workshop organization, collaboratively**: our vision of teaching
+  together outside of our silos.
+- **Socio-technical factors**: social and technical barriers to
+  learning, why you need to care, and what you can do about them.
+- **Lesson development, collaboratively**: how to design lessons and
+  teaching materials so that they can be open and shared.
 
 .. prereq::
 
@@ -26,27 +40,35 @@ well.
      styles, too).
 
 
-.. csv-table::
-   :widths: auto
-   :delim: ;
+.. toctree::
+   :maxdepth: 1
+   :caption: Introduction
 
-   60 min ; :doc:`00-preparation`
-   10 min ; :doc:`welcome`
-   15 min ; :doc:`about-coderefinery`
-   30 min ; :doc:`02-teaching-philosophies`
-   20 min ; :doc:`03-teaching-style`
-   25 min ; :doc:`workshops-online`
-   20 min ; :doc:`lesson-design`
-   30 min ; :doc:`lesson-development`
-   30 min ; :doc:`teaching-strategies`
-   100 min ; :doc:`teaching-practice`
-   20 min ; :doc:`future`
-   5 min ; :doc:`coderefinery-workshops`
+.. toctree::
+   :maxdepth: 1
+   :caption: Teaching tools
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Workshop organization
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Sociol-technical considerations
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Lesson development
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Outro
+
 
 
 .. toctree::
    :maxdepth: 1
-   :caption: The lesson
+   :caption: Old TOC
 
    00-preparation.md
    welcome.md
@@ -90,30 +112,19 @@ You've been teaching alone, but would like to join a collaboration
 network for more co-teaching and to reduce the amount of duplication
 of effort.
 
-You would like the most important practices from the Carpentries
-instructor training/lesson design philosophy, but can not take the
-time for the full Carpentries program.
+You run a practical teaching program at your institution (for example
+as part of a research computing group) and would like to learn best
+practices for collaborative teaching, so that you aren't re-inventing
+the same thing over and over again.
 
-
-About the course
-----------------
-
-This course gives an introduction to
-
-* Science and philosophy of teaching
-* How to teach interactive, hands-on lessons
-* How to design interactive, hands-on lessons
-* How CodeRefinery runs workshops
-* How CodeRefinery has scaled up and taken the best advantage of
-  online teaching
-* CodeRefinery itself
-* The CodeRefinery collaboration network (and related networks in the
-  Nordics)
 
 
 See also
 --------
 
+* `The old "CodeRefinery instructor training" program
+  <https://coderefinery.github.io/instructor-training/>`__ - this is
+  replaced by what you are reading now.
 * `CodeRefinery manuals <https://coderefinery.github.io/manuals/>`__
 * Our gradual pathway to instructor from the manuals: `helper intro
   <https://coderefinery.github.io/manuals/helper-intro/>`__ and
