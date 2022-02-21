@@ -3,10 +3,11 @@
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
 project that has started in October 2016 and is
-funded until October 2021.
+funded until October 2025.
 
-We hope to keep this project active beyond 2021 by forming a support network
-and building a community of instructors and contributors.
+The funding from 2022-2025 is designed to keep this project active
+beyond 2025 by forming a support network and building a community of
+instructors and contributors.
 
 ---
 
