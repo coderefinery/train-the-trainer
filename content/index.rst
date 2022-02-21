@@ -44,7 +44,7 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Introduction
 
-   00-preparation.md
+   preparation
    welcome.md
    about-coderefinery.md
    the-future-of-teaching
@@ -92,7 +92,6 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Old TOC
 
-   00-preparation.md
    welcome.md
    about-coderefinery.md
    02-teaching-philosophies.md
@@ -111,6 +110,7 @@ Broadly, this covers:
    :caption: Reference
 
    quick-reference
+   other-resources
    guide
 
 
