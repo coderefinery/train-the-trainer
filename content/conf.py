@@ -37,6 +37,7 @@ extensions = [
     #'sphinx.ext.intersphinx',
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx_coderefinery_branding',
+    'sphinxcontrib.youtube',
 ]
 
 # Settings for myst_nb:
