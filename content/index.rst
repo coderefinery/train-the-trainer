@@ -47,6 +47,7 @@ Broadly, this covers:
    00-preparation.md
    welcome.md
    about-coderefinery.md
+   the-future-of-teaching
 
 
 .. toctree::
