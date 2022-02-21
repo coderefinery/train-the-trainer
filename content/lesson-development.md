@@ -19,7 +19,7 @@ material accessible)?  What difficulties are there?
   - Common styling implemented as Git submodule: [jekyll-common](https://github.com/coderefinery/jekyll-common)
   - Based on a past version of the [Carpentries lesson style](https://github.com/carpentries/styles/)
   - A new Carpentries lesson template is in the works
-- [Sphinx](ttps://www.sphinx-doc.org)-based
+- [Sphinx](https://www.sphinx-doc.org)-based
   - Example: this lesson
   - Starting point: [sphinx-lesson](https://github.com/coderefinery/sphinx-lesson)
   - [Documentation](https://coderefinery.github.io/sphinx-lesson/)
