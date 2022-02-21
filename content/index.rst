@@ -44,26 +44,47 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Introduction
 
+   00-preparation.md
+   welcome.md
+   about-coderefinery.md
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Teaching tools
+
+   teaching-strategies
+   teaching-practice.md
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Workshop organization
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Sociol-technical considerations
+   workshops-online.md
+
 
 .. toctree::
    :maxdepth: 1
-   :caption: Lesson development
+   :caption: Social-technical considerations
+
+   placeholder <02-teaching-philosophies.md>
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Lesson design and development
+
+   lesson-design.md
+   lesson-development.md
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Outro
 
+   future.md
+   coderefinery-workshops
 
 
 .. toctree::
