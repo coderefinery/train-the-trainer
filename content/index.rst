@@ -54,30 +54,38 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Teaching tools
 
-   teaching-strategies
-   teaching-practice.md
+   Teaching online <placeholder>
+   Co-teaching <placeholder>
+   Instructor tech setup <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Workshop organization
 
-   workshops-online.md
+   Why teaching together <placeholder>
+   Online workshops <placeholder>
+   Collaboration models <placeholder>
+   Workshop roles <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Social-technical considerations
 
-   placeholder <02-teaching-philosophies.md>
+   Why are computers hard? <placeholder>
+   Diversity and inclusion <placeholder>
+   Accessibility and usability <placeholder>
+   Mentoring <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Lesson design and development
 
-   lesson-design.md
-   lesson-development.md
+   Lesson development with version control <placeholder>
+   Backwards lesson design <placeholder>
+   Getting collaborators <placeholder>
 
 
 .. toctree::
@@ -90,7 +98,16 @@ Broadly, this covers:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Old TOC
+   :caption: Reference
+
+   quick-reference
+   other-resources
+   guide
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: [old contents]
 
    welcome.md
    about-coderefinery.md
@@ -104,14 +121,6 @@ Broadly, this covers:
    future.md
    coderefinery-workshops
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Reference
-
-   quick-reference
-   other-resources
-   guide
 
 
 .. _learner-personas:
