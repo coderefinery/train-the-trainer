@@ -42,12 +42,18 @@ Broadly, this covers:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Introduction
+   :caption: Preparation
 
    preparation
+   the-future-of-teaching
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Introduction
+
    welcome.md
    about-coderefinery.md
-   the-future-of-teaching
 
 
 .. toctree::
