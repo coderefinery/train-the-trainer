@@ -62,6 +62,8 @@ Broadly, this covers:
 
    Teaching online <placeholder>
    Co-teaching <placeholder>
+   HackMD <placeholder>
+   Teams <placeholder>
    Instructor tech setup <placeholder>
 
 
