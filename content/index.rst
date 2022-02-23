@@ -1,6 +1,14 @@
 Community teaching training
 ===========================
 
+.. admonition:: Under development (early 2022)
+
+   As of Spring 2022, this is the new version of our previous
+   `Instructor training
+   <https://coderefinery.github.io/instructor-training/>`__ and is
+   still under development - there is an outline but content is not
+   there yet.
+
 In 2020, we got farther from our offices but closer to each other.  If
 you could adapt to the circumstances, a huge number of possibilities
 were opened - in particular with collaborative teaching.  In this
