@@ -144,9 +144,10 @@ Broadly, this covers:
 Who is the course for?
 ----------------------
 
-You are interested in teaching CodeRefinery lessons, and would like a
-comprehensive kickstart to how CodeRefinery works either to join us,
-or teach its lessons with us or independently.
+You run a practical teaching program at your institution (for example
+as part of a research computing group) and would like to learn best
+practices for collaborative teaching, so that you aren't re-inventing
+the same thing over and over again.
 
 You are a technical specialist who is frustrated with the way you
 currently try to teach others who need to use your software or
@@ -159,10 +160,9 @@ You've been teaching alone, but would like to join a collaboration
 network for more co-teaching and to reduce the amount of duplication
 of effort.
 
-You run a practical teaching program at your institution (for example
-as part of a research computing group) and would like to learn best
-practices for collaborative teaching, so that you aren't re-inventing
-the same thing over and over again.
+You are interested in teaching CodeRefinery lessons, and would like a
+comprehensive kickstart to how CodeRefinery works either to join us,
+or teach its lessons with us or independently.
 
 
 
