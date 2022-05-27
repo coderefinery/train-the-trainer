@@ -71,10 +71,11 @@ Broadly, this covers:
    teaching-online
    team-teaching
    hackmd
-   Teams <placeholder>
+   teams
+   livestreaming
    Instructor tech setup <placeholder>
    Video recording <placeholder>
-   Video editing <placeholder>
+   video-editing
 
 
 .. toctree::
