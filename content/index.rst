@@ -68,11 +68,13 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Teaching tools
 
-   Teaching online <placeholder>
-   Co-teaching <placeholder>
-   HackMD <placeholder>
+   teaching-online
+   team-teaching
+   hackmd
    Teams <placeholder>
    Instructor tech setup <placeholder>
+   Video recording <placeholder>
+   Video editing <placeholder>
 
 
 .. toctree::
