@@ -8,7 +8,7 @@ is a full replacement for chat: perhaps it could be called "parallel
 
 **HackMD** itself is a web service for collaborative documents in
 Markdown.  This isn't special to HackMD, but we have used it for its
-scaleability, markdown support, and privacy in the "view" mode.
+scalability, markdown support, and privacy in the "view" mode.
 
 
 
