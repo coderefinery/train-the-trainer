@@ -2,7 +2,7 @@ HackMD
 ======
 
 The name "HackMD" doesn't do this concept justice, nor do the more
-commen descriptions of "shared notes" or "collaborative document".  It
+common descriptions of "shared notes" or "collaborative document".  It
 is a full replacement for chat: perhaps it could be called "parallel
 2D chat" ?
 
