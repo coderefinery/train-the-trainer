@@ -39,6 +39,7 @@ jobs:
           git branch
           git branch -a
           git remote -v
+          pip freeze
 
       # Build
       - uses: ammaraskar/sphinx-problem-matcher@master
