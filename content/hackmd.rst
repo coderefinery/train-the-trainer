@@ -3,8 +3,8 @@ HackMD
 
 The name "HackMD" doesn't do this concept justice, nor do the more
 common descriptions of "shared notes" or "collaborative document".  It
-is a full replacement for chat: perhaps it could be called "parallel
-2D chat" ?
+is a full replacement for chat: perhaps it could be called **random
+access chat** or **parallel 2D chat** ?
 
 **HackMD** itself is a web service for collaborative documents in
 Markdown.  This isn't special to HackMD, but we have used it for its
@@ -40,5 +40,10 @@ Exercise
 
 .. exercise::
 
-   Actively use HackMD during this course.  Observe how the
-   instructors integrate it during the course itself.
+   * Actively use HackMD during this course.
+   * Observe how the instructors integrate it during the course
+     itself, and can immediately respond to the questions.
+   * Observe how instructors occasionally mention and screenshare
+     HackMD to validate to the audience that it is being watched.
+   * Keep HackMD open.  Can you balance it and watching.  Does it
+     increase or decrease engagement?

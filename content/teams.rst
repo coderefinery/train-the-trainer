@@ -25,8 +25,8 @@ Basic concepts
 - **Exercise leaders** (aka helpers) assigned per team
 - Teams stay together during the whole workshop.
 - Learners can sign up either alone...
-- ... or they can sign up with **a pre-made team: people who know
-  each.
+- ... or they can sign up with **a pre-made team**: people who know
+  each.  "bring your own breakout room":
 
   - When two people in a work group learn a skill, uptake within the
     group is often much higher.  Thus, we strongly encourage pre-made

@@ -60,8 +60,8 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Introduction
 
-   welcome.md
-   about-coderefinery.md
+   welcome
+   about-coderefinery
 
 
 .. toctree::
@@ -73,8 +73,8 @@ Broadly, this covers:
    hackmd
    teams
    livestreaming
-   Instructor tech setup <placeholder>
-   Video recording <placeholder>
+   instructor-tech-setup
+   video-recording
    video-editing
 
 

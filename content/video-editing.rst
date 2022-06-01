@@ -11,7 +11,12 @@ CodeRefinery can do this.
 
 Primary articles
 ----------------
+* Video editor role description:
+  https://coderefinery.github.io/manuals/video-editor/
+* ffmpeg-editlist: the primary tool: https://github.com/coderefinery/ffmpeg-editlist
 
+  * Example YAML editlists:
+    https://github.com/AaltoSciComp/video-editlists-asc
 
 
 Summary
@@ -28,3 +33,47 @@ Summary
 * Livestreaming is important here: by separating the instruction from
   the audience audio/video, there is no privacy risk in the raw
   recording.  They could be released or shared unprocessed.
+
+* Our overall priorities
+
+  1) No learner (or anyone not staff) video, audio, names, etc. are
+     present in the recordings.
+  2) Good descriptions.
+  3) Removing breaks and other dead time.
+  4) Splitting videos into useful chunks (e.g. per-episode), perhaps
+     equal with the next one:
+  5) Good Table of Contents information so learners can jump to the
+     right spots (this also helps with “good description”.)
+
+
+
+Exercises
+---------
+
+.. exercise:: Use ffmpeg-editlist to edit this sample video
+
+   Prerequisites: be able to install ffmpeg-editlist.  This is simple
+   in a Python virtual environment, but if not the only dependency is
+   ``PyYAML``.  ``ffmpeg`` must be installed on your computer outside
+   of Python.
+
+   * Download the sample video: link TODO
+   * Copy a sample editlist YAML
+   * Modify it to cut out the dead time at the beginning and the end.
+   * Run ffmpeg-editlist
+
+.. solution::
+
+   .. code:: yaml
+
+      TODO
+
+   .. code:: shell-session
+
+      ffmpeg-editlist editlist.yaml ...TODO
+
+
+See also
+--------
+
+(none yet)
