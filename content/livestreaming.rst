@@ -21,6 +21,8 @@ Teaching via livestreaming allows us to:
 Primary articles
 ----------------
 
+* CodeRefinery MOOC strategy:
+  https://coderefinery.github.io/manuals/coderefinery-mooc/
 * Intro to livestream teaching:
   https://coderefinery.github.io/manuals/livestream-teaching/
 * Broadcaster role description (hints on the actual tools):
@@ -37,6 +39,10 @@ Summary
   * In-person
   * Online meeting
   * Online livestream
+
+.. figure:: https://coderefinery.github.io/manuals/_images/mooc-diagram.png
+
+   The general presence and information flow within the MOOC strategy.
 
 * CodeRefinery livestreams via Twitch, but Twitch is not an essential
   aspect.
