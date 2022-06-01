@@ -1,53 +1,71 @@
 # Pre-workshop preparation
 
+These things will help you get the most out of this workshop, by
+giving you a broad overview at the beginning that you might only get
+later on in the lesson.
 
-
-## Remark
-
-Don't worry if there are sections you do not understand. The main objective
-is to have a baseline for our discussions, not to check your ability to teach
-the lesson during the instructor training workshop.
-
-
-
-## Pre-workshop survey
-
-- Complete our pre-workshop survey. Your responses will help us to
-  customize the workshop appropriately.
+Don't worry if you don't have time to do everything here.  The most
+important ones are listed first.
 
 
 
-## Read "The science of learning"
+## Pre-workshop survey (5 min)
 
-- Read this short paper [The Science of
-  Learning](https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf)
-  which provides a brief overview of some key evidence-based results
-  in teaching. This paper is also used by [The
-  Carpentries](https://carpentries.org/) for their Instructor Training
-  workshops.
+Complete our pre-workshop survey (if you have been sent one). Your
+responses will help us to customize the workshop appropriately.
 
 
 
-## Lesson overview and teaching philosophy videos
+## Read "How to help someone use a computer" (5 min)
 
-- Watch at least two of recorded ca. 5-minute
-  [lightning overview videos](https://www.youtube.com/playlist?list=PLpLblYHCzJABvt25VY0wNIgbaQfTQaND7)
-  introducing various
-  [CodeRefinery lessons](https://coderefinery.org/lessons/)
-  to get an overview of what we teach in CodeRefinery and also to be
-  able to practice CodeRefinery teaching on day 2 of this course.
+[How to help someone use a computer, by Phil
+Agre](https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/)
 
-- Watch at least two of recorded
-  ["this is my training philosophy" videos](https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX)
-  which we will
-  discuss in group discussions and which will form the basis for a group
-  exercise.
+Summary:
+
+* Most of our teaching challenge is helping people to overcome bad
+  user interface design.
 
 
 
-## Go over a CodeRefinery lesson
+## Browse a CodeRefinery lesson
 
-- Please go through a [CodeRefinery lesson](https://coderefinery.org/lessons/) and find one
-  topic/episode/aspect that you find interesting. During a group session you
-  will be asked to present a topic/episode/aspect of your choice for 5
-  minutes and get constructive feedback.
+Please take 5 minutes and go through a [CodeRefinery
+lesson](https://coderefinery.org/lessons/) and understand the general
+layout.  We would recommend
+[git-intro](https://coderefinery.github.io/git-intro/) if you don't
+have a preference.
+
+Summary:
+
+* Lessons are online and in free-flowing text form.
+
+
+
+## Watch "The future of teaching" (NN min content ontly, MM min with Q&A)
+
+The "The Future of Teaching" talk is a summary of many things in this
+course.  You could watch it as a preparation (or if you are reading on
+your own, as a summary).  This is low priority, since we will cover
+most of these things in the course itself.
+
+`Watch it on YouTube <https://www.youtube.com/watch?v=S9Jor12Cxdc>`__
+, `read it <https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg>`__ to save time,
+or click below to embed YouTube.
+
+.. youtube:: S9Jor12Cxdc
+   :privacy_mode: true
+
+
+
+## Read "The science of learning" (NN min)
+
+Read this short paper [The Science of
+Learning](https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf)
+which provides a brief overview of some key evidence-based results in
+teaching. This paper is also used by [The
+Carpentries](https://carpentries.org/) for their Instructor Training
+workshops.
+
+
+
