@@ -83,8 +83,8 @@ Broadly, this covers:
    :caption: Workshop organization
 
    why-teach-together
-   Online workshops <placeholder>
-   Collaboration models <placeholder>
+   Online workshops (placeholder) <placeholder>
+   Collaboration models (placeholder) <placeholder>
    workshop-roles
 
 
@@ -92,19 +92,19 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Social-technical considerations
 
-   Why are computers hard? <placeholder>
-   Diversity and inclusion <placeholder>
-   Accessibility and usability <placeholder>
-   Mentoring <placeholder>
+   Why are computers hard? (placeholder) <placeholder>
+   Diversity and inclusion (placeholder) <placeholder>
+   Accessibility and usability (placeholder) <placeholder>
+   Mentoring (placeholder) <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Lesson design and development
 
-   Lesson development with version control <placeholder>
-   Backwards lesson design <placeholder>
-   Getting collaborators <placeholder>
+   lessons-with-version-control
+   Backwards lesson design (placeholder) <placeholder>
+   Getting collaborators (placeholder) <placeholder>
 
 
 .. toctree::
