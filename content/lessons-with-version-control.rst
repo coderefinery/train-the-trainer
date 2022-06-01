@@ -46,7 +46,41 @@ some form of version control is used.
 
 
 
+Exercises
+---------
+
+.. exercise:: Contribute to a sample lesson.
+
+   * Open this very lesson in GitHub (it uses the same format as
+     typical CodeRefinery lessons):
+     https://github.com/coderefinery/community-teaching/
+
+   * Browse the files and understand the general idea.  Check out at
+     least these and use HackMD to record their functions:
+
+     * .github/workflows/sphinx.yml
+     * content/conf.py
+     * content/index.rst
+     * content/lessons-with-version-control.rst
+
+   * If you want, try to make a pull request to this lesson.  It
+     doesn't have to have any significant content, it can be a pure
+     test pull request.
+
+.. exercise:: (advanced) Create your own lesson
+
+   Use the sphinx-lesson-template
+   (https://github.com/coderefinery/sphinx-lesson-template) to create
+   a new lesson of your choice.  Alternatively, use the current
+   Carpentries system, or some other system of your choice.
+
+
+
 See also
 --------
+
+* CodeRefinery git-intro: https://coderefinery.github.io/git-intro/
+* CodeRefinery git-collaborative:
+  https://coderefinery.github.io/git-collaborative/
 
 TODO: actual reference

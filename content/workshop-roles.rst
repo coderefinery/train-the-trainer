@@ -48,9 +48,9 @@ sub-roles".
 * Under both registration coordinator and instructor coordinator
 
   * **HackMD manager:** always watches and formats HackMD and
-    publishes it same-day.  "Eyes on the ground" and quickly
-    communicates important information to instructor and registration
-    coordinators.
+    publishes it same-day.  "Eyes on the ground" via HackMD and chat
+    and quickly communicates important information to instructor and
+    registration coordinators.
 
 * **Learner:** attends and learns
 * **Exercise leader:** serves as a guide to the team, receives small
