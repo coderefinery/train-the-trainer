@@ -82,10 +82,10 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Workshop organization
 
-   Why teaching together <placeholder>
+   why-teach-together
    Online workshops <placeholder>
    Collaboration models <placeholder>
-   Workshop roles <placeholder>
+   workshop-roles
 
 
 .. toctree::
