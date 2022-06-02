@@ -60,8 +60,8 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Introduction
 
-   welcome.md
-   about-coderefinery.md
+   welcome
+   about-coderefinery
 
 
 .. toctree::
@@ -71,39 +71,40 @@ Broadly, this covers:
    teaching-online
    team-teaching
    hackmd
-   Teams <placeholder>
-   Instructor tech setup <placeholder>
-   Video recording <placeholder>
-   Video editing <placeholder>
+   teams
+   livestreaming
+   instructor-tech-setup
+   video-recording
+   video-editing
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Workshop organization
 
-   Why teaching together <placeholder>
-   Online workshops <placeholder>
-   Collaboration models <placeholder>
-   Workshop roles <placeholder>
+   why-teach-together
+   Online workshops (placeholder) <placeholder>
+   Collaboration models (placeholder) <placeholder>
+   workshop-roles
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Social-technical considerations
 
-   Why are computers hard? <placeholder>
-   Diversity and inclusion <placeholder>
-   Accessibility and usability <placeholder>
-   Mentoring <placeholder>
+   Why are computers hard? (placeholder) <placeholder>
+   Diversity and inclusion (placeholder) <placeholder>
+   Accessibility and usability (placeholder) <placeholder>
+   Mentoring (placeholder) <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Lesson design and development
 
-   Lesson development with version control <placeholder>
-   Backwards lesson design <placeholder>
-   Getting collaborators <placeholder>
+   lessons-with-version-control
+   backwards-lesson-design
+   Getting collaborators (placeholder) <placeholder>
 
 
 .. toctree::
