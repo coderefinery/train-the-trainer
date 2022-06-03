@@ -53,7 +53,6 @@ Broadly, this covers:
    :caption: Preparation
 
    preparation
-   the-future-of-teaching
 
 
 .. toctree::
