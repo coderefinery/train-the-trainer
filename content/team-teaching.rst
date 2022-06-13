@@ -1,5 +1,5 @@
 Team teaching
--------------
+=============
 
 One of the most significant improvemest of our teaching has been the
 concept of **co-teaching**.
