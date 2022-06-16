@@ -4,8 +4,8 @@
 
 ### What is CodeRefinery?
 - Teaching tools and best practices for version control and reproducibility in modern research software development
-- Over 30 workshops to almost 1000 participants
-- Typical workshop: <https://coderefinery.github.io/2020-10-20-online/#schedule>
+- Over 40 workshops to over 1400 participants
+- Typical workshop: <https://coderefinery.github.io/2022-03-22-workshop/#schedule>
 - Lessons: <https://coderefinery.org/lessons/>
 - Carpentries membership
 
@@ -16,9 +16,8 @@
 
 ### Nordic-RSE (research software engineers)
 - [Nordic-RSE Get together online event, Nov 30 - Dec 2, 2020](https://nordic-rse.org/events/2020-online-get-together/)
-- [Conference May 2021](https://nordic-rse.org/conference/)
-- [Map](https://nordic-rse.org/map/)
-- Bi-weekly meetings
+- [Nordic-RSE online unconference 2022](https://nordic-rse.org/events/2022-online-unconference/)
+- [Bi-weekly meetings](https://nordic-rse.org/events/meeting/#community-discussions-biweekly)
 
 ### Collaborative workshops
 - Example: <https://aaltoscicomp.github.io/python-for-scicomp/>
