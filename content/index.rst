@@ -112,7 +112,6 @@ Broadly, this covers:
    :caption: Outro
 
    future
-   coderefinery-workshops
 
 
 .. toctree::
@@ -129,8 +128,6 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: [old contents]
 
-   welcome.md
-   about-coderefinery.md
    02-teaching-philosophies.md
    03-teaching-style.md
    workshops-online.md
