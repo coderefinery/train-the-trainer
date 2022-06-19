@@ -59,6 +59,23 @@ Challenges and disadvantages
 
 
 
+Exercises
+---------
+
+.. exercise:: What similarities do we have?
+
+   Using HackMD, make two lists:
+
+   * What courses do you think your local community would benefit
+     from, which you don't currently have?  `+1` other people's items
+     which are also relevant to you.
+
+   * Which courses are you thinking of preparing for your local
+     community?  `+1` other people's items which you would be
+     interested in helping out with.
+
+
+
 See also
 --------
 

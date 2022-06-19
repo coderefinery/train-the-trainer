@@ -54,6 +54,15 @@ Model: Python for Scientific Computing
 
 
 
+Exercises
+---------
+
+.. exercise:: List successes and failures in collaborative teaching
+
+   Using HackMD, list some successes and failures in collaborative
+   teaching that you have experienced.
+
+
 See also
 --------
 
