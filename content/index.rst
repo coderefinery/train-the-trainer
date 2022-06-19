@@ -85,7 +85,6 @@ Broadly, this covers:
    why-teach-together
    collaboration-models
    workshop-roles
-..
    Online workshops (placeholder) <placeholder>
 
 
@@ -95,8 +94,6 @@ Broadly, this covers:
 
    why-are-computers-hard
    diversity-and-inclusion
-
-..
    Accessibility and usability (placeholder) <placeholder>
    Mentoring (placeholder) <placeholder>
 
