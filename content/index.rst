@@ -93,8 +93,10 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Social-technical considerations
 
-   Why are computers hard? (placeholder) <placeholder>
-   Diversity and inclusion (placeholder) <placeholder>
+   why-are-computers-hard
+   diversity-and-inclusion
+
+..
    Accessibility and usability (placeholder) <placeholder>
    Mentoring (placeholder) <placeholder>
 
