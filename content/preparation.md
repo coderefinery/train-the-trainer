@@ -32,7 +32,8 @@ Summary:
 
 Please take 5 minutes and go through a [CodeRefinery
 lesson](https://coderefinery.org/lessons/) and understand the general
-layout.  We would recommend
+layout.  Don't go in-depth to any of the material (unless you want,
+obviously).  We would recommend
 [git-intro](https://coderefinery.github.io/git-intro/) if you don't
 have a preference.
 
