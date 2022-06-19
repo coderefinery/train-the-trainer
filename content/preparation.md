@@ -50,7 +50,7 @@ your own, as a summary).  This is low priority, since we will cover
 most of these things in the course itself.
 
 [Watch it on YouTube](https://www.youtube.com/watch?v=S9Jor12Cxdc)
-, [read it](https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg>) to save time,
+, [read it](https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg) to save time,
 or click below to embed YouTube.
 
 .. youtube:: S9Jor12Cxdc
