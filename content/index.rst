@@ -122,6 +122,7 @@ Broadly, this covers:
    quick-reference
    other-resources
    guide
+   exercise-list
 
 
 .. toctree::
