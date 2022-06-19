@@ -123,20 +123,20 @@ Broadly, this covers:
    guide
    exercises
 
+..
+   .. toctree::
+      :maxdepth: 1
+      :caption: [old contents]
 
-.. toctree::
-   :maxdepth: 1
-   :caption: [old contents]
-
-   02-teaching-philosophies.md
-   03-teaching-style.md
-   workshops-online.md
-   lesson-design.md
-   lesson-development.md
-   teaching-strategies
-   teaching-practice.md
-   future.md
-   coderefinery-workshops
+      02-teaching-philosophies.md
+      03-teaching-style.md
+      workshops-online.md
+      lesson-design.md
+      lesson-development.md
+      teaching-strategies
+      teaching-practice.md
+      future.md
+      coderefinery-workshops
 
 
 
