@@ -103,7 +103,7 @@ Broadly, this covers:
    :caption: Lesson design and development
 
    lessons-with-version-control
-   backwards-lesson-design
+   backward-lesson-design
    Getting collaborators (placeholder) <placeholder>
 
 
