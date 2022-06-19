@@ -114,7 +114,7 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Outro
 
-   future.md
+   future
    coderefinery-workshops
 
 

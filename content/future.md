@@ -1,45 +1,17 @@
 # Future
 
-## Activities
 
-### What is CodeRefinery?
-- Teaching tools and best practices for version control and reproducibility in modern research software development
+
+## Reminder: What is CodeRefinery?
+- Teaching tools and best practices for version control and
+  reproducibility in modern research software development
+- Open, collaborative project looking for more members
 - Over 40 workshops to over 1400 participants
 - Typical workshop: <https://coderefinery.github.io/2022-03-22-workshop/#schedule>
 - Lessons: <https://coderefinery.org/lessons/>
 - Carpentries membership
 
-### This workshop
-- Was it a useful format and useful content? Please give us feedback.
-- Should we collaborate on HPC Carpentry workshops?
-- Who will end up teaching HPC Carpentry? What do you need from us/somebody as support?
 
-### Nordic-RSE (research software engineers)
-- [Nordic-RSE Get together online event, Nov 30 - Dec 2, 2020](https://nordic-rse.org/events/2020-online-get-together/)
-- [Nordic-RSE online unconference 2022](https://nordic-rse.org/events/2022-online-unconference/)
-- [Bi-weekly meetings](https://nordic-rse.org/events/meeting/#community-discussions-biweekly)
-
-### Collaborative workshops
-- Example: <https://aaltoscicomp.github.io/python-for-scicomp/>
-- Ideas for more of this?
-
----
-
-## How to get involved in CodeRefinery
-
-There are many ways to get involved: <https://coderefinery.org/get-involved/>
-
-- Become a workshop helper
-- Become a CodeRefinery workshop instructor
-- Become a Carpentries workshop instructor
-- Contribute to teaching material: <https://github.com/coderefinery/>
-- Create your own teaching material in our constellation of teaching.
-- Reuse our material
-- Become an institutional partner as a training hub
-- Participate in our chat and shape the project and lessons with us: <https://coderefinery.zulipchat.com>
-- Start a study group
-
----
 
 ## Biggest open problems
 
@@ -48,21 +20,29 @@ There are many ways to get involved: <https://coderefinery.org/get-involved/>
 - We don't know how we should be in relation with Carpentries
 - What are we? Non-profit? Institution collaboration network? Selling services?
 - Funding and sustainability (but we have ideas: collaboration network)
-- Scalability and marketing question: How to reach more people?
-  ([Research Software Hour](https://researchsoftwarehour.github.io/), Twitch, streaming-only
-  workshops, recording, post-processing videos)
 
----
 
-## Certification for CodeRefinery instructors
 
-We will set up a more formal process soon but for now you would need to:
+## Action points for you
 
-- Attend an instructor training (this workshop).
-- Contribute to a lesson, either via pull request, issue, discussion, or as a helper.
-- Share a short teaching demo or teach a lesson at a CodeRefinery workshop where you will get some feedback on your teaching.
-- Participate in a call with other instructors and helpers either preparing a workshop or during a workshop debrief session.
+Individual level:
 
-There are many ways to learn how to teach well.  We and carpentries provide one way and basic material, but we want to find a way for everyone to be a part of us.
+- Join [CodeRefinery
+  chat](https://coderefinery.github.io/manuals/chat/)
+- Lead a team, Co-teach, help organize a workshop
+- Generally provide marketing and outreach
 
-See also https://coderefinery.github.io/manuals/instructor-intro/#from-helper-to-more.
+Organization level:
+- Have your organization join CodeRefinery
+- Officially co-advertise and co-teach workshops
+- Run local breakout rooms.
+
+
+
+## Aside: Nordic-RSE (research software engineers)
+- [Nordic-RSE Get together online event, Nov 30 - Dec 2, 2020](https://nordic-rse.org/events/2020-online-get-together/)
+- [Nordic-RSE online unconference 2022](https://nordic-rse.org/events/2022-online-unconference/)
+- [Bi-weekly meetings](https://nordic-rse.org/events/meeting/#community-discussions-biweekly)
+
+
+
