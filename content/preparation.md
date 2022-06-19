@@ -28,7 +28,7 @@ Summary:
 
 
 
-## Browse a CodeRefinery lesson
+## Browse a CodeRefinery lesson (5 min)
 
 Please take 5 minutes and go through a [CodeRefinery
 lesson](https://coderefinery.org/lessons/) and understand the general
@@ -43,7 +43,7 @@ Summary:
 
 
 
-## Watch "The future of teaching" (NN min content ontly, MM min with Q&A)
+## (optional) Watch "The future of teaching" (35 min content only, 45 min with Q&A, or 15 min reading)
 
 The "The Future of Teaching" talk is a summary of many things in this
 course.  You could watch it as a preparation (or if you are reading on
@@ -59,7 +59,7 @@ or click below to embed YouTube.
 
 
 
-## Read "The science of learning" (NN min)
+## (optional) Read "The science of learning" (20 min)
 
 Read this short paper [The Science of
 Learning](https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf)
