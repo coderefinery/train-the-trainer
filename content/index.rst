@@ -82,9 +82,10 @@ Broadly, this covers:
    :caption: Workshop organization
 
    why-teach-together
-   Online workshops (placeholder) <placeholder>
-   Collaboration models (placeholder) <placeholder>
+   collaboration-models
    workshop-roles
+..
+   Online workshops (placeholder) <placeholder>
 
 
 .. toctree::
