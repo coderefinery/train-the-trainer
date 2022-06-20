@@ -3,7 +3,7 @@
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
 project that has started in October 2016 and is
-funded until October 2025.
+funded until February 2025.
 
 The funding from 2022-2025 is designed to keep this project active
 beyond 2025 by forming a support network and building a community of
@@ -43,7 +43,7 @@ We collect feedback and survey results to measure our impact.
 The survey questions aim to establish what impact CodeRefinery workshops have on how past participants develop
 research software.
 
-<img src="https://coderefinery.org/assets/img/heatmap_yesno.png" alt="post-workshop survey results" width="100%">
+[Pre- and post-workshop survey results](https://coderefinery.org/about/impact/)
 
 - Overall quality of research software has improved: more reusable, modular, reproducible and documented.
 - Collaboration on research software development has become easier
@@ -60,25 +60,9 @@ also open up funding opportunities.
 
 ---
 
-## Carpentries membership
-
-Since November 2018, [NeIC](https://neic.no) is a [Platinum Partner](https://carpentries.org/members/) to [The Carpentries](https://carpentries.org/).
-
-The Carpentries is an international project that comprises Software Carpentry and Data Carpentry, communities of instructors, trainers, maintainers, helpers,
-and supporters who share a mission to teach foundational computational and data science skills to researchers.
-The Carpentries teach foundational coding and data science skills to researchers worldwide and as such are complementary to CodeRefinery.
-
-Within the membership the Nordic research community has access to:
-
-- 6 Carpentries workshops in the Nordics each year. The workshop fee is covered by the membership, only the instructor travel is on the host institution.
-- 15 seats in the Carpentries instructor training each year. Carpentries train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skill transfer within their local communities in the Nordics.
-
----
-
 ## Target audience
 
 ### Carpentries audience
-
 
 The Carpentries aims to teach computational **competence** to learners through an applied approach, avoiding the theoretical and general in favor of the practical and specific.
 
