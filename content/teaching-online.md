@@ -11,3 +11,17 @@ Using HackMD, brainstorm advantages and disadvantages of online and
 in-person teaching.  For each disadvantage of each, think of ways to compensate.
 
 ```
+
+* We won't elaborate more here right now - most of the rest of the
+  course somehow relates to online teaching!
+* We will see many techniques which compensate for some of the
+  disadvantages in the section **tools of teaching**.
+* **Workshop organization** will discuss new collaborative
+  opportunities with online teaching.
+
+
+
+## See also
+
+* The rest of this course
+* CodeRefinery manuals: https://coderefinery.github.io/manuals/
