@@ -13,7 +13,7 @@ Community teaching training
 In 2020, we got farther from our offices but closer to each other.  If
 you could adapt to the circumstances, a huge number of possibilities
 were opened - in particular with collaborative teaching.  In this
-training, you will learn how to use them.  Teaching from 2019 is
+training, you will learn how we use them.  Teaching from 2019 is
 almost obsolete - join us to learn more.
 
 Teaching is a profession, but also something that everyone needs to be
@@ -23,7 +23,7 @@ specialties they will either teach or mentor.
 Broadly, this covers:
 
 - **Tools of teaching**: how to make the most out of online (and
-  other) teaching
+  other) teaching.
 - **Workshop organization, collaboratively**: our vision of teaching
   together outside of our silos.
 - **Socio-technical factors**: social and technical barriers to
