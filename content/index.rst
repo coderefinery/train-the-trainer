@@ -1,13 +1,14 @@
 Community teaching training
 ===========================
 
-.. admonition:: Under development (early 2022)
+.. admonition:: Under development (mid 2022)
 
-   As of Spring 2022, this is the new version of our previous
-   `Instructor training
-   <https://coderefinery.github.io/instructor-training/>`__ and is
-   still under development - there is an outline but content is not
-   there yet.
+   As of mid-2022, a first attempt at this material is being completed
+   for our summer workshop.  The material will continue to be improved
+   before a longer training session in the autumn.
+
+   This material is the new version of our previous `Instructor
+   training <https://coderefinery.github.io/instructor-training/>`__.
 
 In 2020, we got farther from our offices but closer to each other.  If
 you could adapt to the circumstances, a huge number of possibilities
@@ -82,17 +83,17 @@ Broadly, this covers:
    :caption: Workshop organization
 
    why-teach-together
-   Online workshops (placeholder) <placeholder>
-   Collaboration models (placeholder) <placeholder>
+   collaboration-models
    workshop-roles
+   Online workshops (placeholder) <placeholder>
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Social-technical considerations
 
-   Why are computers hard? (placeholder) <placeholder>
-   Diversity and inclusion (placeholder) <placeholder>
+   why-are-computers-hard
+   diversity-and-inclusion
    Accessibility and usability (placeholder) <placeholder>
    Mentoring (placeholder) <placeholder>
 
@@ -102,7 +103,7 @@ Broadly, this covers:
    :caption: Lesson design and development
 
    lessons-with-version-control
-   backwards-lesson-design
+   backward-lesson-design
    Getting collaborators (placeholder) <placeholder>
 
 
@@ -110,8 +111,7 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Outro
 
-   future.md
-   coderefinery-workshops
+   future
 
 
 .. toctree::
@@ -121,23 +121,22 @@ Broadly, this covers:
    quick-reference
    other-resources
    guide
+   exercises
 
+..
+   .. toctree::
+      :maxdepth: 1
+      :caption: [old contents]
 
-.. toctree::
-   :maxdepth: 1
-   :caption: [old contents]
-
-   welcome.md
-   about-coderefinery.md
-   02-teaching-philosophies.md
-   03-teaching-style.md
-   workshops-online.md
-   lesson-design.md
-   lesson-development.md
-   teaching-strategies
-   teaching-practice.md
-   future.md
-   coderefinery-workshops
+      02-teaching-philosophies.md
+      03-teaching-style.md
+      workshops-online.md
+      lesson-design.md
+      lesson-development.md
+      teaching-strategies
+      teaching-practice.md
+      future.md
+      coderefinery-workshops
 
 
 

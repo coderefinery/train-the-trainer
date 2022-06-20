@@ -58,6 +58,17 @@ sub-roles".
 
 
 
+Exercises
+---------
+
+.. exercise:: How many people teach in your workshops?
+
+   * Using HackMD, make a histogram of how many (instructors +
+     organizers) you typically have in your workshops.
+   * List some of the common roles you have used.
+
+
+
 See also
 --------
 
