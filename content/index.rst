@@ -85,7 +85,6 @@ Broadly, this covers:
    why-teach-together
    collaboration-models
    workshop-roles
-   Online workshops (placeholder) <placeholder>
 
 
 .. toctree::
