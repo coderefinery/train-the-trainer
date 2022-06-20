@@ -62,8 +62,8 @@ Exercises
    Using HackMD, list some successes and failures in collaborative
    teaching that you have experienced.
 
+.. exercise:: Recommendations for co-teaching
 
-See also
---------
-
-(none yet)
+   If you have experience with co-teaching, what approach/technique/trick
+   can you recommend a colleague who would like to try co-teaching for the
+   first time?

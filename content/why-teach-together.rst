@@ -31,7 +31,9 @@ Advantages
 * Many of the previously presented teaching strategies work best in
   large courses - this makes the course more engaging than a small
   event with minimal interaction.
-
+* More engaging for the audience.
+* Easier on-boarding of new instructors (less "scary" to teach a new course
+  with other instructors).
 
 
 Challenges and disadvantages
