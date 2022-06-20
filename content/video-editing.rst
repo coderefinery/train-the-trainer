@@ -45,6 +45,11 @@ Summary
   5) Good Table of Contents information so learners can jump to the
      right spots (this also helps with “good description”.)
 
+* `ffmpeg-editlist
+  <https://github.com/coderefinery/ffmpeg-editlist>`__ allows us to
+  define an edit in a text file (crowdsourceable on Github), and then
+  generate videos very quickly.
+
 
 
 Exercises
@@ -52,25 +57,44 @@ Exercises
 
 .. exercise:: Use ffmpeg-editlist to edit this sample video
 
-   Prerequisites: be able to install ffmpeg-editlist.  This is simple
-   in a Python virtual environment, but if not the only dependency is
-   ``PyYAML``.  ``ffmpeg`` must be installed on your computer outside
-   of Python.
+   Prerequisites: ``ffmpeg`` must be installed on your computer
+   outside of Python.  Be able to install ffmpeg-editlist.  This is
+   simple in a Python virtual environment, but if not the only
+   dependency is ``PyYAML``.
 
-   * Download the sample video: link TODO
+   * Download the sample video: http://users.aalto.fi/~darstr1/sample-video-to-edit.raw.mkv
    * Copy a sample editlist YAML
    * Modify it to cut out the dead time at the beginning and the end.
-   * Run ffmpeg-editlist
+   * If desired, add a description and table-of-contents to the
+     video.
+   * Run ffmpeg-editlist to produce a processed video.
 
 .. solution::
 
    .. code:: yaml
 
-      TODO
+      - input: sample-video-to-edit.raw.mkv
+      - output: sample-video-to-edit.processed.mkv
+	description: >
+        time:
+          - start: 00:16
+	  - 00:15: demonstration
+	  - 00:20: discussion
+          - stop: 00:25
 
    .. code:: shell-session
 
-      ffmpeg-editlist editlist.yaml ...TODO
+      $ ffmpeg-editlist editlist.yaml video/ -o video/
+
+   Along with the processed video, we get
+   ``sample-video-to-edit.processed.mkv.info.txt``::
+
+     This is a sample video
+
+
+     00:00 Demonstration
+     00:04 Discussion
+
 
 
 See also
