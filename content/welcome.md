@@ -11,8 +11,8 @@
 ## Goals for this workshop
 
 ```{discussion} Goals for this instructor training
-- **Inspire teachers**, and staff who have to teach indirectly as part of
-  their job, to use best practices for the modern world, especially
+- **Inspire teachers and staff who have to teach indirectly as part of
+  their job**: use best practices for the modern world, especially
   for online teaching.
 - **Promote collaboration in teaching**: less going alone.
 - **Promote CodeRefinery sustainability**: form a network that can
@@ -43,7 +43,7 @@
 
 ## Tools for this workshop
 
-We always start workshops with these:
+We often start workshops with these:
 - [HackMD mechanics and controls](https://coderefinery.github.io/manuals/hackmd-mechanics/)
 - [Zoom mechanics and controls](https://coderefinery.github.io/manuals/zoom-mechanics/)
 
