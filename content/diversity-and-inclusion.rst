@@ -9,6 +9,19 @@ computing.
 
 
 
+Primary articles
+----------------
+
+* Several sections from the Carpentries Instructor Training:
+  `Motivation and demotivation
+  <https://carpentries.github.io/instructor-training/08-motivation/index.html>`__
+  and `Equity, inclusion, accessibility
+  <https://carpentries.github.io/instructor-training/09-eia/index.html>`__.
+* Exercise leaders `During the workshop
+  <https://coderefinery.github.io/manuals/exercise-leaders/#during-the-workshop>`__
+
+
+
 Support services vs diversity
 -----------------------------
 
@@ -31,10 +44,10 @@ Summary:
 Exercises
 ---------
 
-.. exercise::
+.. exercise:: Reflect on how your job can be defined to promote diversity.
 
-   How can your job promote diversity and equality among people of
-   different backgrounds?
+   What are some (possibly surprising) ways that your job promote
+   diversity and equality among people of different backgrounds?
 
 
 
