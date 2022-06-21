@@ -17,7 +17,13 @@ platform seems to be the only reasonable option.
 Primary articles
 ----------------
 
-(none yet)
+* Many CodeRefinery lessons are relevant for learning the tools we
+  use: `git-intro <https://coderefinery.github.io/git-intro/>`__,
+  `git-collaborative
+  <https://coderefinery.github.io/git-collaborative/>`__, and
+  `documentation <https://coderefinery.github.io/documentation/>`__.
+* `sphinx-lesson <https://coderefinery.github.io/sphinx-lesson/>`__ is
+  our current theme
 
 
 
@@ -43,6 +49,27 @@ themes, and promotes local reuse.
 
 The exact static website generator used isn't so important, as long as
 some form of version control is used.
+
+A open-source license is the last bit to consider: without a license,
+it can't be reused and passed on, and there is little incentive for
+someone to contribute.
+
+
+
+CodeRefinery lesson tools
+-------------------------
+
+CodeRefinery uses the following tools to actually make its lessons
+right now:
+
+* `Sphinx <https://www.sphinx-doc.org/>`__ (a common documentation
+  generator, widely used in open source projects in general)
+* The `sphinx-lesson
+  <https://github.com/coderefinery/sphinx-lesson>`__, which is more of
+  a small collection of other extensions than new development itself.
+* Github for hosting lessons: https://github.com/coderefinery/
+* Github Actions and Github Pages for building and web serving our
+  lessons.
 
 
 
@@ -82,5 +109,5 @@ See also
 * CodeRefinery git-intro: https://coderefinery.github.io/git-intro/
 * CodeRefinery git-collaborative:
   https://coderefinery.github.io/git-collaborative/
-
-TODO: actual reference
+* Carpentries lesson development:
+  https://docs.carpentries.org/topic_folders/lesson_development/index.html
