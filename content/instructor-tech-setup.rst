@@ -14,12 +14,24 @@ Primary articles
   https://coderefinery.github.io/manuals/instructor-tech-online/
 
 
+
 Summary
 -------
 
 * Share a portrait screen, not your full screen.
 * Beautiful or at least functional command line display.
 * Get set up a few days in advance and get an outside reviewer of it!
+* Compare the following two screenshares:
+
+  FullHD:
+
+  .. image:: https://coderefinery.github.io/manuals/_images/screenshare-fullhd.png
+     :width: 80%
+
+  Portrait, latest proposed best practices:
+
+  .. image:: https://coderefinery.github.io/manuals/_images/s10-kickstart-prompt-log.png
+     :width: 45%
 
 
 
@@ -41,3 +53,5 @@ Exercises
 
 See also
 --------
+
+(none yet)
