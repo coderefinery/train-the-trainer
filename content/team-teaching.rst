@@ -30,14 +30,35 @@ Benefits
 --------
 
 * The course seems very interactive, much more so than expecting
-  students to speak up.
+  students to speak up.  The co-teacher can take on the "voice of the
+  audience".
 * Quicker preparation time since co-teachers can rely on each other in
   unexpected situations.
 * One co-teacher can be effectively learning at the same time and thus
-  acting as the "voice of the audience".
-* Great way to onboard new instructors
+  acting as the "voice of the audience" in another way.
+* Great way to onboard new instructors - extensive training and
+  preparation no longer needed.
 * More active minds means better able to watch and react to other
   feedback, such as HackMD or chat.
+* Less workload - one person does not have to prepare perfectly, any
+  uncertainty can usually be quickly answered by the other.
+
+
+
+Strategies
+----------
+
+In reality, these strategies are mixed and matched even within a
+lesson, and there are many things between these:
+
+* One person gives lectures, one does the typing during demos.
+* "Interview": One primarily doing the "teaching", one guiding by
+  asking questions - either as an interviewer or as a virtual learner.
+
+Things that don't work (are not team teaching):
+
+* Dividing up a lesson into parts, each person gives different parts
+  independently.
 
 
 
@@ -53,3 +74,9 @@ Exercises
 
    The challenge is not just to give the lesson, but to prepare the
    lesson quickly and rely on each other to give a good lesson anyway.
+
+
+See also
+--------
+
+(none yet)
