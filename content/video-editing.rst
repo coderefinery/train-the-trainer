@@ -76,7 +76,7 @@ Exercises
       - input: sample-video-to-edit.raw.mkv
       - output: sample-video-to-edit.processed.mkv
 	description: >
-        time:
+        editlist:
           - start: 00:16
 	  - 00:15: demonstration
 	  - 00:20: discussion
