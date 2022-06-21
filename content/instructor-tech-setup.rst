@@ -21,7 +21,9 @@ Summary
 * Share a portrait screen, not your full screen.
 * Beautiful or at least functional command line display.
 * Get set up a few days in advance and get an outside reviewer of it!
-* Compare the following two screenshares:
+* Compare the following two screenshares (you can find many more in
+  `the coderefinery manuals
+  <https://coderefinery.github.io/manuals/instructor-tech-online/>`__:
 
   FullHD:
 
@@ -40,7 +42,7 @@ Exercises
 
 .. exercise:: Evaluate screen captures
 
-   Evaluate screenshots within the "instructor tech setup, online"
+   Evaluate screenshots within the `instructor tech setup, online <https://coderefinery.github.io/manuals/instructor-tech-online/>`__
    lesson.  Use HackMD to make a list of good and bad things about
    each.
 
