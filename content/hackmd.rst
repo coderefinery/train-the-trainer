@@ -35,6 +35,23 @@ Advantages
 
 
 
+Disadvantages
+-------------
+
+* *Overwhelming* flood of information
+
+  * But you wanted more interaction, right?
+  * Co-teaching helps here, one person can focus on watching.
+  * Students must be warned to be deliberate about where they focus
+    their attention (different learners have different interests).
+
+* It is another tool to use
+
+  * Not required for basic learners, learners can begin using when
+    they are comfortable.
+
+
+
 Exercise
 --------
 
