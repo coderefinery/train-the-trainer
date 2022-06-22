@@ -10,7 +10,10 @@ You *need* to spend some time getting set up before you teach.
 Primary articles
 ----------------
 
-* Online setup:
+* Generally making your screen look good (prompt, remove distractions,
+  command line history, etc):
+  https://coderefinery.github.io/manuals/instructor-tech-setup/
+* Online setup for screenshares:
   https://coderefinery.github.io/manuals/instructor-tech-online/
 
 
@@ -42,14 +45,15 @@ Exercises
 
 .. exercise:: Evaluate screen captures
 
-   Evaluate screenshots within the `instructor tech setup, online <https://coderefinery.github.io/manuals/instructor-tech-online/>`__
-   lesson.  Use HackMD to make a list of good and bad things about
-   each.
+   Evaluate screenshots within the `instructor tech setup, online
+   <https://coderefinery.github.io/manuals/instructor-tech-online/>`__
+   lesson.  Use HackMD to make a list of the trade-offs of each one.
+   Which do you prefer?  Which are useful in each situation?
 
 .. exercise:: Set up your own environment.
 
-   Set up your screen to teach something.  Show the class, and let's
-   compare.
+   Set up your screen to teach something.  Get some feedback from
+   another learner.  We will discuss among the class.
 
 
 
