@@ -21,10 +21,11 @@ Summary
 * Basic principle: privacy is more important than any other factor.
   If we can't guarantee privacy, we can't release videos at all.
 
-  - Disclaimers such as "if you don't want to appear in a recording,
-    leave your video off and don't say anything", since a) accidents
-    happen especially when coming back from breakout rooms.  b) it
-    creates an incentive to not interact  or participate in the course.
+  - Some events add a disclaimers such as "if you don't want to appear
+    in a recording, leave your video off and don't say anything".  We
+    would prefer not to do this, since a) we *know* accidents happen
+    (especially when coming back from breakout rooms) b) it creates an
+    incentive to not interact by voice/video.
 
 * Livestreaming is important here: by separating the instruction from
   the audience audio/video, there is no privacy risk in the raw
