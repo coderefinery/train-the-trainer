@@ -9,13 +9,6 @@ important ones are listed first.
 
 
 
-## Pre-workshop survey (5 min)
-
-Complete our pre-workshop survey (if you have been sent one). Your
-responses will help us to customize the workshop appropriately.
-
-
-
 ## Read "How to help someone use a computer" (5 min)
 
 [How to help someone use a computer, by Phil
