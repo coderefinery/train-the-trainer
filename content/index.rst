@@ -31,23 +31,6 @@ Broadly, this covers:
 - **Lesson development, collaboratively**: how to design lessons and
   teaching materials so that they can be open and shared.
 
-.. prereq::
-
-   This course has no strict prerequisites, but
-
-   * It is helpful if you have attended CodeRefinery or Carpentries
-     workshops, which teach in an interactive and hands-on way.
-
-   * We assume you already have competence in the technical tools you
-     want to teach.  Many of our concepts use examples from
-     CodeRefinery lessons, such as version control or other software
-     development tools.
-
-   * While not a prerequisite for this course, version control (git)
-     is necessary to contribute to lessons development the way we show
-     here (but the lesson design concepts are applicable to other
-     styles, too).
-
 
 .. toctree::
    :maxdepth: 1
