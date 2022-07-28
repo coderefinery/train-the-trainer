@@ -163,26 +163,3 @@ of effort.
 You are interested in teaching CodeRefinery lessons, and would like a
 comprehensive kickstart to how CodeRefinery works either to join us,
 or teach its lessons with us or independently.
-
-
-
-See also
---------
-
-* `The old "CodeRefinery instructor training" program
-  <https://coderefinery.github.io/instructor-training/>`__ - this is
-  replaced by what you are reading now.
-* `CodeRefinery manuals <https://coderefinery.github.io/manuals/>`__
-* Our gradual pathway to instructor from the manuals: `helper intro
-  <https://coderefinery.github.io/manuals/helper-intro/>`__ and
-  `instructor intro
-  <https://coderefinery.github.io/manuals/instructor-intro/>`__.
-* `Carpentries instructor training
-  <https://carpentries.github.io/instructor-training/>`__ - more
-  intensive, but focused only on teaching.
-* `Carpentries curriculum development handbook
-  <https://cdh.carpentries.org/>`__
-* `Teaching Tech Together <https://teachtogether.tech/>`__, a book
-  about similar topics by someone involved in Carpentries.
-* `Carpentries general organizational documentation
-  <https://docs.carpentries.org/>`__
