@@ -66,16 +66,31 @@ Broadly, this covers:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Teaching tools
+   :caption: Livestreaming opportunities and challenges
 
    teaching-online
-   team-teaching
-   hackmd
-   teams
    livestreaming
+   team-teaching
+   teams
+   distributed
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Roles and tools
+
+   workshop-roles
    instructor-tech-setup
+   hackmd
    video-recording
    video-editing
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How you can get involved
+
+   future
 
 
 .. toctree::
@@ -84,7 +99,6 @@ Broadly, this covers:
 
    why-teach-together
    collaboration-models
-   workshop-roles
 
 
 .. toctree::
@@ -104,13 +118,6 @@ Broadly, this covers:
    lessons-with-version-control
    backward-lesson-design
    Getting collaborators (placeholder) <placeholder>
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Outro
-
-   future
 
 
 .. toctree::

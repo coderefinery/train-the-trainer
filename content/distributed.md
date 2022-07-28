@@ -1,0 +1,3 @@
+# Distributed workshop organization
+
+Under construction ...
