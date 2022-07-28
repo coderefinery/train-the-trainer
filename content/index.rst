@@ -117,7 +117,6 @@ Broadly, this covers:
    :maxdepth: 1
    :caption: Reference
 
-   quick-reference
    other-resources
    guide
    exercises
