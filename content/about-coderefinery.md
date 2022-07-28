@@ -1,4 +1,4 @@
-# About the CodeRefinery project
+# About the CodeRefinery project and CodeRefinery workshops
 
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
