@@ -1,5 +1,13 @@
-# Future
+# Possibilities for Carpentries
 
+Text to be written/reorganized ...
+
+
+# CodeRefinery's plans
+
+Text to be written/reorganized ...
+
+(old text below)
 
 
 ## Reminder: What is CodeRefinery?
