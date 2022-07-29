@@ -42,7 +42,7 @@ Motivation:
 Adjust your prompt to make commands easy to read.  What looks good for your own
 work (many terminals, small font, extensions, shortcuts, color scheme) is
 usually not the best for other people watching you.  Adjust your setup for your
-audience.
+audience. Remove distractions.
 
 You *need* to spend some time getting set up before you teach. 10 minutes
 before the session starts is typically too late. Get set up a **few days in
