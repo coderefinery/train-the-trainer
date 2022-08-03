@@ -45,7 +45,8 @@
 
 We often start workshops with these:
 - [HackMD mechanics and controls](https://coderefinery.github.io/manuals/hackmd-mechanics/)
-- [Zoom mechanics and controls](https://coderefinery.github.io/manuals/zoom-mechanics/)
+- [Zoom mechanics and controls](https://coderefinery.github.io/manuals/zoom-mechanics/) (but this got less relevant
+  since starting teaching via live-streaming where participants only interact via HackMD)
 
 ---
 
