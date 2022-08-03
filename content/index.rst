@@ -128,7 +128,6 @@ This course can be relevant for different learner personas:
 
    lessons-with-version-control
    backward-lesson-design
-   Getting collaborators (placeholder) <placeholder>
 
 
 .. toctree::
@@ -147,8 +146,6 @@ This course can be relevant for different learner personas:
    02-teaching-philosophies.md
    03-teaching-style.md
    workshops-online.md
-   lesson-design.md
-   lesson-development.md
    teaching-strategies
    teaching-practice.md
    coderefinery-workshops

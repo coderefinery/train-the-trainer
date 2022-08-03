@@ -1,28 +1,17 @@
-# Lesson design
+(backwards-lesson-design)=
 
-```{prereq} Recommended reading
-- CodeRefinery [lesson-design](https://coderefinery.github.io/manuals/lesson-design/) manual
-- [The Carpentries Curriculum Development Handbook](https://cdh.carpentries.org)
-- [Teaching Tech Together](http://teachtogether.tech/)
-- Our [summary](https://coderefinery.github.io/manuals/teaching-tech-together/) of "Teaching Tech Together"
-- [Ten quick tips for creating an effective lesson](https://doi.org/10.1371/journal.pcbi.1006915)
-```
+# Backwards lesson design
 
----
+It happens far too often: someone creates a lesson, but they think
+about what is interesting to them, not what is important for the
+learners.  In fact, an earlier version of this instructor training had
+this very issue.
 
-## How do you design?
+It is critical to backwards design almost any piece of communication,
+especially something as widespread as teaching.
 
-```{discussion}
-Discuss either in groups or via collaborative document:
-- How do you start when you design a new lesson/presentation?
-- Has your approach changed over the years? If yes, how?
-```
 
----
-
-## Backwards lesson design
-
-### The approach
+## The approach
 
 - You don't think about how to do something and try to explain it.
 - Avoid the typical approach *"I want to show a number of things which I think are cool about
@@ -47,42 +36,39 @@ Discuss either in groups or via collaborative document:
 - Then, you write the minimum amount
   of material to teach the gap between exercises.
 
-### The process
 
-For the whole process, see [our
-manual](https://coderefinery.github.io/manuals/lesson-design/#backwards-lesson-design)
-(instructor discusses these points briefly).
+## The process
 
+As described in ["A lesson design process" in the book Teaching Tech
+Together](https://teachtogether.tech/en/index.html#s:process):
 
-### Why is it good to have a process?:
+1. Understand your learners
 
-- Having a semi-rigid design process can **save time** to start drafting.
-- It allows collaborative development of teaching material.
-- It will probably **increase quality and relevance** of lessons for learners.
-- **We aren't perfect yet.**  CodeRefinery is still striving to get
-  better at this, and we are more ad-hoc than you might think.
-  A number of our lessons have not been designed this way but we are now improving
-  these lessons with the backwards lesson design in mind.
+2. Brainstorm rough ideas
 
+3. Create an summative assessment to know your overall goal
 
-### Designing exercises
+   * CodeRefinery translation: think of the things your learners will
+     be able to do at the end of the lesson.  Think simple!  The
+     simpler the better.  Think of three main points they will
+     remember, of which maybe one or two are a concrete skill.
 
+4. Create formative assessments to go from the starting point to this.
 
-The goal of exercises is twofold:
-- instructors can assess the progress of learners.
-- learners put in practice the skills that you have included in your skills list.
+   * CodeRefinery translation: think of some engaging and active
+     exercises.
 
-When designing exercises, consider that some participants will get stuck
-and may want to re-join at a later exercise. In other words it is nice
-if exercises build up on each other but not at the cost that if participants
-get stuck at exercise 2, they will not be able to do exercises 3 to N.
+5. Order the formative assessments (exercises) into a reasonable order.
 
----
+6. Write just enough material to get from one assessment (exercise) to
+   another.
 
-## Practice backwards design
+7. Describe the course so the learners know if it is relevant to them.
 
+We can't emphasize enough how important it is to **know your end
+state and keep it simple**.
 
-```{discussion} The goal here is to discuss and provide examples on backwards-design of a lesson.
+```{discussion} Example: designing an HPC Carpentry lesson
 
 Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.github.io/hpc-intro/)*
 
@@ -141,18 +127,10 @@ Let's take as an example the *[HPC Carpentry lesson](https://hpc-carpentry.githu
   - Make a concrete example to run a specific software on your HPC (something like GROMACS).
 ```
 
-```{challenge} Demo
-Before we let participants present to their groups, one of the instructors
-presents a 5-minute segment and we practice together giving feedback.
 
-The section we demo should require screen sharing and be of some follow-along
-task.
+## Exercises
 
-If there is time, we present one demo on the day before, and one demo just
-before the group exercise.
-```
-
-```{challenge} Exercise
+```{exercise} Backwards-design a lesson/topic
 Choose a simple lesson topic and apply backwards lesson design.  You
 won't get all the way through, but come up with a logical
 progression of exercises.
@@ -171,13 +149,4 @@ Some suggestions:
 - [Introduction to high-performance computing](https://hpc-carpentry.github.io/hpc-intro/) (or an episode therein)
 - [Unix shell in a HPC context](https://hpc-carpentry.github.io/hpc-shell/) (or an episode therein)
 - A lesson you always wanted to teach
-
-Exercise (30 minutes):
-- Collect notes in a shared document.
-- Start with learner personas and learning outcomes.
-- Come up with a logical progression of exercises.
-
-Discussion (15 minutes):
-- How does this approach compare to other lessons or courses you have designed?
-- We read, compare, and discuss our notes.
 ```
