@@ -1,5 +1,13 @@
 # About the CodeRefinery project and CodeRefinery workshops
 
+```{keypoints}
+- Teaches intermediate-level software development tool lessons
+- Training network for other lessons, too
+- Publicly-funded discrete projects (3 projects actually) transitioning towards an open community project
+- We have online material, teaching, and exercise sessions
+- We want more people to work with us, and to work with more people
+```
+
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
 project that has started in October 2016 and is
@@ -9,22 +17,19 @@ The funding from 2022-2025 is designed to keep this project active
 beyond 2025 by forming a support network and building a community of
 instructors and contributors.
 
----
+```{discussion} History
 
-> ## History
->
-> The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
-> - [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
-> - [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
->
-> The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
->
-> We have started by porting own lessons to the Carpentries teaching style and
-> format, and collaboratively and iteratively grew and improved the material to
-> its present form.
-{: .discussion}
+The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016:
+- [http://sese.nu/scientific-software-development-toolbox/](http://sese.nu/scientific-software-development-toolbox/)
+- [http://sese.nu/scientific-software-development-toolbox-2016/](http://sese.nu/scientific-software-development-toolbox-2016/)
 
----
+The project proposal was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
+
+We have started by porting own lessons to the Carpentries teaching style and
+format, and collaboratively and iteratively grew and improved the material to
+its present form.
+```
+
 
 ## Main goals
 
@@ -33,7 +38,6 @@ instructors and contributors.
 - Provide **training opportunities** in the Nordics using Carpentries and CodeRefinery training materials.
 - Articulate and implement the CodeRefinery **sustainability plan**.
 
----
 
 ## Impact
 
@@ -58,7 +62,6 @@ We would love to get suggestions on how we can better quantify our impact. This
 would make it easier for us to convince institutions to partner with us and
 also open up funding opportunities.
 
----
 
 ## Target audience
 
