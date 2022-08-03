@@ -1,3 +1,5 @@
+.. _workshop-roles:
+
 Workshop roles
 ==============
 
