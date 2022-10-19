@@ -77,31 +77,18 @@ This course can be relevant for different learner personas:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Livestreaming opportunities and challenges
+   :caption: Teaching tools
 
    teaching-online
-   livestreaming
    team-teaching
-   teams
-   distributed
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Roles and tools
-
-   workshop-roles
-   instructor-tech-setup
    hackmd
+   teams
+   livestreaming
+   instructor-tech-setup
    video-recording
    video-editing
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: How you can get involved
-
-   future
+   distributed
 
 
 .. toctree::
@@ -109,7 +96,9 @@ This course can be relevant for different learner personas:
    :caption: Workshop organization
 
    why-teach-together
+   distributed
    collaboration-models
+   workshop-roles
 
 
 .. toctree::
@@ -128,6 +117,13 @@ This course can be relevant for different learner personas:
 
    lessons-with-version-control
    backward-lesson-design
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Wrap-up, future, and getting involved
+
+   future
 
 
 .. toctree::
