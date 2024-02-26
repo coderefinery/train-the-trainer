@@ -70,7 +70,7 @@ These exercises will take you through the whole sequence.
 
      * Video (raw): http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.mkv
      * Whisper subtitles (of raw video):
-       http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.mkv
+       http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.srt
      * `Schedule of workshop
        <https://scicomp.aalto.fi/training/scip/kickstart-2023/#schedule>`__
        (day 1, 11:35--12:25) - used for making the descriptions.
