@@ -109,17 +109,20 @@ These exercises will take you through the whole sequence.
    <https://github.com/coderefinery/ffmpeg-editlist>`__ and try to
    follow its instructions, to create an edit with these features:
 
-   * Input/output definitions
+   * The input definition.
    * Two output sections: the "Intro to the course", and "From data
      storage to your science" talks (Remember it said the recording
      started at 11:35... look at the schedule for hints on when it
-     might start!)
+     might start!).  This should have a start/end timestamp from the
+     *original* video.
 
    A basic example:
 
    .. code-block:: yaml
 
       - input: day1-raw.mkv
+
+      # This is the output from one section.  Your result should have two of these sections.
       - output: part1.mkv
 	title: something
 	description: >-
@@ -127,8 +130,8 @@ These exercises will take you through the whole sequence.
 	  description of the
 	  segment
 	editlist:
-	  - start: 10:00
-	  - end: 20:00
+	  - start: 10:00    # start timestamp of the section, in *original* video
+	  - end: 20:00      # end timestamp of the section, in the *original* video
 
    .. solution::
 
@@ -209,7 +212,7 @@ These exercises will take you through the whole sequence.
       garbled in the first few seconds (because it's missing a key
       frame).  (A future exercise will go over fixing this.
       Basically, add the ``--reencode`` option, which re-encodes the
-      video (this is **slow**).
+      video (this is **slow**).  Don't do it yet.
 
       Look at the ``.info.txt`` files that come out.
 
@@ -218,7 +221,8 @@ These exercises will take you through the whole sequence.
 
    * Several chapter definitions.(re-run and you should see a
      ``.info.txt`` file also generated).  Video chapter definitions
-     are timestamps, within the like such:
+     are timestamps of the *original* video, that get translated to
+     timestamps of the *output* video.
 
      .. code-block:: yaml
 
@@ -230,7 +234,7 @@ These exercises will take you through the whole sequence.
           - 15:00: Part 2      #  <-- New
           - end: 20:00
 
-     Look at the ``.info.txt`` files that come out now.  What is new?
+     Look at the ``.info.txt`` files that come out now.  What is new in it?
 
    * Add in "workshop title", "workshop description", and see the
      ``.info.txt`` files that come out now.  This is ready for
@@ -241,12 +245,12 @@ These exercises will take you through the whole sequence.
 
    .. solution::
 
-      * `Example of the workshop description for this course
-	<https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L1-L13>`__
       * This course actually didn't have chapters for the first day
 	sessions, but you can `see chapters for day 2 here
 	<https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L239-L262>`__,
 	for example.
+      * `Example of the workshop description for this course
+	<https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L1-L13>`__
       * Example info.txt file for the general introduction to the
 	course.  The part after the ``-----`` is the workshop description.
 
@@ -273,7 +277,6 @@ These exercises will take you through the whole sequence.
             https://scicomp.aalto.fi/training/scip/kickstart-2023/
 
             Aalto Scientific Computing: https://scicomp.aalto.fi/
-
 
 
 .. exercise:: Editing-6: Subtitles
@@ -303,6 +306,7 @@ These exercises will take you through the whole sequence.
       This means that someone could have been working on fixing the
       Whisper subtitles while someone else was doing the yaml-editing.
 
+
 .. exercise:: Editing-6: Subtitles
 
    Re-run ffmpeg-editlist with the ``--srt`` option (you have to
@@ -317,6 +321,15 @@ These exercises will take you through the whole sequence.
    What do you learn from editing the subtitles?
 
 
+.. exercise:: Editing-7: Generate the final output file.
+
+   * Run ffmpeg-editlist with the ``--reencode`` option: this
+     re-encodes the video and makes sure that there is no black point
+     at the start.
+
+   * If you re-run with ``--check``, it won't output a new video file,
+     but it *will* re-output the ``.info.txt`` and ``.srt`` files.
+     This is useful when you adjust descriptions or chapters.
 
 
 .. admonition:: Discussion: how to distribute this?
