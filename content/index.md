@@ -1,18 +1,16 @@
-Community teaching training
-===========================
+# Community teaching training
 
-.. admonition:: Under development (mid 2022)
+```{admonition} Under development (mid 2022)
+As of mid-2022, this material has been reworked for our summer workshop and
+for the CarpentryCon 2022 workshop.  The material will continue to be
+improved before a longer training session in the autumn.
 
-   As of mid-2022, this material has been reworked for our summer workshop and
-   for the CarpentryCon 2022 workshop.  The material will continue to be
-   improved before a longer training session in the autumn.
-
-   This material is the new version of our previous `Instructor
-   training <https://coderefinery.github.io/instructor-training/>`__.
+This material is the new version of our previous [Instructor
+training](https://coderefinery.github.io/instructor-training/).
+```
 
 
-What this course covers
------------------------
+## What this course covers
 
 In 2020, we got farther from our offices but closer to each other.  If
 you could adapt to the circumstances, a huge number of possibilities
@@ -30,8 +28,7 @@ almost obsolete - join us to learn more.
   teaching materials so that they can be open and shared.
 
 
-Who is the course for?
-----------------------
+## Who is the course for?
 
 Teaching is a profession, but also something that everyone needs to be
 able to do to some degree, since everyone has their own personal
@@ -60,87 +57,94 @@ This course can be relevant for different learner personas:
   or teach its lessons with us or independently.
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Preparation
+```{toctree}
+:maxdepth: 1
+:caption: Preparation
 
-   preparation
+preparation
+```
 
+```{toctree}
+:maxdepth: 1
+:caption: Introduction
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Introduction
-
-   welcome
-   about-coderefinery
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Teaching tools
-
-   teaching-online
-   team-teaching
-   hackmd
-   teams
-   livestreaming
-   instructor-tech-setup
-   video-recording
-   video-editing
-
-   distributed
+welcome
+about-coderefinery
+```
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Workshop organization
+```{toctree}
+:maxdepth: 1
+:caption: Teaching tools
 
-   why-teach-together
-   distributed
-   collaboration-models
-   workshop-roles
+teaching-online
+team-teaching
+hackmd
+teams
+livestreaming
+instructor-tech-setup
+video-recording
+video-editing
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Social-technical considerations
-
-   why-are-computers-hard
-   diversity-and-inclusion
-   Accessibility and usability (placeholder) <placeholder>
-   Mentoring (placeholder) <placeholder>
+distributed
+```
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Lesson design and development
+```{toctree}
+:maxdepth: 1
+:caption: Workshop organization
 
-   lessons-with-version-control
-   backward-lesson-design
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Wrap-up, future, and getting involved
-
-   future
+why-teach-together
+distributed
+collaboration-models
+workshop-roles
+```
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Reference
+```{toctree}
+:maxdepth: 1
+:caption: Social-technical considerations
 
-   other-resources
-   guide
-   exercises
+why-are-computers-hard
+diversity-and-inclusion
+Accessibility and usability (placeholder) <placeholder>
+Mentoring (placeholder) <placeholder>
+```
+
+```{toctree}
+:maxdepth: 1
+:caption: Lesson design and development
+
+lessons-with-version-control
+backward-lesson-design
+```
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Old contents - we need to move/merge
+```{toctree}
+:maxdepth: 1
+:caption: Wrap-up, future, and getting involved
 
-   02-teaching-philosophies.md
-   03-teaching-style.md
-   workshops-online.md
-   teaching-strategies
-   teaching-practice.md
+future
+```
+
+
+```{toctree}
+:maxdepth: 1
+:caption: Reference
+
+other-resources
+guide
+exercises
+```
+
+
+```{toctree}
+:maxdepth: 1
+:caption: Old contents - we need to move/merge
+
+02-teaching-philosophies.md
+03-teaching-style.md
+workshops-online.md
+teaching-strategies
+teaching-practice.md
+```
