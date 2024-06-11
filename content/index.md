@@ -1,12 +1,13 @@
 # Community teaching training
 
-```{admonition} Under development (mid 2022)
-As of mid-2022, this material has been reworked for our summer workshop and
-for the CarpentryCon 2022 workshop.  The material will continue to be
-improved before a longer training session in the autumn.
+```{admonition} Previous versions
+This was our first version of the course which we gave
+in 2019 and then in 2020:
+- <https://coderefinery.github.io/train-the-trainer/branch/instructor-training/>
 
-This material is the new version of our previous [Instructor
-training](https://coderefinery.github.io/instructor-training/).
+In 2022 we reworked the material for our summer workshop and
+for the CarpentryCon 2022 workshop:
+- <https://coderefinery.github.io/train-the-trainer/branch/community-teaching/>
 ```
 
 
