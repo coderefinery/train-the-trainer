@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Community teaching training'
-copyright = '2020-, The contributors'
+copyright = 'CodeRefinery project'
 author = 'The contributors'
 github_user = 'coderefinery'
 github_repo_name = 'community-teaching'  # auto-detected from dirname if blank
@@ -39,6 +39,10 @@ extensions = [
     'sphinx_coderefinery_branding',
     'sphinxcontrib.youtube',
 ]
+
+myst_enable_extensions = [
+    'colon_fence',   # ::: can be used instead of ``` for better rendering
+    ]
 
 # Settings for myst_nb:
 # https://myst-nb.readthedocs.io/en/latest/use/execute.html#triggering-notebook-execution
