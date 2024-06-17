@@ -17,11 +17,11 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Community teaching training'
+project = 'Train the trainer workshop'
 copyright = 'CodeRefinery project'
 author = 'The contributors'
 github_user = 'coderefinery'
-github_repo_name = 'community-teaching'  # auto-detected from dirname if blank
+github_repo_name = 'train-the-trainer'  # auto-detected from dirname if blank
 github_version = 'master/content/' # with trailing slash
 
 
