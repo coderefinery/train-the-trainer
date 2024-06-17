@@ -12,10 +12,11 @@ Do you teach use the use of computers and computational tools? Are you curious a
 - Previous and future instructors and helpers of CodeRefinery workshops
 - Everyone teaching online workshops about computational topics or interested in teaching.
 
-**Prerequisites**
+**Prerequisites:**
 An interest in teaching.
 
-**Content and timing**
+**Content and timing:**
+
 The workshop consists of four sessions every Tuesday between August 13th and September 3rd 2024, 9-12 CEST:
 
 - Session 1: Contributing to and reusing CodeRefinery lesson materials (Aug 13)
@@ -27,7 +28,7 @@ You can join all sessions, or the just the ones that interest you. More details 
 
 The workshop is **free of charge for everyone**, please register below to get the Zoom link and other useful information for the workshop.
 
-Registration: <https://indico.neic.no/e/CR-ttt24>
+**Registration:** <https://indico.neic.no/e/CR-ttt24>
 
 If you have any questions, please write to <support@coderefinery.org>.
 
