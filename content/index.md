@@ -1,4 +1,4 @@
-# Community teaching training
+# Train the trainer workshop
 
 ```{admonition} August/September 2024 CodeRefinery train the trainer workshop
 
