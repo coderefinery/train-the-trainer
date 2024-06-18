@@ -34,6 +34,7 @@ extensions = [
     # githubpages just adds a .nojekyll file
     'sphinx.ext.githubpages',
     'sphinx_lesson',
+    'sphinx_design',
     #'sphinx.ext.intersphinx',
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx_coderefinery_branding',

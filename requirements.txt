@@ -2,6 +2,7 @@ Sphinx
 sphinx_rtd_theme
 myst_nb
 sphinx-lesson
+sphinx-design
 sphinx_rtd_theme_ext_color_contrast
 https://github.com/coderefinery/sphinx-coderefinery-branding/archive/master.zip
 https://github.com/rkdarst/sphinx-contrib-youtube/archive/live.zip

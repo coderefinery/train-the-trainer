@@ -1,11 +1,11 @@
 # Train the trainer workshop
 
-```{admonition} August/September 2024 CodeRefinery train the trainer workshop
+::::{admonition} August/September 2024 CodeRefinery train the trainer workshop
 
 Do you teach use the use of computers and computational tools? Are you curious about scaling your training and learn about pre-loved practices from CodeRefinery workshops and other trainers? Join us for the CodeRefinery train the trainer workshop: four self-contained episodes on pre-loved practices in computational training. This is a great chance to enhance your teaching skills and learn about new tools and practices. What you will learn is also used a lot outside CodeRefinery, whenever good beginner friendly training is needed.
 
 **Learning objectives:**
-- Become mentally ready to be an a instructor in a collaborative interactive online workshop (not only large workshops but in general)
+- Become mentally ready to be an instructor in a collaborative interactive online workshop (not only large workshops but in general)
 - Learn about tools and techniques and practice to create engaging online teaching experiences (screenshare, audio, etc.).
 
 **Target audience:**
@@ -28,11 +28,15 @@ You can join all sessions, or the just the ones that interest you. More details 
 
 The workshop is **free of charge for everyone**, please register below to get the Zoom link and other useful information for the workshop.
 
-**Registration:** <https://indico.neic.no/e/CR-ttt24>
+:::{button-link} https://indico.neic.no/e/CR-ttt24
+:color: primary
+:shadow:
+
+Registration
+:::
 
 If you have any questions, please write to <support@coderefinery.org>.
-
-```
+::::
 
 ```{admonition} Materials are work in progress
 Materials will appear here before the workshop.
