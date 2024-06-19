@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Train the trainer workshop documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+      <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx_lesson.css" />
+      <link rel="stylesheet" type="text/css" href="_static/term_role_formatting.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx_rtd_theme_ext_color_contrast.css" />
+      <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+      <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css" />
+
+  
+    <link rel="shortcut icon" href="_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script src="_static/design-tabs.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#document-lesson-template">Lesson template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-lesson-development">Lesson development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-post-workshop-survey">Post-workshop survey</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#document-overview">Workshop overview and roles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-onboarding">Onboarding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-co-teaching">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-screenshare">Screenshare</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-sound">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-collaborative-notes">Collaborative notes</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#document-computational-thinking">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-teaching-philosophies">Teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-cool-gems">Cool gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#document-streaming">Streaming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#document-video-editing">Video editing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Train the trainer workshop  documentation</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/index" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="train-the-trainer-workshop">
+<h1>Train the trainer workshop<a class="headerlink" href="#train-the-trainer-workshop" title="Link to this heading"></a></h1>
+<div class="admonition-august-september-2024-coderefinery-train-the-trainer-workshop admonition">
+<p class="admonition-title">August/September 2024 CodeRefinery train the trainer workshop</p>
+<p>Do you teach the use of computers and computational tools? Are you curious about scaling your training and learn about tested and proven practices from CodeRefinery workshops and other trainers? Join us for the CodeRefinery train the trainer workshop: four self-contained sessions on tools and techniques for computational training offer a great chance to enhance your teaching skills and learn about new tools and practices. What you will learn is also used a lot outside CodeRefinery, whenever good beginner friendly training is needed.</p>
+<p><strong>Learning objectives:</strong></p>
+<ul class="simple">
+<li><p>Learn about tools and techniques and practice to create engaging online teaching experiences (screenshare, audio, etc.).</p></li>
+<li><p>Become mentally ready to be an instructor in a collaborative interactive online workshop (not only large workshops but in general).</p></li>
+<li><p>Learn how to design and develop lesson material collaboratively.</p></li>
+</ul>
+<p><strong>Target audience:</strong></p>
+<ul class="simple">
+<li><p>Everyone teaching online workshops about computational topics or interested in teaching.</p></li>
+<li><p>Previous and future instructors and helpers of CodeRefinery workshops.</p></li>
+</ul>
+<p><strong>Prerequisites:</strong>
+An interest in teaching.</p>
+<p><strong>Content and timing:</strong></p>
+<p>The workshop consists of four sessions every Tuesday between August 13th and September 3rd 2024, 9-12 CEST:</p>
+<ul class="simple">
+<li><p>Session 1: Contributing to and reusing CodeRefinery lesson materials (Aug 13)</p></li>
+<li><p>Session 2: Tools and techniques adopted in CodeRefinery workshops (Aug 20)</p></li>
+<li><p>Session 3: About teaching &amp; cool things we all would like to share (Aug 27)</p></li>
+<li><p>Session 4: Workshop streaming practices and post-workshop tasks (Sep 3)</p></li>
+</ul>
+<p>You can join all sessions, or the just the ones that interest you. More details on each session will be shared later.</p>
+<p>The workshop is <strong>free of charge for everyone</strong>, please register below to get the Zoom link and other useful information for the workshop.</p>
+<p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-shadow-sm reference external" href="https://indico.neic.no/e/CR-ttt24"><span>Registration</span></a></p>
+<p>If you have any questions, please write to <a class="reference external" href="mailto:support&#37;&#52;&#48;coderefinery&#46;org">support<span>&#64;</span>coderefinery<span>&#46;</span>org</a>.</p>
+</div>
+<div class="admonition-materials-are-work-in-progress admonition">
+<p class="admonition-title">Materials are work in progress</p>
+<p>Materials will appear here before the workshop.
+You can find materials of previous similar trainings using the links below:</p>
+<ul class="simple">
+<li><p>First version of the course in 2019 and then in 2020:
+<a class="reference external" href="https://coderefinery.github.io/train-the-trainer/branch/instructor-training/">https://coderefinery.github.io/train-the-trainer/branch/instructor-training/</a></p></li>
+<li><p>Reworked material for our summer workshop 2022 and
+for the CarpentryCon 2022 workshop:
+<a class="reference external" href="https://coderefinery.github.io/train-the-trainer/branch/community-teaching/">https://coderefinery.github.io/train-the-trainer/branch/community-teaching/</a></p></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-lesson-template"></span><section id="lesson-template">
+<span id="id1"></span><h2>Lesson template<a class="headerlink" href="#lesson-template" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Undertstand how the CodeRefinery lesson template is used to create new lessons</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-lesson-development"></span><section id="lesson-development">
+<span id="id1"></span><h2>Lesson development<a class="headerlink" href="#lesson-development" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Understand how collaborative development of lesson material works</p></li>
+<li><p>Be able to contribute to existing CodeRefinery lessons</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-post-workshop-survey"></span><section id="post-workshop-survey">
+<span id="id1"></span><h2>Post-workshop survey<a class="headerlink" href="#post-workshop-survey" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know the reasons and sources of inspiration behind major lesson and workshop updates</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-overview"></span><section id="workshop-overview-and-roles">
+<span id="workshop-overview"></span><h2>Workshop overview and roles<a class="headerlink" href="#workshop-overview-and-roles" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Understand the general structure of CodeRefinery workshops and why it is the way it is</p></li>
+<li><p>Get to know the different roles of a workshop and which ones are the most essential ones</p></li>
+<li><p>Understand the importance of  installation instructions and how they contribute to learners</p></li>
+<li><p>Understand the importance of onboarding and a welcoming community for volunteers in a workshop</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-onboarding"></span><section id="onboarding">
+<span id="id1"></span><h2>Onboarding<a class="headerlink" href="#onboarding" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Here we will list learning objectives</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-co-teaching"></span><section id="co-teaching">
+<span id="id1"></span><h2>Co-teaching<a class="headerlink" href="#co-teaching" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know the principle of co-teaching: How we do it and how you can too.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-screenshare"></span><section id="screenshare">
+<span id="id1"></span><h2>Screenshare<a class="headerlink" href="#screenshare" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Be aware of the importance of a well planned screenshare</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-sound"></span><section id="sound">
+<span id="id1"></span><h2>Sound<a class="headerlink" href="#sound" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Be aware of the importance of a well balanced sound quality</p></li>
+<li><p>Test tips and tricks for achieving good sound quality</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-collaborative-notes"></span><section id="collaborative-notes">
+<span id="id1"></span><h2>Collaborative notes<a class="headerlink" href="#collaborative-notes" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Be able to provide a highly interactive online workshop environment with collaborative documents</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-computational-thinking"></span><section id="computational-thinking">
+<span id="id1"></span><h2>Computational thinking<a class="headerlink" href="#computational-thinking" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know how the theory of computational thinking can be used in teaching</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-teaching-philosophies"></span><section id="teaching-philosophies">
+<span id="id1"></span><h2>Teaching philosophies<a class="headerlink" href="#teaching-philosophies" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know the teaching philosophies of CodeRefinery instructors</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-cool-gems"></span><section id="cool-gems">
+<span id="id1"></span><h2>Cool gems<a class="headerlink" href="#cool-gems" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Here we will list learning objectives</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-streaming"></span><section id="streaming">
+<span id="id1"></span><h2>Streaming<a class="headerlink" href="#streaming" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know what happens “behind the stream” of a workshop</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+<span id="document-video-editing"></span><section id="video-editing">
+<span id="id1"></span><h2>Video editing<a class="headerlink" href="#video-editing" title="Link to this heading"></a></h2>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know ways of quick video editing to be able to provide accessible videos</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ? min</p></li>
+<li><p>Exercises: ? min</p></li>
+</ul>
+</div>
+<p>Here the episode sections and text …</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Here we summarize keypoints.</p></li>
+</ul>
+</div>
+</section>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
