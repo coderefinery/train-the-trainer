@@ -3,7 +3,7 @@
 # Computational thinking
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know how the theory of computational thinking can be used in teaching
 :::
 
 :::{instructor-note}

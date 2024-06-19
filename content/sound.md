@@ -3,7 +3,8 @@
 # Sound
 
 :::{objectives}
-- Here we will list learning objectives
+- Be aware of the importance of a well balanced sound quality
+- Test tips and tricks for achieving good sound quality
 :::
 
 :::{instructor-note}

@@ -3,7 +3,7 @@
 # Co-teaching
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know the principle of co-teaching: How we do it and how you can too.
 :::
 
 :::{instructor-note}

@@ -3,7 +3,7 @@
 # Streaming
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know what happens "behind the stream" of a workshop
 :::
 
 :::{instructor-note}

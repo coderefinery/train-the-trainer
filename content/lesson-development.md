@@ -3,7 +3,8 @@
 # Lesson development
 
 :::{objectives}
-- Here we will list learning objectives
+- Understand how collaborative development of lesson material works
+- Be able to contribute to existing CodeRefinery lessons
 :::
 
 :::{instructor-note}

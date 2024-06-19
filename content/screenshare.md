@@ -3,7 +3,7 @@
 # Screenshare
 
 :::{objectives}
-- Here we will list learning objectives
+- Be aware of the importance of a well planned screenshare
 :::
 
 :::{instructor-note}
