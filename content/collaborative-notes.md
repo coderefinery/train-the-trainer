@@ -3,7 +3,7 @@
 # Collaborative notes
 
 :::{objectives}
-- Here we will list learning objectives
+- Be able to provide a highly interactive online workshop environment with collaborative documents
 :::
 
 :::{instructor-note}

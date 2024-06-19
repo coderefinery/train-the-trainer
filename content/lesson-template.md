@@ -3,7 +3,7 @@
 # Lesson template
 
 :::{objectives}
-- Here we will list learning objectives
+- Undertstand how the CodeRefinery lesson template is used to create new lessons
 :::
 
 :::{instructor-note}

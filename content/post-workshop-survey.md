@@ -3,7 +3,7 @@
 # Post-workshop survey
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know the reasons and sources of inspiration behind major lesson and workshop updates
 :::
 
 :::{instructor-note}

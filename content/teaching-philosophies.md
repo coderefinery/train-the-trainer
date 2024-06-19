@@ -3,7 +3,7 @@
 # Teaching philosophies
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know the teaching philosophies of CodeRefinery instructors
 :::
 
 :::{instructor-note}

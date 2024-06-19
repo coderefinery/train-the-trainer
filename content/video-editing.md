@@ -3,7 +3,7 @@
 # Video editing
 
 :::{objectives}
-- Here we will list learning objectives
+- Get to know ways of quick video editing to be able to provide accessible videos
 :::
 
 :::{instructor-note}
