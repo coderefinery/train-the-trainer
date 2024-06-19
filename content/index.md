@@ -5,12 +5,13 @@
 Do you teach use the use of computers and computational tools? Are you curious about scaling your training and learn about pre-loved practices from CodeRefinery workshops and other trainers? Join us for the CodeRefinery train the trainer workshop: four self-contained episodes on pre-loved practices in computational training. This is a great chance to enhance your teaching skills and learn about new tools and practices. What you will learn is also used a lot outside CodeRefinery, whenever good beginner friendly training is needed.
 
 **Learning objectives:**
-- Become mentally ready to be an instructor in a collaborative interactive online workshop (not only large workshops but in general)
 - Learn about tools and techniques and practice to create engaging online teaching experiences (screenshare, audio, etc.).
+- Become mentally ready to be an instructor in a collaborative interactive online workshop (not only large workshops but in general).
+- Learn how to design and develop lesson material collaboratively.
 
 **Target audience:**
-- Previous and future instructors and helpers of CodeRefinery workshops
 - Everyone teaching online workshops about computational topics or interested in teaching.
+- Previous and future instructors and helpers of CodeRefinery workshops.
 
 **Prerequisites:**
 An interest in teaching.
