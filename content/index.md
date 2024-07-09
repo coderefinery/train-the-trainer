@@ -84,6 +84,10 @@ cool-gems
 :maxdepth: 1
 :caption: Session 4
 
+why-we-stream
 streaming
 video-editing
+obs
+obs-config
+streaming-whats-next
 ```
