@@ -11,6 +11,14 @@
 - Exercises: ? min
 :::
 
+## Introduction
+
+The Collaborative document is how you interact with the audience.
+During a CodeRefinery session there can be a large a volume of questions.
+A dedicated person is needed to answer and edit the collaborative document.
+Let us see how the collaborative document is used, then discuss the role of 
+the editor or HackMD-manager.
+
 ## Collaborative document mechanics and controls
 
 [Hackmd](https://hackmd.io) or  [HedgeDoc](https://hedgedoc.org/) are real-time text editor online.  We use it to:
