@@ -22,7 +22,7 @@ Ways to teach together
 ----------------------
 
 * Develop materials together - avoid duplication.
-* Present the materials together ("proper" co-teaching, see [Team teaching section](https://coderefinery.github.io/manuals/team-teaching/>) on the CR manual).
+* Present the materials together ("proper" co-teaching, see [Team teaching section](https://coderefinery.github.io/manuals/team-teaching/) on the CR manual).
 * Use helpers extensively to tackle specific tasks commonly arising in online teaching process.
 * Involve your learners too, e.g. using collaborative document (such as HackMD) for parallel and mass answers.
 
