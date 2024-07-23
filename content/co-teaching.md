@@ -22,7 +22,7 @@ Ways to teach together
 ----------------------
 
 * Develop materials together - avoid duplication.
-* Present the materials together ("proper" co-teaching, see `Team teaching section<https://coderefinery.github.io/manuals/team-teaching/>`__ on the CR manual).
+* Present the materials together ("proper" co-teaching, see [Team teaching section](https://coderefinery.github.io/manuals/team-teaching/>) on the CR manual).
 * Use helpers extensively to tackle specific tasks commonly arising in online teaching process.
 * Involve your learners too, e.g. using collaborative document (such as HackMD) for parallel and mass answers.
 
@@ -32,7 +32,7 @@ Advantages
 * If you need to teach anyway, combined efforts take up less time.
 * More engaging to the audience, taking some of the (sometimes daunting) expectation to "speak up" off of the students.
 * Easier on-boarding of new instructors -- one of them can be learning at the same time, either subtleties of the material or the teaching itself.
-* `Swiss-cheese<https://en.wikipedia.org/wiki/Swiss_cheese_model>`__ principle: two "imperfect" teachers are __much__ easier to find and complement each other than the extensively-prepared, absolute expert.
+  [Swiss-cheese](https://en.wikipedia.org/wiki/Swiss_cheese_model) principle: two "imperfect" teachers are __much__ easier to find and complement each other than the extensively-prepared, absolute expert.
 
 Challenges
 ----------
@@ -43,12 +43,10 @@ Challenges
 * Online tools (HackMD, type-alongs) can potentially overload learners and teachers alike, if not used with care.
 
 .. exercise::
-   
-   [What's better here -- practical exercise or discussion?]
-   
+   (What's better here -- practical exercise or discussion?)
 
 
-[TODO: Here goes the rest of the episode sections and text]
+(TODO: Here goes the rest of the episode sections and text)
 
 
 :::{keypoints}
