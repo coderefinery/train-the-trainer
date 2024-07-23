@@ -42,9 +42,9 @@ Challenges
 * Using simultaneous-teaching strategies is a learned skill, not identical to the classical lecturing.
 * Online tools (HackMD, type-alongs) can potentially overload learners and teachers alike, if not used with care.
 
-.. exercise::
-   (What's better here -- practical exercise or discussion?)
-
+:::{exercise}
+(What's better here -- practical exercise or discussion?)
+:::
 
 (TODO: Here goes the rest of the episode sections and text)
 
