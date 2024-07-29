@@ -17,7 +17,9 @@ Do you teach the use of computers and computational tools? Are you curious about
 An interest in teaching.
 
 **Organizers and instructors:**
+
 The workshop is organized by [partner organizations of the CodeRefinery project](https://coderefinery.org/about/partners/).
+
 Facilitators and instructors: 
 
 - TBD
