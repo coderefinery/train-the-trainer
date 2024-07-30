@@ -7,8 +7,8 @@
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Teaching: 25 min
+- Questiongs & Answers: 5 min
 :::
 
 ## Introduction
@@ -16,7 +16,7 @@
 The Collaborative document is how you interact with the participants.
 The participants can ask questions and give feedback through the collborative
 document. During a CodeRefinery session there can be a large a volume of questions.
-A dedicated person is needed to answer and edit the collaborative document.
+A dedicated person, a HackMD-manager, is needed to answer and edit the collaborative document.
 Let us see how the collaborative document is used, then discuss the role of 
 the editor or HackMD-manager.
 
@@ -189,9 +189,6 @@ Answer questions
 
 - If there is an question that should be answered by the instructor by
   voice, bring it up (by voice) to the instructor immediately.
-- During breakout sessions, watch for HackMD notifications about
-  breakout rooms that need help
-  and direct someone to that room.
 - How soon do you answer questions? Two points of view:
   - Answer questions right away: can be really intense to follow.
   - Wait some so that we don't overload learners: reduces the info
