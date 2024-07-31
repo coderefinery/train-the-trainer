@@ -12,6 +12,10 @@
 - Exercises: ? min
 :::
 
+:::{note}
+This episode focuses on the large scale streamed workshop setup, we do still also provide smaller scale online and in-person workshops and can also support you offering your own!
+:::
+
 :::{discussion}
 Discussion: Benefits/Challenges of online and in-person teaching
 + some answers leading over to "best of both worlds"
