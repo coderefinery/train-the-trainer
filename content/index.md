@@ -16,6 +16,14 @@ Do you teach the use of computers and computational tools? Are you curious about
 **Prerequisites:**
 An interest in teaching.
 
+**Organizers and instructors:**
+
+The workshop is organized by [partner organizations of the CodeRefinery project](https://coderefinery.org/about/partners/).
+
+Facilitators and instructors: 
+
+- TBD
+
 **Content and timing:**
 
 The workshop consists of four sessions every Tuesday between August 13th and September 3rd 2024, 9-12 CEST:
