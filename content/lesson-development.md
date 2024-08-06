@@ -18,6 +18,28 @@
 
 ## Current Tools Workshop
 
+There is a current list of Tools Workshop lessons on
+[coderefinery.org/lessons](https://coderefinery.org/lessons).
+
+Days 1-3 focus on the practical use of version control. Version control
+is a prerequisite for the somewhat less technical lessons on days 4-6.
+
+One way to understand the structure is that the first 3 days have a
+single **learning objective**: applying the forking workflow to interact
+with open source codes. The second half branches of to multiple useful
+directions.
+
+ * **Days 1-2**: [Introduction to version control](https://coderefinery.github.io/git-intro/)
+ * **Day 3**: [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+ * **Day 4**: [Reproducible research](https://coderefinery.github.io/reproducible-research/)
+ * **Day 4**: [Social coding and open software](https://coderefinery.github.io/social-coding/)
+ * **Day 5**: [How to document your research software](https://coderefinery.github.io/documentation/)
+ * **Day 5**: [Jupyter notebooks](https://coderefinery.github.io/jupyter/) 
+ * **Day 6**: [Automated testing](https://coderefinery.github.io/testing/)
+ * **Day 6**: [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
+
+
+
 ## Other lessons
 
 
