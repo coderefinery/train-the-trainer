@@ -24,8 +24,8 @@ Sphinx is a doc generator, not HTML generator. It can:
 
 - Markdown, Jupyter, and ReST (and more...) inputs. (jupyter-book is Sphinx, so anything it can do we can do. This was one of the inspirations for using Sphinx)
 - Good support for inline code. Much more than static code display, if you want to look at extensions.
-- generate different output formats (pdf, epub, etc)
-- strong cross-referencing within and between projects
+- Generate different output formats (pdf, epub, etc)
+- Strong cross-referencing within and between projects
 
 ## [CodeRefinery lesson template](https://github.com/coderefinery/sphinx-lesson-template)
 
@@ -37,6 +37,12 @@ It is "just Sphinx" - with extensions:
  - Emphasize lines: they make it easier to spot what has changed in longer code snippets
  - You can write Markdown (I know it's an extension and a flavor of ...) and we really like and use MyST parser
  - It's fine if you use some other static site generator or git-based lesson method.
+
+## Contributing to existing CodeRefinery lessons
+
+> Mention here about the ideal process: Issue, discussion, PR
+> Also mention about letting us know when you create your own lessons based on CR materials and ways of contributing back
+
 
 :::{exercise}
 Find the lesson template on Github, create your own repository in your own namespace using the template and play around with the features:
