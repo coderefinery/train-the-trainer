@@ -71,6 +71,7 @@ post-workshop-survey
 :maxdepth: 1
 :caption: Session 2
 
+CodeRefinery_intro
 overview
 onboarding
 co-teaching
