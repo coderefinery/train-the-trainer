@@ -68,7 +68,7 @@ In backward lesson design we start from the learning objective and the
  2. brainstorm rough ideas
  3. Start from learning objectives. Write down 1-3 overarching learning
    objectives for the lesson.
-    - think of the things your learners will
+    - Think of the things your learners will
       be able to do at the end of the lesson. Think simple! The simpler
       the better. Think of three main points they will remember, of which
       maybe one or two are a concrete skill.
