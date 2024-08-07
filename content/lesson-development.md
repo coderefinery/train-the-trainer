@@ -81,7 +81,34 @@ In backward lesson design we start from the learning objective and the
  7. Describe the course so the learners know if it is relevant to them.
 
 
-# Contributing issues and pull requests (5min)
+# Contributing (5min)
+
+Our lessons are **collaboratively developed**. They are made by many people, and
+there is no single fixed master plan (but there should be, in the instructors or
+maintainer’s guide). We encourage everyone to contribute to the lessons.
+
+Lessons are reviewed very often - essentially, before each workshop by the
+instructor of that workshop. This can be a quick review, looking at issues and
+fixing easy things, or more thorough.
+
+Every so often (such as at this training), there is an extensive hackathon period of
+fully revising a lesson and making major improvements.
+
+We’ve made the [lesson-review](https://coderefinery.github.io/manuals/lesson-review/)
+checklist to guide the review process.
+
+If you are looking for a quick way to contribute, you can always check issues and
+pull requests on GitHub.
+ - From a lesson page, click "Edit on GitHub" in the top right corner
+ - Click for the "Issues" or "Pull Requests" panel at the top of the page
+ - Comment and take part in the discussion
+
+Some issues you might be able to solve directly. Even then, you should comment on
+the issue first. This way no-one else will start working on it at the same time and
+you can be sure your work will be accepted.
+
+So essentially, we follow the open source collaboration workflow we teach in the
+[collaborative git lesson](https://coderefinery.github.io/git-collaborative/forking-workflow/).
 
 
 # Exercises:
