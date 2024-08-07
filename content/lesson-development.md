@@ -39,8 +39,14 @@ directions.
  * **Day 6**: [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
 
 
-
 ## Other lessons
+
+All of our lessons, including main lessons, but also additional lessons for
+other workshops like this one, are on our
+[GitHub page](https://github.com/orgs/coderefinery/repositories). The 
+repositories also contain exercises and workshop pages. All our lessons are
+shared under Creative Commons Attribution, so feel free to use them for your
+own purposes, modify them and make them better.
 
 
 # Backward lesson design (15min)
