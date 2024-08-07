@@ -38,10 +38,6 @@ It is "just Sphinx" - with extensions:
  - You can write Markdown (I know it's an extension and a flavor of ...) and we really like and use MyST parser
  - It's fine if you use some other static site generator or git-based lesson method.
 
-## Contributing to existing CodeRefinery lessons
-
-> Mention here about the ideal process: Issue, discussion, PR
-> Also mention about letting us know when you create your own lessons based on CR materials and ways of contributing back
 
 
 :::{exercise}
