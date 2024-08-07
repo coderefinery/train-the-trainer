@@ -30,6 +30,7 @@ Sphinx is a doc generator, not HTML generator. It can:
 ## [CodeRefinery lesson template](https://github.com/coderefinery/sphinx-lesson-template)
 
 It is "just Sphinx" - with extensions:
+ - [Sphinx lesson extension](https://github.com/coderefinery/sphinx-lesson)
  - The addition is various directives (boxes) tuned to lesson purposes
  - In addition it provides a sample organization and template repo you can use so that lessons look consistent
  - Tabs: they are very important for us and allow us to customize in-place instead of copying everything and fragmenting lessons
