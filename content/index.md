@@ -74,7 +74,6 @@ post-workshop-survey
 CodeRefinery_intro
 overview
 onboarding
-co-teaching
 screenshare
 sound
 collaborative-notes
@@ -86,6 +85,7 @@ collaborative-notes
 
 computational-thinking
 teaching-philosophies
+co-teaching
 cool-gems
 ```
 
