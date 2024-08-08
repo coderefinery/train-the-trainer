@@ -28,6 +28,7 @@ Facilitators and instructors:
 - Jarno Rantaharju
 - Stepas Toliautas
 - Samantha Wittke
+- Stephan Smuts
 
 **Content and timing:**
 
