@@ -33,7 +33,7 @@ Facilitators and instructors:
 
 The workshop consists of four sessions every Tuesday between August 13th and September 3rd 2024, 9-12 CEST:
 
-- Session 1: Contributing to and reusing CodeRefinery lesson materials (Aug 13)
+- Session 1: About lesson design, deployment and iterative improvement (Aug 13)
 - Session 2: Tools and techniques adopted in CodeRefinery workshops (Aug 20)
 - Session 3: About teaching & cool things we all would like to share (Aug 27)
 - Session 4: Workshop streaming practices and post-workshop tasks (Sep 3)
