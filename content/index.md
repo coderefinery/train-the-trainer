@@ -22,7 +22,8 @@ The workshop is organized by [partner organizations of the CodeRefinery project]
 
 Facilitators and instructors: 
 
-- TBD
+- Radovan Bast
+- ...
 
 **Content and timing:**
 
