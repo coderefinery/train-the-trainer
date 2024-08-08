@@ -20,9 +20,9 @@
 :::{exercise} We collect notes using a shared document (10 min)
 - When you start preparing a new lesson or training material, where do you start?
 - What tricks help you with "writer's block" or the empty page problem?
-- If your design process has changed over time, please describe what you used to do and what you do now instead.
 - Maybe you haven't designed training material yet. But how do you start when creating a new presentation?
-- What do you know now about lesson/training preparation that you wish you knew earlier?
+- If your design process has changed over time, please describe what you used to do and what you do now instead.
+- What do you know now about preparing lessons/training/presentations that you wish you knew earlier?
 :::
 
 
