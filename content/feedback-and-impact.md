@@ -1,6 +1,4 @@
-(post-workshop-survey)=
-
-# Post-workshop survey
+# How we collect feedback and measure impact
 
 :::{objectives}
 - Get to know the reasons and sources of inspiration behind major lesson and workshop updates

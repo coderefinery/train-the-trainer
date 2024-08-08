@@ -69,7 +69,7 @@ for the CarpentryCon 2022 workshop:
 
 lesson-development
 lesson-template
-post-workshop-survey
+feedback-and-impact
 ```
 
 ```{toctree}
