@@ -9,8 +9,23 @@
 :::
 
 :::{instructor-note}
-- Teaching: 30 min
+- Discussion: 15 min
 - Exercises: 30 min
+:::
+
+
+## Great resources
+
+(Here list some resources that are useful for lesson design.)
+
+
+## Exercise: How do you design your teaching material?
+
+:::{exercise} We collect notes using a shared document (10 min)
+- When you start preparing a new lesson or training material, where do you start?
+- What tricks help you with "writer's block" or the empty page problem?
+- If your design process has changed over time, please describe what you used to do and what you do now instead.
+- What do you know now about lesson/training preparation that you wish you knew earlier?
 :::
 
 
@@ -139,26 +154,36 @@ So essentially, we follow the open source collaboration workflow we teach in the
 - More about the files and format in the next lesson.
 
 
-## Exercises
+## Exercise: Discussion about learning objectives and exercise design
 
-### Lesson design exercise (10-20min, or longer)
-
- - Pick a lesson topic. Any of the Tools Workshop lessons are OK,
-   or you can choose any other topic you might want to teach.
- - Write down three learning objectives. What abilities would you
-   expect the student to have at the end of the lesson?
- - Brainstorm an exercise that demonstrates one of those objectives.
- - If you have time:
-   - Create two more exercises
-   - Write chapter headers for a quick structure
-
-
-### Contributing exercies (10-20min)
-
- - Read an issue on a CodeRefinery lesson's GitHub page.
- - Brainstorm solutions. Write a comment in the issue.
-
-
-:::{keypoints}
-- Here we summarize keypoints.
+:::{exercise} We work in groups but use the shared document as result (20 min)
+1. As a group **pick a lesson topic**. It can be one of the topics listed here but
+   you can also choose something else that your group is interested in, or a topic
+   that you have taught before or would like to teach.
+    - Git: Creating a repository and porting your project to Git and GitHub
+    - Git: Basic commands
+    - Git: Branching and merging
+    - Git: Recovering from typical mistakes
+    - Code documentation
+    - Jupyter Notebooks
+    - Collaboration using Git and GitHub/GitLab
+    - Using GitHub without the command line
+    - Project organization
+    - Automated testing
+    - Data transfer
+    - Data management and versioning
+    - Code quality and good practices
+    - Modular code development
+    - How to release and publish your code
+    - How to document and track code dependencies
+    - Recording environments in containers
+    - Profiling memory and CPU usage
+    - Strategies for parallelization
+    - Conda environments
+    - Data processing using workflow managers
+    - Working with the command line
+    - ...
+1. Try to define 2-3 learning objectives for the lesson and write them down.
+1. Can you come up with one or two engaging exercises that could be used to
+   demonstrate one of those objectives?
 :::
