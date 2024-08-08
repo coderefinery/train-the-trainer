@@ -3,9 +3,10 @@
 # Lesson design and development
 
 :::{objectives}
-- Understand how collaborative development of lesson material works
-- Understand the design of CodeRefinery lessons
-- Be able to contribute to existing CodeRefinery lessons
+- We share our design processes for teaching material and presentations.
+- Learn how to design lessons "backwards", starting from learning objectives
+  and learner personas.
+- Learn good practices for improving existing material based on feedback.
 :::
 
 :::{instructor-note}
@@ -20,6 +21,7 @@
 - When you start preparing a new lesson or training material, where do you start?
 - What tricks help you with "writer's block" or the empty page problem?
 - If your design process has changed over time, please describe what you used to do and what you do now instead.
+- Maybe you haven't designed training material yet. But how do you start when creating a new presentation?
 - What do you know now about lesson/training preparation that you wish you knew earlier?
 :::
 
