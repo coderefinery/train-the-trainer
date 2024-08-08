@@ -14,9 +14,9 @@
 :::
 
 
-# A look over existing lessons (10min)
+## A look over existing lessons (10min)
 
-## Current Tools Workshop
+### Current Tools Workshop
 
 There is a current list of Tools Workshop lessons on
 [coderefinery.org/lessons](https://coderefinery.org/lessons).
@@ -34,24 +34,24 @@ directions.
  * **Day 4**: [Reproducible research](https://coderefinery.github.io/reproducible-research/)
  * **Day 4**: [Social coding and open software](https://coderefinery.github.io/social-coding/)
  * **Day 5**: [How to document your research software](https://coderefinery.github.io/documentation/)
- * **Day 5**: [Jupyter notebooks](https://coderefinery.github.io/jupyter/) 
+ * **Day 5**: [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
  * **Day 6**: [Automated testing](https://coderefinery.github.io/testing/)
  * **Day 6**: [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
 
 
-## Other lessons
+### Other lessons
 
 All of our lessons, including main lessons, but also additional lessons for
 other workshops like this one, are on our
-[GitHub page](https://github.com/orgs/coderefinery/repositories). The 
+[GitHub page](https://github.com/orgs/coderefinery/repositories). The
 repositories also contain exercises and workshop pages. All our lessons are
 shared under Creative Commons Attribution, so feel free to use them for your
 own purposes, modify them and make them better.
 
 
-# Backward lesson design (15min)
+## Backward lesson design (15min)
 
-## Why "Backward"
+### Why "Backward"
 
 The "natural" way to design a lesson, that people often default to, is
 to write down material you want to cover and then springle in related
@@ -60,10 +60,10 @@ exercises. This approach has a couple of significant downsides:
  - The exercises and exam may not test the intended learning outcomes.
 
 In backward lesson design we start from the learning objective and the
-"final exam" and work backwards from there to 
+"final exam" and work backwards from there to
 
 
-## The method:
+### The method
 
  1. Understand you learners
  2. Brainstorm rough ideas
@@ -88,6 +88,7 @@ Creating **learner personas** helps you understand your audience, even if you
 already know who the lesson is targeting. They ground your understanding of
 what the audience knows and is interested in.
 
+
 ## Summative and formative assesments
 
 A **formative assesment** is an exercise that gives feedback to the learner.
@@ -109,7 +110,7 @@ Some standard exercise types:
  - Discussions, self directed learning exercises
 
 
-# Contributing (5min)
+## Contributing (5min)
 
 Our lessons are **collaboratively developed**. They are made by many people, and
 there is no single fixed master plan (but there should be, in the instructors or
@@ -137,9 +138,10 @@ So essentially, we follow the open source collaboration workflow we teach in the
 
 - More about the files and format in the next lesson.
 
-# Exercises:
 
-## Lesson design exercise (10-20min, or longer)
+## Exercises
+
+### Lesson design exercise (10-20min, or longer)
 
  - Pick a lesson topic. Any of the Tools Workshop lessons are OK,
    or you can choose any other topic you might want to teach.
@@ -151,8 +153,8 @@ So essentially, we follow the open source collaboration workflow we teach in the
    - Write chapter headers for a quick structure
 
 
-## Contributing exercies (10-20min)
- 
+### Contributing exercies (10-20min)
+
  - Read an issue on a CodeRefinery lesson's GitHub page.
  - Brainstorm solutions. Write a comment in the issue.
 
