@@ -62,8 +62,8 @@ for the CarpentryCon 2022 workshop:
 :maxdepth: 1
 :caption: Session 1
 
-lesson-template
 lesson-development
+lesson-template
 post-workshop-survey
 ```
 
