@@ -9,14 +9,9 @@
 :::
 
 :::{instructor-note}
-- Discussion: 15 min
+- Discussion: 20 min
 - Exercises: 30 min
 :::
-
-
-## Great resources
-
-(Here list some resources that are useful for lesson design.)
 
 
 ## Exercise: How do you design your teaching material?
@@ -29,129 +24,85 @@
 :::
 
 
-## A look over existing lessons (10min)
-
-### Current Tools Workshop
-
-There is a current list of Tools Workshop lessons on
-[coderefinery.org/lessons](https://coderefinery.org/lessons).
-
-Days 1-3 focus on the practical use of version control. Version control
-is a prerequisite for the somewhat less technical lessons on days 4-6.
-
-One way to understand the structure is that the first 3 days have a
-single **learning objective**: applying the forking workflow to interact
-with open source codes. The second half branches of to multiple useful
-directions.
-
- * **Days 1-2**: [Introduction to version control](https://coderefinery.github.io/git-intro/)
- * **Day 3**: [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
- * **Day 4**: [Reproducible research](https://coderefinery.github.io/reproducible-research/)
- * **Day 4**: [Social coding and open software](https://coderefinery.github.io/social-coding/)
- * **Day 5**: [How to document your research software](https://coderefinery.github.io/documentation/)
- * **Day 5**: [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
- * **Day 6**: [Automated testing](https://coderefinery.github.io/testing/)
- * **Day 6**: [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
+## Creating new teaching material
 
 
-### Other lessons
+### Typical problems
 
-All of our lessons, including main lessons, but also additional lessons for
-other workshops like this one, are on our
-[GitHub page](https://github.com/orgs/coderefinery/repositories). The
-repositories also contain exercises and workshop pages. All our lessons are
-shared under Creative Commons Attribution, so feel free to use them for your
-own purposes, modify them and make them better.
-
-
-## Backward lesson design (15min)
-
-### Why "Backward"
-
-The "natural" way to design a lesson, that people often default to, is
-to write down material you want to cover and then springle in related
-exercises. This approach has a couple of significant downsides:
- - The content feel meandering and it's unclear what is meant to be learned.
- - The exercises and exam may not test the intended learning outcomes.
-
-In backward lesson design we start from the learning objective and the
-"final exam" and work backwards from there to
+- Someone creates a lesson, but they think about what is interesting to them,
+  not what is important for the learners.
+- "I want to show a number of things which I think are cool about
+  tool X - how do I press these into 90 minutes?"
+- Write down material you want to cover and then sprinkle in some exercises.
+- They think about how they work, not how the learners work.
+- Trying to bring learners to their level/setup, not trying to meet the learners
+  where they are.
+- Not really knowing the learning objectives or the learner personas.
 
 
-### The method
+### Better approach
 
- 1. Understand you learners
- 2. Brainstorm rough ideas
- 3. Start from learning objectives. Write down 1-3 overarching learning
-   objectives for the lesson.
-    - Think of the things your learners will
-      be able to do at the end of the lesson. Think simple! The simpler
-      the better. Think of three main points they will remember, of which
-      maybe one or two are a concrete skill.
- 4. Write an summative assesment for each outcome. Try to think of engaging
-    and active exercises.
- 5. For a longer lesson, add intermediate goals and formative assesments
-    to bridge between the starting point and the learning objective and put them
-    in a reasonable order.
- 6. Write just enough material to get from one assessment (exercise) to another.
- 7. Describe the course so the learners know if it is relevant to them.
+Good questions to ask and discuss with a group of colleagues **from diverse backgrounds**:
+- What is the expected educational level of my audience?
+- Have they been already exposed to the technologies I am planning to teach?
+- What tools do they already use?
+- What are the main issues they are currently experiencing?
+- What do they need to remember/understand/apply/analyze/evaluate/create
+  ([Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy))?
+- Define learner personas.
+- It may be an advantage to share an imperfect lesson with others early to
+  collect feedback and suggestions before the lesson “solidifies” too much.
+  Draft it and collect feedback. The result will probably be better than
+  working in isolation towards a "perfect" lesson.
 
 
-## Know your audience
+### The process of designing a lesson "backwards"
 
-Creating **learner personas** helps you understand your audience, even if you
-already know who the lesson is targeting. They ground your understanding of
-what the audience knows and is interested in.
+As described in ["A lesson design process" in the book Teaching Tech
+Together](https://teachtogether.tech/en/index.html#s:process):
 
-
-## Summative and formative assesments
-
-A **formative assesment** is an exercise that gives feedback to the learner.
-It should help a learner understand what they have learned and what they need
-to pay attention to. They also give feedback to the teachers, who can adjust
-timing depending on how learners understand the exercise.
-
-A **summative assesment** is like and exam question. It's purpose is to check
-that a learner has reached a **learning obejctive**. Summative assesments
-should still provide feedback to the learner and the teacher.
-
-Some standard exercise types:
- - Multiple choice (easy to get feedback via a classroom tool - try to design each wrong answer so that it identifies a specific misconception).
- - Code yourself (traditional programming)
- - Code yourself + multiple choice to see what the answer is (allows you to get feedback)
- - Inverted coding (given code, have to debug)
- - Parsons problems (working solution but lines in random order, learner must only put in proper order)
- - Fill in the blank
- - Discussions, self directed learning exercises
+1. Understand your learners.
+1. Brainstorm rough ideas.
+1. Create an summative assessment to know your overall goal.
+   > [Think of the things your learners will be able to do at the end of the lesson]
+1. Create formative assessments to go from the starting point to this.
+   > [Think of some engaging and active exercises]
+1. Order the formative assessments (exercises) into a reasonable order.
+1. Write just enough material to get from one assessment (exercise) to
+   another.
+1. Describe the course so the learners know if it is relevant to them.
 
 
-## Contributing (5min)
+## Improving existing lessons
 
-Our lessons are **collaboratively developed**. They are made by many people, and
-there is no single fixed master plan (but there should be, in the instructors or
-maintainer’s guide). We encourage everyone to contribute to the lessons.
+Collect feedback during the workshop:
+- Collect feedback from learners and instructors ([Example from a past
+  workshop](https://coderefinery.github.io/2024-03-12-workshop/questions/)).
+- Convert feedback about lessons and suggestions for improvements into issues
+  so that these don't get lost and stay close to the lesson material.
 
-Lessons are reviewed very often - essentially, before each workshop by the
-instructor of that workshop. This can be a quick review, looking at issues and
-fixing easy things, or more thorough.
+Collect feedback before you start a big rewrite:
+- First open an issue and describe your idea and collect feedback before you
+  start with an extensive rewrite.
+- For things still under construction, open a draft pull/merge request to collect
+  feedback and to signal to others what you are working on.
 
-We’ve made the [lesson-review](https://coderefinery.github.io/manuals/lesson-review/)
-checklist to guide the review process.
+Small picture changes vs. big picture changes:
+- Lesson changes should be accompanied with instructor guide changes (it’s like
+  a documentation for the lesson material).
+- Instructor guide is essential for new instructors.
+- Before making larger changes, talk with somebody and discuss these changes.
 
-If you are looking for a quick way to contribute, you can always check issues and
-pull requests on GitHub.
- - From a lesson page, click "Edit on GitHub" in the top right corner
- - Click for the "Issues" or "Pull Requests" panel at the top of the page
- - Comment and take part in the discussion
 
-Some issues you might be able to solve directly. Even then, you should comment on
-the issue first. This way no-one else will start working on it at the same time and
-you can be sure your work will be accepted.
+## Use case: our lessons
 
-So essentially, we follow the open source collaboration workflow we teach in the
-[collaborative git lesson](https://coderefinery.github.io/git-collaborative/forking-workflow/).
-
-- More about the files and format in the next lesson.
+:::{instructor-note} Work in progress ...
+- We will browse the overview of [our
+  lessons](https://coderefinery.org/lessons/), all are shared under CC-BY
+  license.
+- Show and discuss the evolution of the Git lesson over time, and our choices
+  and lessons learned.
+:::
 
 
 ## Exercise: Discussion about learning objectives and exercise design
@@ -159,7 +110,7 @@ So essentially, we follow the open source collaboration workflow we teach in the
 :::{exercise} We work in groups but use the shared document as result (20 min)
 1. As a group **pick a lesson topic**. It can be one of the topics listed here but
    you can also choose something else that your group is interested in, or a topic
-   that you have taught before or would like to teach.
+   that you have taught before or would like to teach. Some suggestions:
     - Git: Creating a repository and porting your project to Git and GitHub
     - Git: Basic commands
     - Git: Branching and merging
@@ -181,9 +132,31 @@ So essentially, we follow the open source collaboration workflow we teach in the
     - Strategies for parallelization
     - Conda environments
     - Data processing using workflow managers
-    - Working with the command line
+    - Regular expressions
+    - Making papers in LaTeX
+    - Making figures in your favorite programming language
+    - Linux shell basics
+    - Something non-technical, such as painting a room
+    - Introduction to high-performance computing
+    - A lesson you always wanted to teach
     - ...
 1. Try to define 2-3 learning objectives for the lesson and write them down.
 1. Can you come up with one or two engaging exercises that could be used to
-   demonstrate one of those objectives?
+   demonstrate one of those objectives? Some standard exercise types:
+    - Multiple choice (easy to get feedback via a classroom tool - try to design each wrong answer so that it identifies a specific misconception).
+    - Code yourself (traditional programming)
+    - Code yourself + multiple choice to see what the answer is (allows you to get feedback)
+    - Inverted coding (given code, have to debug)
+    - Parsons problems (working solution but lines in random order, learner must only put in proper order)
+    - Fill in the blank
+    - Discussions, self directed learning exercises
 :::
+
+
+## Great resources
+
+- [Teaching Tech Together](http://teachtogether.tech/)
+- [Our summary of Teaching Tech Together](https://coderefinery.github.io/manuals/teaching-tech-together/)
+- [Ten quick tips for creating an effective lesson](https://doi.org/10.1371/journal.pcbi.1006915)
+- [Carpentries Curriculum Development Handbook](https://cdh.carpentries.org/)
+- [Our manual on lesson design](https://coderefinery.github.io/manuals/lesson-design/)
