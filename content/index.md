@@ -69,7 +69,7 @@ for the CarpentryCon 2022 workshop:
 :caption: Session 1
 
 lesson-development
-lesson-template
+lessons-with-git
 feedback-and-impact
 ```
 

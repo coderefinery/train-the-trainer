@@ -1,4 +1,4 @@
-(lesson-template)=
+(lessons-with-git)=
 
 # Lesson template
 
