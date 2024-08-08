@@ -23,7 +23,11 @@ The workshop is organized by [partner organizations of the CodeRefinery project]
 Facilitators and instructors: 
 
 - Radovan Bast
-- ...
+- Richard Darst
+- Bjørn Lindi
+- Jarno Rantaharju
+- Stepas Toliautas
+- Samantha Wittke
 
 **Content and timing:**
 
