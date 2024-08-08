@@ -1,6 +1,6 @@
-(lesson-development)=
+(lesson-design)=
 
-# Lesson development
+# Lesson design and development
 
 :::{objectives}
 - Understand how collaborative development of lesson material works
