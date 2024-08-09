@@ -25,10 +25,12 @@ Facilitators and instructors:
 - Radovan Bast
 - Richard Darst
 - Bjørn Lindi
+- Dhanya Pushpadas
 - Jarno Rantaharju
+- Stephan Smuts
 - Stepas Toliautas
 - Samantha Wittke
-- Stephan Smuts
+
 
 **Content and timing:**
 
