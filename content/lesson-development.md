@@ -110,6 +110,9 @@ Small picture changes vs. big picture changes:
 :::{instructor-note} Work in progress ...
 - Show and discuss the evolution of the Git lesson over time, and our choices
   and lessons learned.
+- CodeRefinery lessons seem simpler than most: do you think this is good or
+  not. That's because we do this process and need to be accessible to many
+  people.
 :::
 
 
@@ -149,8 +152,12 @@ Small picture changes vs. big picture changes:
     - A lesson you always wanted to teach
     - ...
 1. Try to define 2-3 learning objectives for the lesson and write them down.
+   You can think of these as "three simple enough messages that someone will
+   remember the next day" - **they need to be pretty simple**.
 1. Can you come up with one or two engaging exercises that could be used to
-   demonstrate one of those objectives? Some standard exercise types:
+   demonstrate one of those objectives?
+   **They should be simple** enough people can actually do them. Creating simple exercises is not easy.
+   Some standard exercise types:
     - Multiple choice (easy to get feedback via a classroom tool - try to design each wrong answer so that it identifies a specific misconception).
     - Code yourself (traditional programming)
     - Code yourself + multiple choice to see what the answer is (allows you to get feedback)
