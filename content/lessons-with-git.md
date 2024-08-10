@@ -9,9 +9,10 @@
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Discussion: 25 min
+- Exercises: 20 min
 :::
+
 
 ## Why version control?
 

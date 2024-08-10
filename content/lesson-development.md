@@ -11,13 +11,13 @@
 
 :::{instructor-note}
 - Discussion: 20 min
-- Exercises: 30 min
+- Exercises: 35 min
 :::
 
 
 ## Exercise: How do you design your teaching material?
 
-:::{exercise} We collect notes using a shared document (10 min)
+:::{exercise} We collect notes using a shared document (5 min)
 - When you start preparing a new lesson or training material, where do you start?
 - What tricks help you with "writer's block" or the empty page problem?
 - Maybe you haven't designed training material yet. But how do you start when creating a new presentation?

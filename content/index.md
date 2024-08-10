@@ -113,6 +113,7 @@ streaming-whats-next
 :maxdepth: 1
 :caption: Resources
 
+guide
 All lessons <https://coderefinery.org/lessons/>
 CodeRefinery <https://coderefinery.org/>
 Reusing <https://coderefinery.org/lessons/reusing/>
