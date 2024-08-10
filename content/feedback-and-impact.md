@@ -14,7 +14,7 @@
 :::
 
 
-## Asking questions the workshop
+## Asking questions before the workshop
 
 - Motivation: Know your audience.
 - Until 2021 we had a pre-workshop survey:
