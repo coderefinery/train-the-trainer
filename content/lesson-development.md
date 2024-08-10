@@ -77,6 +77,15 @@ Together](https://teachtogether.tech/en/index.html#s:process):
 
 ## Improving existing lessons
 
+:::{discussion} All CodeRefinery lessons are on GitHub
+- Overview: <https://coderefinery.org/lessons/>
+- All are shared under CC-BY license and we encourage [reuse and modification](https://coderefinery.org/lessons/reusing/).
+- Sources are all on GitHub: <https:://github.com/coderefinery>
+- Web pages are generated from Markdown using [Sphinx](https://www.sphinx-doc.org/)
+  (more about that in the episode {ref}`lessons-with-git`).
+- We track ideas and problems in GitHub issues.
+:::
+
 Collect feedback during the workshop:
 - Collect feedback from learners and instructors ([Example from a past
   workshop](https://coderefinery.github.io/2024-03-12-workshop/questions/)).
@@ -99,9 +108,6 @@ Small picture changes vs. big picture changes:
 ## Use case: our lessons
 
 :::{instructor-note} Work in progress ...
-- We will browse the overview of [our
-  lessons](https://coderefinery.org/lessons/), all are shared under CC-BY
-  license.
 - Show and discuss the evolution of the Git lesson over time, and our choices
   and lessons learned.
 :::
