@@ -5,10 +5,9 @@
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Discussion: 20 min
+- Exercises: 10 min
 :::
-
 
 Here the episode sections and text ...
 
