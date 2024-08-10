@@ -108,3 +108,12 @@ obs
 obs-config
 streaming-whats-next
 ```
+
+```{toctree}
+:maxdepth: 1
+:caption: Resources
+
+All lessons <https://coderefinery.org/lessons/>
+CodeRefinery <https://coderefinery.org/>
+Reusing <https://coderefinery.org/lessons/reusing/>
+```
