@@ -145,7 +145,7 @@ working space.  The working directory is in the window title bar.
 :::
 
 :::{figure} https://raw.githubusercontent.com/bast/history-window/main/demo.gif
-:width: 50%
+:width: 80%
 
 **H7**:
 Show command history "picture-in-picture", in the same terminal window.
