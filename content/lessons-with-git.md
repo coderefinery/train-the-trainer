@@ -29,10 +29,10 @@
   - Not "what you see is what you get" editing
   - Requires knowing version control
 
-.. discussion:: Accepting the smallest contribution
+:::{discussion} Accepting the smallest contribution
 
-	Question: if someone wants to make a tiny fix to your material, can they?
-
+Question: if someone wants to make a tiny fix to your material, can they?
+:::
 
 ## Tour of lesson templates options
 
@@ -92,6 +92,18 @@ It is "just a normal Sphinx project" - with extensions:
       Notebooks.
   - Many other features designed for presenting and interacting with code
 - It's fine if you use some other static site generator or git-based lesson method.
+
+:::{demo} Instructors go through the building and contributing process
+
+Depending on the course, instructors will demo what is roughly exercise 4 below.
+
+- Instructors decide what change they would want to make
+- Instructors clone the repository
+- **Instructors make the change**
+- **Instructors set up the build environment**
+- **Instructors build and preview**
+- Instructors command and send upstream
+:::
 
 
 ## Exercises
