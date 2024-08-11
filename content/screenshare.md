@@ -224,7 +224,7 @@ and see what works for you.
   ```
   Unfortunately, this only shows commands after they have been executed.
 
-- [Shell exporter](https://github.com/Sabryr/Teaching-aids) can copy recent history to a remote server.
+- [Tavatar: shell history mirroring teaching tool](https://github.com/Sabryr/Tavatar) can copy recent history to a remote server.
 
 - [history-window](https://github.com/bast/history-window): Show command
   history "picture-in-picture" when teaching command line. Requires Bash.
