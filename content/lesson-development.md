@@ -107,13 +107,39 @@ Small picture changes vs. big picture changes:
 
 ## Use case: our lessons
 
-:::{instructor-note} Work in progress ...
-- Show and discuss the evolution of the Git lesson over time, and our choices
-  and lessons learned.
-- CodeRefinery lessons seem simpler than most: do you think this is good or
-  not. That's because we do this process and need to be accessible to many
-  people.
-:::
+As an example to demonstrate the process of designing and improving lessons, we
+will have a look at one of our own lessons: [Introduction to version control
+with Git](https://coderefinery.github.io/git-intro/).
+
+- Initial 2014-2016 version
+  - <https://github.com/scisoft/toolbox-talks> and <https://toolbox.readthedocs.io/>
+  - Amazingly they are still findable!
+  - Format: Slides and live coding.
+  - Exercises were separate, during afternoon sessions.
+- Some time in 2014-2015 attended Carpentries instructor training.
+- 2016: CodeRefinery started.
+- 2017: Started a new repository based on the Carpentries lesson template (at the time using Jekyll).
+  - Exercises become part of the lesson.
+  - We start in the **command line** and only later move to GitHub.
+- 2019: A lot more thought about learning objectives and personas.
+  - Also license change to CC-BY.
+- 2022: Convert lesson from Jekyll to Sphinx.
+  - Using the tools that we teach/advocate.
+  - We can have tabs and better code highlighting/emphasis.
+  - Easier local preview (Python environment instead of Ruby environment which we were not used to in our daily work).
+- 2024: Big redesign. We move the lesson closer to where learners are.
+  - Start from GitHub instead of on the command line.
+  - Start from an existing repository instead of with an empty one.
+  - Offer several tracks to participate in the lesson (GitHub, VS Code, and command line) and learners can choose which one they want to follow.
+  - Blog post: [We have completely changed our Git lessons. Hopefully to the better.](https://coderefinery.org/blog/2024/04/19/git-lesson-rewrite/)
+- Next steps?
+  - Making the lesson citable following
+    [our blog post](https://coderefinery.org/blog/2024/07/30/lesson-cffs/).
+
+The overarching trend was to make the lesson simpler and more accessible - to
+meet the learners where they are instead of pulling them to the tool choices of
+the instructors.  Looking back, we learned a lot and the learning process is
+not over yet.
 
 
 ## Exercise: Discussion about learning objectives and exercise design
