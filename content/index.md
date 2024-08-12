@@ -82,9 +82,9 @@ feedback-and-impact
 CodeRefinery_intro
 overview
 onboarding
-screenshare
-sound
 collaborative-notes
+sound
+screenshare
 ```
 
 ```{toctree}
