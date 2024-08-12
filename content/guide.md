@@ -21,6 +21,7 @@
 - 15 min: Intro
 - 45 min: Workshop overview, roles, onboarding/installation, helpers
 - 15 min: Break
-- 45 min: Collaborative notes and interaction
+- 30 min: Collaborative notes and interaction
+- 15 min: Sound
 - 15 min: Break
-- 45 min: Screenshare & sound
+- 45 min: Screenshare
