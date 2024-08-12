@@ -25,3 +25,23 @@
 - 15 min: Sound
 - 15 min: Break
 - 45 min: Screenshare
+
+**Session 3**
+
+- 15 min: Intro
+- 30 min: Computational thinking
+- 15 min: Break
+- 30 min: Co-teaching
+- 30 min: Teaching philosohies
+- 15 min: Break
+- 45 min: Sharing teaching tips, tricks, tools etc
+
+**Session 4**
+
+- 15 min: Intro
+- 45 min: ..
+- 15 min: Break
+- 45 min: ..
+- 15 min: Break
+- 45 min: ..
+
