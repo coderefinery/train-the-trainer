@@ -10,7 +10,7 @@
 
 :::{instructor-note}
 - Discussion: 25 min
-- Exercises: 20 min
+- Exercises or demos: 20 min
 :::
 
 
@@ -19,14 +19,14 @@
 - If you are in CodeRefinery TTT, you probably know what version
   control is and why it is important.
 - The benefits of version control also extend to lessons:
-  - History
+  - Change history
   - Others can submit contributions
-  - Others can make derived versions
+  - Others can make derived versions and sync up later
   - Same workflow as everything else
   - Write it like documentation: probably more reading after than
     watching it as a presentation.
 - Disadvantages
-  - Not "what you see is what you get" editing
+  - "What you see is what you get" editing is hard
   - Requires knowing version control
 
 :::{discussion} Accepting the smallest contribution
@@ -35,6 +35,9 @@ Question: if someone wants to make a tiny fix to your material, can they?
 :::
 
 ## Tour of lesson templates options
+
+There are different ways to make lessons with git.  Some dedicated to
+teaching:
 
 - CodeRefinery
   - Example: This lesson itself
@@ -51,6 +54,11 @@ designed for lessons
 - Jupyter Book
   - Example: https://jupyterbook.org/
   - Note: is based on sphinx, many extensions here are used in CR lessons
+- Various ways to make slides out of Markdown
+- Cicero: GitHub-hosted Markdown to slides easily
+  - [Demo: Asking for Help with
+    Supercomputers](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md/#1)
+    [The source](https://github.com/bast/help-with-supercomputers/blob/main/talk.md)
 - Whatever your existing documentation is.
 
 **We like the CodeRefinery format, but think that you should use
@@ -95,7 +103,8 @@ It is "just a normal Sphinx project" - with extensions:
 
 :::{demo} Instructors go through the building and contributing process
 
-Depending on the course, instructors will demo what is roughly exercise 4 below.
+Depending on the course, instructors will demo what is roughly
+exercise 4 below.  Or a course might go straight to exercises.
 
 - Instructors decide what change they would want to make
 - Instructors clone the repository
@@ -108,8 +117,8 @@ Depending on the course, instructors will demo what is roughly exercise 4 below.
 
 ## Exercises
 
-Some exercises have prerequisites (Git or Github accounts).  You
-should choose the exercises which match what you are ready for.
+Some exercises have prerequisites (Git or Github accounts).  Most
+instances of this course will have you do **1 and 2** below.
 
 :::{exercise} Lesson-VCS-1: Present and discuss your own lesson formats
 
@@ -122,6 +131,7 @@ use Git, it's easy to share and reuse.
 - Look at how they source is managed and how easy it might be to edit.
 :::
 
+
 :::{exercise} Lesson-VCS-2: Tour a CodeRefinery or Carpentries lesson on Github
 - Look at either a CodeRefinery or Carpentries lesson
   - CodeRefinery Git-Intro: [Lesson](https://coderefinery.github.io/git-intro/), [Github repo](https://github.com/coderefinery/git-intro)
@@ -130,16 +140,18 @@ use Git, it's easy to share and reuse.
   - Where is the content of the lessons?
   - What recent change propsals (pull requests) have been made?
   - What are the open issues?
+  - How you would contribute something?
   - How would you use this yourself?
-
 :::
+
 
 :::{exercise} Lesson-VCS-3: Modify a CodeRefinery example lesson on Github
 In this, you will make a change to a lesson on Github, using only the
 Github interface.  (Github account required, and we assume some
 knowledge of Github.  Ask for help in your team if it is new to you!)
 
-- Navigate to the example lesson we have set up: TODO
+- Navigate to the example lesson we have set up:
+  [repo](https://github.com/coderefinery/sphinx-lesson-scratch-space), [web](https://coderefinery.github.io/sphinx-lesson-scratch-space/)
 - Go to some page and follow the link to go to the respective page on
   Github. (Alternatively, you can find the page from the Github repo directly).
 - Follow the Github flow to make a change, and open a Pull Request
@@ -159,25 +171,28 @@ In this exercise, you will use Git to clone one a CodeRefinery lesson
 and try to preview it locally.  It assumes installation and knowledge
 of Git.
 
-- Use this sample repository: TODO
+- Use this sample repository:
+  [git-intro](https://github.com/coderefinery/git-intro) (or whatever
+  else you would like)
 - Clone the repository to your own computer
 - Create a virtual environment using the ``requirements.txt``
   contained within the repository.
 - Build the lesson.
-  - If you have `make` installed you can `make html`
   - Most people will probably run: `sphinx-build content/ _build/`
+  - If you have `make` installed you can `make html`
   - Look in the `_build` directory for the built HTML files.
 
 Overall, this is pretty easy and straightforward, if you have a Python
-environment set up.  The CodeRefinery lesson teaches this for every
-operating system.
+environment set up.  The [CodeRefinery documentation
+lesson](https://coderefinery.github.io/documentation/sphinx/) teaches
+this for every operating system.
 
 This same tool can be used to build documentation for other software
 projects and is pretty standard.
 :::
 
 
-:::{exercise} Lesson-VCS-5: Create your own lesson using the CodeRefinery format
+:::{exercise} Lesson-VCS-5: (advanced) Create your own lesson using the CodeRefinery format
 In this lesson, you'll copy the CodeRefinery template and do basic
 modifications for your own lesson.
 
@@ -192,6 +207,7 @@ modifications for your own lesson.
 :::
 
 
+## Summary
 
 :::{keypoints}
 - Version control takes teaching materials to the next level:
