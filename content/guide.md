@@ -27,7 +27,6 @@
 - 45 min: Screenshare
 
 **Session 3**
-
 - 15 min: Intro
 - 30 min: Computational thinking
 - 15 min: Break
@@ -37,11 +36,14 @@
 - 45 min: Sharing teaching tips, tricks, tools etc
 
 **Session 4**
-
 - 15 min: Intro
-- 45 min: ..
+- 10 min: Why we stream
+- 20 min: Behind the stream
+- 15 min: Video editing (part 1)
 - 15 min: Break
-- 45 min: ..
+- 25 min: Video editing (part 2, exercise)
+- 20 min: OBS introduction
 - 15 min: Break
-- 45 min: ..
+- 30 min: OBS setup
+- 15 min: What's next?
 
