@@ -80,7 +80,7 @@ Together](https://teachtogether.tech/en/index.html#s:process):
 :::{discussion} All CodeRefinery lessons are on GitHub
 - Overview: <https://coderefinery.org/lessons/>
 - All are shared under CC-BY license and we encourage [reuse and modification](https://coderefinery.org/lessons/reusing/).
-- Sources are all on GitHub: <https:://github.com/coderefinery>
+- Sources are all on GitHub: <https://github.com/coderefinery>
 - Web pages are generated from Markdown using [Sphinx](https://www.sphinx-doc.org/)
   (more about that in the episode {ref}`lessons-with-git`).
 - We track ideas and problems in GitHub issues.
