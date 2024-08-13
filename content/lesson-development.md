@@ -36,7 +36,7 @@
 - "I want to show a number of things which I think are cool about
   tool X - how do I press these into 90 minutes?"
 - Write down material you want to cover and then sprinkle in some exercises.
-- They think about how they work, not how the learners work.
+- Thinking about how I work, not how the learners work.
 - Trying to bring learners to their level/setup, not trying to meet the learners
   where they are.
 - Not really knowing the learning objectives or the learner personas.
