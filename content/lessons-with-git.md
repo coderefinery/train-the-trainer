@@ -1,6 +1,6 @@
 (lessons-with-git)=
 
-# Lesson template
+# Lessons with version control
 
 :::{objectives}
 - Understand why version control is useful even for teaching material
