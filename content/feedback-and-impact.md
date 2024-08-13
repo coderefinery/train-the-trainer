@@ -28,7 +28,7 @@
 ## Collecting feedback as we teach
 
 - Each day we ask for feedback in the collaborative notes.
-  - One good thing about today
+  - One good thing about today.
   - One thing to improve for next time.
   - Any other comments?
 - During the workshop we sometimes check in and ask about the pace, example:
