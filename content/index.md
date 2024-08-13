@@ -16,6 +16,10 @@ Do you teach the use of computers and computational tools? Are you curious about
 **Prerequisites:**
 An interest in teaching.
 
+**Workshop structure:** 
+We aim for a mix of modular presentations and work in small groups. The latter will be done in breakoutrooms - 
+be prepared to switch on your camera and have a fruitful exchange with fellow participants!
+
 **Organizers and instructors:**
 
 The workshop is organized by [partner organizations of the CodeRefinery project](https://coderefinery.org/about/partners/).
