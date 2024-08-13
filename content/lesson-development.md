@@ -135,6 +135,7 @@ with Git](https://coderefinery.github.io/git-intro/).
 - Next steps?
   - Making the lesson citable following
     [our blog post](https://coderefinery.org/blog/2024/07/30/lesson-cffs/).
+  - Improvements based on what we learn from this workshop.
 
 The overarching trend was to make the lesson simpler and more accessible - to
 meet the learners where they are instead of pulling them to the tool choices of
