@@ -81,7 +81,6 @@ feedback-and-impact
 
 CodeRefinery_intro
 overview
-onboarding
 collaborative-notes
 sound
 screenshare
