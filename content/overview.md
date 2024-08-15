@@ -112,7 +112,7 @@ Image showing a lecture setup vs the CodeRefinery workshop setup
 - Collaborative in-person workshops since 2016 around the Nordics
 - Moved online in 2020
 - Started with "traditional zoom" workshops, breakoutrooms, volunteer helpers
-- Thought about scaling and ease of joining -> current setup
+- Thought about scaling and ease of joining -> current setup (More about this in session 4)
 - Continuous development
 
 We also still do smaller scale local workshops, if instructors are available. You can offer your own CodeRefinery workshop by inviting other CodeRefinery instructors. You can also reuse single lessons and integrate them into your own teaching.
