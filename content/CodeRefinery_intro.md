@@ -35,6 +35,12 @@ its present form.
 - Provide **training opportunities** in the Nordics using (Carpentries and) CodeRefinery training materials.
 - Articulate and implement the CodeRefinery **sustainability plan**.
 
+## Community
+
+```{figure} img/community.png
+Image showing the key areas of the CodeRefinery community: Workshops, chat inlcuding help channel, online meetings and co-working, other collaborative training, eg on High Performance Computing topics.
+```
+
 
 ## Impact
 
