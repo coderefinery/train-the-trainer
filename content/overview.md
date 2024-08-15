@@ -105,11 +105,7 @@ Optimum: ~ 10 people
 
 ## How did we get to this setup?
 
-```{figure} img/participation_LECvsWS.png
-Image showing a lecture setup vs the CodeRefinery workshop setup
-```
-
-- Collaborative in-person workshops since 2016 around the Nordics
+- **Collaborative** in-person workshops since 2016 around the Nordics
 - Moved online in 2020
 - Started with "traditional zoom" workshops, breakoutrooms, volunteer helpers
 - Thought about scaling and ease of joining -> current setup (More about this in session 4)
