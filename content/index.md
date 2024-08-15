@@ -116,6 +116,7 @@ streaming-whats-next
 :maxdepth: 1
 :caption: Resources
 
+notes-archive
 guide
 All lessons <https://coderefinery.org/lessons/>
 CodeRefinery <https://coderefinery.org/>
