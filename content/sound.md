@@ -14,11 +14,63 @@
 :::
 
 
+
 ## The importance of audio
+
+- Audio is one of the most important things you can control
+- Things that can go wrong:
+  - Too quiet
+  - Too loud
+  - Instructors' volumes imbalanced
+  - Hard to hear
+  - "Ducking" (first words lower volume, or lower volume other times)
+
+
 
 ## Tips for good sound quality
 
+- Have a headset with mounted microphone
+  - Even having a good other microphone requires a room with good
+    acoustics
+  - The close pickup can't be beat with normal tools.
+  - As long as it's headset mounted, price doesn't seem to matter
+    *that* much.
+- Don't use Bluetooth
+  - Bluetooth can have too much latency (300-500ms)
+  - This may seem small but for interactive work, it's a lot
+  - Use a wired headset, or dedicated USB dongle (like gaming headsets
+    have)
+  - Bluetooth 5 can have much lower, but we wouldn't truest it.
+- Once you have a headset, turn noise cancellation to low.
+
+
+
 ## Balancing and dynamic adjustment
+
+- It's important that instructors volumes match
+- Unexpected things come up, so that you need to be able to adjust and
+  synchronize quickly.
+- An exercise below will cover our procedure.
+
+
+
+## Speak up when there are problems
+
+- If you notice someone with audio issues, let them know right away.
+  Take the time to fix it immediately.
+- If it's not fixed immediately, then they can work on it later (maybe
+  with your help)
+- Make a culture of *speaking up, helping, and not suffering*.
+
+
+
+## Recommendations
+
+- Procure some reasonable headset.
+- A low-priced gaming-type headset is a good option
+  - (It won't be Bluetooth because gaming needs low latency.)
+- Show this to your supervisors to get it called work equipment.
+
 
 
 ## Exercises
@@ -71,6 +123,7 @@ But how do you know?
   If there are more than three people, you can figure it out
   yourselves.  With less than two, you have to ask the audience.
 :::
+
 
 
 ## Summary
