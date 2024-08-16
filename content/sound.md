@@ -40,7 +40,7 @@
   - This may seem small but for interactive work, it's a lot
   - Use a wired headset, or dedicated USB dongle (like gaming headsets
     have)
-  - Bluetooth 5 can have much lower, but we wouldn't truest it.
+  - Bluetooth 5 can have much lower, but we wouldn't trust it.
 - Once you have a headset, turn noise cancellation to low.
 
 
