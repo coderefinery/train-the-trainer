@@ -83,7 +83,7 @@ feedback-and-impact
 :maxdepth: 1
 :caption: Session 2
 
-CodeRefinery_intro
+coderefinery-intro
 collaborative-notes
 overview
 sound
