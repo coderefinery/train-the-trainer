@@ -1,10 +1,10 @@
 # About the CodeRefinery project and CodeRefinery workshops in general
 
-```{learning-objectives}
+:::{objectives}
 - Understand what CodeRefinery is
 - Understand how we got here
 - Understand about the challenges to define CodeRefinery target audience
-``
+:::
 
 CodeRefinery is a
 [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/)
