@@ -7,7 +7,8 @@
 :::
 
 :::{instructor-note}
-- Teaching: 25 min
+- Teaching: 10 min
+- Exercise: 15 min
 - Questiongs & Answers: 5 min
 :::
 
@@ -16,11 +17,13 @@
 The Collaborative document is how you interact with the participants.
 The participants can ask questions and give feedback through the collborative
 document. During a CodeRefinery session there can be a large a volume of questions.
-A dedicated person, a HackMD-manager, is needed to answer and edit the collaborative document.
+A dedicated person, a Collaborative document-manager, is needed to answer and edit the collaborative document.
 Let us see how the collaborative document is used, then discuss the role of 
-the editor or HackMD-manager.
+the editor or collaborative document-manager.
 
 ## Collaborative document mechanics and controls
+Technologies that can be used as a collaborative document are [Hackmd](https://hackmd.io), [HedgeDoc](https://hedgedoc.org),
+or [Google Docs](https://www.google.com/docs/about/)
 
 [Hackmd](https://hackmd.io) or  [HedgeDoc](https://hedgedoc.org/) are real-time text editor online.  We use it to:
 * As a threaded chat, to **answer questions and provide other information** without
@@ -104,22 +107,22 @@ important to keep checking it.
   this format to make it easy for us).
 
 
-## HackMD manager
+## Collaborative Document Manager
 
-We have one person who is a "HackMD helper".  This isn't the only
+We have one person who is a "Collaborative Document helper".  This isn't the only
 person that should edit and answer, but one person shouldn't have too
 much else on their mind so can focus on it.  They also make sure that
-HackMD is updated with exercise, break, and other meta-information to
+the collaborative document is updated with exercise, break, and other meta-information to
 keep people on track.
 
 Below, (*) = important.
 
 ### Before the workshop
 
-* Create a new hackmd for the workshop
+* Create a new collaborative document for the workshop
 * make sure that **editing is enabled for anyone without login**
 * Add workshop information, links to the workshop page and material 
-and an example question and answer to the top of the hackmd (see below)
+and an example question and answer to the top of the collaborative document(see below)
 
 ### Most things to edit (everyone)
 
@@ -134,12 +137,12 @@ Make it easy to post after the course and consistent to follow:
 
 
 
-### General HackMD practices
+### General Collaborative Document practices
 
 ```{figure} img/hackmd--full-demo.png
 :align: right
 
-A live demo of HackMD during a Q&A time.  The two instructors are
+A live demo of a Collaborative Document during a Q&A time.  The two instructors are
 discussing some of the import answers.  Multiple learners have asked
 questions, multiple answers, and some remaining to be answered
 ```
@@ -168,9 +171,9 @@ Keep it formatted well:
 Update with meta-talk, so that learners can follow along easily:
 
 - Add Icebreaker and introductory material of the day.  Try to talk to
-  people as they joined to get them to open HackMD and answer.
+  people as they joined to get them to open the collaborative document and answer.
 - Anything important for following along should not be only said via
-  voice.  It needs to be in the HackMD, too.
+  voice.  It needs to be in the collaborative document, too.
 - New lessons or episodes, with links to them.
 - For exercises, link to exercise and add the duration, end time,
   goals.  If these are unclear, bring it up to the instructor by voice.
@@ -179,7 +182,7 @@ Update with meta-talk, so that learners can follow along easily:
 
 Screenshare it when necessary:
 
-- During breaks and other times, share the HackMD (including the
+- During breaks and other times, share the collaborative document(including the
   notification about break, and when it ends).
 - It is nice if the arrangement allows some of the latest questions to
   be seen, so people are reminded to ask there.
@@ -210,7 +213,7 @@ Answer questions
 
 Ensure it can be posted quickly:
 
-- HackMD gets posted to the workshop webpage.  For this, it needs some
+- The collaborative document gets posted to the workshop webpage.  For this, it needs some
   minimal amount of formatting (it doesn't need to be perfect, just
   not horrible).
 - All names and private information needs to be stripped.  This is why
@@ -220,12 +223,12 @@ Ensure it can be posted quickly:
     `[name=CR]` or something similar.
   - There may be other private URLs at the top or bottom.
 
-- If possible, send the PR adding the HackMD to the workshop webpage
+- If possible, send the PR adding the collaborative document to the workshop webpage
   (though others can do this, too).
 
 
 
-### HackMD format example
+### Collaborative document format example
 
 ```
 # Workshop, day 1
@@ -263,9 +266,9 @@ https://coderefinery.github.io/lesson-2/
 
 ```
 
-### Posting HackMD to website
+### Posting the collaborative document to the website
 
-HackMD should be posted sooner rather than later, and hopefully the
+The collaborative document should be posted sooner rather than later, and hopefully the
 steps above will make it easy to do so quickly.  You could wait a few
 hours, to allow any remaining questions to be asked an answered.
 
