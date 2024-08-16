@@ -113,6 +113,6 @@ CodeRefinery:
 - Training network for other lessons, too
 - Publicly-funded discrete projects (3 projects actually) transitioning towards an open community project
 - We have online material, teaching, and exercise sessions
-- Our main target audience are competent practicioners, but also novices and experts can get something out of the workshops
+- Our main target audience are competent practitioners, but also novices and experts can get something out of the workshops
 - We want more people to work with us, and to work with more people
 :::
