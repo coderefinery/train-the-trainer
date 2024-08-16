@@ -39,6 +39,7 @@ extensions = [
     'sphinx_rtd_theme_ext_color_contrast',
     'sphinx_coderefinery_branding',
     'sphinxcontrib.youtube',
+    'sphinx_localtime',
 ]
 
 myst_enable_extensions = [
