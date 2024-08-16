@@ -9,7 +9,7 @@
 :::{instructor-note}
 - Teaching: 10 min
 - Exercise: 15 min
-- Questiongs & Answers: 5 min
+- Questions & Answers: 5 min
 :::
 
 ## Introduction
@@ -106,6 +106,14 @@ important to keep checking it.
   all names (but not the comments) before archiving the notes (use
   this format to make it easy for us).
 
+## Exercise
+
+:::{exercise} Discuss how to collaborate and handle questions (15 min)
+Write down your conclusions in the shared document. Items to discuss are:
+- What is your experience with questions and discussions while teaching? 
+- How do you deal with them?
+- What kind of technologies do you prefer; chat, shared document, voices and discussion raised during instruction?
+:::
 
 ## Collaborative Document Manager
 
