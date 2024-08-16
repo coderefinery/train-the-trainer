@@ -15,7 +15,7 @@ The funding from 2022-2025 is designed to keep this project active
 beyond 2025 by forming a support network and building a community of
 instructors and contributors.
 
-```{discussion} History
+:::{discussion} History
 
 The CodeRefinery project idea grew out of two [SeSE](http://sese.nu) courses given at KTH Stockholm in 2014 and 2016.
 The project proposal itself was submitted to NeIC in 2015, accepted in 2015, and started in 2016.
@@ -23,7 +23,8 @@ The project proposal itself was submitted to NeIC in 2015, accepted in 2015, and
 We have started by porting own lessons to the Carpentries teaching style and
 format, and collaboratively and iteratively grew and improved the material to
 its present form.
-```
+:::
+
 
 ## Main goals
 
@@ -33,6 +34,7 @@ its present form.
 - for all researchers based in universities and research institutes from Nordic countries.
 - Provide **training opportunities** in the Nordics using (Carpentries and) CodeRefinery training materials.
 - Articulate and implement the CodeRefinery **sustainability plan**.
+
 
 ## Community
 
@@ -49,10 +51,12 @@ local host, co-instructor or co-organizer.
 Best **first step** in any case is to join the [CodeRefinery Zulip chat](https://coderefinery.zulipchat.com)
 or let us know about your interest at support@coderefinery.org.
 
+
 ## Target audience
 
 One common question we get is how do we relate to [the Carpentries](https://carpentries.org).
 This section describes how we see it:
+
 
 ### Carpentries audience
 
@@ -87,8 +91,7 @@ Whenever we can, we direct learners that do not have sufficient coding experienc
 We often qualify CodeRefinery learners as **competent practitioners** because they already have an understanding of their needs.
 :::
 
-:::{discussion}
-## Challenges related to defining our target audience
+:::{discussion} Challenges related to defining our target audience
 We often get the feedback "I wish I would have known X earlier!".
 *Competent practicioners* have run into issues with **not** caring (or not fully understanding)
 about version control, documentation, modularity, reproducibility before, so they are easily motivated to learn more.
@@ -96,6 +99,7 @@ For a *novice* these topics may seem unnecessary and "too much" and the workshop
 However, the materials are designed so that one can always revisit a topic, when needed.
 The important part is that you know that "X" exists, and where to find more information, which is also beneficial for novices.
 :::
+
 
 ## Best FAIR research software development practices?
 
