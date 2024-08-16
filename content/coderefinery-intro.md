@@ -65,11 +65,11 @@ One major goal of a Carpentry workshop is to raise awareness on the tools resear
 By showing learners how to solve specific problems with specific tools and providing hands-on practice,
 learners develops confidence for future learning.
 
-> ## Novices
-> We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet.
-> A typical example is the usage of version control: the Carpentry `git` lesson aims to give a
-> very high level conceptual overview of Git but it does not explain how it can be used in research projects.
-{: .callout}
+:::{admonition} Novices
+We often qualify Carpentry learners as **novices**: they do not know what they need to learn yet.
+A typical example is the usage of version control: the Carpentry `git` lesson aims to give a
+very high level conceptual overview of Git but it does not explain how it can be used in research projects.
+:::
 
 
 ### CodeRefinery audience
@@ -83,11 +83,11 @@ but have difficulties to make the best use of them in their software development
 
 Whenever we can, we direct learners that do not have sufficient coding experience to Carpentries workshops.
 
-> ## Competent practitioners
-> We often qualify CodeRefinery learners as **competent practitioners** because they already have an understanding of their needs.
-{: .callout}
+:::{admonition} Competent practitioners
+We often qualify CodeRefinery learners as **competent practitioners** because they already have an understanding of their needs.
+:::
 
-```{discussion}
+:::{discussion}
 ## Challenges related to defining our target audience
 We often get the feedback "I wish I would have known X earlier!".
 *Competent practicioners* have run into issues with **not** caring (or not fully understanding)
@@ -95,7 +95,7 @@ about version control, documentation, modularity, reproducibility before, so the
 For a *novice* these topics may seem unnecessary and "too much" and the workshop may feel too difficult to follow.
 However, the materials are designed so that one can always revisit a topic, when needed.
 The important part is that you know that "X" exists, and where to find more information, which is also beneficial for novices.
-``
+:::
 
 ## Best FAIR research software development practices?
 
@@ -107,7 +107,7 @@ software engineering.
 Therefore we also often call what we teach **good enough** software practices.
 Participants of our workshops are encouraged to take from the workshop what they see useful for their own work.
 
-```{keypoints}
+:::{keypoints}
 CodeRefinery:
 - Teaches intermediate-level software development tool lessons
 - Training network for other lessons, too
@@ -115,4 +115,4 @@ CodeRefinery:
 - We have online material, teaching, and exercise sessions
 - Our main target audience are competent practicioners, but also novices and experts can get something out of the workshops
 - We want more people to work with us, and to work with more people
-```
+:::
