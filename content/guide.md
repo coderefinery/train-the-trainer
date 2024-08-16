@@ -16,15 +16,18 @@
 - 45 min: Lesson template
 - 15 min: Break
 - 30 min: How we collect feedback and measure impact
+- 10 min: Outro and feedback
 
 **Session 2**
 - 15 min: Intro
-- 45 min: Workshop overview, roles, onboarding/installation, helpers
-- 15 min: Break
 - 30 min: Collaborative notes and interaction
-- 15 min: Sound
+- 10 min: About the CodeRefinery project and CodeRefinery workshops in general
 - 15 min: Break
-- 45 min: Screenshare
+- 35 min: Workshop overview, roles, onboarding/installation, helpers
+- 20 min: Sound
+- 15 min: Break
+- 30 min: Screenshare
+- 10 min: Outro and feedback
 
 **Session 3**
 - 15 min: Intro
@@ -34,6 +37,7 @@
 - 30 min: Teaching philosohies
 - 15 min: Break
 - 45 min: Sharing teaching tips, tricks, tools etc
+-  5 min: Outro and feedback
 
 **Session 4**
 - 15 min: Intro
