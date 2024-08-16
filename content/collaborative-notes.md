@@ -326,5 +326,7 @@ hours, to allow any remaining questions to be asked an answered.
 - ...
 ``````
 :::{keypoints}
-- Here we summarize keypoints.
+- Having a collaborative document improves communication and interaction.
+- Answering questions requires a dedicated person - A Collborative Document Manager.
+- The collaborative document should be posted on the web site as soon as possible.
 :::
