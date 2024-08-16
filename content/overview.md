@@ -19,10 +19,12 @@ This episode focuses on the large scale streamed workshop setup. Some of the fea
 :::
 
 
-:::{discussion} In breakoutrooms, summary in collaborative notes:
-What kind of roles have you been in yourselves regarding workshops? 
-How were you prepared for your role? 
-What are the things you would like to know before a workshop?
+:::{discussion} In breakoutrooms: choose one or two questions; summary in collaborative notes:
+- What kind of roles have you been in yourselves regarding workshops? 
+- How were you prepared for your role? 
+- What are the things you would like to know before a workshop?
+- How are you preparing participants for your trainings?
+- What was the best workshop experience for you as learner, helper or instructor? What made it great?
 :::
 
 ## One workshop - many parts
@@ -35,15 +37,15 @@ Image showing the different phases of a CodeRefinery workshop described below. A
 
 - During winter/summer: "Someone" takes the coordinator role for the next workshop
 - Coordinator fills other roles: 
-    - Coordinator: collects "necessary lesson updates", supports other coordinators
+    - Coordinator: collects necessary lesson updates, supports other coordinators
     - Registration coordinator: Sets up web page, starts and manages registration
-    - Instructor coordinator: finds instructors and onboards them (if needed)
-    - Advertising coordinator: prepares advertizement texts and finds people to distribute them
+    - Instructor coordinator: Finds instructors and onboards them
+    - Advertising coordinator: Prepares advertizement texts and finds people to distribute them
     - Team coordinator: Gathers local organizers/teams
     - Bring your own code session coordinator: If available, offer BYOC session after main workshop
-- Instructor: gets two-on-one onboarding with (instructor-) coordinator and previous instructor of lesson; update of lesson materials (urgent issues and personal touches)
-- Local organizer/Team lead: gets group [onboarding](https://coderefinery.github.io/manuals/team-leaders/) ~ week/or two before workshop
-- Learner: Gets [installation instructions](https://coderefinery.github.io/installation/), is offered installation help session, workshop info from event page and summary via e-mail
+- Instructor: Onboarding with (instructor-) coordinator and previous instructor of lesson; update of lesson materials (urgent issues and personal touches)
+- Local organizer/Team lead: Group [onboarding](https://coderefinery.github.io/manuals/team-leaders/) ~ week/or two before workshop
+- Learner: Gets [installation instructions](https://coderefinery.github.io/installation/), invited to installation help session, workshop info from event page and summary via e-mail
 - Collaborative notes manager sets up the notes document
 
 :::{note}
@@ -57,8 +59,8 @@ Image showing the different phases of a CodeRefinery workshop described below. A
 :::{note}
 #### [Installation instructions](https://coderefinery.github.io/installation/)
 - Instructions for all operating systems
-- We would like learners to leave the workshop and be ready to apply the learned tools and techniques to their own work
-- Support session for challenges with installations
+- Goal: Learners leave the workshop and are ready to apply the learned tools and techniques to their own work
+- Support session for installation challenges
 :::
 
 
@@ -70,11 +72,19 @@ Image showing the different ways learners can do the exercises. No matter which 
 ```
 
 - Everyone watches stream
-- Co-instructors present content and answer questions in collaborative notes
-- Collaborative notes manager keeps the collaborative notes clean, helps answering questions, adds sections and archives the document after each day
+- Co-instructors
+      - Present content
+      - Answer questions in collaborative notes
+- Collaborative notes manager
+    - Keeps the collaborative notes clean
+    - Helps answering questions
+    - Adds sections 
+    - Archives the document after each day
 - Learners do exercises individually or in team
-- Local organizer / Team lead guides learners through exercises and facilitates discussion
-- (Registration-) coordinator sends out e-mails to participants after each day, summarizing the day and preparing for the next day
+- Local organizer / Team lead
+    - Guides learners through exercises
+    - Facilitates discussion
+- (Registration-) coordinator sends out e-mails to participants after each day (summary + preparation) 
 - Director/Broadcaster manages the streaming (see session 4)
 
 ### After the workshop
@@ -82,7 +92,7 @@ Image showing the different ways learners can do the exercises. No matter which 
 - Coordinator collects lessons learned based on experience and feedback and turns them into issues
 - Coordinator organizes debriefing week after the workshop, where anyone can join to give feedback
 - "Someone" sends out post-workshop survey half a year after workshop 
-- Bring your own code sessions
+- Coordinator organizes "Bring your own code" sessions
 - Broadcaster prepares and shares recording (see session 4)
 
 :::{note}
@@ -100,8 +110,10 @@ Image showing a classroom learning about git leading to a discussion between stu
 - Many roles can be combined or adjusted as needed
 - Some roles can be taken on by multiple people
 
-Recommended minimum: 2-3 people
-Optimum: ~ 10 people
+So how many people are needed for this kind of workshop?
+- Recommended minimum: 2-3 people
+- Optimum: ~ 4-5 people
+The more people you involve, the more time goes into coordination work. 
 
 ## How did we get to this setup?
 
@@ -111,7 +123,9 @@ Optimum: ~ 10 people
 - Thought about scaling and ease of joining -> current setup (More about this in session 4)
 - Continuous development
 
-We also still do smaller scale local workshops, if instructors are available. You can offer your own CodeRefinery workshop by inviting other CodeRefinery instructors. You can also reuse single lessons and integrate them into your own teaching.
+We also still do smaller scale local workshops, if instructors are available. 
+**You can offer your own CodeRefinery workshop** by inviting other CodeRefinery instructors. 
+You can also reuse single lessons and integrate them into your own teaching.
 
 ## Workshop roles and their journeys
 
@@ -158,8 +172,11 @@ For more in-depth descriptions and other roles (host, instructor, registration c
 ```{figure} img/steps.png
 Image showing a person jumping from step to step following learner, helper, expert helper, co-instructor, co-organizer.
 ```
+There is no "one way" to get involved. Do what feels right. 
+Interested in teaching with us? Let us know and we can discuss what is a suitable path **for you**!
 
 :::{keypoints}
 - CodeRefinery workshops are a collaborative effort with many different roles
 - Onboarding the different roles is one key aspect of our workshops
+- Everyone has their own path
 :::
