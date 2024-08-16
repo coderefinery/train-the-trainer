@@ -20,8 +20,8 @@
 
 **Session 2**
 - 15 min: Intro
-- 30 min: Collaborative notes and interaction
 - 10 min: About the CodeRefinery project and CodeRefinery workshops in general
+- 30 min: Collaborative notes and interaction
 - 15 min: Break
 - 35 min: Workshop overview, roles, onboarding/installation, helpers
 - 20 min: Sound
