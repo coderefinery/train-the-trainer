@@ -83,8 +83,8 @@ feedback-and-impact
 :maxdepth: 1
 :caption: Session 2
 
-collaborative-notes
 CodeRefinery_intro
+collaborative-notes
 overview
 sound
 screenshare
