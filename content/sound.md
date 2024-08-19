@@ -9,8 +9,8 @@
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Teaching: 10 min
+- Exercises: 10 min
 :::
 
 
