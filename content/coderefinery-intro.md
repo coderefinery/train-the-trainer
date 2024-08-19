@@ -27,7 +27,7 @@ its present form.
 
 ## Goals
 
-- Develop and maintain **training material on software best practices** for researchers that write code/scripts/notebooks.
+- Develop and maintain **training material on good enough software development practices** for researchers that write code/scripts/notebooks. 
 - Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 - Provide a [code repository hosting service](https://coderefinery.org/repository/) that is open and free
   for all researchers based in universities and research institutes from Nordic countries.
