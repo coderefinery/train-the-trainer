@@ -10,8 +10,9 @@
 :::
 
 :::{instructor-note}
-- Teaching: 30 min
+- Teaching: 20 min
 - Exercises: 15 min
+Roles journeys can be shortened to looking only at instructor role.
 :::
 
 :::{note}
@@ -19,11 +20,12 @@ This episode focuses on the large scale streamed workshop setup. Some of the fea
 :::
 
 
-:::{discussion} In breakoutrooms: choose one or two questions; summary in collaborative notes:
-- What kind of roles have you been in yourselves regarding workshops? 
+:::{discussion} 
+In breakoutrooms: choose one or two questions to talk about your own experiences; summary in collaborative notes:
+- What kind of roles have you been in yourself regarding workshops? 
 - How were you prepared for your role? 
 - What are the things you would like to know before a workshop?
-- How are you preparing participants for your trainings?
+- How are you preparing your participants for your trainings?
 - What was the best workshop experience for you as learner, helper or instructor? What made it great?
 :::
 
