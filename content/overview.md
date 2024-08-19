@@ -51,7 +51,7 @@ Image showing the different phases of a CodeRefinery workshop described below. A
 - Collaborative notes manager sets up the notes document
 
 :::{note}
-#### [onboarding](https://coderefinery.github.io/manuals/team-leaders/)
+#### [Onboarding manuals](https://coderefinery.github.io/manuals/team-leaders/)
 - **Outline of what will happen during the workshop**
 - Discussion of different strategies to handle the exercise sessions
 - Lowering the barrier to ask for support by meeting some organizers
