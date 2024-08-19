@@ -15,7 +15,7 @@
 ## Introduction
 
 The Collaborative document is how you interact with the participants.
-The participants can ask questions and give feedback through the collborative
+The participants can ask questions and give feedback through the collaborative
 document. During a CodeRefinery session there can be a large a volume of questions.
 A dedicated person, a Collaborative document-manager, is needed to answer and edit the collaborative document.
 Let us see how the collaborative document is used, then discuss the role of 
@@ -327,6 +327,6 @@ hours, to allow any remaining questions to be asked an answered.
 ``````
 :::{keypoints}
 - Having a collaborative document improves communication and interaction.
-- Answering questions requires a dedicated person - A Collborative Document Manager.
+- Answering questions requires a dedicated person - A Collaborative Document Manager.
 - The collaborative document should be posted on the web site as soon as possible.
 :::
