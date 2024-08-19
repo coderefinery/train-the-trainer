@@ -84,7 +84,7 @@ In that sense, CodeRefinery workshops differ from Carpentries workshops as we as
 our audience already writes code and scripts and we aim at teaching them **best software practices**.
 
 Our learners usually do not have a good overview of **best software practices** but are aware of the need to learn them.
-Very often, they know the tools (Git, Jupyter, etc.) we are teaching
+Very often, they know of the tools (Git, Jupyter, etc.) we are teaching
 but have difficulties to make the best use of them in their software development workflow.
 
 Whenever we can, we direct learners that do not have sufficient coding experience to Carpentries workshops.
