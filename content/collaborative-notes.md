@@ -112,7 +112,8 @@ important to keep checking it.
 Write down your conclusions in the shared document. Items to discuss are:
 - What is your experience with questions and discussions while teaching? 
 - How do you deal with them?
-- What kind of technologies do you prefer; chat, shared document, voices and discussion raised during instruction?
+- What kind of technologies do you prefer: chat, shared document, or voices
+  and discussion raised during instruction? And why?
 :::
 
 ## Collaborative Document Manager
