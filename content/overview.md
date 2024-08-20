@@ -167,7 +167,7 @@ You can also reuse single lessons and integrate them into your own teaching.
 ### Other roles 
 
 Director and broadcaster roles will be discussed in Session 4. 
-For more in-depth descriptions and other roles (host, instructor, registration coordinator, etc), see manuals: https://coderefinery.github.io/manuals/roles-overview/
+For more in-depth descriptions and other roles (host, instructor, registration coordinator, etc), see also our [CodeRefinery manuals](https://coderefinery.github.io/manuals/roles-overview/).
 
 ## Different roles as stepping stones for community involvement
 
