@@ -19,6 +19,7 @@
 This episode focuses on the large scale streamed workshop setup. Some of the features can also be applied to smaller scale workshops though.
 :::
 
+## Discussion
 
 :::{discussion} 
 In breakoutrooms: choose one or two questions to talk about your own experiences; summary in collaborative notes:
