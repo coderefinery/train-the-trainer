@@ -36,8 +36,8 @@
 - 30 min: Co-teaching
 - 30 min: Teaching philosohies
 - 15 min: Break
-- 45 min: Sharing teaching tips, tricks, tools etc
--  5 min: Outro and feedback
+- 35 min: Sharing teaching tips, tricks, tools etc
+- 10 min: Outro and feedback
 
 **Session 4**
 - 15 min: Intro
