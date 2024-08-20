@@ -9,8 +9,8 @@
 :::
 
 :::{instructor-note}
-- Discussion: 25 min
-- Exercises: 20 min
+- Discussion: 15 min
+- Exercises: 15 min
 :::
 
 
