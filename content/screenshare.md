@@ -23,6 +23,8 @@
 - Share a **portrait**/**vertical half of your screen** (840 × 1080 is our standard and your
   maximum).
 - Zoom provides a "Share a part of screen" that is good for this.
+  - Our latest streaming setup (day 4) can take the portrait part for
+    you so you can share landscape.
   - Zoom + Linux + Wayland display manager doesn't have "Share a
     portion of the screen"
 	- You can share a single window portrait.
