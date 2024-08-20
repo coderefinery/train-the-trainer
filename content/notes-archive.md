@@ -967,6 +967,7 @@ Materials: https://coderefinery.github.io/train-the-trainer/screenshare/
   - We in CR haven't used it much but we have seen it.
 
 - Does the stacking of the screens work on windows?
+  - Don't know unfortunately
 
 
 
