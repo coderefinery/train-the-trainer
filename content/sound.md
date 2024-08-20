@@ -17,6 +17,7 @@
 
 ## The importance of audio
 
+- Pleasing audio quality makes events much more enjoyable
 - Audio is one of the most important things you can control
 - Things that can go wrong:
   - Too quiet
@@ -43,6 +44,8 @@
     (like gaming headsets have).  These have much lower latency.
   - Bluetooth 5 can have much lower latency, but you probably
     shouldn't count on that without testing.
+  - It can also have lower sound quality on some devices due to
+    bandwidth limitations.
 - Once you have a headset, turn input noise cancellation to low
   (wherever it might be: headphone, meeting software, etc.).
 
@@ -72,9 +75,11 @@
 ## Recommendations
 
 - Procure some reasonable headset.
-- A low-priced gaming-type headset is a good option
-  - (It won't be Bluetooth because gaming needs low latency.)
-- Show this to your supervisors to get it called work equipment.
+- Low/medium-priced gaming-type headsets have worked well for us.
+  - (gaming headsets usually aren't Bluetooth, because gaming needs
+    low latency.)
+- Show this page to your workplace (if you have one) and call a good
+  headset work equipment.
 
 
 
