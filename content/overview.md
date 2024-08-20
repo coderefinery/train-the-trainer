@@ -12,7 +12,7 @@
 :::{instructor-note}
 - Teaching: 20 min
 - Exercises: 15 min
-Roles journeys can be shortened to looking only at instructor role.
+- Roles journeys can be shortened to looking only at instructor role.
 :::
 
 :::{note}
