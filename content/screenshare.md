@@ -23,6 +23,12 @@
 - Share a **portrait**/**vertical half of your screen** (840 × 1080 is our standard and your
   maximum).
 - Zoom provides a "Share a part of screen" that is good for this.
+  - Zoom + Linux + Wayland display manager doesn't have "Share a
+    portion of the screen"
+	- You can share a single window portrait.
+    - Or you can start your desktop session in "X11" or "Xorg" legacy
+	  mode.
+    - Or possibly other workarounds (does anyone know other solutions?)
 
 :::{figure} screenshare/landscape.png
 :width: 80%
