@@ -110,46 +110,42 @@ detecting when I go too fast or become too confusing. I like when two
 instructors complement each other during a lesson.
 :::
 
-> ## Sabry Razick
-> My approach is to show it is fun to demystify concepts. Once a concept is
-> not a mystery anymore, the learners will understand  is what it means, where
-> it is coming from, why it is in place  and what it could it offer for their future.
-> I try to relate concepts to real life with a twist of humour whenever possible if
-> the outcome is certain not be offensive to any one. I use diagrams whenever possible,
-> I have spent weeks creating diagrams that is sometime three or four sentences. That
-> effort I consider  worthwhile as my intention is not to teach, but to demystify.
-> Once that is achieved, learners will learn the nitty gritty on their own easily
-> and with confidence, when they have the use-case.
->
->
-{: .challenge}
+:::{challenge} Sabry Razick
+My approach is to show it is fun to demystify concepts. Once a concept is
+not a mystery anymore, the learners will understand  is what it means, where
+it is coming from, why it is in place  and what it could it offer for their future.
+I try to relate concepts to real life with a twist of humour whenever possible if
+the outcome is certain not be offensive to any one. I use diagrams whenever possible,
+I have spent weeks creating diagrams that is sometime three or four sentences. That
+effort I consider  worthwhile as my intention is not to teach, but to demystify.
+Once that is achieved, learners will learn the nitty gritty on their own easily
+and with confidence, when they have the use-case.
 
-{: .challenge}
 
-> ## Richard Darst
->
-> Like many people, I've often been teaching, but rarely a teacher.  I
-> tend to teach like I am doing an informal mentorship.
-> I've realized long ago that my most important lessons weren't
-> learned in classes, but by a combination of seeing things done by
-> friends and independent study after that.  I've realized that
-> teaching (the things I teach) is trying to correct these differences
-> in backgrounds.
->
-> My main job is supporting computing infrastructure, so my teaching
-> is very grounded in real-world problems.  I'm often start at the
-> very basics, because this is what I see missing most often.
->
-> When teaching, I like lots of audience questions and don't mind
-> going off-script a bit (even though I know it should be minimized).
-> I find that sufficient audience interest allows any lesson to be a
-> success - you don't have to know everything perfectly, just show how
-> you'd approach a problem.
->
-{: .challenge}
+:::
 
+:::{challenge} Richard Darst
+Like many people, I've often been teaching, but rarely a teacher.  I
+tend to teach like I am doing an informal mentorship.
+I've realized long ago that my most important lessons weren't
+learned in classes, but by a combination of seeing things done by
+friends and independent study after that.  I've realized that
+teaching (the things I teach) is trying to correct these differences
+in backgrounds.
+
+My main job is supporting computing infrastructure, so my teaching
+is very grounded in real-world problems.  I'm often start at the
+very basics, because this is what I see missing most often.
+
+When teaching, I like lots of audience questions and don't mind
+going off-script a bit (even though I know it should be minimized).
+I find that sufficient audience interest allows any lesson to be a
+success - you don't have to know everything perfectly, just show how
+you'd approach a problem.
+
+:::
 
 
 :::{keypoints}
-- Here we summarize keypoints.
+- People have different viewpoints on teaching.
 :::
