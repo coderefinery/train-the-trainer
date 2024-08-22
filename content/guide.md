@@ -33,8 +33,8 @@
 - 15 min: Intro
 - 30 min: Computational thinking
 - 15 min: Break
-- 30 min: Co-teaching
 - 30 min: Teaching philosohies
+- 30 min: Co-teaching
 - 15 min: Break
 - 35 min: Sharing teaching tips, tricks, tools etc
 - 10 min: Outro and feedback
