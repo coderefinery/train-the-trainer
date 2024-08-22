@@ -7,8 +7,8 @@
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Teaching: 10 min
+- Discussion: 20 min
 :::
 
 
@@ -42,7 +42,7 @@ find the way that is best for each of us.
 
 > ## Video recordings
 >
-> Recently we have recorded some of the below as videos:
+> We have recorded some of the below as videos:
 > <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
 {: .prereq}
 
