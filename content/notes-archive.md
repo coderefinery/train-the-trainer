@@ -2,7 +2,7 @@
 
 ## August/September 2024
 
-### Session 1 - About lesson design, deployment and iterative improvement 
+### Session 1 (13.08.24) - About lesson design, deployment and iterative improvement 
 
 #### :calendar: Schedule
 
@@ -542,3 +542,488 @@ https://images.ctfassets.net/rxqefefl3t5b/2k45BFtw4sBMlBfjr1OZ90/5c6ecd3628a43b0
 - The inclusive environment feels very welcoming. Keep up the good work!
 
 **Thank you all for your feedback! Highly appreciated!**
+
+---
+
+## Day 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops 
+
+### :calendar: Schedule
+
+| Time (CEST)   | Title                                 | EEST (UTC+3)  | BST (UTC+1)   |
+|---------------|---------------------------------------|---------------|---------------|
+|  8.45 -  9.00 | Connecting time                       |  9.45 - 10.00 |  7.45 -  8.00 |
+|  9.00 -  9.15 | Intro and Icebreaker                  | 10.00 - 10.15 |  8.00 -  8.15 |
+|  9.15 -  9.25 | About CodeRefinery workshops          | 10.15 - 10.25 |  8.15 -  8.25 |
+|  9.25 -  9.55 | Collaborative notes and interaction   | 10.25 - 10.55 |  8.25 -  8.55 |
+|  9.55 - 10.10 | Break                                 | 10.55 - 11.10 |  8.55 -  9.10 |
+| 10.10 - 10.45 | Workshop overview, roles, onboarding  | 11.10 - 11.45 |  9.10 -  9.45 |
+| 10.45 - 11.05 | Sound                                 | 11.45 - 12.05 |  9.45 - 10.05 |
+| 11.05 - 11.20 | Break                                 | 12.05 - 12.20 | 10.05 - 10.20 |
+| 11.20 - 11.50 | How to prepare a quality screen-share | 12.20 - 12.50 | 10.20 - 10.50 |
+| 11.50 - 12.00 | Outro and feedback                    | 12.50 - 13.00 | 10.50 - 11.00 |
+
+
+### :icecream: Icebreaker
+
+#### Check-in
+
+Which emoji best describes your current state of mind? [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- :-)
+- https://media.istockphoto.com/id/148421550/vector/bored-emoticon.jpg?s=612x612&w=0&k=20&c=uo5KBTqdJZbBQb_Xldhzuovx5t08fHfGR7dw7TCk90I=
+- :saluting_face:
+- :sleepy: 
+- :coffee: 
+- :umbrella: 
+- :cocktail: :coffee: 
+- :seedling:
+- :tired_face: 
+- :sun_with_face: 
+- 🥴 (:woozy_face: not converted?)
+- :coffee:
+- :sunflower: :book: 
+- :satisfied: 
+- :coffee:
+- :coffee:
+- 🥱:tired_face: 
+- :bread: - I am baking bread today so I have been kneading dough while listening!
+
+#### Introduction in breakoutrooms
+ 
+Name / Affiliation / Location
+
+#### Teaching
+
+- Do you teach and organize teaching alone or with others? What would you prefer and why?
+    - Coming together is a beginning; keeping together is progress; working together is success. – Edward Everett Hale
+    - These days always with others.  Alone is easier to prepare but almost always is harder during it.
+    - Teaching with very diverse partners, it can be challenging to find a common language with people very different than you.
+    - I teach alone, in the future there will be more collaboration with multiple team members. Both approaches have their pros and cons. 
+    - Both has its own distinct advantages
+    - Most of my teaching is on my own, as a freelancer its more expensive to work with colleagues than to deliever a course on my own.
+    - Teaching together, learns from each other, feedbacks to improve
+    - Not formally taught yet, only given presentations actually .
+    - collective teaching would benefit the teachers with collaborative curriculumn and experiences sharing. 
+    
+    
+- If applicable, have you seen any challenges when teaching together and how to overcome them?
+    - It actually requires preparation, 
+    - Is it about teaching or about inspiring ? Discover the answer and get inspired ...
+    - It's like being in a band: you might be great at improvising and your band-partners might be great at improvising too, but a bit of rehearsing makes even the impro gig much better
+    - Need to plan before session, difficult if people don't 'plan' in the same way, e.g. with the same time frame.
+    - Heterogeneity in learners make it impossible to get the same result from everyone.
+        - In fact, the same applies to teachers :D
+    - Teaching together requires to have similar opinions on how to teach. I share vews only with ~40% of my colleagues I think.
+- No Teaching experience but it is good to give the outline of the lessons beforehand and learning goals.
+
+
+---
+
+### :question: Questions 
+
+#### General / Practicalities
+
+- What is this document for?
+    - Asking questions, collecting discussion points, taking collaborative notes (Zoom chat deactivated, can only be used for communication with the hosts)
+- Will the material be made available?
+    - Materials are and will stay available at https://coderefinery.github.io/train-the-trainer/
+        - Can I share them with a colleague
+            - Yes please :) 
+        - Can I resuse them in my own teaching?
+            - Yes please :)
+- Will these sessions be recorded?
+    - No, but the materials (see above) should include everything needed for self-learning.
+- Can I get a certificate for this workshop?
+    - You can get a certificate of attendance after the workshop by sending an e-mail to support@coderefinery.org, telling us a bit about what you have learned and which sessions you attended.
+- How often will we be talking in breakout rooms? 
+    - We'll have about one breakoutroom session per episode
+    - BR 1 : The Zoom chat does not work for the breakout room so we should take note of that. No webcam/mic = expect silence.
+        - Thanks for notifying! This was not intended. Turned the chat back on. 
+
+
+
+
+---
+
+## Session 2: Tools and techniques adopted in CodeRefinery workshops
+
+### Episode 1: CodeRefinery
+
+Materials: https://coderefinery.github.io/train-the-trainer/coderefinery-intro/  
+
+- (questions continue here)
+- Is there the plan to build capacity / be paid to deliever courses?
+  - We've discussed it but right now we don't have many people who could accept money to do this (and maybe shouldn't, because of their jobs).  But, we would encourage others to use our materials as "independents" to deliver paid courses
+  - One idea we have had is that paid courses could be delivered through the DRA (link below), who we know.  Basically, DRA could find instructors and handle the money transfers (If someone wanted a paid course, we could help find someone to do it through DRA or independently)
+  - :smile:
+- Have you come across DRA, https://digital-research.academy/, Heidi Seibold, Joyce Kao who are doing similar work? I can connect you if you like.
+    - Yes we have been discussing about possible future collaborations and are already sending possible clients their way (we, as a project cannot take money) :+1:
+        - Excellent! :-D :smile:
+- .
+
+### Episode 2: Collaborative Notes
+
+Materials: https://coderefinery.github.io/train-the-trainer/collaborative-notes/
+
+- So anyone can type anonymously?
+    - Yes, as long as you do not log in, you are Guest XXX
+    - And at least in our hedgedoc case you cannot log in so you will always be anonymous. You can do [name=xxx], to add your name to a comment
+
+- Test of +1
+    - +1 :+1: :+1: 
+    - :-1: a test
+
+- You are hosting your own version of HedgeDoc, and Hackmd.io is a similar (free) option. What are the limitations of the free hackmd.io? Should each center install their own HedgeDoc instance?
+    - It **seems** the free version of HackMD has gotten worse lately. It works still well enough with a few people editing at the same time. 
+
+- Have there every been problems with the anonymity and CoC?
+    - We haven't had any issues so far. 
+    - With a different anonymous tool in a bachelor course, we had issues with anonymous participants (participants were posting slurs and unsafe links). The course organiser decided to stop allowing anonymous tools.
+
+- Why not google documents?
+    - Google documents are actually setting a hard limit for simultaneous writing, no more than 100 concucurrent editors. I am unsure if microsoft onedrive word documents would allow more users writing at the same time. 
+
+- What's the most people you have every had on HackMD / Hedgedoc?
+    - I believe about 200 active participants?
+    
+- What are your thoughts on using the build-in Zoom Q&A?
+    - We haven't tried this, in part because the way we do streaming now (you'll see in session 4), participants aren't in Zoom so don't have access to that. The doc-format works pretty well though, when we keep it in this limited "write at end" format.
+
+- How do you see what has changed? e.g. if leave the session at the end, can I come back tomorrow and see X has been added? e.g. a diff for this maybe?
+    - In the menu up right there is revision, it does show the document and changes at different time step :+1: Thanks!
+    - We recommend people only write at the bottom (and since we answer things live), so as a first level approximation you find where you were and read below that.  Think of it more like chat than a full document.  (Yes, we do revise questions at the end)
+
+- How about flinga boards or similar tools?
+    - My take is that the simplicity of a simple text document wins over free-form in-person-workshop-like tools.
+    - There's miro, can be a bit confusing though
+
+- How does this work with small groups, e.g. 10-15 people?
+  - Good question: it can be hard if people aren't rigorous about it, people start only using chat/voice.  So there seems to be some lower bound in size but we haven't tested this much
+  - And if the instructors never screenshare it to show what goes on it, then seems to be less used.
+  - And if there aren't other people to read/answer it during the session (perhaps less likely in a small course), it seems to be less used.
+
+
+:::info 
+Breakoutrooms until xx:55
+
+Exercise/discussion: https://coderefinery.github.io/train-the-trainer/collaborative-notes/#exercise
+:::
+
+- Breakout room 1:
+  * Use of etherpad for collaborative discussion.
+  * Use of slido for polling and quizzing.
+  * Presemo as a slido alternative (https://www.aalto.fi/en/services/presemo-a-fully-web-based-classroom-participation-system)
+  * Use of text based approach for questions rather than live can be helpful if there is a language barrier issue.
+  - A good teaching session which had many questions coming spontaneously to the teacher is a non-entity of sorts. If the overall flow of feedback / questions increases it could indicate that the session will not prove to be a helpful experience. A signal that generates noise is, well, noise, if calling a spade a spade signals anything. Note that the 'overall' bit and the 'to the teacher' aspect are important. Both the best and the worst teaching session have two things in common: a teacher, and the fact that NO Materials of any kind are used, ie speech is the only channel of communication via a common language. The only difference is that it is not the same teacher, at least not in the same session at the same time.
+
+  Another less mentioned, but perhaps more relevant indicator of a great session is the simple fact that at the end of the session EVERYONE feels empowered, NOT tired. This is not an easy to quantify thing, but screams out the quality of the experience loud. More often then not, such sessions differ little from each other, apart from in terms of the theme / topic and the participant mix. It ends up being the 'keep your cake and eat it too,' of sorts, not quite the far less amusing post-bombardment devastation scenario in the wake of a take it or leave it go at anything. 
+ 
+  - profanity in collaborative documents where people can add content anonymously could be a problem (happens very rarely, fortunately and somewhat surprisingly)
+
+- Breakout Room 2:
+    - Good experiences with Zoom polls
+    - Handling questions in hybrid setups: all participants (on-site and online) ask questions in written form
+    - Collaborative notes can be challenging when conducting a course alone (without teaching assistants) :+1:
+    - Providing a method to ask questions anonymously can make asking easier for shy participants
+    - Questions can give valuable feedback on how the course is going
+    - Online collaborative whiteboarding platforms such as Miro
+        - Large monitors are useful for this not to have to drag a "periscope" around
+
+
+
+
+- Room 4
+    - good experience with whatsapp chat for questions. since most learners have the app already and one thing less to install and set up
+      - reply to question is a way to handle multiple questions at the same time but it works well for smaller groups
+  - experience with collaborative docs in in-person workshops: voice questions might "win" over the document
+  - "seeding" questions may help to not have an empty document
+  - it can help somebody to start and create a structure which helps others to see and follow
+  - we discussed the Carpentries sticky notes system (red sticky note: signal tech issues and use for feedback, green sticky note: signal that exercise worked and for positive feedback) 
+    - Nice summary of sticky notes system: https://teachtogether.tech/en/#s:classroom-sticky-notes :+1:
+  - What is the success rate of in-person workshops after COVID? Discussion: Teachers prefer in person and learners prefer remote or recorded to spool back and relearn.
+
+
+- Room 5 
+
+    - Good experience with Collaborative tools as HackMD and HedgeDoc while teaching with no bad feedback 
+        - When used with smaller groups works best as one-way, like sharing links with students and so on
+        - Needs to be done as a team, quite difficult if teaching alone
+        - Most useful when online/hybrid
+    - Anonymisity is important for transparent feedback and no biasis in classrooms
+    - Not very collaborative but useful to share history or jupyter notebooks live https://github.com/mwakok/software_carpentries?tab=readme-ov-file#set-up-gitautopush
+    - Used Flinga before that seems like Figma and also onsite teaching using sticky notes
+        - There's miro.com but can be a bit confusing, more for brainstorming than for teaching
+    - Using quizzes apps like Kahoot is beneficial while teaching to have more engaging students 
+    - 
+
+- Room 6
+    - teaching teenagers (in presence) but using shared pad becomes quickly very chaotic, so only usable for short moments when answering very precise questions
+        - Yeah, I can imagine.  For CR we try to keep it in this very limited format (all questions bullet points, only add to the end) and I think that helps.
+    - using shared notepad for small workshop (5-10 people) to explore common thematic (mainly technical) to keep a shared notes and condense aftwerward (and publish on wiki to archive)
+    - Difference between teaching in person and online. Some people prefer in-person and sometimes you have no option but to organise it online.
+    - There are sometimes cultural differences and learners feel shy to ask / question the knowledge of the Teacher, so shared notes are a good way to safely ask questions.
+
+
+Questions continue:
+
+- Have we demonstrated how we do polls in HedgeDoc? Add your vote by adding an `o`
+    - yes: oooo *(in session 1)*
+    - no: 
+    - :smile:
+    - not sure: o
+
+
+### Episode 3: One workshop, many perspectives
+
+Materials: https://coderefinery.github.io/train-the-trainer/overview/
+Next CodeRefinery workshop in September: https://coderefinery.github.io/2024-09-10-workshop/
+
+
+:::info
+#### Exercise until xx:39
+https://coderefinery.github.io/train-the-trainer/overview/#discussion
+:::
+- Room 1
+    - Send pre-workshop email with pre-requisite instructions on what should be set-up beforehand.
+        - But, also mention that if help is needed for set-up, we will be ready before the session officially starts.
+    - Discussion on whether we push to work in a pre-ready environment (e.g. Binder, Colab) or in their own environment.
+    - Lots of help needed both before and after.
+    - Installations: as much as we can provide ready made environments for the learners, maybe installations will be something that the learners will face sooner or later. Maybe one should teach more about installations?
+    - My only cherished role in a teaching-learning session is the that of one who is living the moment as if there were no tomorrow. What cuts all ways really is that “By failing to prepare, you are preparing to fail.” ― Benjamin Franklin. A helpful motto: “When one teaches, two learn.” — Robert Heinlein. The best experience cannot be given, it can only be allowed to flow its way, so get out of its way.
+
+
+- Room 2
+    - Frequently, a single person fills all the roles for a single or multi-day workshop
+    - Collaboration with different centers/ universities can be challenging
+    - Preparing participants: it's essential for the instructor to go through the demos and be sure that they will work (no unpleasant surprises live). This can be extended to advance-prep for participants.
+    - Best experience is to hear (live or in feedback notes) some positive things directed at you :)
+    - Fully prepared environments (eg self-hosted JupyterHub) can make preparation for participants easy
+
+
+- Room 3
+    - Some students have problems with setuping the environment. Maybe having a step by step instructions could help. But some students don't want to "start" the course before hand.
+    - Preparing the environemnt before hand ensures everyone is onboard from day 1. The same thing happend in CSC training sessions and another session Peng attended.
+
+    - Had experience in attending as teacher and student in previous workshops
+
+- Room 4
+    - knowing the background of the audience is helpful
+        - Try and ask in advance of the background of the audience. Do a poll at the start of the workshop. In person one can do it interactive.
+    - among co-instructors: discuss topics and flow
+    - if more people are involved, it can help changing roles from time to time to see different perspectives
+    - preparation is key
+    - Circulate instructions beforehand
+        - Do a poll before session: Have you installed (QGIS) successfully? 
+        - Push hard to do this in the welcome email
+    - communicate clearly to the participants
+    - 
+- Room 5
+    - We've all taken most roles
+    - How to prepare in advance?
+        - Meet and discuss once or twice
+        - Make a pre-survey to check for interest and background
+        - Going through the materials
+        - Checking the toolkit (zoom)
+        - Agree on the reponsibilities and back-up plans (bit of scenarios planning)
+    - How to prepare trainings in advance?
+        - Collect resources and prepare the workshop plan
+        - Having the material readily available online ans sharing it
+        - Making a pre-survey
+    - What was the best workshop experience for you as learner, helper or instructor? What made it great? 
+        - learner
+            - Engaging and practical workshop with more exercices and follow-up theoretical part explanations
+        - helper
+            - When the instructor is well prepared and as helper ther's only typos to fix and interesting questions to answer
+            - Assist the instructor, coordinate the collaborative notes, and make sure that the time is respected
+        - instructor
+            - I have a colleague whom I've ran the same workshop a few times already, goes quite smoothly now and we've made a few changes. Hard to reach that point with new colleagues but getting there
+            - Students/participants were engaging with the material and many good feedback collected even some of them asked for the next workshop 
+
+
+- Room 6
+    - What has made a great experience for you as a learner/helper/instructor?
+    - Common ground between learners & teachers
+        - 
+    - Motivation
+        - Teaching is much more enjoyable when the learners want to be there
+        - I spend a lot of time at the start of a workshop making sure learners feel that the content is possible for them to understand and master
+
+
+Poll: I have joined a CodeRefinery workshop before: (add an `o` for your answer)
+- yes (within last 2 years): ooooooo
+- yes (longer time ago): oo
+- no: oooooooo
+- 
+
+
+(questions would continue below:)
+- What is the motivation / advantages of streaming workshop versus using zoom?
+  - We'll cover this more in week 4, but roughly: zoom became unmanageable and essentially quiet once things got big.  Streaming allowed "one to many" communication with no limit, and collab notes allowed better interaction anyway.  By separating the rooms, it was more pleasant to teach.  Videos could be released immediately since there was no risk of privacy of participants.  There could still be in-person/online small groups who have "watching parties."
+- What are the blue red and green font colors here, does it symbolify anything or just a convention HedgeDoc uses?
+    - Visual separation of formatting, mostly. (It helps to quickly realize you've missed/ mistyped a control Markdown symbol etc.)
+    - Yeah, it's bascically "code highlighting" for markdown.  No special meaning but quite convenient for us.
+- Is this next workshop only for team leads or also open for helpers and coordinators?
+    - You mean the next session of this workshop or the upcoming "CodeRefinery workshop"(this one: https://coderefinery.github.io/2024-09-10-workshop/)?
+        - The upcoming workshop coordinators are alredy working, but can be joined if you are interested
+        - As helper roles we currently only have "collaborative notes helper", which is all about helping to answer questions in the collaborative notes
+        - We do have some co-teaching slots open :)
+        - If interested: join the discussion in our chat: https://coderefinery.zulipchat.com/#narrow/stream/316508-coderefinery-tools-workshop/topic/Fall.202024.20CodeRefinery.20workshop
+
+- Can a person have multiple roles in a workshop as a helper and a teacher?
+    - Yes, many teachers also contribute to the rest of the workshop by answering questions in collaborative notes. :+1:
+    - Some teachers also host a local classroom in week one and do their teaching in week two of the workshop 
+    - Roles that do not go well together are broadcaster/director/host and instructor (goes well until there is a problem; co-teaching solves that partly)
+
+
+### Sound
+https://coderefinery.github.io/train-the-trainer/sound/
+
+- To me, Richard is a bit quieter than the other two :+1: :+1: :+1:
+  - to elaborate: I think that the audio coming from him is missing some mids
+  - Do you have any links about this kind of evaluation and adjustment?
+
+- Do you suggest / recommend a specific headset(s) with mounted microphone?
+    - in our experience headsets with a microphone will almost always be better than a separate microphone sitting on the desk or in the monitor
+    - 
+
+- Speakers have different tones of voice and speaking styles, is there a recommendation or experience from CR workshops for how this is adjusted and catered to environemnts for listeners? 
+    - Yeah, people's voices are different and we haven't gone as far as voice training or improving.
+
+- How to change the volume for speakers? Tried Zoom settings and system settings and didn't help.
+    - From linux I can use different pulsemixers `pavucontrol`, `pulsemixer` to set the gain to above 100%.  I'm not sure the equivalent on other OSs but 
+
+---
+
+:::info
+
+Exercise until xx:10
+https://coderefinery.github.io/train-the-trainer/sound/#exercises
+:::
+
+- room 1
+
+  - Practically, no typical headset is designed or can capture the technical purity of human voice within its natural environment. But one needs to understand the polar pattern of the (specific) microphone or how much of the signal will be picked up by the microphone from different directions, a sine qua non when it comes to mitigating unwanted sound sources to bleed into the signal.
+
+For best results, keep the right direction & distance to your (directional) mic. Usually, that’s between 15-30 cm to get get a natural sound. A microphone records everything it can, also silence, so check the headphone output BEFORE adjusting the gain, in some specific cases aim for a dry sound, ie the influence of the room or how audible the room is on the recording ! Finally, adjust the mix between dry and room sound, or change the frequency response in tandem using a compressor to reduce the dynamic range of a signal for a more consistent listening experience = the quietest parts of your signal will appear louder by reducing the loudest parts. 
+
+It is all about one thing and one thing only - love your voice, let people fall in love with the acoustic quality of your charm. So remember: GIGO, it matters!
+
+- Room 3
+    - Had different headsets and we could see the difference (bluetooth low quality)
+    - How to change the volume?
+        - It's surprisingly hard to get more control than the basic slider you see in the apps!  You need to look.
+
+- room 4
+   - headset is probably better listening experience but they can be uncomfortable to wear during long meeting days :+1:
+     - Yeah.  Luckily only instructors 
+     - Therefore breaks are non-negotiable 
+   - loud keyboard can be an issue
+   - if one has a silent room that does not echo, it can be ok to teach without headset
+   - on Linux I am using `pulsemixer` to adjust levels and `pavucontrol` to change outputs/sources
+   - mic modes on mac 
+   - check default microphone for zoom.
+ 
+ - room 5
+     - Most tricks help tuning yourself but hard to do it as a group. Perhaps doing a short recording.
+         - Yeah.  Some independent recording/playing aronud, but also asking for advice.  I would do small group/one-on-one things.
+     - Background noises cancellation tools or wise choice of quiet environments
+     - Audio check with colleagues or through the app with the audience saying numbers for example
+     - Zoom or Teams have sound checks but work different in the app than the browser. They also work different across Operating systems
+     - Some sound issues might be related to network speed or stability, also to RAM available. Worthwhile to try and control those as well
+     - Make it welcoming for the audience to give you feedback on the audio and other settings, give reminders
+ 
+
+## Episode 5: How to prepare a quality screen-share
+
+Materials: https://coderefinery.github.io/train-the-trainer/screenshare/
+
+- If your Zoom does not support "share portion of screen", sharing a tab and resizing it to portrait for yourself is a possible workaround (this at least works when joining the call from Chromium browser)
+    - Another workaround is to use an editor/IDE that displays multiple panels in one window and can show a web page, code files and terminal session +10
+- Is 'share a portion of your screen' where you draw a box in Zoom to share a section?
+    - yes :+1: 
+
+
+- When using zsh, one can run something like this in a terminal
+  ```
+  tail -n $NLASTCOMMANDS -f ~/.zsh_history | sed 's/^.............../LAST COMMAND:/g'
+  ```
+  (I place this in a window under the main terminal, I use i3)
+
+- I am a bit confused on what platform you are putting this code?
+  - Radovan is using Linux with (I think) the "i3 window manager".  It can be quite involved and there is lots of personal customization here.
+- When teaching with a custom prompt, is it worth starting with the default (that your learners will see) and explicitly mentioning "I change these things to make it clearer when teaching"
+    - One should always comment on what may be different.  Thing is "default" may look different for many people :+1:
+    - "I am _not_ going to teach you how to customise your prompt, but here's an online tutorial, be prepared to lose several days of your life..." :laughing:
+
+
+- Now I can't see the last line in the terminal
+  - Yep, that's a problem.  It can be good to keep a buffer on the bottom of the screen.
+  - If you move your mouse outside the Zoom window, the controls should go away. But still a good note. 
+    - My mouse was on another screen. 
+    - Ok, thanks.
+  - I think one can also make the zoom bars not auto-hide (then it won't display under), but that is annoying also since it wastes space.
+
+
+- Does anybody still use shellshare? Does it work?
+  - We in CR haven't used it much but we have seen it.
+
+- Does the stacking of the screens work on windows?
+  - Don't know unfortunately
+
+
+
+:::info
+Exercises (done together)
+https://coderefinery.github.io/train-the-trainer/screenshare/#exercises
+
+Write your cool tips and ideas below.
+Stay after xx:00, to 
+:::
+
+- To be safe, I have created on my computer an account that I use only for teaching, so I do not need to do any manual set up
+- share history or jupyter notebooks live (5-10 secs refresh rate) into a git repo. Share the link with the learners so they can catch up https://github.com/mwakok/software_carpentries?tab=readme-ov-file#set-up-gitautopush
+
+---
+
+## Wrapup
+
+- Next session Tuesday August 27 9 CEST: About teaching & cool things we all would like to share
+- All workshop materials will stay available (and be put on Zenodo right after the workshop, currently other epsisodes are still in development)
+- CodeRefinery community: https://coderefinery.zulipchat.com/
+- Cool gems session: If you want to share something, please edit your registration and fill it in there (link to modify in registration confirmation); or e-mail to support@coderefinery.org
+- If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support@coderefinery.org, or join any of the upcoming Monday planning meetings at 14:00 (Europe/Stockholm time)  
+
+
+## Feedback about todays session
+
+What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:
+- Sound and screen share optimization as well as relevant tools and good practices for online instruction. “While you may be unable to control your users’ mindset, you can anticipate it, and make sure that your user experience caters to it.” - Jonathan Cherki 
+- Nice opportunity to (re)think about my online teaching setup :+1: :+1: :+1:
+- Other ways to display command history :+1: 
+- Did not know that bluetooth gear had so much latency! :+1: 
+- A good reminder about headsets with microphones
+- Nice and friendly teaching. Thank you!
+- Screen share with command history and terminal customisation
+- Really useful tips on sound and screen sharing :+1: 
+- Nice experience share
+- very useful and practical tips!
+- Easy to follow along and filled with useful tips on sound, video etc.
+- 
+
+What one thing would you improve about this session?
+- Just digging to find something: I have read some of the things you have talked about here already in some blog posts, so perhaps these sessions are not as shokingly full of new content as I imagined (but actually sharing experiences is something I can't do by reading a blog post)
+    - Perhaps: could you link some blog posts or other sources for what you have discussed so far? If it makes sense. Not sure.
+- Talking about interface optimization approaches, which applies to sound as much as to visuals or any other aspect either for that matter, it might offer a perspective to bear in mind the concept of introducing asymptotic complexity increment. The latter would mean the goal is measuring how fast the effort of engaging, on one or more of the three parallel levels of interaction, must change to reach higher levels of partial certainty on the correctness of the implementation of the method in question, in this case the pedagogical paradigm. For the former, lower is better I guess, or in this case, in the intended sense, slower is faster. Let us consider an abstract example: People liked using the search engine Google (a Google session to put it in a fancy way) in the early days because it was as simple as it could get, a literally featureless entry point with no bells and whistles. That was the level of its visible complexity, or rather Google set a bar as low as it one could have, and then any higher point of VISIBLE complexity that was to be introduced, such a move would only be on the path of an asymptotic curve curving towards the set bar, never reaching it, as far as the entry point is concerned. We still see the same level of complexity when we fire up google and we never feel distracted to start with, except for the rather forgivable nuisance of the GDPR conformity pop-up notice which appears only AFTER the first move has been made, and thankfully it works plain and simple from there on (unless one starts feeling lucky, pun intended). Now, think about Youtube ... the user experience complexity is a totally different matter, the same company today (unfortunately) yet one now has a steadily worsening engagement experience. Good learning sessions tend to be more of the Google search engine experience and a far cry from the current Youtube trend I would opine. Or, to sum it up and keep it sweet and simple, it helps to identify the limits of human-human and human-technology interaction, within the framework of any applicable technology-technology interaction and joy is the result of respecting those limits. Wishful thinking ?
+- Bring the cat back!
+    - I wish it came, but it's been resting all morning!  I don't bother it or stage apperances...
+- Maybe having a digest/ summary of previous iterations of this session might be interesting. I feel a lot of experiences have been exchanged and a lot of techniques/ tools have been mentioned. Spending some time in compiling this into a selected list and adding it as content to the course itself might be worthwhile.
+    - Good idea! We will write a blog post about this workshop and will include a summary of all discussions there :) 
+- Possibly have some command line examples from Windows rather than (just) *nix? I will look at the screenshots after the session. :+1: :+1: 
+    - Also, a thought if you do do breakout sessions with this work, do one for Unix, one for Windows, one for Mac as an option. 
+- I could not follow the part Radovan showed codes (Radovan is using Linux with (I think) the "i3 window manager".)
+- ..
+
+Any other comments?
+- Looking forward to the topics of following sessions.
+- Looking forward to the next sessions!
+- Thank you!
+- Relax, nothing else matters, live a life and have fun ! If you obey all the rules you may end up missing all the fun. 'The best way to predict your future is to create it.' - Abraham Lincoln :+1: 
