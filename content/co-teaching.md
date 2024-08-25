@@ -41,6 +41,20 @@ Co-teaching is not an online-only concept. However, it is very practical in onli
 - It also **ensures responsive feedback and less workload** by having more active minds.
 
 
+## Any downsides?
+
+Not every learner and not every instructor might like the team-teaching approach.
+- It might seem **less structured**, unprepared, and chaotic. And indeed it requires preparation.
+- It might create situations where instructors accidentally talk over each other or "interrupt" and change the flow of the lesson.
+- For some instructors it can be stressful to not know in advance what questions they get asked from the co-instructor.
+- Sometimes when an unexpected question is asked that throws the other instructor off, it can add to the feeling of chaos and unpreparedness.
+- It can be interactive and engaging but it can also end up awkward if the co-teachers don't have a good synergy.
+   - Can sound awkward: Main instructor talking all the time and at the end
+     asking co-instructor whether everything is clear and co-instructor only
+     saying "yes".
+   - Possibly more engaging: Co-instructor asking questions which help with the flow and a common understanding of the material.
+
+
 ## Team teaching specifics
 
 - For successful team teaching, additional **coordination** is needed, first of all to agree on the teaching model (see breakout-room exercise) and the person in control (the **director**) for the lesson or its parts.
