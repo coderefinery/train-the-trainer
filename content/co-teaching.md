@@ -14,6 +14,8 @@
 :::
 
 
+## Overview
+
 CodeRefinery lessons benefit from the application of the concepts of **co-teaching**.
 
 :::{admonition} Co-teaching
@@ -31,7 +33,7 @@ In reality, different forms are very often mixed or fused together, even within 
 Co-teaching is not an online-only concept. However, it is very practical in online teaching due to larger number of instructors and learners potentially available to join a teaching session.
 
 
-## Why co-teaching?
+## Co-teaching and team teaching benefits
 
 - It **saves preparation time**. Co-teachers can rely on each other's strengths while creating/ revising the material as well as in unexpected situations during the lesson.
 - It **helps with onboarding new instructors**. One of the co-teachers can be learning at the same time, either the subtleties of the material taught (in this case literally being the "voice of the audience") or the teaching process itself.
@@ -39,7 +41,7 @@ Co-teaching is not an online-only concept. However, it is very practical in onli
 - It also **ensures responsive feedback and less workload** by having more active minds.
 
 
-## Team-teaching hints
+## Team teaching specifics
 
 - For successful team teaching, additional **coordination** is needed, first of all to agree on the teaching model (see breakout-room exercise) and the person in control (the **director**) for the lesson or its parts.
 - It's useful to keep track of the **lecture plan**. The discussion is a good way to make lesson more interactive and adjust to the audience, but deviating too much will become disorienting (for example, if someone dropped their attention for a minute and now is trying to catch-up by reading lecture notes).
@@ -52,6 +54,7 @@ Co-teaching is not an online-only concept. However, it is very practical in onli
 While in breakout rooms, read about one of the two basic team-teaching models presented in the [CR manual](https://coderefinery.github.io/manuals/team-teaching/) and discuss:
 - Have you already tried this or similar model in your teaching?
 - Does it seem natural to apply this model in your subject area (tell what it is)? How could it be adapted to fit best?
+
 Write your comments in the collaborative document.
 :::
 
