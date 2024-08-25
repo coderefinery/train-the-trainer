@@ -57,15 +57,43 @@ Not every learner and not every instructor might like the team-teaching approach
 
 ## Team teaching specifics
 
-- For successful team teaching, additional **coordination** is needed, first of all to agree on the teaching model (see breakout-room exercise) and the person in control (the **director**) for the lesson or its parts.
+- For successful team teaching, additional **coordination** is needed, first of all to agree on the teaching model (see below) and the person in control (the **director**) for the lesson or its parts.
 - It's useful to keep track of the **lecture plan**. The discussion is a good way to make lesson more interactive and adjust to the audience, but deviating too much will become disorienting (for example, if someone dropped their attention for a minute and now is trying to catch-up by reading lecture notes).
 - Experienced solo teacher might have a habit to keep talking (lecturing), while the co-teacher might not want to "interrupt". Therefore, it is important for the leading presenter to anticipate and **allow for remarks/ questions**, and this can be different from one's previous teaching style at first.
+
+
+## Team teaching models
+
+We propose two basic models, but of course there is a constant continuum.
+
+
+### Guide and demo-giver
+
+One person serves the role of **guide**, explaining the big picture and context of the examples.
+
+Another, the **demo-giver**, 
+- shows the typing and does the examples,
+- might take the role of a learner who is asking about what is going on, to actually explain the details, or to comment occasionally.
+
+Hands-on demos and exercises work especially well like this.
+
+
+### Presenter and interviewer
+
+In this case, one is the **presenter** who is mostly explaining (including demos or examples), and trying to move the forward through the material. 
+
+Another, the **interviewer**, 
+- serves as a learner or spotter,
+- fills in gaps by asking relevant questions,
+- tries to comment to the presenter when things are going off track.
+
+This can be seen as closer to classical teaching, but with a dedicated and prepared "voice of the audience".
 
 
 ### Exercise
 
 :::{exercise} Discuss the models of team teaching (10 min)
-While in breakout rooms, read about one of the two basic team-teaching models presented in the [CodeRefinery manual](https://coderefinery.github.io/manuals/team-teaching/) and discuss:
+While in breakout rooms, discuss one of the basic team-teaching models presented here:
 - Have you already tried this or similar model in your teaching?
 - Does it seem natural to apply this model in your subject area (tell what it is)? How could it be adapted to fit best?
 
