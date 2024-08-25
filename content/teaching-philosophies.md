@@ -1,6 +1,6 @@
 (teaching-philosophies)=
 
-# Teaching philosophies
+# CodeRefinery teaching philosophies
 
 :::{objectives}
 - Get to know the teaching philosophies of CodeRefinery instructors
@@ -12,25 +12,25 @@
 :::
 
 
-# CodeRefinery teaching philosophies
+## Introduction
+
 During this episode we split into breakoutrooms and discuss own teaching philosophies.
 Collect your teaching philosophies in the collaborative document. We will be going through
 these and the end of the lesson.
 
-> ## Ice-breaker in groups (20 minutes)
->
-> - Share your approach to teaching and your teaching philosophy with your group.
-> - Please share your tricks and solutions in the live document for others.
->
-> Additional ice-breaker questions:
-> - What is your motivation for taking this training?
-> - How structured or informal are your own teaching needs?
-> - What difference do you notice between the teaching what we (also
->   Carpentries) do and traditional academic teaching?
-> - What other skills need to be taught, but academic teaching isn't the right setting?
-{: .challenge}
+:::{challenge} Ice-breaker in groups (20 minutes)
+- Share your approach to teaching and your teaching philosophy with your group.
+- Please share your tricks and solutions in the live document for others.
 
----
+Additional ice-breaker questions:
+- What is your motivation for taking this training?
+- How structured or informal are your own teaching needs?
+- What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?
+- What other skills need to be taught, but academic teaching isn't the right setting?
+:::
+
+
+## Instructor views
 
 Here CodeRefinery instructors share their training philosophy to show that we
 all have different teaching styles and how these differences are beneficial to
@@ -40,24 +40,21 @@ It is important to explain how much we value individuals and that there is not
 one way to teach but as many ways as individuals. We want to help each other to
 find the way that is best for each of us.
 
-> ## Video recordings
->
-> We have recorded some of the below as videos:
-> <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
-{: .prereq}
+:::{prereq} Video recordings
+We have recorded some of the below as videos: <https://www.youtube.com/playlist?list=PLpLblYHCzJAAHF89P-GCjEXWC8CF-7nhX>
+:::
 
-> ## Bjørn Lindi
->
-> My teaching style has changed a bit since I started with CodeRefinery. In the beginning I had this "BLOB" (Binary Large OBject) of knowledge and experience that I wanted to to convey to the participants. With experience and some help from the Carpentries Instructor training, I have realized I need to serialize the "BLOB", to be able to share it with others.
->
->In a similar fashion as you would do with a binary large object which you intend to send over the wire, you will need stop signals, check-sums and re-transmissions, when you give a lecture. I have come to appreciate the natural periods/breaks the lessons offers, the questions raised, the errors that appear during type-along and the re-transmission. Co-instructors are good to use for re-transmission or broadening a specific topic.
->
->When I started with CodeRefinery my inclination was to give a lecture. Today I am trying to be a guide during a learning experience, a learning experience which includes me as well. That may sound a bit self-centric, but is in fact the opposite, as I have to be more sensitive to what is going on in the room. The more conscious I am of being a guide, the better lesson.
->
->Tools that I find useful in preparing a lesson is concept maps and Learner Personas, though I have develop to few them.
->- [Concept Maps](https://teachtogether.tech/#s:memory-concept-maps)
->- [Learner Personas](https://teachtogether.tech/#s:process-personas)
-{: .challenge}
+:::{challenge} Bjørn Lindi
+My teaching style has changed a bit since I started with CodeRefinery. In the beginning I had this "BLOB" (Binary Large OBject) of knowledge and experience that I wanted to to convey to the participants. With experience and some help from the Carpentries Instructor training, I have realized I need to serialize the "BLOB", to be able to share it with others.
+
+In a similar fashion as you would do with a binary large object which you intend to send over the wire, you will need stop signals, check-sums and re-transmissions, when you give a lecture. I have come to appreciate the natural periods/breaks the lessons offers, the questions raised, the errors that appear during type-along and the re-transmission. Co-instructors are good to use for re-transmission or broadening a specific topic.
+
+When I started with CodeRefinery my inclination was to give a lecture. Today I am trying to be a guide during a learning experience, a learning experience which includes me as well. That may sound a bit self-centric, but is in fact the opposite, as I have to be more sensitive to what is going on in the room. The more conscious I am of being a guide, the better lesson.
+
+Tools that I find useful in preparing a lesson is concept maps and Learner Personas (though I have developed too few of them):
+- [Concept Maps](https://teachtogether.tech/#s:memory-concept-maps)
+- [Learner Personas](https://teachtogether.tech/#s:process-personas)
+:::
 
 :::{challenge} Radovan Bast
 My teaching changed by 180 degrees after taking the Carpentries instructor
@@ -120,8 +117,6 @@ I have spent weeks creating diagrams that is sometime three or four sentences. T
 effort I consider  worthwhile as my intention is not to teach, but to demystify.
 Once that is achieved, learners will learn the nitty gritty on their own easily
 and with confidence, when they have the use-case.
-
-
 :::
 
 :::{challenge} Richard Darst
@@ -142,9 +137,18 @@ going off-script a bit (even though I know it should be minimized).
 I find that sufficient audience interest allows any lesson to be a
 success - you don't have to know everything perfectly, just show how
 you'd approach a problem.
-
 :::
 
+:::{challenge} Stepas Toliautas
+I aim for my learners to understand things (concepts, techniques...), instead of just memorizing them. The phrase I use from time to time when teaching information technology topics (be it hardware or software) is "there is no magic": everything can be explained if necessary. While CodeRefinery also emphasizes usefulness/ immediate applicability of the content, often having the correct notions actually helps to start using them sooner and with less mistakes.
+
+I try to guide my audience through the presented material with occasional questions related to previous topics and common knowledge -- to help them link the concepts already during the lesson. I'm also fully aware that waiting for someone to answer is quite uncomfortable in-person and doubly so in an online environment, especially if no one uses their cameras :)
+
+And if I get the question I don't have the answer for (or material to show it) at the moment, in university classes I prepare and come back to it next time. While with one-off workshops there might not be a "next time", open-source material used by CodeRefinery allows to have the same outcome: the latest and greatest version stays available for self-study afterwards.
+:::
+
+
+## Summary
 
 :::{keypoints}
 - People have different viewpoints on teaching.
