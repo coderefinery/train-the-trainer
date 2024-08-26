@@ -2,6 +2,8 @@
 
 # Computational thinking
 
+[Link to slides](https://docs.google.com/presentation/d/17q1eL8xW1bYCqN3vChVWVv0p74ewv8lLLL9mF0ezqxo/edit?usp=sharing)
+
 :::{objectives}
 - Explain what is computational thinking
 - Get to know how the theory of computational thinking can be used in teaching
