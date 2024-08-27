@@ -1,20 +1,16 @@
 (cool-gems)=
 
-# Cool gems
+# Sharing teaching gems
 
 :::{objectives}
-- Here we will list learning objectives
+- Our goal is to share our teaching tricks and tools and demonstrate them in
+  very short presentations/discussions.
 :::
 
 :::{instructor-note}
-- Teaching: ? min
-- Exercises: ? min
+- Demonstrations: 35 min
 :::
 
-
-Here the episode sections and text ...
-
-
-:::{keypoints}
-- Here we summarize keypoints.
-:::
+Here we encourage participants to take the screen share for 3 minutes and
+demonstrate either some tool or trick they found useful for their teaching or
+something from a course you liked.
