@@ -15,7 +15,7 @@
 :::
 
 
-Materials available as [slides](https://github.com/coderefinery/train-the-trainer/blob/main/content/collaborative-notes.md).
+Materials available as [slides](https://github.com/coderefinery/train-the-trainer/blob/main/content/computational-thinking.pdf).
 
 
 :::{keypoints}
