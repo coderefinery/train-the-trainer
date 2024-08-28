@@ -15,7 +15,7 @@
 :::
 
 
-Materials available as [slides](https://github.com/coderefinery/train-the-trainer/blob/main/content/computational-thinking.pdf).
+Materials available as [slides](https://github.com/coderefinery/train-the-trainer/blob/main/content/computational_thinking.pdf).
 
 
 :::{keypoints}
