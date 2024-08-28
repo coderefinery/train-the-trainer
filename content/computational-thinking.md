@@ -15,7 +15,7 @@
 :::
 
 
-Materials available as [slides](https://docs.google.com/presentation/d/17q1eL8xW1bYCqN3vChVWVv0p74ewv8lLLL9mF0ezqxo/edit?usp=sharing).
+Materials available as [slides](https://github.com/coderefinery/train-the-trainer/blob/main/content/collaborative-notes.md).
 
 
 :::{keypoints}
