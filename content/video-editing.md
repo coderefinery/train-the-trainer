@@ -23,7 +23,7 @@ CodeRefinery does this, and you can too.
 Hypothesis: videos must be processed the same evening as they were
 recorded, otherwise (it may never happen) or (it's too late to be
 useful).  To do that, we have to make processing *good enough* (not
-perfect) and *fast* and *distributeable*.
+perfect) and *fast* and the work *distributeable*.
 
 
 
@@ -36,6 +36,19 @@ perfect) and *fast* and *distributeable*.
   * Example YAML editlists:
     <https://github.com/AaltoSciComp/video-editlists-asc>
 
+
+## How this relates to streaming
+
+- If you stream, then the audience *can not* appear in the recorded
+  videos
+- This allows you to release videos *very quickly* if you have the
+  right tools.
+- When you have a large audience, the videos start helping more
+  (review a missed day, catch up later, review later)
+- Thus
+  - If you would never want videos, there may never be a benefit to
+    streaming
+  - If you want videos, it gives motivation to stream.
 
 
 ## Summary

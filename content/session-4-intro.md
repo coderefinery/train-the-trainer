@@ -16,3 +16,11 @@ introductory notes:
   * Ask questions - otherwise it will be boring
   * If you want to use this in real life: you will need *mentoring
     sessions* and active help.  Contact us to do that.
+
+
+:::{warning} Audio and video weirdness
+
+We are setting up video and audio recording, but also capturing that
+for re-sharing it.  There may be anomalies as video or audio
+feedback.  Please be prepared.
+:::
