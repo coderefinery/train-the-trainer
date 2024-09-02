@@ -2,7 +2,7 @@
 
 ## August/September 2024
 
-### Session 1 (13.08.24) - About lesson design, deployment and iterative improvement 
+### Day1: Session 1 (13.08.24) - About lesson design, deployment and iterative improvement 
 
 #### :calendar: Schedule
 
@@ -545,7 +545,7 @@ https://images.ctfassets.net/rxqefefl3t5b/2k45BFtw4sBMlBfjr1OZ90/5c6ecd3628a43b0
 
 ---
 
-### Day 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops 
+### Day 2 : Session 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops 
 
 #### :calendar: Schedule
 
@@ -643,8 +643,6 @@ Name / Affiliation / Location
 
 
 ---
-
-### Session 2: Tools and techniques adopted in CodeRefinery workshops
 
 #### Episode 1: CodeRefinery
 
@@ -874,7 +872,7 @@ Poll: I have joined a CodeRefinery workshop before: (add an `o` for your answer)
     - Roles that do not go well together are broadcaster/director/host and instructor (goes well until there is a problem; co-teaching solves that partly)
 
 
-#### Sound
+#### Episode 4: Sound
 https://coderefinery.github.io/train-the-trainer/sound/
 
 - To me, Richard is a bit quieter than the other two :+1: :+1: :+1:
@@ -932,7 +930,7 @@ It is all about one thing and one thing only - love your voice, let people fall 
      - Make it welcoming for the audience to give you feedback on the audio and other settings, give reminders
  
 
-### Episode 5: How to prepare a quality screen-share
+#### Episode 5: How to prepare a quality screen-share
 
 Materials: https://coderefinery.github.io/train-the-trainer/screenshare/
 
@@ -1029,7 +1027,7 @@ Any other comments?
 - Relax, nothing else matters, live a life and have fun ! If you obey all the rules you may end up missing all the fun. 'The best way to predict your future is to create it.' - Abraham Lincoln :+1:
 
 
-### Day 3 - "About teaching and cool things we all would like to share"
+### Day 3 : sessiion 3 (27.08.24) - "About teaching and cool things we all would like to share"
 
 #### :calendar: Schedule
 
@@ -1137,11 +1135,11 @@ If you want to share or demo something about tools and techniques you have found
 
 ---
 
-### Episode 1 : Computational thinking
+#### Episode 1 : Computational thinking
 
 Materials: https://coderefinery.github.io/train-the-trainer/computational-thinking/ (Link to slides in the middle of material)
 
-#### Questions to audience
+##### Questions to audience
 
 How might breaking down a complex problem into smaller parts change your approach to problem-solving in your current projects?
 
@@ -1179,7 +1177,7 @@ How do you determine the priority of tasks when designing algorithms for your ac
 - Logic will get you from A to B. Imagination will take you everywhere. - Albert Einstein.
 - ..
 
-#### Questions from the audience
+##### Questions from the audience
 
 - About the 4 core concepts, is this based on the model of how human brain works and perceives vision / abstract ideas?
  - (to be answered)
@@ -1196,7 +1194,7 @@ How do you determine the priority of tasks when designing algorithms for your ac
     - They are in the course material: https://coderefinery.github.io/train-the-trainer/computational-thinking/ :thumbs_up:
 
 
-#### Exercise questions to discuss
+##### Exercise questions to discuss
 
 1. Conceptually would the strategies provided by computational thinking help you in completing tasks more efficiently?
 - Room 1:
@@ -1242,7 +1240,7 @@ How do you determine the priority of tasks when designing algorithms for your ac
     - We are using it in our daily life so it's already an option for us, only the terminologies are a bit new.
 
 
-## 2. Episode: Teaching philosophies
+#### Episode 2 : Teaching philosophies
 
 Materials: https://coderefinery.github.io/train-the-trainer/teaching-philosophies/
 
@@ -1256,7 +1254,7 @@ Additional ice-breaker questions:
 - What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?
 - What other skills need to be taught, but academic teaching isn’t the right setting?
 
-## Breakout Room exercise
+#### Breakout Room exercise
 
 - Room1 
 
@@ -1297,7 +1295,7 @@ Additional ice-breaker questions:
         - Industrial cases and related work skills 
 
 
-## Episode 3: Co-teaching
+#### Episode 3: Co-teaching
 
 Materials: https://coderefinery.github.io/train-the-trainer/co-teaching/
 
@@ -1347,7 +1345,7 @@ Questions:
 
 
 
-## Teaching gems
+#### Teaching gems
 
 (scroll up to find the green box "Episode on teaching gems")
 
