@@ -20,6 +20,12 @@ history of why we stream and record, how we got here, and how people
 feel about it.  We won't focus on how anything is done.
 
 
+## Icebreaker questions
+
+- What is the most people you have taught for?
+- What are the distinct parts of teaching, that can be
+  separated? (teaching, helping, etc)
+
 
 ## What is streaming and recording?
 
@@ -35,7 +41,7 @@ feel about it.  We won't focus on how anything is done.
 streaming.**
 
 
-## How did we get to the current state
+## History
 
 - In-person workshops
   - 3 × full day, required travel, infrequent, one-shot
@@ -53,7 +59,6 @@ streaming.**
 ## Benefits and disadvantages
 
 Benefits:
-
 - Larger size gives more (but different) interaction possibility
   - "Notes" for async Q&A
 - Recording (with no privacy risk) allows instant reviews
@@ -65,19 +70,31 @@ Disadvantages:
 - Requires a certain scale to be worth it
 - Coordination is much harder for big events
 
+When would I recommend it?
+- No: For small courses
+- Questionable: Medium sized courses with no videos
+- Yes: When you want the largest audience
+- Yes: When you want without registration required
+- Yes: When you want good reusability/fast videos
+
 
 ## Future prospects (briefly)
 
 - Streaming probably stays as a CodeRefinery tool
 - We *can* scale our courses much larger than they are now.  Why don't
   we, together with others?
+- These tools are useful in other places too
+  - I've used them to record my own talks to make videos of my
+    single-person presentations or record conference talks nicer than Zoom.
 
 
 ## Q&A
 
+Q&A from audience
 
 
 :::{keypoints}
-- Streaming isn't that hard to understand
+- Streaming optimizes a course for different things
+- The disadvantages can be compensated for
 - There are benefits and disadvantages
 :::

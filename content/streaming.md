@@ -3,8 +3,10 @@
 # Behind the stream
 
 :::{objectives}
+- Take a first look at the broadcaster's view.
 - Get to know what happens "behind the stream" of a workshop
 - See what the "broadcaster" sees and what they need to do.
+- Not yet: learn details of how to do this.
 :::
 
 :::{instructor-note}
@@ -42,6 +44,14 @@ What does the broadcaster see on their screen?
 - How do you keep all this straight in your head?
 
 
+## CodeRefinery control panel
+
+- A custom application that controls scenes
+- Based on OBS-websocket (remote control connection for OBS - we'll
+  learn about this later)
+- Can also work remotely, so that you can have a remote director
+
+
 ## How scenes are controlled
 
 What has to be done during a course?
@@ -63,6 +73,14 @@ What has to be done during a course?
 
 - What's the worst that has happened?
 - What if you need to walk away for a bit?
+- Someone broadcasts something unexpectedly
+
+
+## Alternatives
+
+- Youtube vs Twitch
+- Zoom stream directly to YouTube/Twitch
+- Direct streaming platform, e.g. streamyard
 
 
 ## Q&A

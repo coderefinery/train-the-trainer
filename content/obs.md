@@ -25,24 +25,42 @@ configure it from scratch.  You'll learn how to be a "director".
 ## What is OBS?
 
 - Formally "OBS Studio"
-- Cross-platform, easy to use screencasting and streaming app.
+- Most commonly known as a livestreaming application.
+- Open source, free.
+- Cross-platform, easy to use screencasting and streaming application.
 - Real-time video mixer.
 
 
 ## OBS user interface
 
+- We'll click through each view.
 - What does each view do?
-- Let's click through the buttons
-- Let's see the important config options
+- Let's click through the buttons.
+- Let's see the important config options.
 
 
 ## OBS during a course
 
-- What management is needed
-- The control panel
+- What management is needed.
+- The control panel.
+- Audio.
+- Adjusting windows and so on.
 
 
 ## Hardware requirements
+
+- Reasonably powerful broadcast computer
+  - CodeRefinerys streaming computer is 8 CPU AMD, 64GB memory
+  - That is way overkill: a powerful laptop can probably do this.
+- Large second monitor for laying out the windows you capture
+- Stable internet connection (wired preferable)
+  - CodeRefinery's broadcast is the slowest purchasable: 100 Mbit down /
+    25Mbit up
+
+
+## Q&A
+
+We'll answer audience questions.
 
 
 ## See also
