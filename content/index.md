@@ -107,6 +107,7 @@ cool-gems
 :maxdepth: 1
 :caption: Session 4
 
+session-4-intro
 why-we-stream
 streaming
 video-editing
