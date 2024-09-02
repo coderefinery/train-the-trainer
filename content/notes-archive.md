@@ -2,7 +2,7 @@
 
 ## August/September 2024
 
-### Session 1 (13.08.24) - About lesson design, deployment and iterative improvement 
+### Day1: Session 1 (13.08.24) - About lesson design, deployment and iterative improvement 
 
 #### :calendar: Schedule
 
@@ -545,9 +545,9 @@ https://images.ctfassets.net/rxqefefl3t5b/2k45BFtw4sBMlBfjr1OZ90/5c6ecd3628a43b0
 
 ---
 
-## Day 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops 
+### Day 2 : Session 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops 
 
-### :calendar: Schedule
+#### :calendar: Schedule
 
 | Time (CEST)   | Title                                 | EEST (UTC+3)  | BST (UTC+1)   |
 |---------------|---------------------------------------|---------------|---------------|
@@ -563,9 +563,9 @@ https://images.ctfassets.net/rxqefefl3t5b/2k45BFtw4sBMlBfjr1OZ90/5c6ecd3628a43b0
 | 11.50 - 12.00 | Outro and feedback                    | 12.50 - 13.00 | 10.50 - 11.00 |
 
 
-### :icecream: Icebreaker
+#### :icecream: Icebreaker
 
-#### Check-in
+##### Check-in
 
 Which emoji best describes your current state of mind? [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 - :-)
@@ -587,11 +587,11 @@ Which emoji best describes your current state of mind? [Emoji cheat sheet](https
 - 🥱:tired_face: 
 - :bread: - I am baking bread today so I have been kneading dough while listening!
 
-#### Introduction in breakoutrooms
+##### Introduction in breakoutrooms
  
 Name / Affiliation / Location
 
-#### Teaching
+##### Teaching
 
 - Do you teach and organize teaching alone or with others? What would you prefer and why?
     - Coming together is a beginning; keeping together is progress; working together is success. – Edward Everett Hale
@@ -618,9 +618,9 @@ Name / Affiliation / Location
 
 ---
 
-### :question: Questions 
+#### :question: Questions 
 
-#### General / Practicalities
+##### General / Practicalities
 
 - What is this document for?
     - Asking questions, collecting discussion points, taking collaborative notes (Zoom chat deactivated, can only be used for communication with the hosts)
@@ -644,9 +644,7 @@ Name / Affiliation / Location
 
 ---
 
-## Session 2: Tools and techniques adopted in CodeRefinery workshops
-
-### Episode 1: CodeRefinery
+#### Episode 1: CodeRefinery
 
 Materials: https://coderefinery.github.io/train-the-trainer/coderefinery-intro/  
 
@@ -660,7 +658,7 @@ Materials: https://coderefinery.github.io/train-the-trainer/coderefinery-intro/
         - Excellent! :-D :smile:
 - .
 
-### Episode 2: Collaborative Notes
+#### Episode 2: Collaborative Notes
 
 Materials: https://coderefinery.github.io/train-the-trainer/collaborative-notes/
 
@@ -772,7 +770,7 @@ Questions continue:
     - not sure: o
 
 
-### Episode 3: One workshop, many perspectives
+#### Episode 3: One workshop, many perspectives
 
 Materials: https://coderefinery.github.io/train-the-trainer/overview/
 Next CodeRefinery workshop in September: https://coderefinery.github.io/2024-09-10-workshop/
@@ -874,7 +872,7 @@ Poll: I have joined a CodeRefinery workshop before: (add an `o` for your answer)
     - Roles that do not go well together are broadcaster/director/host and instructor (goes well until there is a problem; co-teaching solves that partly)
 
 
-### Sound
+#### Episode 4: Sound
 https://coderefinery.github.io/train-the-trainer/sound/
 
 - To me, Richard is a bit quieter than the other two :+1: :+1: :+1:
@@ -932,7 +930,7 @@ It is all about one thing and one thing only - love your voice, let people fall 
      - Make it welcoming for the audience to give you feedback on the audio and other settings, give reminders
  
 
-## Episode 5: How to prepare a quality screen-share
+#### Episode 5: How to prepare a quality screen-share
 
 Materials: https://coderefinery.github.io/train-the-trainer/screenshare/
 
@@ -984,7 +982,7 @@ Stay after xx:00, to
 
 ---
 
-## Wrapup
+### Wrapup
 
 - Next session Tuesday August 27 9 CEST: About teaching & cool things we all would like to share
 - All workshop materials will stay available (and be put on Zenodo right after the workshop, currently other epsisodes are still in development)
@@ -993,7 +991,7 @@ Stay after xx:00, to
 - If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support@coderefinery.org, or join any of the upcoming Monday planning meetings at 14:00 (Europe/Stockholm time)  
 
 
-## Feedback about todays session
+### Feedback about todays session
 
 What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:
 - Sound and screen share optimization as well as relevant tools and good practices for online instruction. “While you may be unable to control your users’ mindset, you can anticipate it, and make sure that your user experience caters to it.” - Jonathan Cherki 
@@ -1026,4 +1024,378 @@ Any other comments?
 - Looking forward to the topics of following sessions.
 - Looking forward to the next sessions!
 - Thank you!
-- Relax, nothing else matters, live a life and have fun ! If you obey all the rules you may end up missing all the fun. 'The best way to predict your future is to create it.' - Abraham Lincoln :+1: 
+- Relax, nothing else matters, live a life and have fun ! If you obey all the rules you may end up missing all the fun. 'The best way to predict your future is to create it.' - Abraham Lincoln :+1:
+
+
+### Day 3 : sessiion 3 (27.08.24) - "About teaching and cool things we all would like to share"
+
+#### :calendar: Schedule
+
+| Time (CEST)   | Title                                 | EEST (UTC+3)  | BST (UTC+1)   |
+|---------------|---------------------------------------|---------------|---------------|
+|  8.45 -  9.00 | Connecting time                       |  9.45 - 10.00 |  7.45 -  8.00 |
+|  9.00 -  9.15 | Intro and Icebreaker                  | 10.00 - 10.15 |  8.00 -  8.15 |
+|  9.15 -  9.45 | Computational thinking          | 10.15 - 10.45|  8.15 -  8.45 |
+|  9.45 -  10.00 | Break   | 10.25 - 11.00 |  8.25 -  9.00 |
+|  10.00 - 10.30| Teaching philosophies                                | 11.00 - 11.30 |  9.00 -  9.30 |
+| 10.30 - 11.00 | Co-teaching  | 11.30 - 12.00 |  9.30 -  10.00 |
+| 11.00 - 11.15 | Break                                | 12.00 - 12.15 |  10.00 - 10.15 |
+| 11.15 - 11.50 | Sharing teaching gems (voluntary)                                | 12.15 - 12.50 | 10.15 - 10.50 |
+| 11.50 - 12.00 | Outro and feedback                    | 12.50 - 13.00 | 10.50 - 11.00 |
+
+
+#### :icecream: Icebreaker
+
+##### Check-in
+
+Which emoji best describes your current state of mind? [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- ...
+- :sleeping: 
+- :coffee:+2
+- :robot:
+- Still  little sleeppy :)
+- 🥴 (:woozy_face: still not converted 🤷‍♂️)
+- Our planet could be a cube. It has six sides to it. It must be a cube. A cube it is, this Blue Planet ... just wondering ...
+- 🦾
+- :sweat_smile: 
+- computer says no :-) some network trouble
+- running late, and participating from a :train2:
+
+
+##### Introduction in breakoutrooms
+ 
+Name / Affiliation / Location
+
+##### Best classroom experiences
+
+As a learner or teacher; what was the best workshop/lesson/seminar you have attended? What made the experience great?
+
+- Room 1
+    - First summer HPC streamed workshop (as a teacher).  Somehow the first felt the best
+    - CSC HPC summer workshop
+    - story telling teaching approach
+- Room 2
+    - NVIDIA DLI Course on Deep Learning
+        - very enthusiastic instructor
+        - intuitive and very accessible way of showing technical details and fostering deeper understanding
+        - a lot of hands-on material and smaller coding exercises
+    - Anything as long as its interactive and somehow enjoyable from both teacher and learner sides
+- Room 4: 
+    - EPCC MPI Distributed training workshop.
+        - Lots of hand on coding / experience gained.
+        - Very interactive instructor who also discussed ideas for more personalised cases of distributed computing.
+    - Coderefinery RSE course
+        - relevance of topic to my current work. 
+        - Dynamic / friendly / positive teaching style.
+        - Modular Code Development; very instructive
+    - Some CSC courses / LinkedIn learning courses
+        - up to date materials and topics.
+        - Good way to merge theory with practicalities without making learner feel bored (Example: Jonathan Reichental)
+        - Challenging information to learn more and research about the topic
+        - Trainers are the experts in the field 
+
+
+:::success
+
+##### Episode on teaching gems
+
+If you want to share or demo something about tools and techniques you have found helpful in your teaching, please add your name/initials and rough topic below for smooth transition.
+
+> Note: It does not have to be your tool or your idea, this episode is meant to share experiences and discover new things. You also do not need any slides or materials, a story will do fine :) 
+> Length of the stories will be depending on interest, but be prepared to fit it into 3 min (shortest possible).
+
+- RD: teaching clock
+- RB: [Containerized teaching setup](https://github.com/bast/teaching-setup)
+    - Isolated home dir is a good idea!
+- AVM: [Screenkey for showing keyboard shortcuts](https://www.thregr.org/wavexx/software/screenkey)
+
+:::
+
+---
+
+### :question: Questions 
+
+#### General / Practicalities
+
+- What is this document for?
+    - Asking questions, collecting discussion points, taking collaborative notes (Zoom chat deactivated, can only be used for communication with the hosts)
+- Will the material be made available?
+    - Materials are and will stay available at https://coderefinery.github.io/train-the-trainer/
+        - Can I share them with a colleague
+            - Yes please :) 
+        - Can I resuse them in my own teaching?
+            - Yes please :)
+- Will these sessions be recorded?
+    - No, but the materials (see above) should include everything needed for self-learning.
+- Can I get a certificate for this workshop?
+    - You can get a certificate of attendance after the workshop by sending an e-mail to support@coderefinery.org, telling us a bit about what you have learned and which sessions you attended.
+- How often will we be talking in breakout rooms? 
+    - We'll have about one breakoutroom session per episode
+
+
+---
+
+#### Episode 1 : Computational thinking
+
+Materials: https://coderefinery.github.io/train-the-trainer/computational-thinking/ (Link to slides in the middle of material)
+
+##### Questions to audience
+
+How might breaking down a complex problem into smaller parts change your approach to problem-solving in your current projects?
+
+- Avoids cognitive overload 
+- I used to give an example about this in workshops of cutting long tree into pieces from top to avoid that it falls and destroy a house bloc.
+- Easier to start on something small
+- Each individual part is familiar and can take existing solutions.
+- Only focus on the new things
+- One can lose oversight of where is supposed to be getting to due to problems with summation of biases introduced during the solving of the parts.
+- .
+
+Can you think of a research project where identifying patterns in your data led to new insights or breakthroughs?
+- Multi-targeted drug design where you need to identify both chemical and biological pathways/patterns
+- Distilling complex physics problems into simpler 1D statistics is very often done.
+- I used to do bioinformatics, pretty much everything in biology is about patterns in strings of charachters (DNA, proteins). Finding those patterns and using them is the way to go
+- Pattern recognition DOES NOT lead to new insight, it is new insight which allows for the recognition of a 'pattern', the latter being an allocation of possible bias.
+- 
+- ..
+
+What challenges do you face when trying to simplify complex concepts in your field, and how do you decide which details to focus on?
+
+- Absence of a terminology / jargon to describe a new idea. :+1:
+- Similar to above, when teaching often students know what they want to achive, but don't have the termonology to express it, so working through what they want is helpful, after teaching them some termonology.
+- Whatever is most useful to the learner first?
+- I work with researchers in different fields. I don't always fully understand their domain knowledge but I can take the basiscs or generalities and get code that works for them
+- A very practical problem is trying to resist going for a coffee in the midst of taking a shot at a complex concept, in the hope that the true details are to be found in the coffee.
+- not all information is easy to find or a lot of conflicting information or even sometimes imformation explosion 
+
+
+How do you determine the priority of tasks when designing algorithms for your academic projects, and what criteria do you use to ensure that the most critical tasks are addressed first?
+
+- Working chronologically when going through a problem - start at the beginning.
+- What gives the more insight with the least effort can be a nice start
+- Talk to colleagues and Subject matter experts to understand various perspective to decide and prioritize.
+- Logic will get you from A to B. Imagination will take you everywhere. - Albert Einstein.
+- ..
+
+##### Questions from the audience
+
+- About the 4 core concepts, is this based on the model of how human brain works and perceives vision / abstract ideas?
+ - (to be answered)
+ 
+- Devil's advocate question: cooking (by recipe) actually employs all four principles outlined here and has done so since before the advent of computers. Why then is this concept presented as "computational"?
+    - Random aside, this is an interesting connection to our "cooking metaphor to HPC"
+- Devil's answer to the Devil's advocate: Great question, cooking, as far as the act happens in the Devil's kitchen, does not employ numerical algorithms. The Devil introduced the computer precisely to make man lose apetite for that what is cooked in the Devil's kitchen to be served to all. Only then can the Devil eat the cake and keep it too ...
+    - Well, an algorithm without numbers is still an algorithm, i.e. a set of rules :)
+
+- Are there other names for this technique? I may have missed something crucial, but it strikes me as 'logical thinking' in a way. 
+    - Yes, you could also just see it as problem solving. Most people know how to do it and if you've worked with programming, you've probably applied it. It can be the case that it's very obvious to some, but not to others.
+
+- Any chance we can ge a link to the slides?
+    - They are in the course material: https://coderefinery.github.io/train-the-trainer/computational-thinking/ :thumbs_up:
+
+
+##### Exercise questions to discuss
+
+1. Conceptually would the strategies provided by computational thinking help you in completing tasks more efficiently?
+- Room 1:
+    - divide and conquer technique
+    - We discussed what happens if you *don't* use these, since they are so natural
+- Room 2:
+    - in some cases yes, if the task is not too small
+    - not sure if more efficiently but it does help at least getting strted
+    - Computational thinking is an extension of what others have called solutionism: the belief that any given problem can be solved by the application of computation. Whatever the practical or social problem we face, there is an app for it. - James Bridle
+- Room 3:
+    - Helps in starting the task.
+    - For many it is the normal way to do problem solving. Also in Agile & Scrum methodlogies.
+- Room 4:
+    - Yes, it helped me during my scientific research to manage multiple projects and research publications simultaneously. 
+    -
+
+
+2. Do you think that the effectiveness of computational thinking depends on the person’s personality type?
+- Room 1: 
+    - yes, we agree it's quite different. But good vision and motivation this can be effective
+- Room 2:
+    - yes, laying out all the steps necessary to achieve an overall goal can be very daunting; some people are not good at/ comfortable with following fine-grained instructions
+    - once the problem is broken down, different personalities might choose different ways to tackle the parts
+    - The degree to which something, that is a result of what one means by 'Computational Thinking,' is successful in producing a desired result, that is success, cannot be a function of personality. 
+- Room 3:
+    - Yes. Different people have different ways to communicate. 
+    - Online tools vs pen and paper
+- Room 4: 
+    - We are all agree that it depends on the personality type but it could be learned and trained 
+
+3. Would this type of thinking be an option for you to integrate into your current workflow?
+- Room 1:
+    - Yes; we didn't know the name explicitly; but we use it
+    - It's quite important for 
+- Room 2:
+    - I'm already doing it implicitly :smile: :+1: :+1:
+    - Writing a program is like writing a song, its all about the tune, lyrics are merely the necessary nuisance a coder needs to put up with. The latter can, if so written, result in a lot of noise.
+- Room 3:
+    - Easy if you are working alone. But different team may have their own ways of working (inertia). One way would be then to gradually show the rest of the team its effectiveness. 
+    - https://teamtopologies.com/key-concepts
+
+- Room 4: 
+    - We are using it in our daily life so it's already an option for us, only the terminologies are a bit new.
+
+
+#### Episode 2 : Teaching philosophies
+
+Materials: https://coderefinery.github.io/train-the-trainer/teaching-philosophies/
+
+Questions to discuss:
+- Share your approach to teaching and your teaching philosophy with your group.
+- Please share your tricks and solutions in the live document for others.
+
+Additional ice-breaker questions:
+- What is your motivation for taking this training?
+- How structured or informal are your own teaching needs?
+- What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?
+- What other skills need to be taught, but academic teaching isn’t the right setting?
+
+#### Breakout Room exercise
+
+- Room1 
+
+    - Motivation
+      - For best practices in teaching, learning from each other, collaboration
+    - Learning applied tech is like an apprecentiship: there is theory, but real learning happens by co-working with others.
+    - Worse is better: teach what can be used more quickly and it can be improved later
+    - 
+    -  I think there are two bits of teaching - teach the basics and terminology so people know what they want to know, and then teaching how to find out how to do things like Richard said - how to find answers yourself.
+    -  Using Jupyter notebooks - good for learning a technique, but not for learning the basics.
+    - Possibly command line usage has a branding problem - "programming other programs"?
+    - the skills we learn in CR training are expected to stay , it is not exam oriented  
+
+- Room 2
+    - State objectives clearly and repeat them a few times
+    - Try to keep it informal, interactive, flexible
+    - Helps when having practical tasks in mind for the materials taught
+    - Leave some reasoning to the learner, not always giving full answers
+        - How to deal with frustration though: try some personal approaches, more clues...
+    - The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires. — William Arthur Ward
+    - Teaching kids to count is fine, but teaching them what counts is best. –Bob Talbert
+
+- Room 4
+    - Question 1: What is your motivation for taking this training?
+        - Currently do instruction, wanting to improve as an instructor and helper when conducting software carpentries.
+        - Planning to start some side hustles providing online courses and why not joining the CR in the near future
+    - Question 2: How structured or informal are your own teaching needs?
+        - More recently, follow software carpentries, but look into what aspects can be tailored to keep to different time slots.
+        - I used to be more informal in the past, repetetive practice sessions. Would like to be more structured given the teaching tools.
+        - I've done life-coaching and some teaching but I feel i'm both of them
+    - Question 3: What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?
+        - Smaller size, and more targetted.
+        - Collaborative tools and targeted audience working with small groups
+        - Academic probably focuses on an audience with a more focused/narrow background, while this style encompasses a wider audience.
+        - Academic teaching keeps theory and practical lab sessions very separate, whereas carpentries combine both.
+    - Question 4: What other skills need to be taught, but academic teaching isn’t the right setting?
+        - Public speaking, collaborative meeting skills
+        - Industrial cases and related work skills 
+
+
+#### Episode 3: Co-teaching
+
+Materials: https://coderefinery.github.io/train-the-trainer/co-teaching/
+
+- In general: Co-teaching is a beast with at least two personalities each of which
+    * demand higher preparation requirements
+    * face remarkable complexity in terms of coteacher coordination
+    * in the virtual component face shortcomings related to the technical equipment and the failure of the human factor
+* Co-teaching requires the framework of co-operative learning. Team teaching does not by default translate into parallel learning, and vice versa.
+
+- Re: CodeRefinery in-person beginnings -- I agree with the "didn't work so well in-person", I'm not sure if it's that we weren't as ready for it, or that the different characteristics made it not work so much
+
+- How do the downsides compare to a single instructor monologuing?
+    - That's a great question! The main difference is that a single instructor can teach himself to be good (i.e. not just boring monologuing) **alone**, while for teams of 2+ to work well, **everyone** needs to be baseline-competent. So the effort to avoid downsides gets reduced if (and only if) all team members share it.
+
+
+:::info
+
+Exercise/Discussion: https://coderefinery.github.io/train-the-trainer/co-teaching/#exercise
+
+Questions:
+- Have you already tried this or similar model in your teaching?
+- Does it seem natural to apply this model in your subject area (tell what it is)? How could it be adapted to fit best?
+- Have you tried or seen a different model for two instructors to present? Please share with us how it works.
+:::
+
+- room 1
+    - We have tendend to do presenter/interviewer more
+    - challenges are co-teaching with different personalities
+- room 2
+    - Main challenge: finding enough personell :smile:
+    - It's not always possible/feasible to have colleagues co-teaching
+    - A combination of both, but presenter and interviewer could be difficult to plan an to follow
+    - Guide and demo-giver with technical / non-technical roles could be nice
+        - How to plan the guide and demo-giver
+            - First guide, then demo
+            - Demo, then guide describes
+    - Alternative model: main presenter + 'technical expert'
+        - main presenter introduces concepts from a birdseye view and passes on to the technical expert for additional details, experiences and answers to questions from the audience
+    - We frequently do a classical division: on person in presenting, one or more are answering questions in the chat; there is rarely any interaction between them however
+
+* As has been pointed out by Paolo Freire, in general, ‘education is suffering from narration sickness’ ... ‘The outstanding characteristic of this narrative education, then, is the sonority of words, not their transforming power’. Perhaps one approach could be to rephrase the question after having the answer: It is not apriori about the model implemented, it is about whether that what was implemented was judged aposteriori to have succeeded in becoming, or at least could pretend to have done so, the intended context matched model implementation it probably was computed to be.
+
+- room 4
+    - the co-teaching approach does not seem to be widely practiced
+    - it can be interesting to see "mistakes" which are less likely to happen in solo-teaching?
+    - co-teaching can be nicer for audience but maybe more stress/anxiety for instructors to prepare? more stress in terms of not knowing all the questions in advance. less stress worrying about forgetting something.
+
+
+
+#### Teaching gems
+
+(scroll up to find the green box "Episode on teaching gems")
+
+What's your favorite way of teaching? Any nice tools you use?
+
+Has anyone found a nice online tool to draw?
+- I love this tool suite https://excalideck.com/ 
+    - For drawing https://excalidraw.com/ 
+- I have seen Miro ...
+- I think the Code Refineries use something for their graphics that looks a bit 'cartoony' - but I cannot remember what it is called!
+    - Drawn on remarkable and then coloured and tidied up in Inkscape. :+1:
+- I am a big fan of remarkable. I think sharing option is fairly good. Unfortunately bit expensive tool.
+    - true, for me it was worth it already for the pdf annotation for research papers, cannot read on computer screen
+- https://webwhiteboard.com/
+- https://www.youtube.com/watch?v=4-l8MY5kYGc
+- Figma and Kahoot are useful as well
+
+Screenkey: [Screenkey for showing keyboard shortcuts](https://www.thregr.org/wavexx/software/screenkey)
+- Is there a Windows version people can recommend?
+    - I found this list of alternative for windows users like me: https://alternativeto.net/software/screenkey/ :+1:
+- I sometimes use the on-screen keyboard already provided by the OS :+1:
+
+### Wrapup
+
+- Next session Tuesday September 3rd 9 CEST: About teaching & cool things we all would like to share
+- All workshop materials will stay available (and be put on Zenodo right after the workshop, currently other epsisodes are still in development)
+- CodeRefinery community: https://coderefinery.zulipchat.com/
+- If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support@coderefinery.org, or join any of the upcoming Monday planning meetings at 14 CEST
+
+- Preparations for next week will be sent out by e-mail 
+
+### Feedback about todays session
+
+What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:
+- The co-teaching lesson and experiences from others
+- Discussions were quite good, had a nice group
+- Breakout rooms and collaborative tools
+- Computational thinking and co-teaching are interesting ideas! I have seen it before, but never knew or even recognized it was a method.
+- Thanks for group discussions working with my chat only interaction! :smile: 
+- ..
+
+What one thing would you improve about this session?
+- Minor point - it would be useful to have the teaching gmes box at the bottom of the document rather than the top - tricky to scroll between! In the end I opened two windows which was easier.
+    - Thanks, yes agree. Also had that problem, but did not want to move it in between. 
+- The meaning of teaching "philosophy" wasn't very clear, felt more like teaching "styles"
+    - Thank you, we will take that into consideration
+- Some prepared slides to present for an intro about the topics
+    - You mean in addition to the materials? To use in the beginning of each session?
+- The [*instructor views*](https://coderefinery.github.io/train-the-trainer/teaching-philosophies/#instructor-views) segment could be named as additional material, if it was not meant to be discussed within the course.
+    - Thank you, we will take that into consideration
+
+Any other comments?
+- Keeping it short and sweet: If at first you don't succeed in teaching, try to explain it like you're talking to a room full of cats. Caveat: In a room full of computational thinkers maybe if you tell students that the brain is a computational device that is forbidden, they might get excited and start using it.
