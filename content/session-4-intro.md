@@ -18,7 +18,9 @@ introductory notes:
     sessions* and active help.  Contact us to do that.
 
 
-:::{warning} Audio and video weirdness
+:::{warning}
+
+**Audio and video weirdness**
 
 We are setting up video and audio recording, but also capturing that
 for re-sharing it.  There may be anomalies as video or audio
