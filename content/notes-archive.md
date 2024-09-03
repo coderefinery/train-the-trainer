@@ -1180,7 +1180,7 @@ How do you determine the priority of tasks when designing algorithms for your ac
 ##### Questions from the audience
 
 - About the 4 core concepts, is this based on the model of how human brain works and perceives vision / abstract ideas?
- - (to be answered)
+ - I don't know if it's based on how the brain works, but it's related to creating a framework for solving programming programs that has been extrapolated to solve any other problem as well.
  
 - Devil's advocate question: cooking (by recipe) actually employs all four principles outlined here and has done so since before the advent of computers. Why then is this concept presented as "computational"?
     - Random aside, this is an interesting connection to our "cooking metaphor to HPC"
