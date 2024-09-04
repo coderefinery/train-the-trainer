@@ -1399,3 +1399,207 @@ What one thing would you improve about this session?
 
 Any other comments?
 - Keeping it short and sweet: If at first you don't succeed in teaching, try to explain it like you're talking to a room full of cats. Caveat: In a room full of computational thinkers maybe if you tell students that the brain is a computational device that is forbidden, they might get excited and start using it.
+
+### Day4: Session 4 (3.09.24) - Streaming and video editing
+
+#### :calendar: Schedule
+ Time (CEST)   | Title                                 | EEST (UTC+3)  | BST (UTC+1)   |
+|---------------|---------------------------------------|---------------|---------------|
+|  8.45 -  9.00 | Connecting time                      |  9.45 - 10.00 |  7.45 -  8.00 |
+|  9.00 -  9.15 | Intro and Icebreaker                 | 10.00 - 10.15 |  8.00 -  8.15 |
+|  9.15 -  10.00 | Why we stream & Behind the scenes   | 10.15 - 11.00|  8.15 -  9.00 |
+| 10.00 -  10.15 | Break   | 11.00 - 11.15 |  9.00 -  9.15 |
+| 10.15 - 10.35 | Video Editing                        | 11.15 - 11.35 |  9.15 -  9.35 |
+| 10.35 - 10.55 | Exercise: Video Editing   | 11.35 - 11.55 |  9.35 -  9.55 |
+| 10.55 - 11.10 | Break                                | 11.55 - 12.10 |  9.55 - 10.10 |
+| 11.10 - 11.30 | Open Broadcaster Software(OBS) introduction | 12.10 - 12.30 | 10.10 - 10.30 |
+| 11:30 - 11:50 | OBS setup & what next | 12.30 - 12.50 | 10.30 - 10.50 |
+| 11.50 - 12.00 | Outro and feedback                    | 12.50 - 13.00 | 10.50 - 11.00 |
+
+#### :icecream: Icebreaker
+
+##### Check-in
+
+Which emoji best describes your current state of mind? [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- :coffee: +
+- :runner: 
+- :tired_face: Tired!
+- :nerd_face:![](https://)
+- ![](https://notes.coderefinery.org/uploads/58bfdc31-ac86-4172-aef4-b7b4bd762533.png)
+- :cloud: :tea: 
+
+##### Introduction in breakoutrooms
+ 
+- Name / Affiliation / Location
+
+What's the most number of people you have taught to?
+- 20 at a time, with 1 asleep, 2 fidgiting with some silly device and the rest were... well... staring at their good luck... straight ahead it was of course, right before them.
+- ~35
+- ~80 in a lecture in a previous (lecturer) role, 26 in a training course setting
+- ~30
+- ~50 in training spaces and more than 100 for public audience talk
+- 35 (software carpentry)
+- CodeRefinery answer: The biggest ones are maybe 200-300 people.  "small" for a stream is ~100 people.
+
+What's the most number of people you have taught with?
+- 5 or so
+- 2 or 3 in total
+- 3, as in three, none of them smiling. I wish I could figure out why... it was such fun really...
+- 7
+- 2 or 3
+- 3 (helpers, not really co-teaching)
+- CodeRefinery answer: our biggest workshops are something like 10-20 people helping out in many different roles.
+
+How can you divide teaching into separate independent tasks?
+- By content blocks, having roles like main and assistant...
+- Having responsibility for different sections of the course.
+- Wow, now thats what we call a question... bravo... indeed, how does one separate sleeping and snoring into separate independent tasks...
+- Course, exercices, resources, tools and forms.
+- Different people teach different topics
+- CodeRefinery answer: the big logical blocks are instructors, in-person and breakout room helpers, and Notes-questions answers.
+
+What’s the most interesting or useful thing you’ve learned from an online workshop, and how have you applied it/planning to apply in your life or work
+- Having breaks every hour or so
+- New approach to screensharing, using the 'portrait' approach
+- Manage breathing: reduce stress and use silence to let the audience grasp what you're saying
+- Well, the most interesting or useful thing I’ve learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That's one small step for a man, one giant leap for mankind..
+  
+#### :question: Questions 
+
+#### [Why we stream](https://coderefinery.github.io/train-the-trainer/why-we-stream/)
+
+- If during streaming there is no interaction between the teacher and the audience, why don't we just record the lectures and stream them? So one can do a better job, perhaps?
+    - Streaming it making it a "thing" that's a group experience.  It feels good to be a part of it, so we hope that encourages people to actually attend.  All the mass Q&A is fun, and the audience helps to make it easier to present.  Still, this is a good question.
+    - I really appriciate it being "a thing". If it was just recorded, I would say I would watch it tomorrow, and then I never would. 
+      - But then you can just fake it, and still have all the breakout rooms and collaborative document and so on. I appreciate the value of having a proper "event".
+        - I think I follow you, but if you pre-recorded the talking bits, then the presentors couldn't change what they do based on the feedback in the shared document. 
+          - true, but I assumed that the teachers were too busy to actually do that. The more (less )division of labor between the teachers and the helpers (or collaborative document editors), the more (less) sense it makes to pre-record - IMHO
+- What interaction options do 'streamers' use, e.g. on Twitch/YouTube (not Code Refinary)?
+    - I'm besides chat and things that happen in chat, I'm not sure.  The Notes-doc is definitely unique to us.
+- Streaming is a kind of exercise for the movie star type. If you cannot be one, act like one, pretend, fool the listener into thinking you are one, take their brains and emotions under control. And if they don't leave the session with tears of love for learning running down their chubby cheeks you know who to kick for doing a job just that bit worse than it should have been necessary. 
+- Have you kept track of streming stats? like how many people logged in and stayed troughout, how many interacted?
+    - Yes please, it would be good to see the stats
+    - Here is stats [repo](https://github.com/coderefinery/workshop-stats)
+    - Thanks, I get a 404 error, is it private?
+    - No, I don't think so. https://github.com/coderefinery/workshop-stats
+    - Still get 404. Does it work for anyone else?
+        - Yeah I think it's private.  We need to fix this...
+- How big is small (10-15), medium (~30-40)?
+    - I would say below 50 is small.
+- Have you considered scaling to more events instead of to a larger audience? I mean, this seems the opposite of scaling, but this kind of content would be more useful the more often is it taught ("I need to learn GIT/Python/* in December!")
+    - We would, but right now we simply don't have enough time and people to do more small events.  But yes, "scheduling conflict" is a big problem - the best we can do right now is written material+videos to follow up on (and hope it's interesting enough)
+    - [Python for Scientific Computing 5-7/November/2024](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024)
+      - This was just an example. I mean, if I am a PHD student that needs to start working on a topic on Month X which happens to be inconveniently placed in the year, I will not benefit as much from having a workshop at Month X+3 
+        - The materials are open and the videos are publically available on YouTube channel
+          - What's the ratio of people watching videos afterwards vs people attending the event? That ratio can give an idea of the popularity of the two possible approaches.
+    - The more you scale up the less interactive the course / workshop will need to be. It then becomes a question of priorities, and if teaching is a lower priority then learning than I guess there really should be no prizes for guessing which approach should reign the airwaves.
+- I guess outside Europe / Africa, time zones could be a problem?
+   - yes, that is true
+   - 
+- Sorry, I might have missed this: have you been rehearsing and/or doing dry runs?
+  - With instructors I like to try to do a dry run.  I often don't do a live broadcast dry run these days since I'm confidente enough, but when you are just starting, it's a good idea.
+- Do you always use Zoom for the 'presenter end' or have you tried other things? Teams? Jitsi? etc.?
+   - we use mostly zoom
+   - It was first pioneered using Jitsi.  You can probably use others, too.
+
+- A comment: for deRSE24 we have been using the [GWDG streaming service](https://docs.gwdg.de/doku.php?id=en:services:mobile_working:live_streaming:start) and OBS, it worked quite well (with a 20s delay or so)
+  - Cool!  Yes, there is plenty of livestreaming options.  Twitch+our OBS config gives us 2-3s of latency (which is low enough for live Notes interaction).  You might be able to tune this if needed.
+
+#### Behind the stream
+
+- Does OBS take a lot of RAM or CPU? what are the specs on your machine?
+    - Richard have a relatively powerful computer with 8 AMD CPUs. 
+    -  4 CPUs are relatively enough for a good OBS setup, most important is a stable internet connection (ideally wired).
+    - An extra monitor is recommended for the setup
+    - See the hardware notesrecommendation [here](https://coderefinery.github.io/train-the-trainer/obs/#hardware-requirements)
+- Do you do a screenshare from Zoom -> OBS or OBS -> Zoom?
+  - Instructors share to Zoom, OBS captures Zoom, OBS sends to the world.
+  - When I am using OBS sfor a single-person presentation recording, I go the other way: OBS captures my desktop/camera, OBS generates the preview window, and then Zoom captures and broadcasts the preview window.
+
+
+#### [Video editing](https://coderefinery.github.io/train-the-trainer/video-editing/)
+
+##### Poll
+- Have you tried video editing? Add an`o` as answer below
+   - yes: ooooo
+   - no : 
+   - Video editing makes all the difference. I have never known a way to avoid this sacred of steps, so to speak. In short, no recording can ever be production ready by default in the books of the wiser among the streamers. In fact, during the editing one can considerably refine and improve the learning experience in great ways. But then one would need to invest both time and effort.
+
+- If `yes` Which are the tools you use?
+    - Windows Movie Maker / ClipChamp
+    - (raw stream from Zoom)
+    - I think it was shotcut - I did only basic trimming
+    - Kdenlive 
+    - Clipchamp, OpenShot, Sony Vegas
+    - also ffmpeg from command line to cut beginning and end 
+
+##### Questions
+- What is Whisper?
+    - Open-source model from OpenAI that converts speech to text transcripts.
+    - this one? https://openai.com/index/whisper/
+    - curious if anyone has tried it with languages other than english
+    - I heard that one of my spanish colleague try it with another software. I don't remember the tool. But with AI bloom there are many licensed tools that can do it with fifferent language
+
+- What do you use to crop the videos?
+    - I see now, ffmpeg
+
+- how to merge multiple parts in one? I asked because you edited only the icebreaker part?
+     - you can manage it in input part, see ffmpeg-editlist readme.
+
+- Do you generate custom thumbnails for the video?
+    - no, because of the time, but its good to have.  If we had a volunteer to manage that, then we should! 
+
+- Does anyone recommend any other (GUI) tools that work well? ffmpeg is very new to me!
+     - if you want a basic trimming and editing , you can use Quicktime player/imovies on mac
+     - Clipchamp as the  Microsoft video editor
+    - Thanks :smile:
+
+- How do subtitles get uploaded to YouTube?
+    - You upload the video and subtitles as part of upload.
+    - :+1:
+
+- How does codewhisperer compare against youtube's automatically generated subtitles?
+    - by experience, whisper was better couple of years ago. We haven't compared it recently
+    - I guess and advantage is that you can edit whisper subtitles in case something is odd or whatever, probs cannot do that in YouTube
+
+
+#### [Open Broadcaster Software (OBS) introduction](https://coderefinery.github.io/train-the-trainer/obs/) & [setup](https://coderefinery.github.io/train-the-trainer/obs-config/)
+
+- Are the profiles public? 
+   -  Yes, you can see it [here](https://coderefinery.github.io/train-the-trainer/obs-config/#coderefinery-obs-configs)
+- Does it work in Linux+Wayland?
+    - I think everything we do with OBS would.
+
+### Wrapup
+- All workshop materials will stay available (and be put on Zenodo right after the workshop)
+- Upcoming Workshops
+   - [CodeRefinery workshop September 10-12, 17-19, 2024](https://coderefinery.github.io/2024-09-10-workshop/)
+   - [Build Systems Course and Hackathon](https://www.kth.se/form/build-systems-course-and-hackathon-part-i)
+   - [Python for Scientific Computing](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024)
+
+- CodeRefinery community: https://coderefinery.zulipchat.com/
+- If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support@coderefinery.org
+- A summary email will be sent out to all participants 
+
+### Feedback about todays session
+
+What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:
+
+- ffmpeg seems great, will give a try for fun!
+- great to see everything in practice!
+- Very insightful to see what happens behind the scenes.
+
+What one thing would you improve about this session?
+
+- Some more interactivity would've been nice but since most the group preferred demo instead of exercise perhaps it's only a personal opinion
+- It would have been good to share the OBS profiles repo beforehand in the setup email - so I could have had it to hand. (https://github.com/coderefinery/obs-config)
+    - +1 good idea, we should do this next time
+- Perhaps a simpler starter OBS setup?
+    - Good idea... I should have, but basically ran out of time to prepare.
+
+Any other comments?
+
+- Cool to see the switch from RSE to trainer to AV guy, impressive!
+
+
+
