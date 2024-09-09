@@ -20,8 +20,11 @@ authors:
   given-names: Samantha 
 title: "CodeRefinery - Train the Trainer"
 type: "dataset"
-version: 2024-09-09
+version: 2024-09-10
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.13736615
 license: CC-BY-4.0
-date-released: 2024-09-09
+date-released: 2024-09-10
 url: "https://coderefinery.github.io/train-the-trainer/"
 repository-code: "https://github.com/coderefinery/train-the-trainer"
