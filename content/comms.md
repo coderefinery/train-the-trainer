@@ -267,5 +267,25 @@ XX on behalf of CodeRefinery
 
 **After workshop email**
 
-TBD
+Hei,
+
+if you joined the workshop during the last four weeks, thank you for joining! We hope you got something out of it :) 
+
+We have already collected a bunch of super useful feedback after each episode and have tried to also implement a lot of it during the workshop. 
+
+However, we would also like to hear about your experiences with the workshop as a whole. Could you please take a few minutes to fill in this short survey: XX
+
+The materials will stay available at XX, we also added citation information (XX) and published it on Zenodo (XX) . Feel free to reuse!
+
+If you want to get more involved with CodeRefinery, please join our chat (XX) and/or come to our community meetings every Monday at 14 CEST (XX). 
+We have many different roles available and can figure out yours together. 
+
+If you do not have the resources or capacity to get involved, but like what we are doing, please consider becoming an ambassador: XX. 
+
+In any case, please do not hesitate to contact us at support@coderefinery.org if you have any questions, suggestions or ideas. 
+
+Kind regards,
+
+XX on behalf of CodeRefinery
+
 
