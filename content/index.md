@@ -52,18 +52,12 @@ You can join all sessions, or the just the ones that interest you. More details 
 
 The workshop is **free of charge for everyone**, please register below to get the Zoom link and other useful information for the workshop.
 
-:::{button-link} https://indico.neic.no/e/CR-ttt24
-:color: primary
-:shadow:
-
-Registration
-:::
+The workshop is over and registration is closed now. 
 
 If you have any questions, please write to <support@coderefinery.org>.
 ::::
 
-```{admonition} Materials are work in progress
-Materials will appear here before the workshop.
+```{admonition} 
 You can find materials of previous similar trainings using the links below:
 
 - First version of the course in 2019 and then in 2020:
