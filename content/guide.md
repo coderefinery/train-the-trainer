@@ -51,3 +51,16 @@
 - 30 min: OBS setup
 - 15 min: What's next?
 
+## Talking points for each sessions intro
+
+- Brief CodeRefinery intro
+- Instructors intros
+- Notes intro
+  - Check-in
+  - Icebreaker
+  - Participant intros in breakoutrooms (Random assign first, then same for whole session)
+- Daily schedule, learning objectives
+- Code of conduct
+- Chat (please use collaborative notes)
+
+
