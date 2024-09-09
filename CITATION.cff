@@ -5,17 +5,27 @@ authors:
 - family-names: Bast
   given-names: Radovan
 - family-names: Darst
-  given-names: Richard 
+  given-names: Richard
+- family-names: da Silva
+  given-names: João
+- family-names: Fouilloux
+  given-names: Anne
+- family-names: Hellsvik
+  given-names: Johan
 - family-names: Lindi
   given-names: Bjørn 
 - family-names: Pushpadas
   given-names: Dhanya
+- family-names: Sabry
+  given-names: Razick
 - family-names: Rantaharju
   given-names: Jarno
 - family-names: Smuts
   given-names: Stephan
 - family-names: Toliautas
   given-names: Stepas
+- family-names: Wikfeldt
+  given-names: Thor 
 - family-names: Wittke
   given-names: Samantha 
 title: "CodeRefinery - Train the Trainer"
