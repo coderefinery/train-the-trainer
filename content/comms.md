@@ -269,23 +269,49 @@ XX on behalf of CodeRefinery
 
 Hei,
 
-if you joined the workshop during the last four weeks, thank you for joining! We hope you got something out of it :) 
+if you joined the workshop during any sessions of the last four weeks, thank you for joining! We hope you got something out of it :)
 
-We have already collected a bunch of super useful feedback after each episode and have tried to also implement a lot of it during the workshop. 
+Feedback
 
-However, we would also like to hear about your experiences with the workshop as a whole. Could you please take a few minutes to fill in this short survey: XX
+We have already collected a bunch of super useful feedback after each episode and have tried to also implement a lot of it during the workshop.
+In addition, we would also like to hear about your experiences with the workshop as a whole.
+Could you please take a few minutes to fill in this short survey: XX
 
-The materials will stay available at XX, we also added citation information (XX) and published it on Zenodo (XX) . Feel free to reuse!
+Certificate
 
-If you want to get more involved with CodeRefinery, please join our chat (XX) and/or come to our community meetings every Monday at 14 CEST (XX). 
-We have many different roles available and can figure out yours together. 
+We cannot directly give any university credits for this workshop, but we can provide a certificate of attendance.
+If you would like a certificate, please send an e-mail listing all sessions that you attended and a short summary of what you learned to support@coderefinery.org
+As we are currently running our large workshop, the delivery may be delayed until the end of September.
 
-If you do not have the resources or capacity to get involved, but like what we are doing, please consider becoming an ambassador: XX. 
 
-In any case, please do not hesitate to contact us at support@coderefinery.org if you have any questions, suggestions or ideas. 
+Materials
+
+The materials will stay available at  https://coderefinery.github.io/train-the-trainer/ . 
+All notes are archived on there as well: https://coderefinery.github.io/train-the-trainer/notes-archive/ .
+We are in the process of adding citation information ( https://github.com/coderefinery/train-the-trainer/pull/152 ) and publishing the materials in our Zenodo community: https://zenodo.org/communities/coderefinery/ .
+Feel free to link and reuse! We also welcome updates and issues to the repository: https://github.com/coderefinery/train-the-trainer
+
+Blogpost
+
+A blogpost about the workshop is work in progress and will be added to the CodeRefinery blog soon ( https://coderefinery.org/blog/ ). 
+
+Next steps
+
+If you want to get more involved with CodeRefinery in any way, please join our chat ( https://coderefinery.zulipchat.com/  ) and/or come to our community meetings every Monday at 14 CEST ( https://hackmd.io/@coderefinery/team-meeting ).
+We have many different roles available and can figure out yours together. Planning for the next workshop (approximately March 2025) will start soon :)
+
+If you do not have the resources or capacity to get involved, but like what we are doing, please consider becoming a CodeRefinery ambassador: https://coderefinery.org/join/individuals/#coderefinery-ambassador .
+If you'd just like to stay up to date, join one of our newsletters: https://coderefinery.org/about/newsletter/
+
+Questions?
+
+In any case, please do not hesitate to contact us at support@coderefinery.org  if you have any questions, suggestions or ideas.
+
+Thank you and hope to see you (again) some day!
 
 Kind regards,
+XX
 
-XX on behalf of CodeRefinery
+
 
 
