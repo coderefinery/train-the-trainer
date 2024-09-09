@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite as follows"
+authors:
+- family-names: "CodeRefinery"
+- family-names: Bast
+  given-names: Radovan
+- family-names: Darst
+  given-names: Richard 
+- family-names: Lindi
+  given-names: Bjørn 
+- family-names: Pushpadas
+  given-names: Dhanya
+- family-names: Rantaharju
+  given-names: Jarno
+- family-names: Smuts
+  given-names: Stephan
+- family-names: Toliautas
+  given-names: Stepas
+- family-names: Wittke
+  given-names: Samantha 
+title: "CodeRefinery - Train the Trainer"
+type: "dataset"
+version: 2024-09-09
+license: CC-BY-4.0
+date-released: 2024-09-09
+url: "https://coderefinery.github.io/train-the-trainer/"
+repository-code: "https://github.com/coderefinery/train-the-trainer"
