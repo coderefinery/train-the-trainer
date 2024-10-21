@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collaborative notes &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=187304be"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="A workshop seen from different perspectives" href="../overview/" />
+    <link rel="prev" title="About the CodeRefinery project and CodeRefinery workshops in general" href="../coderefinery-intro/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Collaborative notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collaborative-document-mechanics-and-controls">Collaborative document mechanics and controls</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-controls">Basic controls</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#asking-questions">Asking questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#don-t-get-overwhelmed">Don’t get overwhelmed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#privacy">Privacy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exercise">Exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collaborative-document-manager">Collaborative Document Manager</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#before-the-workshop">Before the workshop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#most-things-to-edit-everyone">Most things to edit (everyone)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#general-collaborative-document-practices">General Collaborative Document practices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#collaborative-document-format-example">Collaborative document format example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#posting-the-collaborative-document-to-the-website">Posting the collaborative document to the website</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#feedback-template">Feedback template</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Collaborative notes</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/collaborative-notes.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="collaborative-notes">
+<span id="id1"></span><h1>Collaborative notes<a class="headerlink" href="#collaborative-notes" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Be able to provide a highly interactive online workshop environment with collaborative documents</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: 10 min</p></li>
+<li><p>Exercise: 15 min</p></li>
+<li><p>Questions &amp; Answers: 5 min</p></li>
+</ul>
+</div>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<p>The Collaborative document is how you interact with the participants.
+The participants can ask questions and give feedback through the collaborative
+document. During a CodeRefinery session there can be a large a volume of questions.
+A dedicated person, a Collaborative document-manager, is needed to answer and edit the collaborative document.
+Let us see how the collaborative document is used, then discuss the role of
+the editor or collaborative document-manager.</p>
+</section>
+<section id="collaborative-document-mechanics-and-controls">
+<h2>Collaborative document mechanics and controls<a class="headerlink" href="#collaborative-document-mechanics-and-controls" title="Link to this heading"></a></h2>
+<p>Technologies that can be used as a collaborative document are <a class="reference external" href="https://hackmd.io">Hackmd</a>, <a class="reference external" href="https://hedgedoc.org">HedgeDoc</a>,
+or <a class="reference external" href="https://www.google.com/docs/about/">Google Docs</a></p>
+<p><a class="reference external" href="https://hackmd.io">Hackmd</a> or  <a class="reference external" href="https://hedgedoc.org/">HedgeDoc</a> are real-time text editor online.  We use it to:</p>
+<ul class="simple">
+<li><p>As a threaded chat, to <strong>answer questions and provide other information</strong> without
+interrupting the main flow of the room.</p></li>
+<li><p>provide everyone with a <strong>more equal opportunity to ask questions</strong>.</p></li>
+<li><p><strong>create notes</strong> which will be archived, for your later reference.</p></li>
+</ul>
+<p>You do not need to login/create an account to be able to edit the document.</p>
+<section id="basic-controls">
+<h3>Basic controls<a class="headerlink" href="#basic-controls" title="Link to this heading"></a></h3>
+<figure class="align-default" id="id2">
+<img alt="../_images/hackmd--controls.png" src="../_images/hackmd--controls.png" />
+<figcaption>
+<p><span class="caption-text">This may look slightly different on mobile devices and small windows.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>At the top (left or right), you can switch between <strong>view</strong>,
+<strong>edit</strong>, and <strong>split view and edit</strong> modes.</p></li>
+<li><p>You write in <a class="reference external" href="https://commonmark.org/help/">markdown</a> here.  Don’t
+worry about the syntax, just see what others do and try to be like
+that!  Someone will come and fix any problems there may be.</p></li>
+<li><p>Please go back to view mode if you think you won’t edit for a
+while - it will still live update.</p></li>
+</ul>
+</section>
+<section id="asking-questions">
+<h3>Asking questions<a class="headerlink" href="#asking-questions" title="Link to this heading"></a></h3>
+<p><strong>Always ask questions and add new sections at the very bottom</strong>.
+You can also answer and comment on older questions, too.</p>
+<figure class="align-default" id="id3">
+<img alt="../_images/hackmd--questions2.png" src="../_images/hackmd--questions2.png" />
+<figcaption>
+<p><span class="caption-text">Questions and answers in bullet points</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Since we plan to publish the questions and answers later as part
+of the workshop page, we recommend to not use any names. You can indicate
+your own name to make it easier to discuss more during the workshop but
+then always use this form: <code class="docutils literal notranslate"><span class="pre">[name=Myname]</span></code>. This makes it easier for
+us to automatically remove all names before publishing the notes.</p>
+<p>Other hints:</p>
+<ul class="simple">
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">+1</span></code> to agree with a statement or question (we are more likely
+to comment on it).</p></li>
+<li><p>Please leave some blank lines at the bottom</p></li>
+<li><p>NOTE: Please don’t “select all”, it highlights for everyone and adds a
+risk of losing data (there are periodic backups, but not instant).</p></li>
+<li><p>It can be quite demanding to follow the collaborative document closely.  Keep an eye
+on it, but consider how distracted you may get from the course.  For
+things beyond the scope of the course, we may come back and answer
+later.</p></li>
+</ul>
+</section>
+<section id="don-t-get-overwhelmed">
+<h3>Don’t get overwhelmed<a class="headerlink" href="#don-t-get-overwhelmed" title="Link to this heading"></a></h3>
+<p>There can be a flood of information on the collaborative document.  Scan for what is
+important, then if you would like come back later.  But it is
+important to keep checking it.</p>
+</section>
+<section id="privacy">
+<h3>Privacy<a class="headerlink" href="#privacy" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Assume the collaborative document is <strong>public and published: you never
+need to put your name there</strong>.</p></li>
+<li><p>The collaborative document will be <strong>published on the website afterwards</strong>.  We will
+remove all non-instructors names, but it’s easier if you don’t add
+it there in the first place.</p></li>
+<li><p>Please keep the link private during the workshop, since since
+security is “editable by those who have the link”.</p></li>
+<li><p>You can use <code class="docutils literal notranslate"><span class="pre">[name=YOURNAME]</span></code>, to name yourself.  We <em>will</em> remove
+all names (but not the comments) before archiving the notes (use
+this format to make it easy for us).</p></li>
+</ul>
+</section>
+</section>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Link to this heading"></a></h2>
+<div class="admonition-discuss-how-to-collaborate-and-handle-questions-15-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">Discuss how to collaborate and handle questions (15 min)</p>
+<p>Write down your conclusions in the shared document. Items to discuss are:</p>
+<ul class="simple">
+<li><p>What is your experience with questions and discussions while teaching?</p></li>
+<li><p>How do you deal with them?</p></li>
+<li><p>What kind of technologies do you prefer: chat, shared document, or voices
+and discussion raised during instruction? And why?</p></li>
+</ul>
+</div>
+</section>
+<section id="collaborative-document-manager">
+<h2>Collaborative Document Manager<a class="headerlink" href="#collaborative-document-manager" title="Link to this heading"></a></h2>
+<p>We have one person who is a “Collaborative Document helper”.  This isn’t the only
+person that should edit and answer, but one person shouldn’t have too
+much else on their mind so can focus on it.  They also make sure that
+the collaborative document is updated with exercise, break, and other meta-information to
+keep people on track.</p>
+<p>Below, (*) = important.</p>
+<section id="before-the-workshop">
+<h3>Before the workshop<a class="headerlink" href="#before-the-workshop" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Create a new collaborative document for the workshop</p></li>
+<li><p>make sure that <strong>editing is enabled for anyone without login</strong></p></li>
+<li><p>Add workshop information, links to the workshop page and material
+and an example question and answer to the top of the collaborative document(see below)</p></li>
+</ul>
+</section>
+<section id="most-things-to-edit-everyone">
+<h3>Most things to edit (everyone)<a class="headerlink" href="#most-things-to-edit-everyone" title="Link to this heading"></a></h3>
+<p>Make it easy to post after the course and consistent to follow:</p>
+<ul class="simple">
+<li><p>Tag all names with <code class="docutils literal notranslate"><span class="pre">[name=XXX]</span></code> (so they can be removed later),
+remove other personal data or make it obvious.</p></li>
+<li><p>Add in information on exercises (new section for them, link, end
+time, what to accomplish)</p></li>
+<li><p>Make a logical section structure (<code class="docutils literal notranslate"><span class="pre">#</span></code> for title, <code class="docutils literal notranslate"><span class="pre">##</span></code> for sections,
+<code class="docutils literal notranslate"><span class="pre">###</span></code> for episodes, etc. - or what makes sense)</p></li>
+</ul>
+</section>
+<section id="general-collaborative-document-practices">
+<h3>General Collaborative Document practices<a class="headerlink" href="#general-collaborative-document-practices" title="Link to this heading"></a></h3>
+<figure class="align-right" id="id4">
+<img alt="../_images/hackmd--full-demo.png" src="../_images/hackmd--full-demo.png" />
+<figcaption>
+<p><span class="caption-text">A live demo of a Collaborative Document during a Q&amp;A time.  The two instructors are
+discussing some of the import answers.  Multiple learners have asked
+questions, multiple answers, and some remaining to be answered</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Keep it formatted well:</p>
+<ul class="simple">
+<li><p>(*) Tag names you see with <code class="docutils literal notranslate"><span class="pre">[name=XXX]</span></code> so that we can remove it
+later.</p></li>
+<li><p>Heading level <code class="docutils literal notranslate"><span class="pre">#</span></code> is only the page title</p></li>
+<li><p>Add a new <code class="docutils literal notranslate"><span class="pre">##</span></code> heading when a new <em>lesson</em> or similar thing is
+started (introduction, icebreaker, break between lessons, etc)</p></li>
+<li><p>Add a new <code class="docutils literal notranslate"><span class="pre">###</span></code> heading when a new <em>episode</em>, <em>exercise</em>, <em>break</em>
+(within exercise session)</p></li>
+<li><p>Ensure people are asking questions at the bottom, direct them there
+if they aren’t.</p></li>
+<li><p>(*) Ensure each question is a bullet point.  Each answer or follow-up
+should be a bullet point below.</p>
+<ul>
+<li><p>Should you use more deeply nested bullet points, or have only one
+level below the initial question?  It depends on the context, but
+if a conversation goes on too long, try not to let it go too
+deep.</p></li>
+</ul>
+</li>
+</ul>
+<p>Update with meta-talk, so that learners can follow along easily:</p>
+<ul class="simple">
+<li><p>Add Icebreaker and introductory material of the day.  Try to talk to
+people as they joined to get them to open the collaborative document and answer.</p></li>
+<li><p>Anything important for following along should not be only said via
+voice.  It needs to be in the collaborative document, too.</p></li>
+<li><p>New lessons or episodes, with links to them.</p></li>
+<li><p>For exercises, link to exercise and add the duration, end time,
+goals.  If these are unclear, bring it up to the instructor by voice.</p></li>
+<li><p>Add a status display about breaks.</p></li>
+</ul>
+<p>Screenshare it when necessary:</p>
+<ul class="simple">
+<li><p>During breaks and other times, share the collaborative document(including the
+notification about break, and when it ends).</p></li>
+<li><p>It is nice if the arrangement allows some of the latest questions to
+be seen, so people are reminded to ask there.</p></li>
+<li><p>Someone else may do this, but should make sure it happens.</p></li>
+</ul>
+<p>Answer questions</p>
+<ul class="simple">
+<li><p>If there is an question that should be answered by the instructor by
+voice, bring it up (by voice) to the instructor immediately.</p></li>
+<li><p>How soon do you answer questions? Two points of view:</p>
+<ul>
+<li><p>Answer questions right away: can be really intense to follow.</p></li>
+<li><p>Wait some so that we don’t overload learners: reduces the info
+flow.  But then do people need to check back more often.</p></li>
+<li><p>You need to find your own balance.  Maybe a quick answer right
+away, and more detailed later.  Or delay answers during the most
+important parts of the lecture.</p></li>
+</ul>
+</li>
+<li><p>Avoid wall-of-text answers.  If reading an answer takes too long, it
+puts the person (and other people who even try to read it) behind
+even more by taking up valuable mental energy.  If an answer needs a
+wall of text, consider these alternatives:</p>
+<ul>
+<li><p>Progressive bullet points getting more detailed (first ones
+useful alone for basic cases)</p></li>
+<li><p>Don’t be worried to say “don’t worry about this now, let’s talk
+later.”</p></li>
+<li><p>Figure out the root problem instead of answering every possible
+interpretation</p></li>
+<li><p>Declare it advanced and that you will come back later.</p></li>
+</ul>
+</li>
+</ul>
+<p>Ensure it can be posted quickly:</p>
+<ul class="simple">
+<li><p>The collaborative document gets posted to the workshop webpage.  For this, it needs some
+minimal amount of formatting (it doesn’t need to be perfect, just
+not horrible).</p></li>
+<li><p>All names and private information needs to be stripped.  This is why
+you should rigorously tag all names with <code class="docutils literal notranslate"><span class="pre">[name=XXX]</span></code> so they can be
+removed (see above).</p>
+<ul>
+<li><p>Learner names can be completely removed.  CR staff names can be
+<code class="docutils literal notranslate"><span class="pre">[name=CR]</span></code> or something similar.</p></li>
+<li><p>There may be other private URLs at the top or bottom.</p></li>
+</ul>
+</li>
+<li><p>If possible, send the PR adding the collaborative document to the workshop webpage
+(though others can do this, too).</p></li>
+</ul>
+</section>
+<section id="collaborative-document-format-example">
+<h3>Collaborative document format example<a class="headerlink" href="#collaborative-document-format-example" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Workshop, day 1</span>
+
+
+<span class="c1">## Lesson name</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">coderefinery</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">lesson</span><span class="o">/</span>
+
+<span class="c1">### Episode name</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">coderefinery</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="mi">01</span><span class="o">-</span><span class="n">episode</span><span class="o">/</span>
+
+<span class="o">-</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">question</span>
+  <span class="o">-</span> <span class="n">Anwser</span>
+  <span class="o">-</span> <span class="n">More</span> <span class="n">detailed</span> <span class="n">answer</span>
+<span class="o">-</span> <span class="n">question</span>
+  <span class="o">-</span> <span class="n">answer</span>
+
+<span class="c1">### Exercises:</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">link</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">exercise</span><span class="o">/.../.../</span><span class="c1">#section</span>
+<span class="mi">20</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">until</span> <span class="n">xx</span><span class="p">:</span><span class="mi">45</span>
+<span class="n">Try</span> <span class="n">to</span> <span class="n">accomplish</span> <span class="nb">all</span> <span class="n">of</span> <span class="n">points</span> <span class="mi">1</span><span class="o">-</span><span class="mf">3.</span>  <span class="n">Parts</span> <span class="mi">4</span><span class="o">-</span><span class="mi">5</span> <span class="n">are</span> <span class="n">optional</span><span class="o">.</span>
+
+<span class="n">Breakout</span> <span class="n">room</span> <span class="n">status</span><span class="p">:</span>
+<span class="o">-</span> <span class="n">room</span> <span class="mi">2</span><span class="p">,</span> <span class="n">need</span> <span class="n">help</span> <span class="k">with</span> <span class="n">Linux</span> <span class="n">permissions</span>
+<span class="o">-</span> <span class="n">room</span> <span class="mi">5</span><span class="p">,</span> <span class="n">done</span>
+
+<span class="c1">### Break</span>
+<span class="p">:::</span><span class="n">danger</span>
+<span class="n">We</span> <span class="n">are</span> <span class="n">on</span> <span class="n">a</span> <span class="mi">10</span> <span class="n">minute</span> <span class="k">break</span> <span class="n">until</span> <span class="n">xx</span><span class="p">:</span><span class="mi">10</span>
+<span class="p">:::</span>
+
+
+<span class="c1">## Lesson 2</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">coderefinery</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">lesson</span><span class="o">-</span><span class="mi">2</span><span class="o">/</span>
+
+</pre></div>
+</div>
+</section>
+<section id="posting-the-collaborative-document-to-the-website">
+<h3>Posting the collaborative document to the website<a class="headerlink" href="#posting-the-collaborative-document-to-the-website" title="Link to this heading"></a></h3>
+<p>The collaborative document should be posted sooner rather than later, and hopefully the
+steps above will make it easy to do so quickly.  You could wait a few
+hours, to allow any remaining questions to be asked an answered.</p>
+<ul class="simple">
+<li><p>Download as markdown</p></li>
+<li><p>Remove any private links at the top</p></li>
+<li><p>Adjust headings so that they are reasonable</p></li>
+<li><p>Look for private info and remove it</p>
+<ul>
+<li><p>Search document for <code class="docutils literal notranslate"><span class="pre">[name=???]</span></code>  (change to <code class="docutils literal notranslate"><span class="pre">[name=staff]</span></code> or
+<code class="docutils literal notranslate"><span class="pre">[name=learner]</span></code>)</p></li>
+<li><p>Any names not tagged with <code class="docutils literal notranslate"><span class="pre">[name=]</span></code></p></li>
+<li><p>usernames in URLs</p></li>
+<li><p>private links</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="feedback-template">
+<h3>Feedback template<a class="headerlink" href="#feedback-template" title="Link to this heading"></a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## Feedback, day N</span>
+
+<span class="p">:::</span><span class="n">info</span>
+<span class="c1">### News for day N+1</span>
+<span class="o">-</span> <span class="o">.</span>
+<span class="o">-</span> <span class="o">.</span>
+<span class="p">:::</span>
+
+<span class="c1">### Today was (multi-answer):</span>
+<span class="o">-</span> <span class="n">too</span> <span class="n">fast</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">just</span> <span class="n">right</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">too</span> <span class="n">slow</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">too</span> <span class="n">easy</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">right</span> <span class="n">level</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">too</span> <span class="n">advanced</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">I</span> <span class="n">would</span> <span class="n">recommend</span> <span class="n">this</span> <span class="n">course</span> <span class="n">to</span> <span class="n">others</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">Exercises</span> <span class="n">were</span> <span class="n">good</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">I</span> <span class="n">would</span> <span class="n">recommend</span> <span class="n">today</span> <span class="n">to</span> <span class="n">others</span><span class="p">:</span> 
+<span class="o">-</span> <span class="n">I</span> <span class="n">wouldn</span><span class="s1">&#39;t recommend today: </span>
+
+<span class="c1">### One good thing about today:</span>
+<span class="o">-</span> <span class="o">...</span>
+<span class="o">-</span> <span class="o">...</span>
+
+<span class="c1">### One thing to be improved for next time:</span>
+<span class="o">-</span> <span class="o">...</span>
+<span class="o">-</span> <span class="o">...</span>
+
+<span class="c1">### Any other comments:</span>
+<span class="o">-</span> <span class="o">...</span>
+<span class="o">-</span> <span class="o">...</span>
+</pre></div>
+</div>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Having a collaborative document improves communication and interaction.</p></li>
+<li><p>Answering questions requires a dedicated person - A Collaborative Document Manager.</p></li>
+<li><p>The collaborative document should be posted on the web site as soon as possible.</p></li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../coderefinery-intro/" class="btn btn-neutral float-left" title="About the CodeRefinery project and CodeRefinery workshops in general" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../overview/" class="btn btn-neutral float-right" title="A workshop seen from different perspectives" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
