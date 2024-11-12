@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson design &mdash; CodeRefinery instructor training  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Collaborative lesson development" href="../lesson-development/" />
+    <link rel="prev" title="Running a workshop: online" href="../workshops-online/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            CodeRefinery instructor training
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">The lesson</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00-preparation/">Pre-workshop preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../welcome/">Welcome and introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about-coderefinery/">About the CodeRefinery project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-teaching-style/">Interactive teaching style</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-teaching-style/#the-carpentries-and-coderefinery-approaches-to-teaching">The Carpentries and CodeRefinery approaches to teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workshops-online/">Running a workshop: online</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-do-you-design">How do you design?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backwards-lesson-design">Backwards lesson design</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-approach">The approach</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-process">The process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#why-is-it-good-to-have-a-process">Why is it good to have a process?:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#designing-exercises">Designing exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#practice-backwards-design">Practice backwards design</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Collaborative lesson development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-strategies/">How to teach online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-practice/">Teaching practice and feedback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../future/">Future</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-workshops/">Organize a CodeRefinery workshop</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">CodeRefinery instructor training</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Lesson design</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/instructor-training/blob/master/content/lesson-design.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lesson-design">
+<h1>Lesson design<a class="headerlink" href="#lesson-design" title="Permalink to this heading"></a></h1>
+<div class="admonition-recommended-reading prerequisites admonition" id="prerequisites-0">
+<p class="admonition-title">Recommended reading</p>
+<ul class="simple">
+<li><p>CodeRefinery <a class="reference external" href="https://coderefinery.github.io/manuals/lesson-design/">lesson-design</a> manual</p></li>
+<li><p><a class="reference external" href="https://cdh.carpentries.org">The Carpentries Curriculum Development Handbook</a></p></li>
+<li><p><a class="reference external" href="http://teachtogether.tech/">Teaching Tech Together</a></p></li>
+<li><p>Our <a class="reference external" href="https://coderefinery.github.io/manuals/teaching-tech-together/">summary</a> of “Teaching Tech Together”</p></li>
+<li><p><a class="reference external" href="https://doi.org/10.1371/journal.pcbi.1006915">Ten quick tips for creating an effective lesson</a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<section id="how-do-you-design">
+<h2>How do you design?<a class="headerlink" href="#how-do-you-design" title="Permalink to this heading"></a></h2>
+<div class="admonition-discussion discussion important admonition" id="discussion-0">
+<p class="admonition-title">Discussion</p>
+<p>Discuss either in groups or via collaborative document:</p>
+<ul class="simple">
+<li><p>How do you start when you design a new lesson/presentation?</p></li>
+<li><p>Has your approach changed over the years? If yes, how?</p></li>
+</ul>
+</div>
+</section>
+<hr class="docutils" />
+<section id="backwards-lesson-design">
+<h2>Backwards lesson design<a class="headerlink" href="#backwards-lesson-design" title="Permalink to this heading"></a></h2>
+<section id="the-approach">
+<h3>The approach<a class="headerlink" href="#the-approach" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>You don’t think about how to do something and try to explain it.</p></li>
+<li><p>Avoid the typical approach <em>“I want to show a number of things which I think are cool about
+tool X - how do I press these into 90 minutes?”</em></p></li>
+<li><p>Instead, you start defining your target audience by answering to questions
+such <strong>What is the expected educational level of my audience?</strong>, <strong>Have they
+been already exposed to the technologies I am planning to teach?</strong>, <strong>What
+tools do they already use?</strong>, <strong>What are the main issues they are currently
+experiencing?</strong>. It is important to discuss these points with a group of
+colleagues, preferably from diverse backgrounds and institutions to reduce
+biases. Once you clarified your target audience, it is useful to create
+<strong>learner personas</strong>; that will help you during the development process by
+providing concrete examples of potential learners showing up at your
+workshops. For each <strong>learner personas</strong>, try to think of what is <strong>useful to
+them</strong>: <em>“What do they <strong>need</strong> to
+<a class="reference external" href="https://coderefinery.github.io/instructor-training/03-teaching-style/#using-bloom-s-taxonomy-to-write-effective-learning-objectives">remember/understand/apply/analyze/evaluate/create</a>?”</em>.
+Asking and answering to these questions will allow you to define the
+background knowledge (starting points) and goals (end points) of your
+learners.  Then, you create a sequence of exercises which test incrementally
+progressing tasks and acquisition of the new skills (from starting to end
+points).</p></li>
+<li><p>Then, you write the minimum amount
+of material to teach the gap between exercises.</p></li>
+</ul>
+</section>
+<section id="the-process">
+<h3>The process<a class="headerlink" href="#the-process" title="Permalink to this heading"></a></h3>
+<p>For the whole process, see <a class="reference external" href="https://coderefinery.github.io/manuals/lesson-design/#backwards-lesson-design">our
+manual</a>
+(instructor discusses these points briefly).</p>
+</section>
+<section id="why-is-it-good-to-have-a-process">
+<h3>Why is it good to have a process?:<a class="headerlink" href="#why-is-it-good-to-have-a-process" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Having a semi-rigid design process can <strong>save time</strong> to start drafting.</p></li>
+<li><p>It allows collaborative development of teaching material.</p></li>
+<li><p>It will probably <strong>increase quality and relevance</strong> of lessons for learners.</p></li>
+<li><p><strong>We aren’t perfect yet.</strong>  CodeRefinery is still striving to get
+better at this, and we are more ad-hoc than you might think.
+A number of our lessons have not been designed this way but we are now improving
+these lessons with the backwards lesson design in mind.</p></li>
+</ul>
+</section>
+<section id="designing-exercises">
+<h3>Designing exercises<a class="headerlink" href="#designing-exercises" title="Permalink to this heading"></a></h3>
+<p>The goal of exercises is twofold:</p>
+<ul class="simple">
+<li><p>instructors can assess the progress of learners.</p></li>
+<li><p>learners put in practice the skills that you have included in your skills list.</p></li>
+</ul>
+<p>When designing exercises, consider that some participants will get stuck
+and may want to re-join at a later exercise. In other words it is nice
+if exercises build up on each other but not at the cost that if participants
+get stuck at exercise 2, they will not be able to do exercises 3 to N.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="practice-backwards-design">
+<h2>Practice backwards design<a class="headerlink" href="#practice-backwards-design" title="Permalink to this heading"></a></h2>
+<div class="admonition-the-goal-here-is-to-discuss-and-provide-examples-on-backwards-design-of-a-lesson discussion important admonition" id="discussion-1">
+<p class="admonition-title">The goal here is to discuss and provide examples on backwards-design of a lesson.</p>
+<p>Let’s take as an example the <em><a class="reference external" href="https://hpc-carpentry.github.io/hpc-intro/">HPC Carpentry lesson</a></em></p>
+<p><strong>Target audience</strong></p>
+<ul class="simple">
+<li><p>What is the expected educational level of my audience?</p>
+<ul>
+<li><p>A PhD student, postdoc or young researcher.</p></li>
+</ul>
+</li>
+<li><p>Have they been already exposed to the technologies I am planning to teach?</p>
+<ul>
+<li><p>The word <strong>HPC</strong> is not new to them and they may have already used an HPC but are still not capable of giving a proper definition of HPC. In addition, we do not expect them to know much about parallelism and they cannot make any distinction between various available parallelism paradigms.</p></li>
+</ul>
+</li>
+<li><p>What tools do they already use?</p>
+<ul>
+<li><p>serial codes, multi-threaded codes, data parallelism; usually out-of-the-box tools.</p></li>
+<li><p>they may have tried to “scale” their code (multiprocessing, threading, GPUs) with more or less success.</p></li>
+</ul>
+</li>
+<li><p>What are the main issues they are currently experiencing?</p>
+<ul>
+<li><p>they cannot solve their problems either because they would like to run the same code but with many different datasets or because their problem is larger (more computations/memory).</p></li>
+<li><p>most of the time they know their codes can run on HPC (from the documentation) but never really had the opportunity to try it out.</p></li>
+<li><p>Very few will have their own codes where they may have tried different things to speed it up (threading, task parallelism) but have no clear strategy.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Learner persona</strong></p>
+<ul class="simple">
+<li><p>Sonya is a 1st year PhD student: she recently moved to Oslo and joined the
+Computational and Systems Neuroscience group. She will be using the
+<a class="reference external" href="https://nest-simulator.readthedocs.io/">NEST</a>, a simulator for spiking
+neural network model. She used NEST during her master thesis but on her
+small cluster: <strong>she never used an HPC resource</strong> and is really excited about it.</p></li>
+<li><p>Robert is a field ecologist who obtained his PhD 6 months ago. He is now
+working on a new project with Climate scientists and as a consequence will
+need to run global climate models. He is <strong>not very familiar with command
+line</strong> even though he attended a Software Carpentry workshop and the idea to
+use HPC is a bit terrifying. He knows that he will get support from his
+team who has extensive experience with HPC but would like to become more
+independent and be able to <strong>run his own simulations</strong> (rather than copying
+existing cases).</p></li>
+<li><p>Jessica is a postdoc working on a project that investigates numerically the
+complex dynamics arising at the tip of a fluid-driven rupture. Fluid
+dynamics will be computed by a finite element method solving the
+compressible Navier-Stokes equations on a moving mesh. She <strong>uses a code she
+has developed</strong> during her PhD and that is based on existing libraries. She
+has mostly ran it on a local desktop; her work during her PhD was very
+limited due to the lack of computing resources and she is now very keen is
+<strong>moving to HPC</strong>; she knows that it will requires some work, in particular to
+parallelize her code. This HPC training will be her first experience with
+HPC.</p></li>
+</ul>
+<p><strong>Learning outcomes</strong></p>
+<ul class="simple">
+<li><p>Understand the difference between HPCs and other local/remote machines</p></li>
+<li><p>Understand the notion of core, nodes, cluster, shared/distributed memory, etc.</p></li>
+<li><p>Understand the notion of login nodes.</p></li>
+<li><p>Understand the need for a scheduler and how to use it appropriately</p></li>
+<li><p>Understand why optimising I/O is important on HPC and how to best use HPC filesystems</p></li>
+<li><p>Understand the need to parallelize (or use existing parallel) codes and in which cases HPCs is a must (when communications is required)</p></li>
+<li><p>Understand how to get your code ready to use on HPC (access to libraries, installation of your own libraries/software, etc.)</p></li>
+<li><p>Understand that an HPC is an operational machine and is not meant for developing codes.</p></li>
+</ul>
+<p><strong>Exercises</strong></p>
+<ul class="simple">
+<li><p>Get basic information such the number of CPUs, memory from your laptop and try to do the same on a HPC. Discuss outcomes.</p></li>
+<li><p>Try to create files on the different filesystems on your HPC resource and access them.</p></li>
+<li><p>Create different types of job scripts, submit and check outputs.</p></li>
+<li><p>Make a concrete example to run a specific software on your HPC (something like GROMACS).</p></li>
+</ul>
+</div>
+<div class="admonition-demo exercise important admonition" id="exercise-0">
+<p class="admonition-title">Demo</p>
+<p>Before we let participants present to their groups, one of the instructors
+presents a 5-minute segment and we practice together giving feedback.</p>
+<p>The section we demo should require screen sharing and be of some follow-along
+task.</p>
+<p>If there is time, we present one demo on the day before, and one demo just
+before the group exercise.</p>
+</div>
+<div class="admonition-exercise exercise important admonition" id="exercise-1">
+<p class="admonition-title">Exercise</p>
+<p>Choose a simple lesson topic and apply backwards lesson design.  You
+won’t get all the way through, but come up with a logical
+progression of exercises.</p>
+<p>The section you pick should require <strong>screen sharing</strong> and be of some <strong>follow-along
+task</strong> (preferably using a shell).</p>
+<p>Some suggestions:</p>
+<ul class="simple">
+<li><p>Regular expressions</p></li>
+<li><p>Making papers in LaTeX</p></li>
+<li><p>Making figures in your favorite programming language</p></li>
+<li><p>Linux shell basics</p></li>
+<li><p>Something non-technical, such as painting a room</p></li>
+<li><p>An instructor training for CodeRefinery</p></li>
+<li><p>Some aspect from an already existing lesson</p></li>
+<li><p><a class="reference external" href="https://hpc-carpentry.github.io/hpc-intro/">Introduction to high-performance computing</a> (or an episode therein)</p></li>
+<li><p><a class="reference external" href="https://hpc-carpentry.github.io/hpc-shell/">Unix shell in a HPC context</a> (or an episode therein)</p></li>
+<li><p>A lesson you always wanted to teach</p></li>
+</ul>
+<p>Exercise (30 minutes):</p>
+<ul class="simple">
+<li><p>Collect notes in a shared document.</p></li>
+<li><p>Start with learner personas and learning outcomes.</p></li>
+<li><p>Come up with a logical progression of exercises.</p></li>
+</ul>
+<p>Discussion (15 minutes):</p>
+<ul class="simple">
+<li><p>How does this approach compare to other lessons or courses you have designed?</p></li>
+<li><p>We read, compare, and discuss our notes.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../workshops-online/" class="btn btn-neutral float-left" title="Running a workshop: online" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../lesson-development/" class="btn btn-neutral float-right" title="Collaborative lesson development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, The contributors.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
