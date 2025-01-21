@@ -7,7 +7,7 @@ things we need to think about.  You can also read the transcript below
 if you want (but note that CATS, CodeRefinery's unofficial mascot,
 makes an appearance).
 
-https://youtu.be/61Cdi4Eje2Y
+<https://youtu.be/61Cdi4Eje2Y>
 
 
 :::{admonition} Transcript
