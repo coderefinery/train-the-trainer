@@ -152,8 +152,15 @@ and we'll see you in a CodeRefinery instructor training sometime and
 we will get to our game now. So thanks a lot. Bye.
 :::
 
-Discussion will come in the lesson, but some discussion now (try to
-watch/read first):
+(try to watch/read before reading more)
+
+Teaching online in CodeRefinery is something really unique.  The basic lesson
+and teaching style is a lot like you might expect from Carpentries or
+other practical teaching, but our online teaching really is
+different.  This video doesn't go into online teaching, but it'll
+come.
+
+Some extra points not emphasized enough in the video:
 
 * Adopting the learning perspective can sometimes be the hardest
   part.  We spent a lot of time designing our lessons to do this, and
