@@ -152,3 +152,21 @@ and we'll see you in a CodeRefinery instructor training sometime and
 we will get to our game now. So thanks a lot. Bye.
 :::
 
+Discussion will come in the lesson, but some discussion now (try to
+watch/read first):
+
+* Adopting the learning perspective can sometimes be the hardest
+  part.  We spent a lot of time designing our lessons to do this, and
+  it takes many revisions (and times change and it needs to be
+  updated).
+* We'd like to re-emphasize the "tell the broad theme" part.  People
+  are smart and can read more later, if they know why they should.
+* Co-teaching can't be emphasized enough.  We always do this, and
+  teachers work together to plan, even if one is still learning.
+  Still, it should be clear who is doing the flow control at any given
+  time.
+* The "always show a demo first" is different from academic courses.
+  Most of our audience want to figure out a tool to use right away,
+  not get more mental work.
+* Mistakes are OK!  You have a co-instructor to help you figure out
+  and you get to teach debugging and not being afraid of errors.
