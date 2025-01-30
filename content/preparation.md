@@ -3,9 +3,11 @@
 ## Motivational video
 
 Watch this 10 minute motivation video that goes over some of the major
-things we need to think about.  You can also read the transcript below
+things we need to think about when preparing to teach.
+
+You can also read the transcript below
 if you want (but note that CATS, CodeRefinery's unofficial mascot,
-makes an appearance).
+makes an appearance in the video).
 
 <https://youtu.be/61Cdi4Eje2Y>
 
