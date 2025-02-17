@@ -49,7 +49,7 @@ Purpose: be able to share screen in a way that can be broadcasted.
 Remember this size so that it can be set up quickly later - you'll
 need to do this quickly, without hesitation, later on.
 
-Background: most Zoom instances allow you to "share a portition of the
+Background: most Zoom instances allow you to "share a portion of the
 screen", which should be 840 wide × 1080 tall.  This is rendered
 pixel-perfect by YouTube and also forces a "small screen" so that you
 don't share too much, and learners have space on their own screens.
@@ -142,7 +142,7 @@ fix them.
 
 Fix up these notes:
 
-* spacing is off (missing blank lines between qusetions, missing blank
+* spacing is off (missing blank lines between questions, missing blank
   lines in bullet points)
 * questions not answered
 * Section headings at wrong levels
