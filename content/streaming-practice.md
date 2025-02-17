@@ -1,6 +1,8 @@
 # Livestream practice
 
 This page contains various exercises to be done during
+the practice session.
+
 
 ## Sound checks
 
@@ -8,7 +10,6 @@ Do the bottom two exercises from {doc}`sound`.  Audio quality and
 balance is an important prerequisite for any teaching.
 
 
-...
 ## Personal audio configuration
 
 Purpose: verify that you have sufficient audio dynamic range
@@ -42,7 +43,6 @@ Do this until it's fast and smooth.
 ...
 
 
-
 ## Screenshare check
 
 Purpose: be able to share screen in a way that can be broadcasted.
@@ -66,7 +66,6 @@ don't share too much, and learners have space on their own screens.
 :::
 
 
-
 ## Announciator panel
 
 Purpose: Understand how non-verbal instructor feedback works.
@@ -80,7 +79,6 @@ Purpose: Understand how non-verbal instructor feedback works.
 Roleplay:
 
 * An instructor is speaking without audio being on.
-
 
 
 ## Going live
@@ -139,7 +137,6 @@ Purpose: Move to exercises in a controlled manner.
 Purpose: learn the common things that can go wrong in the notes and
 fix them.
 
-
 Fix up these notes:
 
 * spacing is off (missing blank lines between questions, missing blank
@@ -151,11 +148,9 @@ Fix up these notes:
 * people answering above the exercise definition
 * no template lines at the bottom.
 
-
 Roleplay:
 one person teaches, several people write badly in Notes, trainees have
 to fix up in real time
-
 
 
 ## Lesson preparation
