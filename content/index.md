@@ -112,6 +112,14 @@ streaming-whats-next
 
 ```{toctree}
 :maxdepth: 1
+:caption: Hands-on practice
+
+streaming-practice
+```
+
+
+```{toctree}
+:maxdepth: 1
 :caption: Resources
 
 notes-archive

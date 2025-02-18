@@ -1,46 +1,15 @@
 # Livestream practice
 
 This page contains various exercises to be done during
-the practice session.
+the practice session.  These are all "roleplay" of how you'll actually
+act in a livestreamed course.
 
 
-## Sound checks
+## Audio exercises.
 
 Do the bottom two exercises from {doc}`sound`.  Audio quality and
 balance is an important prerequisite for any teaching.
 
-
-## Personal audio configuration
-
-Purpose: verify that you have sufficient audio dynamic range
-
-* Adjust your mic volume to very low (as heard by others)
-* Adjust your mic volume to too high (as heard by others)
-  * OS volume
-  * Microphone position and physical volume
-  * Application volume
-
-If either end is inaccessible to you, we might have a case where there
-isn't enough dynamic range to balance the instructors.
-
-
-## Sound check
-
-Purpose: learn the standard audio check and balance audio quickly.
-
-- Pick a leader.
-- The leader decides the order ("I am first, then [name-1] and
-  [name-2]")
-- The leader says "one".  Everyone else says "one" in the order
-  specified.
-- The leader says "two".  Everyone else says "two" in the order.
-- The leader asks for opinions on who they think is louder or softer.
-  If there are three or more people, you can figure it out
-  yourselves.  With two or less, you have to ask someone in the
-  audience.
-
-Do this until it's fast and smooth.
-...
 
 
 ## Screenshare check
@@ -66,38 +35,79 @@ don't share too much, and learners have space on their own screens.
 :::
 
 
+
+## Behind the livestream
+
+We'll see demos of what the streaming part is like.
+
+
+
+## Director view
+
+This is currently done case-by-case/live demo during the exercises
+below.
+
+
+
 ## Announciator panel
+
+We have a web-based panel that can relay non-verbal messages
+("caution", "warning", "faster", etc.) between instructors without
+having to speak up.  This exists as a web panel that has various
+lights light up and make sounds when clicked.
+
+:::{exercise} Test the announciator panel
 
 Purpose: Understand how non-verbal instructor feedback works.
 
-* Open the announciator panel (Broadcaster will provide a link)
-* Enable audio and disable SSL so that it works
-* Director:
-  * Explain the indicator buttons and what they mean.
-  * Understand what effects these buttons have and when to use them.
+* Open the announciator panel (the broadcaster will provide a link)
+* Make it work (disable SSL, click the button to enable audio).
+  Confirm that it's lighting up.
+* understand:
+  * The indicator buttons and what they mean.
+  * What effects these buttons have and when to use them.
+* All: test turning the various lights on and off.
 
 Roleplay:
 
-* An instructor is speaking without audio being on.
+* Person A explains something.
+* Person B, partway through it, lights up the "time" light.
+* Person A notices
+:::
+
 
 
 ## Going live
 
-Purpose: director learns to "herd the cats" into getting the stream started.
+Getting the instructors ready to "go live" isn't hard but someone has
+to "herd the cats" and make it happen.  Instructors need to know how
+this process goes.
 
-* Announce it's almost time
-* Hide any other videos
+:::{exercise} Test the "going live" process
+
+* Director: Announce it's almost time
+* Director: asks everyone else in the call to turn off their videos.
 * Decide who is sharing screen
 * Decide who is speaking first when you go live and what the first
-  words will be.
-* Configure "back to", broadcaster audio, and jingle
-* "Starting in 3 2 1"
-* Say some words
-* (Share notes and comment on )
+  words will be.  (These first words are most important and you should
+  think of what you'll say.)
+* Director: In the director's panel, configure the "back to" setting,
+  broadcaster audio, and jingle
+* Director: countdowns "Starting in 3 2 1", (click the button),
+  (everyone takes a breath for zero), then go.
+* Speaker begins talking
+* (Remember that each time you go back live is a good time to review
+  the notes + answer questions)
+:::
+
 
 
 ## Introduce exercises
 
+It's not that hard to teach, but it requires some practice to say the
+first words of a new lesson smoothly.
+
+:::{exercise}
 Purpose: Move to exercises in a controlled manner.
 
 * Say what exercises are
@@ -108,9 +118,12 @@ Purpose: Move to exercises in a controlled manner.
 * Answer any questions from the notes (this )
 * Verify that it is in the notes
 * Leave to the break.
-
+:::
 
 ## Going to a break
+
+
+:::{exercise} Go to a break
 
 * Look at the notes, anything to be answered?  (At least let people
   know it's in use)
@@ -122,14 +135,8 @@ Purpose: Move to exercises in a controlled manner.
   * When back
   * Exercise link (if any)
   * What the expectations are
+:::
 
-
-
-
-
-...
-...
-...
 
 
 ## Notes fixup
@@ -137,26 +144,32 @@ Purpose: Move to exercises in a controlled manner.
 Purpose: learn the common things that can go wrong in the notes and
 fix them.
 
-Fix up these notes:
+:::{exercise} Practice fixing up a notes document
 
 * spacing is off (missing blank lines between questions, missing blank
   lines in bullet points)
 * questions not answered
-* Section headings at wrong levels
-* exercises not described
-* titles not there
-* people answering above the exercise definition
-* no template lines at the bottom.
+* Section headings at inconsistent levels
+* Exercises not described once they start
+* Lesson/episode titles are not there
+* People asking/answering questions above the exercise definition
+* No template lines at the bottom.
 
 Roleplay:
 one person teaches, several people write badly in Notes, trainees have
 to fix up in real time
+:::
+
 
 
 ## Lesson preparation
 
-* Explain the point of a lesson in a few sentences
+:::{exercise} Level zero prepration to teach a lesson
+* Explain the point of a lesson in a few sentences (as if you are
+  giving an introduction to learners)
 * Explain what you will not cover
+:::
+
 
 
 ## Lesson revision
