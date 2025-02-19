@@ -160,6 +160,20 @@ one person teaches, several people write badly in Notes, trainees have
 to fix up in real time
 :::
 
+:::{exercise} Add common notes blocks
+
+In the notes, everyone add examples of the below, and we'll compare
+the different formats people create (and maybe get some new ideas):
+
+* Exercise announcement
+* Break announcement
+* Poll of some sort
+
+Evaluate not just on how good it looks, but also how long it takes to
+make, risks of things going wrong, brevity of markdown+HTML versions,
+etc.
+:::
+
 
 
 ## Lesson preparation
