@@ -115,6 +115,7 @@ streaming-whats-next
 :caption: Hands-on practice
 
 streaming-practice
+streaming-practice-1
 ```
 
 
