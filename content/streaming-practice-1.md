@@ -14,7 +14,14 @@ Basics:
   (hopefully from each group, but we'll see the time)
 
 
-Not in scope (bu)
+Not in scope (but you can practice here if you already know):
+* Actual lesson content (use a lesson you already know or make up
+  something that sounds good for the purposes of this lesson)
+* Technical aspects of making a good screenshare and audio quality.
+* Director and broadcaster related things.  But someone should
+  pretend to be that for this session.
+
+
 
 ## Going live
 
@@ -106,20 +113,22 @@ at least:
 * Do the demo as listed above.
 * Typer should ask at least one clarification of the talker
 * Talker should ask at least one question to the typer.
-
 :::
+
 
 
 ## Q&A
 
 Q&A is via the notes document, which can be just as or even more
-powerful than 
+powerful than a live Q&A.
 
 Considerations:
 * Screenshare the notes so that the audience can see what you are
   discussing.  (It's good to do this periodically even if there aren't
   questions, so people will know it's being monitored)
-* 
+* Try to involve both co-instructors.  For example, one person can
+  find an interesting question and first ask the other person what
+  they think before giving their own answer.
 
 ::::{exercise} Notes Q&A
 Divide into groups of **three** for this one.
@@ -148,8 +157,9 @@ Sample questions to seed the notes with:
 
 * .
 ```
-
 ::::
+
+
 
 ## Saying bye
 
@@ -171,7 +181,7 @@ Considerations:
   * When to be back.
   * Update the notes with the info.
 
-:::{exercise} Saying bye
+::::{exercise} Saying bye
 Simulate a session ending according to the things above.  It's your
 choice what session, but here are some suggestions:
 * https://coderefinery.github.io/git-intro/commits/
@@ -196,6 +206,4 @@ https://coderefinery.github.io/git-intro/local-workflow/#exercise
 
 :::
 ```
-
-
-:::
+::::
