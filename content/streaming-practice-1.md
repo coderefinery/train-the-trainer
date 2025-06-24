@@ -2,40 +2,46 @@
 
 This series of exercises introduces you to the practices of livestream
 teaching.  It's nothing that radical, but since you don't directly see
-the audience, you need to learn to interact with your co-instructor.
+the audience, you need to interact with your co-instructor to make the
+session appear engaging.
 
-Basics:
+Basics of this lesson:
 
 * There are four role-playing scenarios.
 * First, there is a demo and discussion together.
-* First, go to breakout rooms to practice with a partner.  Practice
+* Then, go to breakout rooms to practice with a partner.  Practice
   with each person in each role.
 * Then, we come back to the main room and see polished demos
   (hopefully from each group, but we'll see the time)
 
 
-Not in scope (but you can practice here if you already know):
+Not in scope for this lesson:
 * Actual lesson content (use a lesson you already know or make up
-  something that sounds good for the purposes of this lesson)
+  something that sounds good for the purposes of this lesson).
+* How to teach well.
 * Technical aspects of making a good screenshare and audio quality.
-* Director and broadcaster related things.  But someone should
-  pretend to be that for this session.
+* Director and broadcaster related things (but someone will simulate
+  that for you).
 
 
 
 ## Going live
 
 You may think that starting a session isn't hard, and it isn't.  But
-if it's extra smooth, it leaves a good impression.
+if it's extra smooth, it leaves a good first impression.  Instructors
+also often make the mistake of going straight to the topic and not
+framing the whole session at the start.
 
-The things you need to consider:
-* Review notes and what needs to happen in the next session.
-* Get everyone not active to turn off their videos
-* Decide who speaks first
-* Decide who does what over the next session
-* **Give the most natural, motivating intro of the whole lesson,
+You want to prepare so that once you go live, it's all smooth.  The
+things you need to consider:
+* Review notes and what will happen in the upcoming session.
+* Get everyone not active to turn off their videos.
+* Decide who speaks first.
+* Decide who does what over the next session. (talker, typer, primary,
+  secondary, etc.)
+* **Give a natural, motivating intro of the whole lesson,
   suitable for a wide audience.  It should set the expectations for
-  what comes next**  Start with a minute or two of broad intro before
+  what comes next.**  Start with a minute or two of broad intro before
   getting into the actual technical topic.
 
 The roles:
@@ -46,7 +52,7 @@ The roles:
 * Instructor B: engages when it's time.
 
 
-:::{info} The "going live" process with the director
+:::{admonition} The "going live" process with the director
 
 * (Director: Announce it's almost time)
 * (Director: asks everyone else in the call to turn off their videos.)
@@ -70,8 +76,9 @@ director will cue you to start.
 
 * Break into groups of two
 * Choose a lesson to start with.  For example (not limited to this):
-  * https://coderefinery.github.io/git-intro/browsing/
-  * https://coderefinery.github.io/testing/
+  * <https://coderefinery.github.io/git-intro/browsing/>
+  * <https://coderefinery.github.io/testing/>
+  * You could do something else, too.
 * Practice giving the first two minutes of the lesson.  The emphasis
   is doing it several times to make it feel smooth.
 * A good strategy:
@@ -79,7 +86,8 @@ director will cue you to start.
   * Decide who speaks first (A)
   * A starts speaking and asks a question of B to engage them.
   * Brief intro discussion before moving to the technical topics.
-  Stop once you get to the technical topic.
+  * Stop once you get to the technical topic. ("OK, let's move on to
+    the main material now.")
 :::
 
 
@@ -90,28 +98,37 @@ Demos work great with co-teaching.  In this session, we will practice
 the "talker/typer" system: the **talker** explains what is going on
 while the **typer** does the typing.
 
+:::{admonition}
+"Talker" and "typer" is one way of looking at roles for a session.
+This is separate from "**primary**" (keeps time and ensures overall
+flow) and "**secondary**" in lesson preparation.  For example, the
+primary can be the typer, give the intro, and then ask the typer "so,
+explain to me how we do X."
+:::
+
 Talker responsibilities:
 * Manage the overall flow and timing.  They can keep an eye on the
   lesson and clock on their screen.
 * Carefully say what the typer should do.  Describe it clearly, as if
   the typer was a student and didn't know the topic already.
-* Can ask the typer "what do you think?" to keep a conversation going
-* Can ask the typer "what should come next?" if they ever get 
+* Ask the typer "what do you think?" to keep a conversation going
+* Ask the typer "what should come next?" if they ever get lost or
+  wonder what comes next.
 
 Typer responsibilities:
 * Does what the talker says (this slows things down and forces
-  everything to be verbalized
+  everything to be said).  Don't rush ahead!
 * Should ask questions about confusing points or if the talker makes
   misses some steps that the learners need to hear.  This keeps a
   conversation going.
-* Can jump in to remind the talker about what should go next, etc.
+* Jump in to remind the talker about what should go next, etc.
 
 :::{exercise}
-Practice doing a demo for 2-3 minutes.  You can't do much, but try to
-at least:
-* Divide to talker and typer
-* Do the demo as listed above.
-* Typer should ask at least one clarification of the talker
+Practice doing a demo for 2-3 minutes.  This isn't a lot of time, but
+try to at least:
+* Divide to talker and typer.
+* Do the demo in takler/typer format as described above.
+* Typer should ask at least one clarification from the talker.
 * Talker should ask at least one question to the typer.
 :::
 
@@ -120,12 +137,13 @@ at least:
 ## Q&A
 
 Q&A is via the notes document, which can be just as or even more
-powerful than a live Q&A.
+powerful than a live Q&A.  In this exercise, we do a practice Q&A
+session.
 
 Considerations:
 * Screenshare the notes so that the audience can see what you are
   discussing.  (It's good to do this periodically even if there aren't
-  questions, so people will know it's being monitored)
+  questions, so people will know it's being monitored.)
 * Try to involve both co-instructors.  For example, one person can
   find an interesting question and first ask the other person what
   they think before giving their own answer.
@@ -133,18 +151,30 @@ Considerations:
 ::::{exercise} Notes Q&A
 Divide into groups of **three** for this one.
 
-The goal is to have two people discussing questions in a nodes
+The goal is to have two people discussing questions in a notes
 document while another is adding questions live.  (The third person
 can also possibly be answering some of the question to simulate other
 helpers).
 
-Keep in mind that the answers to some questions can be "we will
-discuss later".
+Expected steps:
+* One instructor shares the notes
+* Instructors scroll through and discuss the questions
+  * Keep in mind that the answers to some questions can be "we will
+    discuss later".
+* (If using the indicator panel) End once "time" is called via the
+  control panel indicator light.
+* If there is a third person and using live notes, they can go
+  answering questions at the same time the instructors are talking.
 
-If the exercise is done with the control panel: once the "Time" light
-turns on, end the Q&A.
+You could use notes from one of old CodeRefinery workshops (pretend
+you are in the workshop, helpers have already answered many questions,
+and you are following up on important things in the stream):
 
-Sample questions to seed the notes with:
+* Day 1, committing:
+  <https://coderefinery.github.io/2025-03-25-workshop/questions/day1/#commiting>
+* Day 2, inspecting history: <https://coderefinery.github.io/2025-03-25-workshop/questions/day2/#inspecting-history>
+
+Or some sample questions we have added here:
 
 ```
 * Do I have to run `git add` before I run `git commit`?
@@ -168,10 +198,6 @@ opportunity to ask more questions, you should make sure that
 everything is done.
 
 Considerations:
-* Someone will be waiting to switch the livestream to break mode.
-  They can't read your mind, so **someone should say "bye"** to
-  indicate it is done.  Then, the directory will immediately switch to
-  break mode.
 * Give a wrap-up of the session that is just ending, so that people
   can unpack.
 * Give clear directions of what should be done next:
@@ -180,12 +206,16 @@ Considerations:
   * Take a break and don't forget to walk around some.
   * When to be back.
   * Update the notes with the info.
+* Someone will be waiting to switch the livestream to break mode.
+  They can't read your mind, so **someone should say "bye"** to
+  indicate the session is over.  Then, the director will immediately
+  switch to break mode.
 
 ::::{exercise} Saying bye
 Simulate a session ending according to the things above.  It's your
 choice what session, but here are some suggestions:
-* https://coderefinery.github.io/git-intro/commits/
-* https://coderefinery.github.io/testing/test-design/
+* <https://coderefinery.github.io/git-intro/commits/>
+* <https://coderefinery.github.io/testing/test-design/>
 * Anything you have done
 
 Try to include the following bits:
@@ -207,3 +237,11 @@ https://coderefinery.github.io/git-intro/local-workflow/#exercise
 :::
 ```
 ::::
+
+
+
+## Summary
+
+We went over some of the most common things you'll experience when
+co-teaching via livestream.  Think about these when preparing your
+lessons to teach.
