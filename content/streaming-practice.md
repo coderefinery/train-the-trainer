@@ -186,6 +186,12 @@ etc.
 
 
 
+### Co-instructing examples
+
+* Interrupt to bring up questions
+* Ask for a notes check
+
+
 ## Lesson revision
 
 * Revise this lesson to make it more usable for someone who doesn't
