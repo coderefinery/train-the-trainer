@@ -16,8 +16,9 @@ Basics of this lesson:
 
 
 Not in scope for this lesson:
-* Actual lesson content (use a lesson you already know or make up
-  something that sounds good for the purposes of this lesson).
+* Actual lesson content (use the {doc}`sample-teaching-plan` or a
+  lesson you already know or make up something that sounds good for
+  the purposes of this lesson).
 * How to teach well.
 * Technical aspects of making a good screenshare and audio quality.
 * Director and broadcaster related things (but someone will simulate
@@ -27,6 +28,8 @@ Not in scope for this lesson:
 
 ## Going live
 
+Purpose: saying the first words after a session starts.
+
 You may think that starting a session isn't hard, and it isn't.  But
 if it's extra smooth, it leaves a good first impression.  Instructors
 also often make the mistake of going straight to the topic and not
@@ -34,7 +37,8 @@ framing the whole session at the start.
 
 You want to prepare so that once you go live, it's all smooth.  The
 things you need to consider:
-* Review notes and what will happen in the upcoming session.
+* During the break, review notes and what will happen in the upcoming
+  session.
 * Get everyone not active to turn off their videos.
 * Decide who speaks first.
 * Decide who does what over the next session. (talker, typer, primary,
@@ -69,13 +73,14 @@ The roles:
   the notes + answer questions)
 :::
 
-:::{exercise} Going live
+:::{exercise} Going live (10 min)
 You will practice going live (but without the director part) in
 breakout rooms.  In the main room, a few groups will demo and a
-director will cue you to start.
+director will cue you to start.  Swap and try again
 
 * Break into groups of two
-* Choose a lesson to start with.  For example (not limited to this):
+* Choose a lesson to practice.  For example (not limited to this):
+  * {doc}`sample-teaching-plan`
   * <https://coderefinery.github.io/git-intro/browsing/>
   * <https://coderefinery.github.io/testing/>
   * You could do something else, too.
@@ -84,6 +89,7 @@ director will cue you to start.
 * A good strategy:
   * Plan it all in advance
   * Decide who speaks first (A)
+  * Simulate a countdown "3... 2... 1... [pause]... [begin]"
   * A starts speaking and asks a question of B to engage them.
   * Brief intro discussion before moving to the technical topics.
   * Stop once you get to the technical topic. ("OK, let's move on to
@@ -98,12 +104,14 @@ Demos work great with co-teaching.  In this session, we will practice
 the "talker/typer" system: the **talker** explains what is going on
 while the **typer** does the typing.
 
-:::{admonition}
+:::{admonition} Team teaching via talker and typer.
 "Talker" and "typer" is one way of looking at roles for a session.
 This is separate from "**primary**" (keeps time and ensures overall
 flow) and "**secondary**" in lesson preparation.  For example, the
 primary can be the typer, give the intro, and then ask the typer "so,
 explain to me how we do X."
+
+See more: {doc}`co-teaching`
 :::
 
 Talker responsibilities:
@@ -123,9 +131,10 @@ Typer responsibilities:
   conversation going.
 * Jump in to remind the talker about what should go next, etc.
 
-:::{exercise}
-Practice doing a demo for 2-3 minutes.  This isn't a lot of time, but
-try to at least:
+:::{exercise} Doing a demo (10 min)
+Stay in your groups of 2.  Practice doing a demo for 2-3 minutes.
+Swap and try again.  This isn't a lot of time, but try to at least:
+
 * Divide to talker and typer.
 * Do the demo in takler/typer format as described above.
 * Typer should ask at least one clarification from the talker.
@@ -147,6 +156,9 @@ Considerations:
 * Try to involve both co-instructors.  For example, one person can
   find an interesting question and first ask the other person what
   they think before giving their own answer.
+* If there are many questions you may divide up one person mainly
+  looking for question (and talking sometimes) and the other mainly
+  answering (and looking sometimes)
 
 ::::{exercise} Notes Q&A
 Divide into groups of **three** for this one.
@@ -154,7 +166,7 @@ Divide into groups of **three** for this one.
 The goal is to have two people discussing questions in a notes
 document while another is adding questions live.  (The third person
 can also possibly be answering some of the question to simulate other
-helpers).
+helpers).  The {doc}`sample-teaching-plan` has some sample questions.
 
 Expected steps:
 * One instructor shares the notes
@@ -166,27 +178,20 @@ Expected steps:
 * If there is a third person and using live notes, they can go
   answering questions at the same time the instructors are talking.
 
-You could use notes from one of old CodeRefinery workshops (pretend
-you are in the workshop, helpers have already answered many questions,
-and you are following up on important things in the stream):
 
-* Day 1, committing:
-  <https://coderefinery.github.io/2025-03-25-workshop/questions/day1/#commiting>
-* Day 2, inspecting history: <https://coderefinery.github.io/2025-03-25-workshop/questions/day2/#inspecting-history>
+Sample questions you can be asked:
 
-Or some sample questions we have added here:
+* If you have a "sample audience", they can ask questions in a notes
+  dock from the {doc}`sample-teaching-plan`.
+* If you are only two people, you could use notes from one of old
+  CodeRefinery workshops (pretend you are in the workshop, helpers
+  have already answered many questions, and you are following up on
+  important things in the stream):
 
-```
-* Do I have to run `git add` before I run `git commit`?
+  * Day 1, committing:
+    <https://coderefinery.github.io/2025-03-25-workshop/questions/day1/#commiting>
+  * Day 2, inspecting history: <https://coderefinery.github.io/2025-03-25-workshop/questions/day2/#inspecting-history>
 
-* What happens if I make a commit wrong?
-
-* How should I make a commit message?
-
-* .
-
-* .
-```
 ::::
 
 
@@ -200,8 +205,8 @@ everything is done.
 Considerations:
 * Give a wrap-up of the session that is just ending, so that people
   can unpack.
-* Give clear directions of what should be done next:
-  * Do some exercise (state the goals which should be accomplished by
+* Give clear directions of what learners should do next, for example:
+  * Do an exercise (state the goals which should be accomplished by
     the end), or
   * Take a break and don't forget to walk around some.
   * When to be back.
@@ -214,6 +219,7 @@ Considerations:
 ::::{exercise} Saying bye
 Simulate a session ending according to the things above.  It's your
 choice what session, but here are some suggestions:
+* {doc}`sample-teaching-plan`
 * <https://coderefinery.github.io/git-intro/commits/>
 * <https://coderefinery.github.io/testing/test-design/>
 * Anything you have done
@@ -226,7 +232,7 @@ Try to include the following bits:
 * Whoever is talking least adds a description in the notes of what
   comes next.
 
-Example notes description:
+Example notes description for going to an exercise:
 ```
 :::info
 ### Exercise Cloning until xx:12.
