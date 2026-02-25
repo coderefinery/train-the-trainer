@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson design and development &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Lessons with version control" href="../lessons-with-git/" />
+    <link rel="prev" title="Train the trainer workshop" href="../" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson design and development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#exercise-how-do-you-design-your-teaching-material">Exercise: How do you design your teaching material?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-new-teaching-material">Creating new teaching material</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#typical-problems">Typical problems</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#better-approach">Better approach</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-process-of-designing-a-lesson-backwards">The process of designing a lesson “backwards”</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#improving-existing-lessons">Improving existing lessons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-case-our-lessons">Use case: our lessons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercise-discussion-about-learning-objectives-and-exercise-design">Exercise: Discussion about learning objectives and exercise design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#great-resources">Great resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Lesson design and development</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/lesson-development.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lesson-design-and-development">
+<span id="lesson-design"></span><h1>Lesson design and development<a class="headerlink" href="#lesson-design-and-development" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>We share our design processes for teaching material and presentations.</p></li>
+<li><p>Learn how to design lessons “backwards”, starting from learning objectives
+and learner personas.</p></li>
+<li><p>Learn good practices for improving existing material based on feedback.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Discussion: 20 min</p></li>
+<li><p>Exercises: 35 min</p></li>
+</ul>
+</div>
+<section id="exercise-how-do-you-design-your-teaching-material">
+<h2>Exercise: How do you design your teaching material?<a class="headerlink" href="#exercise-how-do-you-design-your-teaching-material" title="Link to this heading"></a></h2>
+<div class="admonition-we-collect-notes-using-a-shared-document-5-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">We collect notes using a shared document (5 min)</p>
+<ul class="simple">
+<li><p>When you start preparing a new lesson or training material, where do you start?</p></li>
+<li><p>What tricks help you with “writer’s block” or the empty page problem?</p></li>
+<li><p>Maybe you haven’t designed training material yet. But how do you start when creating a new presentation?</p></li>
+<li><p>If your design process has changed over time, please describe what you used to do and what you do now instead.</p></li>
+<li><p>What do you know now about preparing lessons/training/presentations that you wish you knew earlier?</p></li>
+</ul>
+</div>
+</section>
+<section id="creating-new-teaching-material">
+<h2>Creating new teaching material<a class="headerlink" href="#creating-new-teaching-material" title="Link to this heading"></a></h2>
+<section id="typical-problems">
+<h3>Typical problems<a class="headerlink" href="#typical-problems" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Someone creates a lesson, but they think about what is interesting to them,
+not what is important for the learners.</p></li>
+<li><p>“I want to show a number of things which I think are cool about
+tool X - how do I press these into 90 minutes?”</p></li>
+<li><p>Write down material you want to cover and then sprinkle in some exercises.</p></li>
+<li><p>Thinking about how I work, not how the learners work.</p></li>
+<li><p>Trying to bring learners to their level/setup, not trying to meet the learners
+where they are.</p></li>
+<li><p>Not really knowing the learning objectives or the learner personas.</p></li>
+</ul>
+</section>
+<section id="better-approach">
+<h3>Better approach<a class="headerlink" href="#better-approach" title="Link to this heading"></a></h3>
+<p>Good questions to ask and discuss with a group of colleagues <strong>from diverse backgrounds</strong>:</p>
+<ul class="simple">
+<li><p>What is the expected educational level of my audience?</p></li>
+<li><p>Have they been already exposed to the technologies I am planning to teach?</p></li>
+<li><p>What tools do they already use?</p></li>
+<li><p>What are the main issues they are currently experiencing?</p></li>
+<li><p>What do they need to remember/understand/apply/analyze/evaluate/create
+(<a class="reference external" href="https://en.wikipedia.org/wiki/Bloom%27s_taxonomy">Bloom’s taxonomy</a>)?</p></li>
+<li><p>Define learner personas.</p></li>
+<li><p>It may be an advantage to share an imperfect lesson with others early to
+collect feedback and suggestions before the lesson “solidifies” too much.
+Draft it and collect feedback. The result will probably be better than
+working in isolation towards a “perfect” lesson.</p></li>
+</ul>
+</section>
+<section id="the-process-of-designing-a-lesson-backwards">
+<h3>The process of designing a lesson “backwards”<a class="headerlink" href="#the-process-of-designing-a-lesson-backwards" title="Link to this heading"></a></h3>
+<p>As described in <a class="reference external" href="https://teachtogether.tech/en/index.html#s:process">“A lesson design process” in the book Teaching Tech
+Together</a>:</p>
+<ol class="arabic">
+<li><p>Understand your learners.</p></li>
+<li><p>Brainstorm rough ideas.</p></li>
+<li><p>Create an summative assessment to know your overall goal.</p>
+<blockquote>
+<div><p>[Think of the things your learners will be able to do at the end of the lesson]</p>
+</div></blockquote>
+</li>
+<li><p>Create formative assessments to go from the starting point to this.</p>
+<blockquote>
+<div><p>[Think of some engaging and active exercises]</p>
+</div></blockquote>
+</li>
+<li><p>Order the formative assessments (exercises) into a reasonable order.</p></li>
+<li><p>Write just enough material to get from one assessment (exercise) to
+another.</p></li>
+<li><p>Describe the course so the learners know if it is relevant to them.</p></li>
+</ol>
+</section>
+</section>
+<section id="improving-existing-lessons">
+<h2>Improving existing lessons<a class="headerlink" href="#improving-existing-lessons" title="Link to this heading"></a></h2>
+<div class="admonition-all-coderefinery-lessons-are-on-github discussion important admonition" id="discussion-0">
+<p class="admonition-title">All CodeRefinery lessons are on GitHub</p>
+<ul class="simple">
+<li><p>Overview: <a class="reference external" href="https://coderefinery.org/lessons/">https://coderefinery.org/lessons/</a></p></li>
+<li><p>All are shared under CC-BY license and we encourage <a class="reference external" href="https://coderefinery.org/lessons/reusing/">reuse and modification</a>.</p></li>
+<li><p>Sources are all on GitHub: <a class="reference external" href="https://github.com/coderefinery">https://github.com/coderefinery</a></p></li>
+<li><p>Web pages are generated from Markdown using <a class="reference external" href="https://www.sphinx-doc.org/">Sphinx</a>
+(more about that in the episode <a class="reference internal" href="../lessons-with-git/#lessons-with-git"><span class="std std-ref">Lessons with version control</span></a>).</p></li>
+<li><p>We track ideas and problems in GitHub issues.</p></li>
+</ul>
+</div>
+<p>Collect feedback during the workshop:</p>
+<ul class="simple">
+<li><p>Collect feedback from learners and instructors (<a class="reference external" href="https://coderefinery.github.io/2024-03-12-workshop/questions/">Example from a past
+workshop</a>).</p></li>
+<li><p>Convert feedback about lessons and suggestions for improvements into issues
+so that these don’t get lost and stay close to the lesson material.</p></li>
+</ul>
+<p>Collect feedback before you start a big rewrite:</p>
+<ul class="simple">
+<li><p>First open an issue and describe your idea and collect feedback before you
+start with an extensive rewrite.</p></li>
+<li><p>For things still under construction, open a draft pull/merge request to collect
+feedback and to signal to others what you are working on.</p></li>
+</ul>
+<p>Small picture changes vs. big picture changes:</p>
+<ul class="simple">
+<li><p>Lesson changes should be accompanied with instructor guide changes (it’s like
+a documentation for the lesson material).</p></li>
+<li><p>Instructor guide is essential for new instructors.</p></li>
+<li><p>Before making larger changes, talk with somebody and discuss these changes.</p></li>
+</ul>
+</section>
+<section id="use-case-our-lessons">
+<h2>Use case: our lessons<a class="headerlink" href="#use-case-our-lessons" title="Link to this heading"></a></h2>
+<p>As an example to demonstrate the process of designing and improving lessons, we
+will have a look at one of our own lessons: <a class="reference external" href="https://coderefinery.github.io/git-intro/">Introduction to version control
+with Git</a>.</p>
+<ul class="simple">
+<li><p>Initial 2014-2016 version</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/scisoft/toolbox-talks">https://github.com/scisoft/toolbox-talks</a> and <a class="reference external" href="https://toolbox.readthedocs.io/">https://toolbox.readthedocs.io/</a></p></li>
+<li><p>Amazingly they are still findable!</p></li>
+<li><p>Format: Slides and live coding.</p></li>
+<li><p>Exercises were separate, during afternoon sessions.</p></li>
+</ul>
+</li>
+<li><p>Some time in 2014-2015 attended Carpentries instructor training.</p></li>
+<li><p>2016: CodeRefinery started.</p></li>
+<li><p>2017: Started a new repository based on the Carpentries lesson template (at the time using Jekyll).</p>
+<ul>
+<li><p>Exercises become part of the lesson.</p></li>
+<li><p>We start in the <strong>command line</strong> and only later move to GitHub.</p></li>
+</ul>
+</li>
+<li><p>2019: A lot more thought about learning objectives and personas.</p>
+<ul>
+<li><p>Also license change to CC-BY.</p></li>
+</ul>
+</li>
+<li><p>2022: Convert lesson from Jekyll to Sphinx.</p>
+<ul>
+<li><p>Using the tools that we teach/advocate.</p></li>
+<li><p>We can have tabs and better code highlighting/emphasis.</p></li>
+<li><p>Easier local preview (Python environment instead of Ruby environment which we were not used to in our daily work).</p></li>
+</ul>
+</li>
+<li><p>2024: Big redesign. We move the lesson closer to where learners are.</p>
+<ul>
+<li><p>Start from GitHub instead of on the command line.</p></li>
+<li><p>Start from an existing repository instead of with an empty one.</p></li>
+<li><p>Offer several tracks to participate in the lesson (GitHub, VS Code, and command line) and learners can choose which one they want to follow.</p></li>
+<li><p>Blog post: <a class="reference external" href="https://coderefinery.org/blog/2024/04/19/git-lesson-rewrite/">We have completely changed our Git lessons. Hopefully to the better.</a></p></li>
+</ul>
+</li>
+<li><p>Next steps?</p>
+<ul>
+<li><p>Making the lesson citable following
+<a class="reference external" href="https://coderefinery.org/blog/2024/07/30/lesson-cffs/">our blog post</a>.</p></li>
+<li><p>Improvements based on what we learn from this workshop.</p></li>
+</ul>
+</li>
+</ul>
+<p>The overarching trend was to make the lesson simpler and more accessible - to
+meet the learners where they are instead of pulling them to the tool choices of
+the instructors.  Looking back, we learned a lot and the learning process is
+not over yet.</p>
+</section>
+<section id="exercise-discussion-about-learning-objectives-and-exercise-design">
+<h2>Exercise: Discussion about learning objectives and exercise design<a class="headerlink" href="#exercise-discussion-about-learning-objectives-and-exercise-design" title="Link to this heading"></a></h2>
+<div class="admonition-we-work-in-groups-but-use-the-shared-document-as-result-20-min exercise important admonition" id="exercise-1">
+<p class="admonition-title">We work in groups but use the shared document as result (20 min)</p>
+<ol class="arabic simple">
+<li><p>As a group <strong>pick a lesson topic</strong>. It can be one of the topics listed here but
+you can also choose something else that your group is interested in, or a topic
+that you have taught before or would like to teach. Some suggestions:</p>
+<ul class="simple">
+<li><p>Git: Creating a repository and porting your project to Git and GitHub</p></li>
+<li><p>Git: Basic commands</p></li>
+<li><p>Git: Branching and merging</p></li>
+<li><p>Git: Recovering from typical mistakes</p></li>
+<li><p>Code documentation</p></li>
+<li><p>Jupyter Notebooks</p></li>
+<li><p>Collaboration using Git and GitHub/GitLab</p></li>
+<li><p>Using GitHub without the command line</p></li>
+<li><p>Project organization</p></li>
+<li><p>Automated testing</p></li>
+<li><p>Data transfer</p></li>
+<li><p>Data management and versioning</p></li>
+<li><p>Code quality and good practices</p></li>
+<li><p>Modular code development</p></li>
+<li><p>How to release and publish your code</p></li>
+<li><p>How to document and track code dependencies</p></li>
+<li><p>Recording environments in containers</p></li>
+<li><p>Profiling memory and CPU usage</p></li>
+<li><p>Strategies for parallelization</p></li>
+<li><p>Conda environments</p></li>
+<li><p>Data processing using workflow managers</p></li>
+<li><p>Regular expressions</p></li>
+<li><p>Making papers in LaTeX</p></li>
+<li><p>Making figures in your favorite programming language</p></li>
+<li><p>Linux shell basics</p></li>
+<li><p>Something non-technical, such as painting a room</p></li>
+<li><p>Introduction to high-performance computing</p></li>
+<li><p>A lesson you always wanted to teach</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+<li><p>Try to define 2-3 learning objectives for the lesson and write them down.
+You can think of these as “three simple enough messages that someone will
+remember the next day” - <strong>they need to be pretty simple</strong>.</p></li>
+<li><p>Can you come up with one or two engaging exercises that could be used to
+demonstrate one of those objectives?
+<strong>They should be simple</strong> enough people can actually do them. Creating simple exercises is not easy.
+Some standard exercise types:</p>
+<ul class="simple">
+<li><p>Multiple choice (easy to get feedback via a classroom tool - try to design each wrong answer so that it identifies a specific misconception).</p></li>
+<li><p>Code yourself (traditional programming)</p></li>
+<li><p>Code yourself + multiple choice to see what the answer is (allows you to get feedback)</p></li>
+<li><p>Inverted coding (given code, have to debug)</p></li>
+<li><p>Parsons problems (working solution but lines in random order, learner must only put in proper order)</p></li>
+<li><p>Fill in the blank</p></li>
+<li><p>Discussions, self directed learning exercises</p></li>
+</ul>
+</li>
+</ol>
+</div>
+</section>
+<section id="great-resources">
+<h2>Great resources<a class="headerlink" href="#great-resources" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://teachtogether.tech/">Teaching Tech Together</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/manuals/teaching-tech-together/">Our summary of Teaching Tech Together</a></p></li>
+<li><p><a class="reference external" href="https://doi.org/10.1371/journal.pcbi.1006915">Ten quick tips for creating an effective lesson</a></p></li>
+<li><p><a class="reference external" href="https://cdh.carpentries.org/">Carpentries Curriculum Development Handbook</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/manuals/lesson-design/">Our manual on lesson design</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../" class="btn btn-neutral float-left" title="Train the trainer workshop" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../lessons-with-git/" class="btn btn-neutral float-right" title="Lessons with version control" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

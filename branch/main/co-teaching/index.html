@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Co-teaching &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Sharing teaching gems" href="../cool-gems/" />
+    <link rel="prev" title="CodeRefinery teaching philosophies" href="../teaching-philosophies/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Co-teaching</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#co-teaching-and-team-teaching-benefits">Co-teaching and team teaching benefits</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#are-there-any-downsides">Are there any downsides?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#team-teaching-specifics">Team teaching specifics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#team-teaching-models">Team teaching models</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#guide-and-demo-giver">Guide and demo-giver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#presenter-and-interviewer">Presenter and interviewer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercise">Exercise</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Co-teaching</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/co-teaching.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="co-teaching">
+<span id="id1"></span><h1>Co-teaching<a class="headerlink" href="#co-teaching" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know the principle of co-teaching: How we do it and how you can too.</p></li>
+<li><p>Learn the team teaching concept and how to tailor it to your situation.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: 15 min</p></li>
+<li><p>Exercises: 10 min</p></li>
+<li><p>Discussion: 5 min</p></li>
+</ul>
+</div>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
+<p>CodeRefinery lessons benefit from the application of the concepts of <strong>co-teaching</strong>.</p>
+<div class="admonition-co-teaching admonition">
+<p class="admonition-title">Co-teaching</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Co-teaching">Co-teaching</a> can be defined as “the division of labor between educators to plan, organize, instruct and make assessments on the same group of students, generally in a common classroom, and often with a strong focus on those teaching as a team complementing one another’s particular skills or other strengths”.</p>
+</div>
+<p>Co-teaching can be used in various forms, some of which are present in our workshops:</p>
+<ul class="simple">
+<li><p><strong>Teaching + support</strong>, e.g. one of the teachers leading instruction while the other watches over and maintains the collaborative document (HackMD/HedgeDoc/…).</p></li>
+<li><p>Another similar example is <strong>remote learning groups</strong> that watch the streamed CodeRefinery lessons guided by the local instructors.</p></li>
+<li><p>Having open-source material and planning jointly allows <strong>multiple instances</strong> of a lesson to be held by multiple teachers:</p>
+<ul>
+<li><p><em>parallel teaching</em>, to different audiences at the same time,</p></li>
+<li><p><em>alternative teaching</em>, to different audiences at the same or different time, with potential content adjustments (for example, different installation procedures).</p></li>
+</ul>
+</li>
+<li><p><strong>Team teaching</strong>, where the lesson is presented by multiple (in most cases, two) teachers who actively engage in conversation with each other. The team-teaching concept is explained in more detail in the <a class="reference external" href="https://coderefinery.github.io/manuals/team-teaching/">CodeRefinery manual</a>.</p></li>
+</ul>
+<p>In reality, different forms are very often mixed or fused together, even within a single lesson.</p>
+<p>Co-teaching is not an online-only concept. However, it is very practical in online teaching due to larger number of instructors and learners potentially available to join a teaching session.</p>
+</section>
+<section id="co-teaching-and-team-teaching-benefits">
+<h2>Co-teaching and team teaching benefits<a class="headerlink" href="#co-teaching-and-team-teaching-benefits" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>It <strong>saves preparation time</strong>. Co-teachers can rely on each other’s strengths while creating/ revising the material as well as in unexpected situations during the lesson.</p></li>
+<li><p>It <strong>helps with onboarding new instructors</strong>. One of the co-teachers can be learning at the same time, either the subtleties of the material taught (in this case literally being the “voice of the audience”) or the teaching process itself.</p></li>
+<li><p>Team teaching <strong>looks more interactive and engaging</strong> to the audience in many cases, without forcing the learners to speak up if they can’t or don’t want to do so.</p></li>
+<li><p>It also <strong>ensures responsive feedback and less workload</strong> by having more active minds.</p></li>
+</ul>
+<section id="are-there-any-downsides">
+<h3>Are there any downsides?<a class="headerlink" href="#are-there-any-downsides" title="Link to this heading"></a></h3>
+<p>Not every learner and not every instructor might like the team-teaching approach.</p>
+<ul class="simple">
+<li><p>It might seem <strong>less structured</strong>, unprepared, and chaotic, even with preparation.</p>
+<ul>
+<li><p>It might create situations where instructors accidentally talk over each other or “interrupt” and change the flow of the lesson.</p></li>
+<li><p>For some instructors it can be stressful to not know in advance what questions they get asked from the co-instructor.</p></li>
+<li><p>Sometimes when an unexpected question is asked that throws the other instructor off, it can add to the feeling of chaos and unpreparedness.</p></li>
+</ul>
+</li>
+<li><p>It can be interactive and engaging but it can also end up awkward if the co-teachers don’t have a good synergy.</p>
+<ul>
+<li><p>Can sound awkward: Main instructor talking all the time and at the end asking co-instructor whether everything is clear and co-instructor only saying “yes”.</p></li>
+<li><p>Possibly more engaging: Co-instructor asking questions which help with the flow and a common understanding of the material.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="team-teaching-specifics">
+<h2>Team teaching specifics<a class="headerlink" href="#team-teaching-specifics" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>For successful team teaching, additional <strong>coordination</strong> is needed, first of all to agree on the teaching model (see below) and the person in control (the <strong>director</strong>) for the lesson or its parts.</p></li>
+<li><p>It’s useful to keep track of the <strong>lecture plan</strong>. The discussion is a good way to make lesson more interactive and adjust to the audience, but deviating too much will become disorienting (for example, if someone dropped their attention for a minute and now is trying to catch-up by reading lecture notes).</p></li>
+<li><p>Experienced solo teacher might have a habit to keep talking (lecturing), while the co-teacher might not want to “interrupt”. Therefore, it is important for the leading presenter to anticipate and <strong>allow for remarks/ questions</strong>, and this can be different from one’s previous teaching style at first.</p></li>
+</ul>
+</section>
+<section id="team-teaching-models">
+<h2>Team teaching models<a class="headerlink" href="#team-teaching-models" title="Link to this heading"></a></h2>
+<p>We propose two basic models, but of course there is a constant continuum.</p>
+<section id="guide-and-demo-giver">
+<h3>Guide and demo-giver<a class="headerlink" href="#guide-and-demo-giver" title="Link to this heading"></a></h3>
+<p>One person serves the role of <strong>guide</strong>, explaining the big picture and context of the examples.</p>
+<p>Another, the <strong>demo-giver</strong>,</p>
+<ul class="simple">
+<li><p>shows the typing and does the examples,</p></li>
+<li><p>might take the role of a learner who is asking about what is going on, to actually explain the details, or to comment occasionally.</p></li>
+</ul>
+<p>Hands-on demos and exercises work especially well like this.</p>
+</section>
+<section id="presenter-and-interviewer">
+<h3>Presenter and interviewer<a class="headerlink" href="#presenter-and-interviewer" title="Link to this heading"></a></h3>
+<p>In this case, one is the <strong>presenter</strong> who is mostly explaining (including demos or examples), and trying to move the forward through the material.</p>
+<p>Another, the <strong>interviewer</strong>,</p>
+<ul class="simple">
+<li><p>serves as a learner or spotter,</p></li>
+<li><p>fills in gaps by asking relevant questions,</p></li>
+<li><p>tries to comment to the presenter when things are going off track.</p></li>
+</ul>
+<p>This can be seen as closer to classical teaching, but with a dedicated and prepared “voice of the audience”.</p>
+</section>
+<section id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Link to this heading"></a></h3>
+<div class="admonition-discuss-the-models-of-team-teaching-10-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">Discuss the models of team teaching (10 min)</p>
+<p>While in breakout rooms, discuss one of the basic team-teaching models presented here:</p>
+<ul class="simple">
+<li><p>Have you already tried this or similar model in your teaching?</p></li>
+<li><p>Does it seem natural to apply this model in your subject area (tell what it is)? How could it be adapted to fit best?</p></li>
+</ul>
+<p>Write your comments in the collaborative document.</p>
+</div>
+</section>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h2>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Co-teaching focuses on complementing individual skills and strengths in teaching process.</p></li>
+<li><p>Co-teaching may save time, reduce teachers’ workload and make lessons more interactive/ engaging.</p></li>
+<li><p>Team teaching requires some adjustments in lesson preparation and delivery.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../teaching-philosophies/" class="btn btn-neutral float-left" title="CodeRefinery teaching philosophies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../cool-gems/" class="btn btn-neutral float-right" title="Sharing teaching gems" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

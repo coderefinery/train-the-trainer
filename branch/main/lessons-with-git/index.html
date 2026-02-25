@@ -1,0 +1,436 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lessons with version control &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="How we collect feedback and measure impact" href="../feedback-and-impact/" />
+    <link rel="prev" title="Lesson design and development" href="../lesson-development/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lessons with version control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#why-version-control">Why version control?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tour-of-lesson-templates-options">Tour of lesson templates options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sphinx">Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coderefinery-lesson-template">CodeRefinery lesson template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Lessons with version control</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/lessons-with-git.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lessons-with-version-control">
+<span id="lessons-with-git"></span><h1>Lessons with version control<a class="headerlink" href="#lessons-with-version-control" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Understand why version control is useful even for teaching material</p></li>
+<li><p>Understand how version control managed lessons can be modified.</p></li>
+<li><p>Understand how the CodeRefinery lesson template is used to create new lessons</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Discussion: 25 min</p></li>
+<li><p>Exercises or demos: 20 min</p></li>
+</ul>
+</div>
+<section id="why-version-control">
+<h2>Why version control?<a class="headerlink" href="#why-version-control" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>If you are in CodeRefinery TTT, you probably know what version
+control is and why it is important.</p></li>
+<li><p>The benefits of version control also extend to lessons:</p>
+<ul>
+<li><p>Change history</p></li>
+<li><p>Others can submit contributions</p></li>
+<li><p>Others can make derived versions and sync up later</p></li>
+<li><p>Same workflow as everything else</p></li>
+<li><p>Write it like documentation: probably more reading after than
+watching it as a presentation.</p></li>
+</ul>
+</li>
+<li><p>Disadvantages</p>
+<ul>
+<li><p>“What you see is what you get” editing is hard</p></li>
+<li><p>Requires knowing version control</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition-accepting-the-smallest-contribution discussion important admonition" id="discussion-0">
+<p class="admonition-title">Accepting the smallest contribution</p>
+<p>Question: if someone wants to make a tiny fix to your material, can they?</p>
+</div>
+</section>
+<section id="tour-of-lesson-templates-options">
+<h2>Tour of lesson templates options<a class="headerlink" href="#tour-of-lesson-templates-options" title="Link to this heading"></a></h2>
+<p>There are different ways to make lessons with git.  Some dedicated to
+teaching:</p>
+<ul class="simple">
+<li><p>CodeRefinery</p>
+<ul>
+<li><p>Example: This lesson itself</p></li>
+<li><p>Based on the Sphinx documentation generator</p></li>
+<li><p><a class="reference external" href="https://github.com/coderefinery/sphinx-lesson">sphinx-lesson</a> is
+<em>very</em> minimal extra functionality</p></li>
+</ul>
+</li>
+<li><p>Carpentries</p>
+<ul>
+<li><p>Example: <a class="reference external" href="https://carpentries.github.io/lesson-example/">https://carpentries.github.io/lesson-example/</a></p></li>
+<li><p>Based on R and Rmarkdown</p></li>
+</ul>
+</li>
+</ul>
+<p>Our philosophy is that anything works: it doesn’t have to be just
+designed for lessons</p>
+<ul class="simple">
+<li><p>Jupyter Book</p>
+<ul>
+<li><p>Example: https://jupyterbook.org/</p></li>
+<li><p>Note: is based on sphinx, many extensions here are used in CR lessons</p></li>
+</ul>
+</li>
+<li><p>Various ways to make slides out of Markdown</p></li>
+<li><p>Cicero: GitHub-hosted Markdown to slides easily</p>
+<ul>
+<li><p><a class="reference external" href="https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md/#1">Demo: Asking for Help with
+Supercomputers</a>
+<a class="reference external" href="https://github.com/bast/help-with-supercomputers/blob/main/talk.md">The source</a></p></li>
+</ul>
+</li>
+<li><p>Whatever your existing documentation is.</p></li>
+</ul>
+<p><strong>We like the CodeRefinery format, but think that you should use
+whatever fits your needs the most.</strong></p>
+</section>
+<section id="sphinx">
+<h2><a class="reference external" href="https://www.sphinx-doc.org">Sphinx</a><a class="headerlink" href="#sphinx" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>We build all our lesson material with Sphinx</p></li>
+<li><p>Generate HTML/PDF/LaTeX from RST and Markdown.</p></li>
+<li><p>Many Python projects use Sphinx for documentation but <strong>Sphinx is not limited to Python</strong>.</p></li>
+<li><p><a class="reference external" href="https://readthedocs.org">Read the docs</a> hosts public Sphinx documentation for free!</p></li>
+<li><p>Also hostable anywhere else, like Github pages, like our lesson material</p></li>
+<li><p>For code a selling point for Sphinx is that also API documentation
+is possible.</p></li>
+</ul>
+<p>Sphinx is a doc generator, not HTML generator. It can:</p>
+<ul class="simple">
+<li><p>Markdown, Jupyter, and ReST (and more…) inputs.  Executable inputs.</p>
+<ul>
+<li><p>jupyter-book is Sphinx, so anything it can do we can do. This was one of the
+inspirations for using Sphinx</p></li>
+</ul>
+</li>
+<li><p>Good support for inline code. Much more than static code display, if
+you want to look at extensions.</p></li>
+<li><p>Generate different output formats (html, single-page html, pdf, epub, etc.)</p></li>
+<li><p>Strong cross-referencing within and between projects</p></li>
+</ul>
+</section>
+<section id="coderefinery-lesson-template">
+<h2><a class="reference external" href="https://github.com/coderefinery/sphinx-lesson-template">CodeRefinery lesson template</a><a class="headerlink" href="#coderefinery-lesson-template" title="Link to this heading"></a></h2>
+<p>It is “just a normal Sphinx project” - with extensions:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/coderefinery/sphinx-lesson">Sphinx lesson extension</a></p>
+<ul>
+<li><p>adds is various directives (boxes) tuned to lesson purposes</p></li>
+<li><p>provides a sample organization and template repo you can use so that lessons look consistent</p></li>
+</ul>
+</li>
+<li><p>Sphinx gives us other nice features for free</p>
+<ul>
+<li><p>Tabs: they are very important for us and allow us to customize in-place instead of copying everything and fragmenting lessons</p></li>
+<li><p>Emphasize lines: they make it easier to spot what has changed in longer code snippets</p></li>
+<li><p>Various input formats</p>
+<ul>
+<li><p>Markdown (via the MyST-parser), ReStructured text, Jupyter
+Notebooks.</p></li>
+</ul>
+</li>
+<li><p>Many other features designed for presenting and interacting with code</p></li>
+</ul>
+</li>
+<li><p>It’s fine if you use some other static site generator or git-based lesson method.</p></li>
+</ul>
+<div class="admonition-instructors-go-through-the-building-and-contributing-process demo admonition" id="demo-0">
+<p class="admonition-title">Instructors go through the building and contributing process</p>
+<p>Depending on the course, instructors will demo what is roughly
+exercise 4 below.  Or a course might go straight to exercises.</p>
+<ul class="simple">
+<li><p>Instructors decide what change they would want to make</p></li>
+<li><p>Instructors clone the repository</p></li>
+<li><p><strong>Instructors make the change</strong></p></li>
+<li><p><strong>Instructors set up the build environment</strong></p></li>
+<li><p><strong>Instructors build and preview</strong></p></li>
+<li><p>Instructors command and send upstream</p></li>
+</ul>
+</div>
+</section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Link to this heading"></a></h2>
+<p>Some exercises have prerequisites (Git or Github accounts).  Most
+instances of this course will have you do <strong>1 and 2</strong> below.</p>
+<div class="admonition-lesson-vcs-1-present-and-discuss-your-own-lesson-formats exercise important admonition" id="exercise-0">
+<p class="admonition-title">Lesson-VCS-1: Present and discuss your own lesson formats</p>
+<p>We don’t want to push everyone towards one format, but as long as you
+use Git, it’s easy to share and reuse.</p>
+<ul class="simple">
+<li><p>Discuss what formats you do use</p></li>
+<li><p>Within your team, show examples of the lessons formats you use
+now.  Discuss what is good and to-be-improved about them.</p></li>
+<li><p>Look at how they source is managed and how easy it might be to edit.</p></li>
+</ul>
+</div>
+<div class="admonition-lesson-vcs-2-tour-a-coderefinery-or-carpentries-lesson-on-github exercise important admonition" id="exercise-1">
+<p class="admonition-title">Lesson-VCS-2: Tour a CodeRefinery or Carpentries lesson on Github</p>
+<ul class="simple">
+<li><p>Look at either a CodeRefinery or Carpentries lesson</p>
+<ul>
+<li><p>CodeRefinery Git-Intro: <a class="reference external" href="https://coderefinery.github.io/git-intro/">Lesson</a>, <a class="reference external" href="https://github.com/coderefinery/git-intro">Github repo</a></p></li>
+<li><p>Carpentries Linux shell: <a class="reference external" href="https://swcarpentry.github.io/shell-novice/">Lesson</a>, <a class="reference external" href="https://github.com/swcarpentry/shell-novice/">Github repo</a></p></li>
+</ul>
+</li>
+<li><p>Can you find</p>
+<ul>
+<li><p>Where is the content of the lessons?</p></li>
+<li><p>What recent change propsals (pull requests) have been made?</p></li>
+<li><p>What are the open issues?</p></li>
+<li><p>How you would contribute something?</p></li>
+<li><p>How would you use this yourself?</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="admonition-lesson-vcs-3-modify-a-coderefinery-example-lesson-on-github exercise important admonition" id="exercise-2">
+<p class="admonition-title">Lesson-VCS-3: Modify a CodeRefinery example lesson on Github</p>
+<p>In this, you will make a change to a lesson on Github, using only the
+Github interface.  (Github account required, and we assume some
+knowledge of Github.  Ask for help in your team if it is new to you!)</p>
+<ul class="simple">
+<li><p>Navigate to the example lesson we have set up:
+<a class="reference external" href="https://github.com/coderefinery/sphinx-lesson-scratch-space">repo</a>, <a class="reference external" href="https://coderefinery.github.io/sphinx-lesson-scratch-space/">web</a></p></li>
+<li><p>Go to some page and follow the link to go to the respective page on
+Github. (Alternatively, you can find the page from the Github repo directly).</p></li>
+<li><p>Follow the Github flow to make a change, and open a Pull Request
+with the change proposal:</p>
+<ul>
+<li><p>Click on the pencil icon</p></li>
+<li><p>Make a change</p></li>
+<li><p>Follow the flow to make a commit and change.  You’ll fork the
+repository to make your own copy, add a message, and open a pull
+request.</p></li>
+</ul>
+</li>
+</ul>
+<p>We will look at these together and accept some changes.</p>
+</div>
+<div class="admonition-lesson-vcs-4-clone-and-build-a-coderefinery-lesson-locally exercise important admonition" id="exercise-3">
+<p class="admonition-title">Lesson-VCS-4: Clone and build a CodeRefinery lesson locally</p>
+<p>In this exercise, you will use Git to clone one a CodeRefinery lesson
+and try to preview it locally.  It assumes installation and knowledge
+of Git.</p>
+<ul class="simple">
+<li><p>Use this sample repository:
+<a class="reference external" href="https://github.com/coderefinery/git-intro">git-intro</a> (or whatever
+else you would like)</p></li>
+<li><p>Clone the repository to your own computer</p></li>
+<li><p>Create a virtual environment using the <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code>
+contained within the repository.</p></li>
+<li><p>Build the lesson.</p>
+<ul>
+<li><p>Most people will probably run: <code class="docutils literal notranslate"><span class="pre">sphinx-build</span> <span class="pre">content/</span> <span class="pre">_build/</span></code></p></li>
+<li><p>If you have <code class="docutils literal notranslate"><span class="pre">make</span></code> installed you can <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code></p></li>
+<li><p>Look in the <code class="docutils literal notranslate"><span class="pre">_build</span></code> directory for the built HTML files.</p></li>
+</ul>
+</li>
+</ul>
+<p>Overall, this is pretty easy and straightforward, if you have a Python
+environment set up.  The <a class="reference external" href="https://coderefinery.github.io/documentation/sphinx/">CodeRefinery documentation
+lesson</a> teaches
+this for every operating system.</p>
+<p>This same tool can be used to build documentation for other software
+projects and is pretty standard.</p>
+</div>
+<div class="admonition-lesson-vcs-5-advanced-create-your-own-lesson-using-the-coderefinery-format exercise important admonition" id="exercise-4">
+<p class="admonition-title">Lesson-VCS-5: (advanced) Create your own lesson using the CodeRefinery format</p>
+<p>In this lesson, you’ll copy the CodeRefinery template and do basic
+modifications for your own lesson.</p>
+<ul class="simple">
+<li><p>Clone the lesson template:
+https://github.com/coderefinery/sphinx-lesson-template</p></li>
+<li><p>Attempt to build it as it is (see the previous exercise)</p></li>
+<li><p>How can you do tabs?</p></li>
+<li><p>How can you highlight lines in code boxes?</p></li>
+<li><p>How can you change color, logo and fonts?</p></li>
+<li><p>What directives are available?</p></li>
+</ul>
+</div>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h2>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Version control takes teaching materials to the next level:
+shareable and easy to contribute</p></li>
+<li><p>There are different formats that use version control, but we like
+Sphinx with a sphinx-lesson extension.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lesson-development/" class="btn btn-neutral float-left" title="Lesson design and development" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../feedback-and-impact/" class="btn btn-neutral float-right" title="How we collect feedback and measure impact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

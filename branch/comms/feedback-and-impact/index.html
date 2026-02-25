@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How we collect feedback and measure impact &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=187304be"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="About the CodeRefinery project and CodeRefinery workshops in general" href="../coderefinery-intro/" />
+    <link rel="prev" title="Lessons with version control" href="../lessons-with-git/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How we collect feedback and measure impact</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#asking-questions-before-the-workshop">Asking questions before the workshop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collecting-feedback-as-we-teach">Collecting feedback as we teach</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#trying-to-measure-impact-with-longer-term-surveys">Trying to measure impact with longer-term surveys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lessons-learned">Lessons learned</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#take-time-designing-your-survey">Take time designing your survey</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#example-1">Example 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-2">Example 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-3">Example 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-4">Example 4</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exercise-group-discussion-10-min">Exercise: Group discussion (10 min)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">How we collect feedback and measure impact</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/feedback-and-impact.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-we-collect-feedback-and-measure-impact">
+<h1>How we collect feedback and measure impact<a class="headerlink" href="#how-we-collect-feedback-and-measure-impact" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Discuss how one can collect feedback from learners (“what can we improve?”).</p></li>
+<li><p>Discuss how we convert feedback into actionable items.</p></li>
+<li><p>Discuss how we measure the impact of teaching (“did we achieve our goals?”).</p></li>
+<li><p>Discuss the “why”.</p></li>
+<li><p>Get to know the reasons and sources of inspiration behind major lesson and workshop updates.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Discussion: 20 min</p></li>
+<li><p>Exercises: 10 min</p></li>
+</ul>
+</div>
+<section id="asking-questions-before-the-workshop">
+<h2>Asking questions before the workshop<a class="headerlink" href="#asking-questions-before-the-workshop" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Motivation: Know your audience.</p></li>
+<li><p>Until 2021 we had a pre-workshop survey:</p>
+<ul>
+<li><p>Data, questions, and notebook: <a class="reference external" href="https://github.com/coderefinery/pre-workshop-survey/">https://github.com/coderefinery/pre-workshop-survey/</a></p></li>
+<li><p>Zenodo/DOI: <a class="reference external" href="https://doi.org/10.5281/zenodo.2671578">https://doi.org/10.5281/zenodo.2671578</a></p></li>
+</ul>
+</li>
+<li><p>After 2021 we incorporated some of the questions into the registration form.</p>
+<ul>
+<li><p>Easier registration experience for participants.</p></li>
+<li><p>After 5 years of running workshops, we had a good idea of what to expect.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="collecting-feedback-as-we-teach">
+<h2>Collecting feedback as we teach<a class="headerlink" href="#collecting-feedback-as-we-teach" title="Link to this heading"></a></h2>
+<ul>
+<li><p>Each day we ask for feedback in the collaborative notes.</p>
+<ul class="simple">
+<li><p>One good thing about today.</p></li>
+<li><p>One thing to improve for next time.</p></li>
+<li><p>Any other comments?</p></li>
+</ul>
+</li>
+<li><p>During the workshop we sometimes check in and ask about the pace, example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>How is the speed so far? (add an &quot;o&quot;)
+- Too fast:   oooooo
+- Too slow:   ooo
+- Just right: ooooooooooooooooooo
+</pre></div>
+</div>
+</li>
+<li><p>We publish all questions, answers, and feedback. Example: <a class="reference external" href="https://coderefinery.github.io/2024-03-12-workshop/questions/">https://coderefinery.github.io/2024-03-12-workshop/questions/</a></p></li>
+<li><p>How we follow up:</p>
+<ul class="simple">
+<li><p>Some problems we can fix already before the next workshop day.</p></li>
+<li><p>We convert feedback/problems into GitHub issues and track these close to the lesson material.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="trying-to-measure-impact-with-longer-term-surveys">
+<h2>Trying to measure impact with longer-term surveys<a class="headerlink" href="#trying-to-measure-impact-with-longer-term-surveys" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Motivation: Understand the long-term impact of our workshops. Have something to show to funders.</p></li>
+<li><p>2024 post-workshop survey:</p>
+<ul>
+<li><p>Blog post: <a class="reference external" href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/">https://coderefinery.org/blog/2024/08/10/post-workshop-survey/</a></p></li>
+<li><p>Questions, notebook, and figures: <a class="reference external" href="https://github.com/coderefinery/2024-post-workshop-survey">https://github.com/coderefinery/2024-post-workshop-survey</a></p></li>
+<li><p>Zenodo/DOI: <a class="reference external" href="https://doi.org/10.5281/zenodo.13292363">https://doi.org/10.5281/zenodo.13292363</a></p></li>
+</ul>
+</li>
+<li><p>2021 version:</p>
+<ul>
+<li><p>Data, questions, notebook, and figures: <a class="reference external" href="https://github.com/coderefinery/post-workshop-survey">https://github.com/coderefinery/post-workshop-survey</a></p></li>
+<li><p>Zenodo/DOI: <a class="reference external" href="https://doi.org/10.5281/zenodo.2671576">https://doi.org/10.5281/zenodo.2671576</a></p></li>
+</ul>
+</li>
+<li><p>How we use the results:</p>
+<ul>
+<li><p>When reporting to funders.</p></li>
+<li><p>When planning future workshops and bigger picture changes.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="lessons-learned">
+<h2>Lessons learned<a class="headerlink" href="#lessons-learned" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Think about how to measure impact/success from the beginning.</p></li>
+<li><p><strong>Make the feedback and survey results public</strong>.</p></li>
+<li><p>Make the results persistent and citable.</p></li>
+<li><p>Have a mechanism to follow-up on feedback.</p></li>
+<li><p>Anonymization is more than just removing or dissociating names.</p></li>
+<li><p>Take time designing your survey and collect feedback on the survey itself.</p></li>
+</ul>
+</section>
+<section id="take-time-designing-your-survey">
+<h2>Take time designing your survey<a class="headerlink" href="#take-time-designing-your-survey" title="Link to this heading"></a></h2>
+<p>We are not experts in survey design but we reached out to RISE Research
+Institutes of Sweden to get feedback on our survey questions. They provided us
+with a lot of valuable feedback and suggestions for improvements.
+Below are few examples.</p>
+<section id="example-1">
+<h3>Example 1<a class="headerlink" href="#example-1" title="Link to this heading"></a></h3>
+<p>First version of our survey question about impact:</p>
+<ul class="simple">
+<li><p>“Do our workshops help to save time in future?” Please quantify in hours saved: …</p></li>
+</ul>
+<p>Feedback:</p>
+<ul class="simple">
+<li><p>Difficult to answer.</p></li>
+<li><p>Since when? Until all eternity?</p></li>
+</ul>
+<figure class="align-default" id="id1">
+<a class="with-border reference internal image-reference" href="../_images/survey-impact1.png"><img alt="Screenshot of earlier version of the survey question about impact." class="with-border" src="../_images/survey-impact1.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">Earlier version of the survey question about impact.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Feedback:</p>
+<ul class="simple">
+<li><p>The question “Do our workshops help to save time in future?” is unspecified,
+unnecessary, and leading.</p></li>
+<li><p>“No time saving” does not match the wording “save time” in the question.</p></li>
+</ul>
+<figure class="align-default" id="id2">
+<a class="with-border reference internal image-reference" href="../_images/survey-impact2.png"><img alt="Screenshot of later version of the survey question about impact." class="with-border" src="../_images/survey-impact2.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text">Later version of the survey question about impact.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>The wording “have you saved” now matches “No time saved”.</p></li>
+</ul>
+</section>
+<section id="example-2">
+<h3>Example 2<a class="headerlink" href="#example-2" title="Link to this heading"></a></h3>
+<ul>
+<li><p>Earlier version:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Would you judge your code to be better reusable/reproducible/modular/documented
+as a result of attending the workshop?
+
+- More reusable
+- More reproducible
+- More modular
+- Better documented
+- None of the above
+</pre></div>
+</div>
+</li>
+<li><p>Feedback: The question is not neutrally formulated and risks leading to
+over-reporting of yes answers. Consider balancing so that the questions are
+formulated more neutrally.</p></li>
+<li><p>Reformulated to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>After attending the workshop, would you judge your code to be
+more reusable or not more reusable?
+
+- My code is more reusable
+- My code is not more reusable
+- Not sure
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="example-3">
+<h3>Example 3<a class="headerlink" href="#example-3" title="Link to this heading"></a></h3>
+<ul>
+<li><p>Early version:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>What else has changed in how you write code since attending the workshop?
+
+[free-form text field]
+</pre></div>
+</div>
+</li>
+<li><p>Feedback: Leading and assumes that something has changed.</p></li>
+<li><p>Reformulated to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Has anything else changed in how you write code for your research after
+attending the workshop?
+
+[free-form text field]
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="example-4">
+<h3>Example 4<a class="headerlink" href="#example-4" title="Link to this heading"></a></h3>
+<ul>
+<li><p>Earlier version:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Has it become easier for you to collaborate on software development with your
+colleagues and collaborators?
+
+- Yes
+- Not sure
+- No
+</pre></div>
+</div>
+</li>
+<li><p>Feedback:</p>
+<ul class="simple">
+<li><p>Leading question.</p></li>
+<li><p>Avoid “Yes” and “No” response options because respondents tend to answer
+“Yes” if that option is available, leading to a risk of measurement error
+(acquiescence bias).</p></li>
+<li><p>Do not place “Not sure” in the middle of the scale because it captures
+participants who actually don’t know and should therefore be placed at the
+bottom instead of in the middle of the scale.</p></li>
+</ul>
+</li>
+<li><p>Reformulated to:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>After attending the workshop, has it become easier or not for you to
+collaborate on software development with your colleagues and collaborators?
+
+- Collaboration is easier
+- Collaboration is not easier
+- Not sure
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="exercise-group-discussion-10-min">
+<h2>Exercise: Group discussion (10 min)<a class="headerlink" href="#exercise-group-discussion-10-min" title="Link to this heading"></a></h2>
+<div class="admonition-group-discussion-using-the-collaborative-notes exercise important admonition" id="exercise-0">
+<p class="admonition-title">Group discussion using the collaborative notes</p>
+<ul class="simple">
+<li><p>What tricks/techniques have you tried in your teaching or seen in someone
+else’s teaching that you think have been particularly effective in collecting
+feedback from learners?</p></li>
+<li><p>Can you give tips or share your experiences about how to convert feedback
+into actionable items?</p></li>
+<li><p>How do you measure the impact of your teaching? Any tips or experiences about
+what you have tried or seen other courses do?</p></li>
+<li><p>Anybody knows of good resources on survey design? Please link them in
+the collaborative notes.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lessons-with-git/" class="btn btn-neutral float-left" title="Lessons with version control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../coderefinery-intro/" class="btn btn-neutral float-right" title="About the CodeRefinery project and CodeRefinery workshops in general" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,581 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to prepare a quality screen-share &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Computational thinking" href="../computational-thinking/" />
+    <link rel="prev" title="Sound" href="../sound/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How to prepare a quality screen-share</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#share-portrait-layout-instead-of-sharing-entire-screen-when-teaching-online">Share portrait layout instead of sharing entire screen when teaching online</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instructor-perspective">Instructor perspective</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#learner-perspective">Learner perspective</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#share-the-history-of-your-commands">Share the history of your commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-configure-history-sharing">How to configure history sharing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#font-colors-and-prompt">Font, colors, and prompt</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#terminal-color-schemes">Terminal color schemes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#font-size">Font size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#prompt">Prompt</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#habits-we-need-to-un-learn">Habits we need to un-learn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#desktop-environment-and-browser">Desktop environment and browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-switch-between-teaching-setup-and-work-setup">How to switch between teaching setup and work setup?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-resources">Other resources</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">How to prepare a quality screen-share</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/screenshare.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-prepare-a-quality-screen-share">
+<span id="screenshare"></span><h1>How to prepare a quality screen-share<a class="headerlink" href="#how-to-prepare-a-quality-screen-share" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Discuss the importance of a well planned screen-share.</p></li>
+<li><p>Learn how to prepare and how to test your screen-share setup.</p></li>
+<li><p>Know about typical pitfalls and habits to avoid.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Discussion: 15 min</p></li>
+<li><p>Exercises: 15 min</p></li>
+</ul>
+</div>
+<section id="share-portrait-layout-instead-of-sharing-entire-screen-when-teaching-online">
+<h2>Share portrait layout instead of sharing entire screen when teaching online<a class="headerlink" href="#share-portrait-layout-instead-of-sharing-entire-screen-when-teaching-online" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Many learners will have a smaller screen than you.</p></li>
+<li><p>You should plan for learners with <strong>only one small screen</strong>.</p></li>
+<li><p>A learner will <strong>need to focus on both your screen share and their
+work</strong>.</p></li>
+<li><p>Share a <strong>portrait</strong>/<strong>vertical half of your screen</strong> (840 × 1080 is our standard and your
+maximum).</p></li>
+<li><p>Zoom provides a “Share a part of screen” that is good for this.</p>
+<ul>
+<li><p>Our latest streaming setup (day 4) can take the portrait part for
+you so you can share landscape.</p></li>
+<li><p>Zoom + Linux + Wayland display manager doesn’t have “Share a
+portion of the screen”</p>
+<ul>
+<li><p>You can share a single window portrait.</p></li>
+<li><p>Or you can start your desktop session in “X11” or “Xorg” legacy
+mode.</p></li>
+<li><p>Or possibly other workarounds (does anyone know other solutions?)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/landscape.png"><img alt="../_images/landscape.png" src="../_images/landscape.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">A FullHD 1920x1080 screen shared. Learners have to make this really small if
+they want to have something else open.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/portrait.png"><img alt="../_images/portrait.png" src="../_images/portrait.png" style="width: 45%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Portrait layout. Allows learners to have something else open in the other half.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Motivation for portrait layout:</p>
+<ul class="simple">
+<li><p>This makes it easier for you to look at some other notes or to coordinate
+with other instructors at the same time
+without distracting with too much information.</p></li>
+<li><p>This makes it possible for participants to have something else open in the
+other screen half: terminal or browser or notebook.</p></li>
+</ul>
+<section id="instructor-perspective">
+<h3>Instructor perspective<a class="headerlink" href="#instructor-perspective" title="Link to this heading"></a></h3>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/instructor.png"><img alt="../_images/instructor.png" src="../_images/instructor.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>I1</strong>:
+This is how it can look for the instructor. Zoom is sharing a portion of the left
+side, the right side is free for following notes, chat, etc.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="learner-perspective">
+<h3>Learner perspective<a class="headerlink" href="#learner-perspective" title="Link to this heading"></a></h3>
+<p>Here are three examples of how it can look for the learner.</p>
+<figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/learner-large.png"><img alt="../_images/learner-large.png" src="../_images/learner-large.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>L1</strong>:
+Learner with a large screen, Zoom in dual-monitor mode so that the instructor
+pictures are not shown. Screen-share is on the left side, collaborative notes
+at bottom left, terminal and web browser on the right.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id5">
+<a class="reference internal image-reference" href="../_images/learner-normal.png"><img alt="../_images/learner-normal.png" src="../_images/learner-normal.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>L2</strong>:
+A learner with a single large screen (Zoom in “single monitor mode”).
+Instructor screen share at right, learner stuff at left.</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id6">
+<a class="reference internal image-reference" href="../_images/learner-small.png"><img alt="../_images/learner-small.png" src="../_images/learner-small.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>L3</strong>:
+A learner with a particularly small screen. Instructor screen-share at left,
+your windows at right.</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="share-the-history-of-your-commands">
+<h2>Share the history of your commands<a class="headerlink" href="#share-the-history-of-your-commands" title="Link to this heading"></a></h2>
+<p>Even if you type slowly it is almost impossible to follow every command.  We
+all get distracted or want to read up on something or while following a command
+fails on the learner laptop while instructor gets no error.</p>
+<p><strong>Add pauses</strong> and <strong>share the commands that you have typed</strong> so that one can catch up.</p>
+<p>Below are some examples (some more successful than others) of sharing history
+of commands.</p>
+<figure class="align-default" id="id7">
+<a class="reference internal image-reference" href="../_images/history-portrait.png"><img alt="../_images/history-portrait.png" src="../_images/history-portrait.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H1</strong>:
+A vertical screen layout shared.  Note the extra shell history at the top.  The
+web browser is at the bottom, because the Zoom toolbar can cover the bottom
+bit.</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id8">
+<a class="reference internal image-reference" href="../_images/history-rsh.png"><img alt="../_images/history-rsh.png" src="../_images/history-rsh.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H2</strong>:
+This isn’t a screen-share from CodeRefinery, but may be instructive.  Note the
+horizontal layout and shell history at the bottom right.</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id9">
+<a class="reference internal image-reference" href="../_images/history-landscape-dark.png"><img alt="../_images/history-landscape-dark.png" src="../_images/history-landscape-dark.png" style="width: 75%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H3</strong>:
+Similar to above, but dark. Includes contents on the right.</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id10">
+<a class="reference internal image-reference" href="../_images/history-portrait-light.png"><img alt="../_images/history-portrait-light.png" src="../_images/history-portrait-light.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H4</strong>:
+Jupyter + terminal, including the <code class="docutils literal notranslate"><span class="pre">fish</span></code> shell and the terminal history.</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id11">
+<a class="reference internal image-reference" href="../_images/history-portrait-dark.png"><img alt="../_images/history-portrait-dark.png" src="../_images/history-portrait-dark.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H5</strong>:
+Lesson + terminal, <code class="docutils literal notranslate"><span class="pre">tmux</span></code> plus terminal history and dark background.</span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id12">
+<a class="reference internal image-reference" href="../_images/portrait.png"><img alt="../_images/portrait.png" src="../_images/portrait.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H6</strong>:
+HPC Kickstart course.  Note the colors contrast of the windows and colors of
+the prompt and text.  The history is smaller and doesn’t take up primary
+working space.  The working directory is in the window title bar.</span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id13">
+<a class="reference internal image-reference" href="https://raw.githubusercontent.com/bast/history-window/main/demo.gif"><img alt="https://raw.githubusercontent.com/bast/history-window/main/demo.gif" src="https://raw.githubusercontent.com/bast/history-window/main/demo.gif" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><strong>H7</strong>:
+Show command history “picture-in-picture”, in the same terminal window.</span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="how-to-configure-history-sharing">
+<h2>How to configure history sharing<a class="headerlink" href="#how-to-configure-history-sharing" title="Link to this heading"></a></h2>
+<p>You need to find a way to show the recent commands you have entered, so that
+learners can see the recent commands. Below are many solutions. Try them out
+and see what works for you.</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/rkdarst/prompt-log/">prompt-log</a>:
+It adds a interesting idea that the command you enter is in color and also
+provides terminal history before the command returns.</p></li>
+<li><p><strong>Simple</strong>: The simple way is <code class="docutils literal notranslate"><span class="pre">PROMPT_COMMAND=&quot;history</span> <span class="pre">-a&quot;</span></code> and then
+<code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">-n0</span> <span class="pre">~/.bash_history</span></code>, but this doesn’t capture ssh,
+sub-shells, and only shows the command after it is completed.</p></li>
+<li><p><strong>Better yet still simple</strong>: Many Software Carpentry instructors use
+<a class="reference external" href="https://github.com/rgaiacs/swc-shell-split-window">this script</a>,
+which sets the prompt, splits the terminal window using tmux and displays command history
+in the upper panel. Requirement: <a class="reference external" href="https://github.com/tmux/tmux/wiki">tmux</a></p></li>
+<li><p><strong>Better (bash)</strong>: This prints the output before the command is run,
+instead of after.  Tail with <code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">~/demos.out</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>BASH_LOG=~/demos.out
+bash_log_commands () {
+    # https://superuser.com/questions/175799
+    [ -n &quot;$COMP_LINE&quot; ] &amp;&amp; return  # do nothing if completing
+    [[ &quot;$PROMPT_COMMAND&quot; =~ &quot;$BASH_COMMAND&quot; ]] &amp;&amp; return # don&#39;t cause a preexec for $PROMPT_COMMAND
+    local this_command=`HISTTIMEFORMAT= history 1 | sed -e &quot;s/^[ ]*[0-9]*[ ]*//&quot;`;
+    echo &quot;$this_command&quot; &gt;&gt; &quot;$BASH_LOG&quot;
+}
+trap &#39;bash_log_commands&#39; DEBUG
+</pre></div>
+</div>
+</li>
+<li><p><strong>Better (zsh)</strong>: This works like above, with zsh.  Tail with <code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">~/demos.out</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>preexec() { echo $1 &gt;&gt; ~/demos.out }
+</pre></div>
+</div>
+</li>
+<li><p><strong>Better (fish)</strong>: This works like above, but for fish.  Tail with
+<code class="docutils literal notranslate"><span class="pre">tail</span> <span class="pre">-f</span> <span class="pre">~/demos.out</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">function</span> <span class="n">cmd_log</span> <span class="o">--</span><span class="n">on</span><span class="o">-</span><span class="n">event</span> <span class="n">fish_preexec</span> <span class="p">;</span> <span class="n">echo</span> <span class="s2">&quot;$argv&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">~/</span><span class="n">demos</span><span class="o">.</span><span class="n">out</span>  <span class="p">;</span> <span class="n">end</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Better (tmuxp)</strong>: This will save some typing.
+<a class="reference external" href="https://tmuxp.git-pull.com/">TmuxP</a> is a Python program (<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">tmuxp</span></code>) that gives you programmable <code class="docutils literal notranslate"><span class="pre">tmux</span></code> sessions. One configuration that
+works (in this case for <code class="docutils literal notranslate"><span class="pre">fish</span></code> shell):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">session_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">demo</span>
+<span class="nt">windows</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">window_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">demo</span>
+<span class="w">    </span><span class="nt">layout</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main-horizontal</span>
+<span class="w">    </span><span class="nt">options</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">main-pane-height</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">7</span>
+<span class="w">    </span><span class="nt">panes</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">shell_command</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">touch /tmp/demo.history</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tail -f /tmp/demo.history</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">shell_command</span><span class="p">:</span>
+<span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">function cmd_log --on-event fish_preexec ; echo &quot;$argv&quot; &gt;&gt; /tmp/demo.history  ; end</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Windows PowerShell</strong>: In <a class="reference external" href="https://docs.microsoft.com/en-us/windows/terminal/">Windows Terminal</a>,
+a split can be made by pressing <code class="docutils literal notranslate"><span class="pre">CTRL+SHIFT+=</span></code>. Then, in one of the splits, the following
+PowerShell command will start tracking the shell history:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Get</span><span class="o">-</span><span class="n">Content</span> <span class="p">(</span><span class="n">Get</span><span class="o">-</span><span class="n">PSReadlineOption</span><span class="p">)</span><span class="o">.</span><span class="n">HistorySavePath</span> <span class="o">-</span><span class="n">Wait</span>
+</pre></div>
+</div>
+<p>Unfortunately, this only shows commands after they have been executed.</p>
+</li>
+<li><p><a class="reference external" href="https://github.com/Sabryr/Tavatar">Tavatar: shell history mirroring teaching tool</a> can copy recent history to a remote server.</p></li>
+<li><p><a class="reference external" href="https://github.com/bast/history-window">history-window</a>: Show command
+history “picture-in-picture” when teaching command line. Requires Bash.</p></li>
+</ul>
+</section>
+<section id="font-colors-and-prompt">
+<h2>Font, colors, and prompt<a class="headerlink" href="#font-colors-and-prompt" title="Link to this heading"></a></h2>
+<section id="terminal-color-schemes">
+<h3>Terminal color schemes<a class="headerlink" href="#terminal-color-schemes" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Dark text on light background, <em>not</em> dark theme.  Research and our
+experience says that dark-text-on-light is better in some cases and
+similar in others.</p></li>
+<li><p>You might want to make the background light grey, to avoid
+over-saturating people’s eyes and provide some contrast to the pure
+white web browser.  (this was an accessibility recommendation when
+looking for ideal color schemes)</p></li>
+<li><p>Do you have any yellows or reds in your prompt or program outputs?
+Adjust colors if possible.</p></li>
+</ul>
+</section>
+<section id="font-size">
+<h3>Font size<a class="headerlink" href="#font-size" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Font should be large (a separate history terminal can have a smaller
+font).</p></li>
+<li><p>Be prepared to resize the terminal and font as needed. Find out
+the keyboard shortcuts to do this since you will need it.</p></li>
+</ul>
+</section>
+<section id="prompt">
+<h3>Prompt<a class="headerlink" href="#prompt" title="Link to this heading"></a></h3>
+<p>At the beginning of the workshop your goal is to have a shell
+<strong>as easy to follow as possible</strong> and <strong>as close to what learners will
+see on their screens</strong>:</p>
+<ul class="simple">
+<li><p>Your prompt should be minimal: few distractions, and not take up many
+columns of text.</p></li>
+<li><p><a class="reference external" href="https://github.com/rkdarst/prompt-log/">prompt-log</a> does
+this for you.</p></li>
+<li><p>The minimum to do is is <code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">PS1='\$</span> <span class="pre">'</span></code>.</p></li>
+<li><p>Blank line between entries: <code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">PS1='\n\$</span> <span class="pre">'</span></code>.</p></li>
+<li><p>Have a space after the <code class="docutils literal notranslate"><span class="pre">$</span></code> or <code class="docutils literal notranslate"><span class="pre">%</span></code> or whatever prompt character you
+use.</p></li>
+<li><p>Strongly consider the Bash shell. This is what most new people will
+use, and Bash will be less confusing to them.</p></li>
+<li><p>Eliminate menu bars and any other decoration that uses valuable
+screen space.</p></li>
+<li><p>Add colors only if it simplifies the reading of the prompt.</p></li>
+</ul>
+<p>Later in the workshop or in more advanced lessons:</p>
+<ul class="simple">
+<li><p>Using other shells and being more adventurous is OK - learners will
+know what is essential to the terminal and what is extra for your
+environment.</p></li>
+</ul>
+<p>Try to find a good balance between:</p>
+<ul class="simple">
+<li><p>Showing a simple setup and showing a more realistic setup.</p></li>
+<li><p>Showing a consistent setup among all instructors and showing a
+variety of setups.</p></li>
+</ul>
+</section>
+</section>
+<section id="habits-we-need-to-un-learn">
+<h2>Habits we need to un-learn<a class="headerlink" href="#habits-we-need-to-un-learn" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Do not clear the terminal</strong>. Un-learn CTRL-L or <code class="docutils literal notranslate"><span class="pre">clear</span></code> if possible.
+More people will wonder what
+just got lost than are helped by seeing a blank screen.  Push
+<code class="docutils literal notranslate"><span class="pre">ENTER</span></code> a few times instead to add some white space.</p></li>
+<li><p><strong>Do not rapidly switch between windows</strong> or navigate quickly between multiple
+terminals, browser tabs, etc. This is useful during your own work when nobody
+is watching, but it is very hard to follow for learners.</p></li>
+<li><p>Avoid using <strong>aliases</strong> or <strong>shortcuts</strong> that are not part of the
+standard setup. Learners probably don’t have them, and they will fail
+if they try to follow your typing. Consider even to rename corresponding
+files (<code class="docutils literal notranslate"><span class="pre">.bashrc</span></code>, <code class="docutils literal notranslate"><span class="pre">.gitconfig</span></code>, <code class="docutils literal notranslate"><span class="pre">.ssh/config</span></code>, <code class="docutils literal notranslate"><span class="pre">.ssh/authorized_keys</span></code>, <code class="docutils literal notranslate"><span class="pre">.conda/*</span></code>).</p></li>
+<li><p>Be careful about using <strong>tab completion</strong> or <strong>reverse history search</strong> if these
+haven’t been introduced yet.</p></li>
+</ul>
+</section>
+<section id="desktop-environment-and-browser">
+<h2>Desktop environment and browser<a class="headerlink" href="#desktop-environment-and-browser" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Try to remove window title bars if they take up lots of space
+without adding value to the learner.</p></li>
+<li><p>Can you easily resize your windows for adjusting during teaching?</p></li>
+<li><p>Does your web browser have a way to reduce its menu bars and other
+decoration size?</p>
+<ul>
+<li><p>Firefox-based browsers: go to <code class="docutils literal notranslate"><span class="pre">about:config</span></code> and set
+<code class="docutils literal notranslate"><span class="pre">layout.css.devPixelsPerPx</span></code> to a value slightly smaller than one,
+like <code class="docutils literal notranslate"><span class="pre">0.75</span></code>.  Be careful you don’t set it too small or large since
+it might be hard to recover!  When you set it to something smaller
+than 1, all window decorations become smaller, and you compensate
+by zooming in on the website more (you can set the default zoom to
+be greater than 100% to compensate).  Overall, you get more
+information and less distraction.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="how-to-switch-between-teaching-setup-and-work-setup">
+<h2>How to switch between teaching setup and work setup?<a class="headerlink" href="#how-to-switch-between-teaching-setup-and-work-setup" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Make a dedicated “demos” profile in your terminal emulator, if
+relevant.  Or use a different terminal emulator just for demos.</p></li>
+<li><p>Same idea for the browser: Consider using a different browser profile for
+teaching/demos.</p></li>
+<li><p>Another idea is to containerize the setup for teaching.
+We might demonstrate this during the <a class="reference internal" href="../cool-gems/#cool-gems"><span class="std std-ref">Sharing teaching gems</span></a> session later.</p></li>
+</ul>
+<hr class="docutils" />
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Share <strong>portrait layout</strong> instead of sharing entire screen</p></li>
+<li><p><strong>Adjust your prompt</strong> to make commands easy to read</p></li>
+<li><p><strong>Readability</strong> and beauty is important: adjust your setup for your audience</p></li>
+<li><p><strong>Share the history</strong> of your commands</p></li>
+<li><p>Get set up a <strong>few days in advance</strong> and get feedback from someone else.
+Feedback and time to improve is very important to make things clear and accessible.
+10 minutes before the session starts is typically too late.</p></li>
+</ul>
+</div>
+</section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Link to this heading"></a></h2>
+<div class="admonition-evaluate-screen-captures-20-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">Evaluate screen captures (20 min)</p>
+<p>Evaluate screenshots on this page.  Discuss the trade-offs of each one.  Which
+one do you prefer?  Which are useful in each situation?</p>
+<p>Please take notes in the collaborative document.</p>
+</div>
+<div class="admonition-set-up-your-own-environment-20-min exercise important admonition" id="exercise-1">
+<p class="admonition-title">Set up your own environment (20 min)</p>
+<p>Set up your screen to teach something. Get some feedback from another learner
+or your exercise group.</p>
+</div>
+</section>
+<section id="other-resources">
+<h2>Other resources<a class="headerlink" href="#other-resources" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/manuals/instructor-tech-setup/">https://coderefinery.github.io/manuals/instructor-tech-setup/</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/manuals/instructor-tech-online/">https://coderefinery.github.io/manuals/instructor-tech-online/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../sound/" class="btn btn-neutral float-left" title="Sound" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../computational-thinking/" class="btn btn-neutral float-right" title="Computational thinking" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

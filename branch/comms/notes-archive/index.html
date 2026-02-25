@@ -1,0 +1,2862 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collaborative notes archives from workshops &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=187304be"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Instructor guide" href="../guide/" />
+    <link rel="prev" title="What’s next?" href="../streaming-whats-next/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Collaborative notes archives from workshops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#august-september-2024">August/September 2024</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#day1-session-1-13-08-24-about-lesson-design-deployment-and-iterative-improvement">Day1: Session 1 (13.08.24) - About lesson design, deployment and iterative improvement</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#calendar-schedule">:calendar: Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#icecream-icebreaker">:icecream: Icebreaker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#question-questions">:question: Questions</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#wrapup">Wrapup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#feedback-about-todays-session">Feedback about todays session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#day-2-session-2-20-08-24-tools-and-techniques-adopted-in-coderefinery-workshops">Day 2 : Session 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">:calendar: Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">:icecream: Icebreaker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">:question: Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-1-coderefinery">Episode 1: CodeRefinery</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-2-collaborative-notes">Episode 2: Collaborative Notes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-3-one-workshop-many-perspectives">Episode 3: One workshop, many perspectives</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-4-sound">Episode 4: Sound</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-5-how-to-prepare-a-quality-screen-share">Episode 5: How to prepare a quality screen-share</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Wrapup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Feedback about todays session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#day-3-sessiion-3-27-08-24-about-teaching-and-cool-things-we-all-would-like-to-share">Day 3 : sessiion 3 (27.08.24) - “About teaching and cool things we all would like to share”</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">:calendar: Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">:icecream: Icebreaker</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">:question: Questions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id14">General / Practicalities</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-1-computational-thinking">Episode 1 : Computational thinking</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-2-teaching-philosophies">Episode 2 : Teaching philosophies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#breakout-room-exercise">Breakout Room exercise</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#episode-3-co-teaching">Episode 3: Co-teaching</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#teaching-gems">Teaching gems</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Wrapup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Feedback about todays session</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#day4-session-4-3-09-24-streaming-and-video-editing">Day4: Session 4 (3.09.24) - Streaming and video editing</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id17">:calendar: Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id18">:icecream: Icebreaker</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">:question: Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#why-we-stream">Why we stream</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#behind-the-stream">Behind the stream</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#video-editing">Video editing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#open-broadcaster-software-obs-introduction-setup">Open Broadcaster Software (OBS) introduction &amp; setup</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id22">Wrapup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">Feedback about todays session</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Collaborative notes archives from workshops</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/notes-archive.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="collaborative-notes-archives-from-workshops">
+<h1>Collaborative notes archives from workshops<a class="headerlink" href="#collaborative-notes-archives-from-workshops" title="Link to this heading"></a></h1>
+<section id="august-september-2024">
+<h2>August/September 2024<a class="headerlink" href="#august-september-2024" title="Link to this heading"></a></h2>
+<section id="day1-session-1-13-08-24-about-lesson-design-deployment-and-iterative-improvement">
+<h3>Day1: Session 1 (13.08.24) - About lesson design, deployment and iterative improvement<a class="headerlink" href="#day1-session-1-13-08-24-about-lesson-design-deployment-and-iterative-improvement" title="Link to this heading"></a></h3>
+<section id="calendar-schedule">
+<h4>:calendar: Schedule<a class="headerlink" href="#calendar-schedule" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time (CEST)</p></th>
+<th class="head"><p>Title</p></th>
+<th class="head"><p>EEST (UTC+3)</p></th>
+<th class="head"><p>BST (UTC+1)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8.45 - 9.00</p></td>
+<td><p>Connecting time</p></td>
+<td><p>9.45 - 10.00</p></td>
+<td><p>7.45 - 8.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.00 - 9.15</p></td>
+<td><p>Intro and Icebreaker</p></td>
+<td><p>10.00 - 10.15</p></td>
+<td><p>8.00 - 8.15</p></td>
+</tr>
+<tr class="row-even"><td><p>9.15 - 10.00</p></td>
+<td><p>Lesson design and development</p></td>
+<td><p>10.15 - 11.00</p></td>
+<td><p>8.15 - 9.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>10.00 - 10.15</p></td>
+<td><p>Break</p></td>
+<td><p>11.00 - 11.15</p></td>
+<td><p>9.00 - 9.15</p></td>
+</tr>
+<tr class="row-even"><td><p>10.15 - 11.00</p></td>
+<td><p>Lessons with version control</p></td>
+<td><p>11.15 - 12.00</p></td>
+<td><p>9.15 - 10.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.00 - 11.15</p></td>
+<td><p>Break</p></td>
+<td><p>12.00 - 12.15</p></td>
+<td><p>10.00 - 10.15</p></td>
+</tr>
+<tr class="row-even"><td><p>11.15 - 12.00</p></td>
+<td><p>How we collect feedback and measure impact</p></td>
+<td><p>12.15 - 13.00</p></td>
+<td><p>10.15 - 11.00</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="icecream-icebreaker">
+<h4>:icecream: Icebreaker<a class="headerlink" href="#icecream-icebreaker" title="Link to this heading"></a></h4>
+<section id="check-in">
+<h5>Check-in<a class="headerlink" href="#check-in" title="Link to this heading"></a></h5>
+<p>Which emoji best describes your current state of mind? <a class="reference external" href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a></p>
+<ul class="simple">
+<li><p>:Decaffed … and going strong …</p></li>
+<li><p>:coffee: 🤔</p></li>
+<li><p>:100: (ironically!) :coffee: intake happening</p></li>
+<li><p>:smile:</p></li>
+<li><p>:tired_face:</p></li>
+<li><p>:coffee: :party:</p></li>
+<li><p>:coffee: :happy:</p></li>
+<li><p>😪</p></li>
+<li><p>just got zoom installed / before my coffee</p></li>
+<li><p>:smil-</p></li>
+<li><p>:sweat_smile: (+)</p></li>
+<li><p>:yawning_face:</p></li>
+<li><p>:is it morning already?</p></li>
+<li><p>:smile:</p></li>
+<li><p>:yawning_face:</p></li>
+<li><p>:nerded_face:</p></li>
+<li><p>🥵</p></li>
+<li><p>:smile:</p></li>
+<li><p>:sleeping:</p></li>
+<li><p>:sleepy: :coffee: :smiley_cat:</p></li>
+<li><p>🥳</p></li>
+<li><p>:coffee:</p></li>
+<li><p>:coffee:</p></li>
+</ul>
+</section>
+<section id="introduction-in-breakoutrooms">
+<h5>Introduction in breakoutrooms.<a class="headerlink" href="#introduction-in-breakoutrooms" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>Name / Affiliation / Location</p></li>
+</ul>
+</section>
+<section id="about-teaching">
+<h5>About teaching<a class="headerlink" href="#about-teaching" title="Link to this heading"></a></h5>
+<p>What is the hardest thing about teaching for you?</p>
+<ul class="simple">
+<li><p>Knowing how “it’s going”, whether learners are happy or not (especially when teaching online) :+1:</p></li>
+<li><p>The preparation the night before.  It is always much more that I would hope, no matter how prepared I want it to be :+1: :+1:</p></li>
+<li><p>Managing groups with vastly different academic backgrounds</p></li>
+<li><p>Teaching wide spectrum of skill level at the same time. :+1: :+1: :+1: :+1:</p></li>
+<li><p>Time management! (Knowing how much can fit in a sessions) :+1: :+1:</p></li>
+<li><p>General preparation time, how to fit it into the regular work schedule, and estimate how much time is needed for prep.</p></li>
+<li><p>How to reduce too much text into just the right amount</p></li>
+<li><p>Preparation of the session material and estimating the right amount of time for each section</p></li>
+<li><p>Getting learners to take the first step: sign up for and attend a workshop, when they don’t think programming is a skill they can learn</p></li>
+<li><p>Getting learners to take the <em>second</em> step: translating what they’ve learned in a workshop into something they can apply</p></li>
+<li><p>preparation and time management</p></li>
+<li><p>Engaging with the students which was much easier for me when I used to coach</p></li>
+<li><p>Finding the right depth for an unknown audience for “my topic”</p></li>
+<li><p>education background of participants and their learning objectives</p></li>
+</ul>
+<p>What is the best thing about teaching for you?</p>
+<ul class="simple">
+<li><p>Seeing when learner gets interested/curious about something and takes inspiration from the course. :+1:</p></li>
+<li><p>Seeing it works and someone can do something new.</p></li>
+<li><p>Motivated students grasping new stuff</p></li>
+<li><p>Students picking up and running with the matertial and skills I give them and using it for their own work. :+1:</p></li>
+<li><p>The “ah-ha!” moment when a student gets it! :+1::100: :+1:</p></li>
+<li><p>Learning from students who know about some topic more than you do. :+1:</p></li>
+<li><p>Being able to help people reach their goals, by showing them something new.</p></li>
+<li><p>Teaching is optimism acted out in the hope of making a difference both ways I suppose.</p></li>
+<li><p>The feeling of accomplishment when you see learning grow and implement the learnings :book:</p></li>
+<li><p>mutual learning and impact on learners :+1:</p></li>
+<li><p>Results and feedbacks / Mutual interests and interesting discussions</p></li>
+<li><p>mutual learning and I can also learn lots of things and new ideas from participants</p></li>
+</ul>
+</section>
+</section>
+<section id="question-questions">
+<h4>:question: Questions<a class="headerlink" href="#question-questions" title="Link to this heading"></a></h4>
+<section id="general-practicalities">
+<h5>General / Practicalities<a class="headerlink" href="#general-practicalities" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>Will the material be made available?</p>
+<ul>
+<li><p>Materials are and will stay available at https://coderefinery.github.io/train-the-trainer/</p>
+<ul>
+<li><p>Can I share them with a colleague</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+<li><p>Can I resuse them in my own teaching?</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Will these sessions be recorded?</p>
+<ul>
+<li><p>No, but the materials (see above) should include everything needed for self-learning.</p></li>
+</ul>
+</li>
+<li><p>Can I get a certificate for this workshop?</p>
+<ul>
+<li><p>You can get a certificate of attendance after the workshop by sending an e-mail to support&#64;coderefinery.org, telling us a bit about what you have learned and which sessions you attended.</p></li>
+</ul>
+</li>
+<li><p>How often will we be talking in breakout rooms? I’m not in a place where I can talk, so if we’re going to talk a lot I’ll need to move offices</p>
+<ul>
+<li><p>We’ll have about one breakoutroom session per episode</p></li>
+</ul>
+</li>
+<li></li>
+</ul>
+</section>
+<section id="episode-1-lesson-design-and-development">
+<h5>Episode 1: Lesson design and development<a class="headerlink" href="#episode-1-lesson-design-and-development" title="Link to this heading"></a></h5>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/lesson-development/
+<strong>Discussion:</strong></p>
+<ul class="simple">
+<li><p>When you start preparing a new lesson or training material, where do you start?</p>
+<ul>
+<li><p>I look at existing materials on the same topic, but chose/refine topics based on the perceived needs/interests of the presumed audience</p></li>
+<li><p>Outline of structure and Material collection for a new lesson :+1:</p></li>
+<li><p>What material I have already? (what other material is already out there?)</p></li>
+<li><p>Start by looking for related resources (documents, videos, courses, etc) to have a base data and better understanding of what have been done around the topic</p></li>
+<li><p>Know your audience</p></li>
+<li><p>Review existing material</p></li>
+<li><p>Think about learning objectives (to keep focus on essential things)</p></li>
+<li><p>Think of three things simple enough that they will be remembered the next day.  Design around that.</p></li>
+<li><p>I write down the thoughts that I have and then go back and structure it.</p></li>
+</ul>
+</li>
+<li><p>What tricks help you with “writer’s block” or the empty page problem?</p>
+<ul>
+<li><p>Write anything down that comes to mind, sometimes draw something, looking out the window :)</p></li>
+<li><p>Do a mind map - what concepts do I want to get across?</p></li>
+<li><p>Starting small, for example a list of headings and then building around it. :+1:</p></li>
+<li><p>What does one know about the target audience and why should they be spending longer than 1 minute listening to what they will eventually get to hear?</p></li>
+<li><p>Get some inspiration from another source.</p></li>
+<li><p>Start with the three things above</p></li>
+<li><p>Start with the plan and the overview design</p></li>
+<li><p>Some kind of outline / main message(s)</p></li>
+<li><p>Start with three things.  Three supporting points for each of these.</p></li>
+</ul>
+</li>
+<li><p>Maybe you haven’t designed training material yet. But how do you start when creating a new presentation?</p>
+<ul>
+<li><p>Think about the learning objectives and try to break them down into steps</p></li>
+<li><p>Title, Objectives, target audience and Plan</p></li>
+<li><p>Some kind of outline / main message(s). Get as many images as I can, instead of words</p></li>
+<li><p>Draft an outline and use chatgpt to fill in details</p></li>
+<li><p>Example of how the teaching content is applied in a real-world context</p></li>
+</ul>
+</li>
+<li><p>If your design process has changed over time, please describe what you used to do and what you do now instead.</p>
+<ul>
+<li><p>I look more at existing materials and try to get more information about the audience. Unfortunately getting information about the audience before the event is hard</p></li>
+<li><p>I used to start from the begginning and get from there but that often meant a very polished start and a rushed end. Now I try an overview first, then fil out sparsed details at every section</p></li>
+<li><p>Updating the data and tweak the presentation</p></li>
+<li><p>If I am teaching a small group (or one to one) talk to them before hand - find out what they know already, what they want to learn.</p></li>
+</ul>
+</li>
+<li><p>What do you know now about preparing lessons/training/presentations that you wish you knew earlier?</p>
+<ul>
+<li><p>less is more. It’s better to have 2-3 main messages rather than trying to show everything in one go :+1: :+1: :+1: :+1:</p></li>
+<li><p>how much practice time the learners need to master what’s taught</p></li>
+<li><p>Don’t worry about something going wrong. It often makes the lesson (and thus the material) more presistent in memory. :+1:</p></li>
+<li><p>Try and remove everything except what you want the person to learn</p>
+<ul>
+<li><p>That’s a very tough part for me in the sense that I never know how much of an underlying “black box” is still ok….</p></li>
+</ul>
+</li>
+<li><p>Designing intermediate materials is hard, and requires putting some “gatekeeping” making sure that learners are directed to appropriate courses</p></li>
+<li><p>When I see a cool graphic, concept, slide, etc., download it and save it in my ‘new-materials’ folder to use later on!</p></li>
+<li><p>I have come to the conclusion that perhaps a more “agile” approach to developing materials (try to do design/teaching iterations quickly) might be the best way to go, but there are risks with this approach too</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Questions</strong></p>
+<ul class="simple">
+<li><p>From zoom chat: Can you expand on what a learner persona is?</p>
+<ul>
+<li><p>A defined example person described in terms of the materials you are preparing, making up a story about the background and interest of t</p></li>
+<li><p>Answer from chat: A learner persona is a blackbox which has a very simple algorithm inside: GIGO.</p></li>
+<li><p>Answer from chat: I think it’s the same as ICP (Ideal customer persona) where you describe the learner as a customer</p></li>
+<li><p>Answer from chat: I’m a big fan of “How Learning Works” by Ambrose et al https://bookshop.org/p/books/how-learning-works-eight-research-based-principles-for-smart-teaching-michele-dipietro/18640868?ean=9781119861690</p></li>
+<li><p>See also book: <a class="reference external" href="http://teachtogether.tech/">Teaching tech together</a></p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p>CodeRefinery lessons: https://coderefinery.org/lessons/</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>From chat: Do you have an example of an instructor guide?</p>
+<ul>
+<li><p>One example from our <a class="reference external" href="https://coderefinery.github.io/reproducible-research/guide/">reproducible research lesson</a></p></li>
+<li><p>Another from git intro: https://coderefinery.github.io/git-intro/guide/</p></li>
+</ul>
+</li>
+<li><p>From zoom chat: Do you have a “measure” of how better are the new lesson compared to the old ones? Does it make sense to talk about measurements here?</p>
+<ul>
+<li><p>So far we only have daily feedback that we collect at the end of the day and we can compare that to earlier daily feedbacks. More about that in the last episode of today. But measuring this is indeed not easy and it also takes time to capture the effect during longer-term surveys. Some of the changes were more leap-of-faith than based on data.</p></li>
+<li><p>I guess that sometimes one can use “compelling arguments” instead of data to justify a decision</p></li>
+</ul>
+</li>
+<li><p>Software Carpentry does teach using the command line, and gives a session on the command line before. What do you think about this approach? Are you stating that a 3-hour lesson about CLI is not sufficient to make people comfortable enough to use that for version control?</p>
+<ul>
+<li><p>Yes, good question. For CR we consider it a more advanced step: we do think people should learn command line, but it’s for a different course.  We accept some people might not know it or want to know it so adapt to that.</p></li>
+<li><p>In general, we’ve found the “you need X, but have to learn A, B, and C first” approach should be avoided if possible: people are busy, try to reach people where they are.</p></li>
+</ul>
+</li>
+</ul>
+<div class="danger docutils">
+<p><a class="reference external" href="https://coderefinery.github.io/train-the-trainer/lesson-development/#exercise-discussion-about-learning-objectives-and-exercise-design">Exercise</a> in breakoutrooms</p>
+</div>
+<ul class="simple">
+<li><p>Room 1</p>
+<ul>
+<li><p>Research data management</p></li>
+<li><p>Objectives</p>
+<ul>
+<li><p>Research life cycle</p></li>
+<li><p>FAIR principles (Findable, Accessible, Interoperable, Reusable)</p></li>
+</ul>
+</li>
+<li><p>Exercise</p>
+<ul>
+<li><p>develop a data management plan (DMP) that outlines how their research data will be handled throughout its lifecycle.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 2: What is the difference between eating breakfast and sitting through a lecture? (Tip: Start by listing the similarities …)</p></li>
+<li><p>Room2 : Making papers in LaTeX
+- What is LaTex and how is it different from editors like Word
+- Basic Structures
+- How to find and use a template
+- Including figure &amp; table
+- How to use references and labels
+- Exercise: to create a new LaTeX document &amp; edit it
+- Excercise: common error messages: can you find the error in this code?
+- Exce</p></li>
+<li><p>Room 3</p>
+<ul>
+<li><p>GPU Programming (1 hour intro)</p></li>
+<li><p>Learning objectives:</p>
+<ul>
+<li><p>What is GPU programming.</p></li>
+<li><p>When is it usable, beneficial to use GPU programming?</p></li>
+<li><p>What are technologies to do GPU programming?</p></li>
+<li><p>[What are and how to manage typical issues]</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 4</p>
+<ul>
+<li><p>Git / Figures / Project management / data cleaning</p></li>
+<li><p>Chose data cleaning</p></li>
+<li><p>Three learning objectives:</p>
+<ol class="arabic simple">
+<li><p>What do we mean by “clean”? How to identify it?</p></li>
+<li><p>Identify some common problems in a dataset</p></li>
+<li><p>Identifying and handling missing values/fields</p></li>
+</ol>
+</li>
+<li><p>Exercise</p>
+<ol class="arabic simple">
+<li><p>Discuss problems, find the most common ones</p>
+<ul>
+<li><p>In small groups</p></li>
+<li><p>What problems have you run into with datasets you’ve worked with?</p></li>
+<li><p>What problems can you imagine, or have you heard about from colleagues/news/social media?</p></li>
+<li><p>Report back, instructor collects all problems into a list</p></li>
+</ul>
+</li>
+<li><p>Have a dataset to clean; a clean and a messy example</p>
+<ul>
+<li><p>(identifying) Using a visualisation or overviewing tool?</p></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>Room 5</p>
+<ul>
+<li><p>Jupyter Notebooks</p></li>
+<li><p>Learning Objectives</p>
+<ul>
+<li><p>Can setup an enviroment you can reuse / can share with others / a project.</p></li>
+<li><p>The order you run the commands in needs to match the order of the code in the Notebook - otherwise you end up in a pickle.</p></li>
+<li><p>Why use a Jupyter Notebook? What are the advantages? Easy to use environment.</p></li>
+</ul>
+</li>
+<li><p>Exercise</p>
+<ul>
+<li><p>Print variable assignments from different cells - show that the order you run the code is important.</p></li>
+<li><p>hand out a domain specific notebook that does some calculations and visualization to run and modify, to show that you can share easily</p></li>
+<li><p>show !pip install to add dependencies/features</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 6</p>
+<ul>
+<li><p>Using GitHub without the command line</p></li>
+<li><p>Learning Outcomes:</p>
+<ul>
+<li><p>Be able to discuss changes before merging changes into the main repository.</p></li>
+<li><p>Publish a personal repository page ( I think its called intro repository)</p></li>
+<li><p>Share their script/notebook/code/small data on GitHub</p></li>
+<li><p>Homepage using GitHub pages or the README that becomes the “index page” of the GitHub user account page</p></li>
+</ul>
+</li>
+<li><p>Learner personas:</p>
+<ul>
+<li><p>Check the Personas of the learners</p>
+<ul>
+<li><p>Somebody who has seen/heard of GitHub but hasn’t used it yet</p></li>
+<li><p>Someone using it for their own work but struggling with collaboration</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Exercises:</p>
+<ul>
+<li><p>Upload/share an example dataset or script</p></li>
+<li><p>Review another collaborators pull request.</p></li>
+<li><p>Take part in the discussion on a pull request.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 7
+Linux shell basics: why do we want to teach them?
+(this took most of the time for the discussion)</p>
+<ul>
+<li><p>Learning objectives:</p>
+<ol class="arabic simple">
+<li><p>Filesystem: Directory (CLI) - Folder (GUI) analogy</p></li>
+<li><p>Basic commands (which commands are basic? make a survey of shell histories and get the most common ones)</p></li>
+<li><p>Basic constructs (e.g., for loops, pipes, while loops… which ones are basic? See above)</p></li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p>Note from chat: Zoom timer: https://support.zoom.com/hc/en/article?id=zm_kb&amp;sysparm_article=KB0068677</p>
+</div></blockquote>
+</section>
+<section id="episode-2-lessons-with-version-control">
+<h5>Episode 2: Lessons with version control<a class="headerlink" href="#episode-2-lessons-with-version-control" title="Link to this heading"></a></h5>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/lessons-with-git/</p>
+<p>Poll options: I want to hear about:</p>
+<ul class="simple">
+<li><p>A: Why use version control for teaching materials</p></li>
+<li><p>B: Different template options</p></li>
+<li><p>C: How CodeRefinery does it; CodeRefinerys lesson template</p></li>
+</ul>
+<p>Poll vote (multi-select): add a <code class="docutils literal notranslate"><span class="pre">o</span></code> to your answer
+- A: ooo
+- B: oooooo
+- C: oooooooo :ghost:</p>
+<p>Question to audience: if someone wants to make a tiny fix to your material, how hard is it?</p>
+<ul class="simple">
+<li><p>If my material is only in pdf format which is not online, then it is hard.</p></li>
+<li><p>I hope it is easy - my material is in GitHub. Nobody has ever done that though!</p></li>
+<li><p>Slides: hard to find, easy to edit; Git repos somewhat easy, unless they have to be built locally or with an action; HackMD easiest to edit.</p>
+<ul>
+<li><p>if you use something like google slides they are not that difficult to find</p></li>
+<li><p>known permanent address. Google docs et al fail on that/same for many pads.</p></li>
+</ul>
+</li>
+<li><p>For this material today - very easy! e.g. https://github.com/coderefinery/train-the-trainer/pull/128</p></li>
+<li><p>Template with an edit button in the HTML pointing to the source-code in the repo.</p></li>
+</ul>
+<p><strong>Questions/Discussion topics</strong></p>
+<blockquote>
+<div><p>Upcoming CodeRefinery workshop in September: https://coderefinery.github.io/2024-09-10-workshop/
+Please share with your networks, and let us know if you would like to co-teach a lesson (to support&#64;coderefinery.org or in our <a class="reference external" href="https://coderefinery.zulipchat.com/">Zulip chat</a>)</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Changes to the material are sometimes not just tiny fixes. For example, one wants to present a slightly different selection of topics, but maybe some topics are “coupled” (perhaps naturally or perhaps just because of how they are presented), or change the general “theme” (e.g., life sciences vs theoretical physics) while keeping the actual topics the same. How could a lesson be developed to avoid having to do a huge rewrite?</p>
+<ul>
+<li><p>You can try to modularize your material and keep non topic specific parts non themed. E.g. where you explain the functionality, don’t make reference to the example (not simple), so the example can be changed depending on the audience.</p></li>
+</ul>
+</li>
+<li><p>What are the pros/cons of renaming a course / changing a repo name in GitHub?</p>
+<ul>
+<li><p>It should be relatively unproblematic since GitHub will forward to the new name.</p>
+<ul>
+<li><p>How long does Github keep the “old” name linked? Is there a max time it’s blocked, or changed as soon as a new one appears with the name?</p>
+<ul>
+<li><p>in my experience it forwards “forever” until I create a new repo with the old name which will break the forward</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>what should be in the readme for the git repo? (canonical address? contact points? license!)</p>
+<ul>
+<li><p>https://coderefinery.github.io/mini-workshop/2/documentation/#often-a-readme-is-enough-checklist</p>
+<ul>
+<li><p>I miss the url to the (main) repo in the readme</p>
+<ul>
+<li><p>Do you mean the link to the rendered (lesson) page?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Link to rendered page: We often have this in the “about” section of the readme (see up right: https://github.com/coderefinery/train-the-trainer)</p></li>
+<li><p>this gets lost in a fork, doesn’t it? so 20 folks forking and or reuploading the repo somewhere means the url gets lost?</p>
+<ul>
+<li><p>True, but they might want to have their own version rendered?</p>
+<ul>
+<li><p>yes, I have had issues finding and contributing to the “master” repo so all benefit. Else it gets cluttered. Both is valid</p>
+<ul>
+<li><p>Good point though, the link to rendered page should probably also be included in the readme for completeness; ah and the link to the repository too, yes</p>
+<ul>
+<li><p>so realistically we need a content folder and some more next to the readme as a best practice. sounds good!</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Is myst (markdown renderer) enabled by default in sphinx now?</p>
+<ul>
+<li><p>to my knowledge no. we add the “myst_parser” extension to conf.py.</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p>Cicero: https://cicero.readthedocs.io/
+Sphinx documentation: https://www.sphinx-doc.org/en/master/
+Carpentries workbench for creating Carpentries lessons: https://carpentries.github.io/workbench/
+This is the testing lesson Richard showed: https://coderefinery.github.io/testing/
+And the corresponding repository: https://github.com/coderefinery/testing
+You can lean back and watch, exercise coming in a bit :)
+Richard will now edit our train the trainer material repository: https://github.com/coderefinery/train-the-trainer
+The Sphinx extension for CodeRefinery lessons: https://github.com/coderefinery/sphinx-lesson
+Empty lesson template to build your own lesson: https://github.com/coderefinery/sphinx-lesson-template</p>
+</div></blockquote>
+<p><strong>More questions</strong></p>
+<ul class="simple">
+<li><p>Does the coderefinery.org page built on sphinx?</p>
+<ul>
+<li><p>It’s built also from markdown but it uses https://www.getzola.org/ (which is more optimized to render websites, but we could do teaching also with Zola or create the project page using Sphinx)</p></li>
+</ul>
+</li>
+<li><p>Is there a way to build and preview CR lessons without the command line?</p>
+<ul>
+<li><p>The GitHub workflow we use creates HTML from all branches. This means that one can push a branch to GitHub, preview it there, and then open a pull request. One thing that would be nice but we don’t have yet is if a bot automatically posts the link to the preview to a pull request.</p></li>
+</ul>
+</li>
+<li><p>For VCS-2, for the Carpentries Linux shell example, Lesson, Github repo, to me it seemed as though the Sandpaper setup they have makes a very nice interface, complicates the relationship between source and output. E.g on the soucre page https://github.com/swcarpentry/shell-novice/blob/main/index.md I could only see to ‘Prerequisits’ and not ‘Download files’ on the page https://swcarpentry.github.io/shell-novice/. Perhaps I have missed something?</p>
+<ul>
+<li><p>I am sorry I don’t know the new Sandpaper setup well enough to answer this question.</p></li>
+</ul>
+</li>
+<li><p>Do we have the instructions to build the lessons available somewhere to try out later?</p>
+<ul>
+<li><p>https://github.com/coderefinery/sphinx-lesson</p></li>
+</ul>
+</li>
+</ul>
+<div class="danger docutils">
+<p>Exercise VCS-1 (and VCS-2 (if time)) (https://coderefinery.github.io/train-the-trainer/lessons-with-git/#exercises) in breakoutrooms until xx:05</p>
+<p>then short summary in main room and then break.</p>
+<p>Use the notes below.  Collect a list of lesson formats and discuss what you like about each of them.</p>
+</div>
+<ul class="simple">
+<li><p>PDF slides by a presentation program</p></li>
+<li><p>pdf slides with beamer in latex under source control.</p></li>
+<li><p>Markdown slides via Github</p></li>
+<li><p>CodeRefinery template</p></li>
+<li><p>Carpentries template</p></li>
+<li><p>Google Slides</p></li>
+<li><p>git-book</p></li>
+<li><p><a class="reference external" href="https://jupyterbook.org/">Jupyter Book</a> - allows creating a structured reference website using RST/Markdown, including Jupyter Notebooks to show result of running code</p></li>
+<li><p><a class="reference external" href="https://rust-lang.github.io/mdBook/">mdbook</a> - create simple/minimal website using Markdown</p></li>
+<li><p><a class="reference external" href="https://mybinder.org">Binder</a> - allows learners to run their own live version of a github repository with Jupyter Notebooks, with only a web browser</p></li>
+<li><p>Jupyter notebooks and jupyterhub platform</p></li>
+<li><p>Jupyter + Nbviewer and custom css (read only) + Binder link (hands on)</p></li>
+<li><p>RMarkdown</p></li>
+<li><p>Quarto Slides</p></li>
+<li><p><a class="reference external" href="https://revealjs.com/">Reveal.js</a> - write slides in HTML (also supports markdown)</p>
+<ul>
+<li><p>Example: https://bl-presentations.erambler.co.uk/2024-02-21-idcc24/</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://remarkjs.com/">Remark.js</a> - write slides in markdown</p>
+<ul>
+<li><p>Example: https://bl-presentations.erambler.co.uk/2024-02-19-idcc-pids-workshop/</p></li>
+</ul>
+</li>
+</ul>
+<p>Room discussions:</p>
+<ul class="simple">
+<li><p>Room 1</p>
+<ul>
+<li><p>(https://smc-aau-cph.github.io/SPIS/README.html)</p></li>
+<li><p>CodeRefinery template</p></li>
+<li><p>Shared notes &amp; blogs</p></li>
+</ul>
+</li>
+<li><p>Room 2</p>
+<ul>
+<li><p>demo the exercise</p></li>
+</ul>
+</li>
+<li><p>Room 3</p>
+<ul>
+<li><p>Mix of JupyterLab, Terminal within that, and traditional slides</p></li>
+<li><p>Jupyter + RISE (benefit: slides that are editable and executable live)</p></li>
+<li><p>Challenges</p>
+<ul>
+<li><p>present code in an interactive way</p></li>
+<li><p>handle lots of images/ figures without too much additional overhead when setting up the material</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 4</p>
+<ul>
+<li><p>Material and tools depend on instructors</p></li>
+<li><p>Some slide building tools</p>
+<ul>
+<li><p>https://revealjs.com/</p></li>
+<li><p>https://remarkjs.com/</p></li>
+<li><p>https://github.com/rust-lang/mdBook</p></li>
+</ul>
+</li>
+<li><p>Using flat git repos without fancy styling to make it easier to edit but still version controlled</p></li>
+</ul>
+</li>
+<li><p>Room 5</p>
+<ul>
+<li><p>Using R as a GIS: https://github.com/nickbearman/intro-r-spatial-analysis</p>
+<ul>
+<li><p>Workbook: RMarkdown, Slides: Quarto</p></li>
+<li><p>No continuous intergration</p></li>
+</ul>
+</li>
+<li><p>Having a jupyter nbinder link to test the notebook</p></li>
+<li><p>repo lives on codeberg in this example</p></li>
+</ul>
+</li>
+<li><p>Room 7</p>
+<ul>
+<li><p>Ex 1:</p>
+<ul>
+<li><p>Sphinx, similar to CR</p></li>
+<li><p>Sometimes pdfs generated with beamer package (or from pptx and odt), but blows up repository size if in version control</p></li>
+</ul>
+</li>
+<li><p>Ex 2:</p>
+<ul>
+<li><p>Content</p>
+<ul>
+<li><p>CR: Content commonly found int the content folder</p></li>
+<li><p>SC: Mostly under episodes</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Question that came up:</p>
+<ul>
+<li><p>is CR/Sphinx approach mostly for technical topics? What about language.</p></li>
+<li><p>I guess by our nature it’s focused there.  But probably could be used for others (I guess it it’s much easier to use git in a technical audience.)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="episode-3-how-we-collect-feedback-and-measure-impact">
+<h5>Episode 3: How we collect feedback and measure impact<a class="headerlink" href="#episode-3-how-we-collect-feedback-and-measure-impact" title="Link to this heading"></a></h5>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/feedback-and-impact/</p>
+<p><strong>Questions to audience</strong></p>
+<ul class="simple">
+<li><p>What tricks/techniques have you tried in your teaching or seen in someone else’s teaching that you think have been particularly effective in collecting feedback from learners?</p>
+<ul>
+<li><p>preparing a survey and emailing it to participants as soon as the event ends (usually get &lt;50% of answers but it’s a representative enough sample)</p></li>
+<li><p>do engage with the audience, give them the time to get the courage to speak up</p></li>
+<li><p>Be the audience yourself</p>
+<ul>
+<li><p>yes! some problems/issues I don’t notice as instructor, only as listener</p></li>
+</ul>
+</li>
+<li><p>Have time (e.g. 5 min) in the session to fill out the feedback form</p></li>
+<li><p>If the course/workshop has several days/sections do a couple questions every change, then a full one afterwards</p></li>
+<li><p>“Traffic light” feedback (e.g. for pacing or progress on exercises): give each learner two different coloured post-it notes for in-person, or use emoji for online, to indicate a current status</p></li>
+</ul>
+</li>
+<li><p>Can you give tips or share your experiences about how to convert feedback into changes or actionable items?</p>
+<ul>
+<li><p>ask questions about things you know you don’t know</p></li>
+<li><p>“Don’t let the noise of others’ opinions drown out your own inner voice.” — Steve Jobs</p></li>
+</ul>
+</li>
+<li><p>When people ask questions / get stuck with a specific step. Is there a typo I can change there and then in the workbook?</p>
+<ul>
+<li><p>Being able to fix small things on the fly helps sometimes, otherwise open issues if working on github</p></li>
+<li><p>If multiple people have the same question, then this is an indication that I should look at this in more detail</p></li>
+</ul>
+</li>
+<li><p>How do you measure the impact of your teaching? Any tips or experiences about what you have tried or seen other courses do?</p>
+<ul>
+<li><p>“How likely are you to recommend this workshop to others? (0/5)”</p></li>
+<li><p>Check the ‘Garbage Out’ bin, what you find there will be what went across. The rest will be history…</p></li>
+</ul>
+</li>
+<li><p>Anybody knows of good resources on survey design? Please link them here.</p>
+<ul>
+<li><p>“Our job is to figure out what they’re going to want before they do… Our task is to read things that are not yet on the page.” - Steve Jobs</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Questions/Discussion points</strong></p>
+<ul class="simple">
+<li><p>Feedback is necessary to design good lessons. Improvement can only be done iteratively. So the faster the iteration (design/teach), the better. But on the other hand, I cannot constantly bomb our community with training event emails. So I would like to try proposing a course many times a year, but I don’t want to spam everybody many times a year.</p>
+<ul>
+<li><p>:+1:</p></li>
+<li><p>With CR we also have a calendar that can be imported to different calendar applications, where we add all workshops: https://github.com/coderefinery/calendar/</p></li>
+</ul>
+</li>
+<li><p>Does an even split of too fast / too slow mean speed is about right?!</p>
+<ul>
+<li><p>I take it to mean “it’s roughly where it should be”.  Would be better to accomdate the sides better though… (we do try to design for a broad audience: some easy stuff, some advanced stuff, so people can make their own path)</p></li>
+<li><p>It could also indicate that the prerequisites/scope are not well defined :+1:</p>
+<ul>
+<li><p>Based on long term surveys we also know though that even though the workshop might have been to fast, people appreciate having “heard things before and know where to find them later”</p></li>
+</ul>
+</li>
+<li><p>perhaps the even split between too fast/too slow is ok only if the majority of votes goes for “just right” :+1:</p></li>
+</ul>
+</li>
+<li><p>One of the most important disciplines in journalism is to challenge your working premises. (Bill Keller) This applies equally to learning as well.</p>
+<ul>
+<li><p>Participants can be encouraged to write some posts on LinkedIn. If it is helpful some blurbs can be created for pre and post-workshop to generate more traction for Code Refinery and future participation.</p></li>
+<li><p>Ask participants if they use Dev.to, hashnode etc to blog their work or use twitter etc to have a memory of their work.</p></li>
+</ul>
+</li>
+<li><p>Do you have any suggestions for prerequisites? I try to make them clear, but occasionally people attend who clearly do not meet them. :+1:</p>
+<ul>
+<li><p>I guess it depends how much it matters for the workshop itself. If you have group exercises etc, it probably matters? , lecture style maybe not so much?; important is that the participants themselves know that prerequisites exist and if they meet them</p></li>
+<li><p>Sometimese people that do not meet the prerequisites join to get to “know what they don’t know”, find out where to find information on topics they might get interested in future etc</p></li>
+<li><p>Other suggestions? Viewpoints? :)</p></li>
+<li><p>Thank you - things for me to think about there :-)</p></li>
+<li><p>With CR’s latest ideas, we try to make the prerequisites clear, but there is no capicity limit: it’s OK if people drop by and are less than prepared: it’s livestream, anyone can come.  We try to have something for these people, too: learn what you are missing, why you might want to study more in the future.</p></li>
+<li><p>Any thoughts on applying this to a more practical focused course, with a total capacity limit (i.e. not like CodeRefinery).</p></li>
+</ul>
+</li>
+<li><p>Everytime you do a course on CodeRefinery, think of it as trying to bake a new cake with an old recipe with no idea about the individual taste preferences of the one you bake the cake for. Then, you will not experience too many surprises. Fine-tuning the recipe for one cohort still remains the ‘old recipe’ as far as the next ‘new cohort’ will be concerned. C’est la vie.</p>
+<ul>
+<li><p>nice analogy!</p></li>
+</ul>
+</li>
+<li><p>Question from chat: For examples 2 &amp; 4, would you also consider using something like a Likert scale? E.g. Rate how well you agree with the statement “My code is more reusable as a result of attending a CodeRefinery workshop” (from 1 Strongly disagree to 5 Strongly agree)</p>
+<ul>
+<li><p>Thanks! I am new to Likert scale and will read up on it. In my experience numbered answers can be useful for reporting. But I also like questions where we ask for what actually to change.</p></li>
+</ul>
+</li>
+<li><p>Comment from chat: Richard, your point crowns the point of having CodeRefinery, With Radovan’s and Samantha’s acquiescence assured, I would like to suggest you wear a crown going forward, especially for the CodeRefinery session. Do we have a deal ?</p>
+<ul>
+<li><p>I don’t quite understand this</p></li>
+<li><p>I <em>think</em> it’s a tongue-in-cheek-comment (joke) but I am not sure…..</p></li>
+</ul>
+</li>
+<li><p>What is the ideal way to allow people to interact while course is going on in the main online session, i.e. without a breakout room? Taking a pause or discussion in the background?</p>
+<ul>
+<li><p>I’ve had some success with WhatsApp groups for a course - particually ones that run over 4 (or 2) sessions.</p></li>
+<li><p>A quick survey/quiz</p></li>
+<li><p>Question to the audience that we take time to answer but it helps to show the answers</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="wrapup">
+<h3>Wrapup<a class="headerlink" href="#wrapup" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Thank you for active participation :)</p>
+<ul>
+<li><p>We’ll continue answering questions after the workshop and make the cleaned up (no names etc) available from the materials</p></li>
+</ul>
+</li>
+<li><p>Next session <strong>Tuesday August 20, 9 CEST: Tools and techniques adopted in CodeRefinery workshops</strong></p>
+<ul>
+<li><p>we will talk about on-boarding, install help, roles, screensharing, sound, collaborative notes</p></li>
+</ul>
+</li>
+<li><p>All workshop materials will stay available (after the full workshop also on Zenodo :tools:)</p></li>
+<li><p>CodeRefinery community: https://coderefinery.zulipchat.com/</p></li>
+<li><p>If you want to co-teach with us in the upcoming (or next) CodeRefinery workshop (https://coderefinery.github.io/2024-09-10-workshop/); or just want to learn more about this opportunity: Send your name and e-mail address to support&#64;coderefinery.org; we will contact you!</p></li>
+</ul>
+</section>
+<section id="feedback-about-todays-session">
+<h3>Feedback about todays session<a class="headerlink" href="#feedback-about-todays-session" title="Link to this heading"></a></h3>
+<p>What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:</p>
+<ul class="simple">
+<li><p>Lesson design approach</p></li>
+<li><p>I liked the backwards lesson design, gives a name to a practice I’ve already been doing :+1: :+1:</p></li>
+<li><p>Lessons from code refinery on lesson design. Learning about Sphinx.</p></li>
+<li><p>Collaborative notes and anonymized archive of notes.</p></li>
+<li><p>it’s nice to have a community to discuss these kinds of problems</p></li>
+<li><p>Hearing the variety of tools people use for slides (PDF, Quarto, Beamer etc.)</p></li>
+<li><p>Good intro of the tools, the jargon and the pedagogical philosophy of teaching tech.</p></li>
+<li><p>The absolute openess in having everything publicly available - materials ofc but also questions, discussions, feedback, …</p></li>
+<li><p>Thinking about all content being available publicly and as a git repo</p></li>
+<li><p>Thanks for explaining the HedgeDoc interface, with view and edit options</p>
+<ul>
+<li><p>Is there anyway to come back to this document later (e.g. tomorrow) and see what has changed since now? So I can see if any other questions have been asked/answered?</p>
+<ul>
+<li><p>There is a “revision” point under “Menu” up right, which shows you different versions of this document</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Modesty: the gentle art of enhancing your charm by pretending not to be aware of it. - Oliver Herford</p></li>
+<li></li>
+</ul>
+<p>What one thing would you improve about this session?</p>
+<ul class="simple">
+<li><p>Perhaps some more interactivity but can be hard to plan and time</p>
+<ul>
+<li><p>We’ll see what we can do.</p></li>
+</ul>
+</li>
+<li><p><em>Maybe</em> mix the breakout groups up for each breakout session (although there are advantages to consistency too) :+1:</p>
+<ul>
+<li><p>yes, pros and cons! For me, having consistency worked well this time.</p></li>
+<li><p>Likely we will have different participants next week, and a bit of mixing will happen naturally.</p></li>
+</ul>
+</li>
+<li><p>The pace of the presentations could be a little tighter (the pace is good for a discussion though)</p></li>
+<li><p>Richard’s voice was only 80% audible</p>
+<ul>
+<li><p>Sorry to hear that. It seemed fine on my end. Will check better for next session.</p></li>
+</ul>
+</li>
+<li><p>Hands on simulation and collaborative notes</p></li>
+<li><p>I found it difficult to follow the presentation and the collaborative notes at the same time</p>
+<ul>
+<li><p>We will highlight the collaborative notes more in the next session. Our strategy usually is to say to focus on the “teaching part” and use the notes only when needed. Since you can go back and also check the notes later.</p>
+<ul>
+<li><p>My problem is that I want to follow both since I don’t want to miss out on anything. As such, I have both windows (zoom and the notes) open side-by-side. Since there is near-constant real-time typing in the editor, and as such visible movement on screen, I get constantly distracted. This makes following the event quite exhausting.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Heads up to participants on using the break out rooms on voice interaction and screen sharing.</p>
+<ul>
+<li><p>Do you mean that we should have mentioned it more clearly in the pre workshop email?</p></li>
+</ul>
+</li>
+<li><p>I found it hard to follow with so many things going on at once…</p>
+<ul>
+<li><p>A collaborative document being changed at the same time as…</p></li>
+<li><p>Someone speaking and explaining content at the same time as…</p></li>
+<li><p>Chat in a different application at the same time as…</p></li>
+<li><p>Content changing in a termin application.</p>
+<ul>
+<li><p>Thank you for the feedback. We will remove the Zoom chat out for the next session and explain the use of the collaborative notes more.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Make more use of defining and then making sure the learning objectives are met</p>
+<ul>
+<li><p>True we did not talk about them much, will pick that up better for next session.</p></li>
+</ul>
+</li>
+<li><p>UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity. - Dennis Ritchie. You need to do a lot to prove that to be wrong, simply put.</p></li>
+<li><p>Allocate some time for learners to type in the answers so that we don’t have to listen and type at the same time.</p></li>
+</ul>
+<p>Any other comments?</p>
+<ul>
+<li><p>It’s great to hear other people’s experience</p>
+<ul class="simple">
+<li><p>Good to hear :)</p></li>
+</ul>
+</li>
+<li><p>Looking to meet you onsite if there are any events and get more emails from you :)</p>
+<ul class="simple">
+<li><p>We will keep you informed :)</p></li>
+</ul>
+</li>
+<li><p>Thanks for putting this together, I got a lot of inspiration for my own courses</p>
+<ul class="simple">
+<li><p>Good to hear :)</p></li>
+</ul>
+</li>
+<li><p>I didn’t know where to ask questions. It would work best <em>for me</em> to do it in zoom chat as that’s the application that I’m watching in..</p>
+<ul class="simple">
+<li><p>Sorry for that, just to figure out why: Did you join a bit late?</p>
+<ul>
+<li><p>No. Perhaps I just missed that or it was too quick for me or something?</p>
+<ul>
+<li><p>Ok, sorry. Will try to make this more clear in next session.</p></li>
+</ul>
+</li>
+<li><p>Perhaps also because there were so many things going on and jumping around. For me, the zoom chat is the constant (and obvious) place to ask questions while watching a shared screen, trying to find the right place in a moving collaborative document is difficult. It tears my attention into too many pieces. :+1:</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Had a lot of content that assumed extant knowledge that I didn’t have. This wasn’t in the pre-requisites.</p>
+<ul class="simple">
+<li><p>Do you have examples?</p>
+<ul>
+<li><p>Yes! The code refinery templates and even just the way of doing that. I was expecting more on “when designing a lesson you should think about these steps” rather than this is how we do it and this is our tool for doing it. I guess I should have read the pre-workshop content better?</p></li>
+<li><p>Ok, thank you for your feedback. You are right that we actually had some content that for sure would have been easier to follow for people with background knowledge about a certain topic.</p></li>
+<li><p>“If you are in CodeRefinery TTT, you probably know what version control is and why it is important.” - extant knowledge, why not just add a sentence or two?</p>
+<ul>
+<li><p>Please can you update in preparation for the next workshops so that I can decide whether or not they will be right for me?</p>
+<ul>
+<li><p>Yes, we will think more thoroughly about this and send the info in the next email going out Wed/Thu</p>
+<ul>
+<li><p>Thank you!</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Lots of the content was relevant to code refinery but not the wider topic (e.g. it was how to design a code refinery lesson and not how to design a lesson as stated in the session title)</p>
+<ul class="simple">
+<li><p>We thought of the content of showing one way of doing things, ie “what we have learned”, if you have suggestions on how we could make that more clear on the event page, please let us know :)</p>
+<ul>
+<li><p>“in a code refinery lesson” in the lesson/workshop description?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>When you have pre-written “thank you for your active participation” it feels fake!</p>
+<ul class="simple">
+<li><p>He, that is true, did not think about that. Thank you for the feedback. I would not have added it if Radovan and Richard would not have provided good feedback from circling the rooms.</p></li>
+</ul>
+</li>
+<li><p>I found it vague and disorganised and difficult to follow. It felt like the instructors were presenting the content for the first time and didn’t know what to do next.</p>
+<ul class="simple">
+<li><p>Thank you for your feedback. This is not the first time we have this training, but it is the first time in this constellation/way. The way of teaching may also sometimes make it seem new to instructors.</p></li>
+</ul>
+</li>
+<li><p>I really liked the active exchange with other participants, but I also would have enjoyed a bit more technical content in the presentations. In a sense it felt less like a ‘training’ and more like a get-together :+1:.</p>
+<ul>
+<li><p>Thank you for your feedback. We thought the name “workshop” would combine the training and exchange nature of this event. But maybe it didn’t do so enough? Do you have suggestions on how to clarify it on the event page?</p>
+<ul>
+<li><p>Well, the ‘train the trainer’ title created the anticipation of being trained ;) don’t get me wrong, I liked the exchange, but I felt that the training aspect fell a little short. imho the workshop would benefit from a little more (instructional) content that is presented in a more structured way by the instructors (as opposed to ‘crowd-sourced knowledge’ that is collated in a loose collection of questions, notes and links)</p></li>
+<li><p>Other than that, you could add another section on the main page, sth like ‘Workshop structure: we aim for a mix of modular presentations and work in small groups. The latter will be done in breakout rooms - be prepared to switch on your camera and have a fruitful exchange with fellow participants!’</p>
+<ul>
+<li><p>Thank you for the suggestions, will add something like this :tools:</p>
+<ul>
+<li><blockquote>
+<div><p>Added : https://github.com/coderefinery/train-the-trainer/commit/03308595436e636b3bb37ed9d1f0dee39eeccd0f</p>
+</div></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>My understanding (so far) of what (unlike the competition) CodeRefinery DOES NOT seek to exemplify -
+https://images.ctfassets.net/rxqefefl3t5b/2k45BFtw4sBMlBfjr1OZ90/5c6ecd3628a43b0cdc79815f665e224a/Screenshot_2023-05-02_at_09.35.23.png?fl=progressive&amp;q=80</p></li>
+<li><p>My understanding of what (unlike the competition) today’s session of CodeRefinery DID exemplify - Definition of ‘Workshop’ from the Oxford dictionary of the English language “a period of discussion and practical work on a particular subject, in which a group of people share their knowledge and experience”</p></li>
+<li><p>In my experience, even for the most seasoned Programmer coding, by its very nature, is nothing trivial, this being a simple straightforward fact just like there is no such thing as an egg which is a cube. I mean there is a reason why not just about everybody is a poet either. But, other minds have pointed this out without having to first explain why the universe is what it is in a way that could be understood without effort … https://i.pinimg.com/originals/7b/7e/c4/7b7ec4b91d2cf9d8e1b064678d205467.jpg</p></li>
+<li><p>The inclusive environment feels very welcoming. Keep up the good work!</p></li>
+</ul>
+<p><strong>Thank you all for your feedback! Highly appreciated!</strong></p>
+</section>
+<hr class="docutils" />
+<section id="day-2-session-2-20-08-24-tools-and-techniques-adopted-in-coderefinery-workshops">
+<h3>Day 2 : Session 2 (20.08.24)- Tools and techniques adopted in CodeRefinery workshops<a class="headerlink" href="#day-2-session-2-20-08-24-tools-and-techniques-adopted-in-coderefinery-workshops" title="Link to this heading"></a></h3>
+<section id="id1">
+<h4>:calendar: Schedule<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time (CEST)</p></th>
+<th class="head"><p>Title</p></th>
+<th class="head"><p>EEST (UTC+3)</p></th>
+<th class="head"><p>BST (UTC+1)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8.45 -  9.00</p></td>
+<td><p>Connecting time</p></td>
+<td><p>9.45 - 10.00</p></td>
+<td><p>7.45 -  8.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.00 -  9.15</p></td>
+<td><p>Intro and Icebreaker</p></td>
+<td><p>10.00 - 10.15</p></td>
+<td><p>8.00 -  8.15</p></td>
+</tr>
+<tr class="row-even"><td><p>9.15 -  9.25</p></td>
+<td><p>About CodeRefinery workshops</p></td>
+<td><p>10.15 - 10.25</p></td>
+<td><p>8.15 -  8.25</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.25 -  9.55</p></td>
+<td><p>Collaborative notes and interaction</p></td>
+<td><p>10.25 - 10.55</p></td>
+<td><p>8.25 -  8.55</p></td>
+</tr>
+<tr class="row-even"><td><p>9.55 - 10.10</p></td>
+<td><p>Break</p></td>
+<td><p>10.55 - 11.10</p></td>
+<td><p>8.55 -  9.10</p></td>
+</tr>
+<tr class="row-odd"><td><p>10.10 - 10.45</p></td>
+<td><p>Workshop overview, roles, onboarding</p></td>
+<td><p>11.10 - 11.45</p></td>
+<td><p>9.10 -  9.45</p></td>
+</tr>
+<tr class="row-even"><td><p>10.45 - 11.05</p></td>
+<td><p>Sound</p></td>
+<td><p>11.45 - 12.05</p></td>
+<td><p>9.45 - 10.05</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.05 - 11.20</p></td>
+<td><p>Break</p></td>
+<td><p>12.05 - 12.20</p></td>
+<td><p>10.05 - 10.20</p></td>
+</tr>
+<tr class="row-even"><td><p>11.20 - 11.50</p></td>
+<td><p>How to prepare a quality screen-share</p></td>
+<td><p>12.20 - 12.50</p></td>
+<td><p>10.20 - 10.50</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.50 - 12.00</p></td>
+<td><p>Outro and feedback</p></td>
+<td><p>12.50 - 13.00</p></td>
+<td><p>10.50 - 11.00</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id2">
+<h4>:icecream: Icebreaker<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<section id="id3">
+<h5>Check-in<a class="headerlink" href="#id3" title="Link to this heading"></a></h5>
+<p>Which emoji best describes your current state of mind? <a class="reference external" href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a></p>
+<ul class="simple">
+<li><p>:-)</p></li>
+<li><p>https://media.istockphoto.com/id/148421550/vector/bored-emoticon.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=uo5KBTqdJZbBQb_Xldhzuovx5t08fHfGR7dw7TCk90I=</p></li>
+<li><p>:saluting_face:</p></li>
+<li><p>:sleepy:</p></li>
+<li><p>:coffee:</p></li>
+<li><p>:umbrella:</p></li>
+<li><p>:cocktail: :coffee:</p></li>
+<li><p>:seedling:</p></li>
+<li><p>:tired_face:</p></li>
+<li><p>:sun_with_face:</p></li>
+<li><p>🥴 (:woozy_face: not converted?)</p></li>
+<li><p>:coffee:</p></li>
+<li><p>:sunflower: :book:</p></li>
+<li><p>:satisfied:</p></li>
+<li><p>:coffee:</p></li>
+<li><p>:coffee:</p></li>
+<li><p>🥱:tired_face:</p></li>
+<li><p>:bread: - I am baking bread today so I have been kneading dough while listening!</p></li>
+</ul>
+</section>
+<section id="id4">
+<h5>Introduction in breakoutrooms<a class="headerlink" href="#id4" title="Link to this heading"></a></h5>
+<p>Name / Affiliation / Location</p>
+</section>
+<section id="teaching">
+<h5>Teaching<a class="headerlink" href="#teaching" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>Do you teach and organize teaching alone or with others? What would you prefer and why?</p>
+<ul>
+<li><p>Coming together is a beginning; keeping together is progress; working together is success. – Edward Everett Hale</p></li>
+<li><p>These days always with others.  Alone is easier to prepare but almost always is harder during it.</p></li>
+<li><p>Teaching with very diverse partners, it can be challenging to find a common language with people very different than you.</p></li>
+<li><p>I teach alone, in the future there will be more collaboration with multiple team members. Both approaches have their pros and cons.</p></li>
+<li><p>Both has its own distinct advantages</p></li>
+<li><p>Most of my teaching is on my own, as a freelancer its more expensive to work with colleagues than to deliever a course on my own.</p></li>
+<li><p>Teaching together, learns from each other, feedbacks to improve</p></li>
+<li><p>Not formally taught yet, only given presentations actually .</p></li>
+<li><p>collective teaching would benefit the teachers with collaborative curriculumn and experiences sharing.</p></li>
+</ul>
+</li>
+<li><p>If applicable, have you seen any challenges when teaching together and how to overcome them?</p>
+<ul>
+<li><p>It actually requires preparation,</p></li>
+<li><p>Is it about teaching or about inspiring ? Discover the answer and get inspired …</p></li>
+<li><p>It’s like being in a band: you might be great at improvising and your band-partners might be great at improvising too, but a bit of rehearsing makes even the impro gig much better</p></li>
+<li><p>Need to plan before session, difficult if people don’t ‘plan’ in the same way, e.g. with the same time frame.</p></li>
+<li><p>Heterogeneity in learners make it impossible to get the same result from everyone.</p>
+<ul>
+<li><p>In fact, the same applies to teachers :D</p></li>
+</ul>
+</li>
+<li><p>Teaching together requires to have similar opinions on how to teach. I share vews only with ~40% of my colleagues I think.</p></li>
+</ul>
+</li>
+<li><p>No Teaching experience but it is good to give the outline of the lessons beforehand and learning goals.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h4>:question: Questions<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<section id="id6">
+<h5>General / Practicalities<a class="headerlink" href="#id6" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>What is this document for?</p>
+<ul>
+<li><p>Asking questions, collecting discussion points, taking collaborative notes (Zoom chat deactivated, can only be used for communication with the hosts)</p></li>
+</ul>
+</li>
+<li><p>Will the material be made available?</p>
+<ul>
+<li><p>Materials are and will stay available at https://coderefinery.github.io/train-the-trainer/</p>
+<ul>
+<li><p>Can I share them with a colleague</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+<li><p>Can I resuse them in my own teaching?</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Will these sessions be recorded?</p>
+<ul>
+<li><p>No, but the materials (see above) should include everything needed for self-learning.</p></li>
+</ul>
+</li>
+<li><p>Can I get a certificate for this workshop?</p>
+<ul>
+<li><p>You can get a certificate of attendance after the workshop by sending an e-mail to support&#64;coderefinery.org, telling us a bit about what you have learned and which sessions you attended.</p></li>
+</ul>
+</li>
+<li><p>How often will we be talking in breakout rooms?</p>
+<ul>
+<li><p>We’ll have about one breakoutroom session per episode</p></li>
+<li><p>BR 1 : The Zoom chat does not work for the breakout room so we should take note of that. No webcam/mic = expect silence.</p>
+<ul>
+<li><p>Thanks for notifying! This was not intended. Turned the chat back on.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="episode-1-coderefinery">
+<h4>Episode 1: CodeRefinery<a class="headerlink" href="#episode-1-coderefinery" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/coderefinery-intro/</p>
+<ul class="simple">
+<li><p>(questions continue here)</p></li>
+<li><p>Is there the plan to build capacity / be paid to deliever courses?</p>
+<ul>
+<li><p>We’ve discussed it but right now we don’t have many people who could accept money to do this (and maybe shouldn’t, because of their jobs).  But, we would encourage others to use our materials as “independents” to deliver paid courses</p></li>
+<li><p>One idea we have had is that paid courses could be delivered through the DRA (link below), who we know.  Basically, DRA could find instructors and handle the money transfers (If someone wanted a paid course, we could help find someone to do it through DRA or independently)</p></li>
+<li><p>:smile:</p></li>
+</ul>
+</li>
+<li><p>Have you come across DRA, https://digital-research.academy/, Heidi Seibold, Joyce Kao who are doing similar work? I can connect you if you like.</p>
+<ul>
+<li><p>Yes we have been discussing about possible future collaborations and are already sending possible clients their way (we, as a project cannot take money) :+1:</p>
+<ul>
+<li><p>Excellent! :-D :smile:</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>.</p></li>
+</ul>
+</section>
+<section id="episode-2-collaborative-notes">
+<h4>Episode 2: Collaborative Notes<a class="headerlink" href="#episode-2-collaborative-notes" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/collaborative-notes/</p>
+<ul class="simple">
+<li><p>So anyone can type anonymously?</p>
+<ul>
+<li><p>Yes, as long as you do not log in, you are Guest XXX</p></li>
+<li><p>And at least in our hedgedoc case you cannot log in so you will always be anonymous. You can do [name=xxx], to add your name to a comment</p></li>
+</ul>
+</li>
+<li><p>Test of +1</p>
+<ul>
+<li><p>+1 :+1: :+1:</p></li>
+<li><p>:-1: a test</p></li>
+</ul>
+</li>
+<li><p>You are hosting your own version of HedgeDoc, and Hackmd.io is a similar (free) option. What are the limitations of the free hackmd.io? Should each center install their own HedgeDoc instance?</p>
+<ul>
+<li><p>It <strong>seems</strong> the free version of HackMD has gotten worse lately. It works still well enough with a few people editing at the same time.</p></li>
+</ul>
+</li>
+<li><p>Have there every been problems with the anonymity and CoC?</p>
+<ul>
+<li><p>We haven’t had any issues so far.</p></li>
+<li><p>With a different anonymous tool in a bachelor course, we had issues with anonymous participants (participants were posting slurs and unsafe links). The course organiser decided to stop allowing anonymous tools.</p></li>
+</ul>
+</li>
+<li><p>Why not google documents?</p>
+<ul>
+<li><p>Google documents are actually setting a hard limit for simultaneous writing, no more than 100 concucurrent editors. I am unsure if microsoft onedrive word documents would allow more users writing at the same time.</p></li>
+</ul>
+</li>
+<li><p>What’s the most people you have every had on HackMD / Hedgedoc?</p>
+<ul>
+<li><p>I believe about 200 active participants?</p></li>
+</ul>
+</li>
+<li><p>What are your thoughts on using the build-in Zoom Q&amp;A?</p>
+<ul>
+<li><p>We haven’t tried this, in part because the way we do streaming now (you’ll see in session 4), participants aren’t in Zoom so don’t have access to that. The doc-format works pretty well though, when we keep it in this limited “write at end” format.</p></li>
+</ul>
+</li>
+<li><p>How do you see what has changed? e.g. if leave the session at the end, can I come back tomorrow and see X has been added? e.g. a diff for this maybe?</p>
+<ul>
+<li><p>In the menu up right there is revision, it does show the document and changes at different time step :+1: Thanks!</p></li>
+<li><p>We recommend people only write at the bottom (and since we answer things live), so as a first level approximation you find where you were and read below that.  Think of it more like chat than a full document.  (Yes, we do revise questions at the end)</p></li>
+</ul>
+</li>
+<li><p>How about flinga boards or similar tools?</p>
+<ul>
+<li><p>My take is that the simplicity of a simple text document wins over free-form in-person-workshop-like tools.</p></li>
+<li><p>There’s miro, can be a bit confusing though</p></li>
+</ul>
+</li>
+<li><p>How does this work with small groups, e.g. 10-15 people?</p>
+<ul>
+<li><p>Good question: it can be hard if people aren’t rigorous about it, people start only using chat/voice.  So there seems to be some lower bound in size but we haven’t tested this much</p></li>
+<li><p>And if the instructors never screenshare it to show what goes on it, then seems to be less used.</p></li>
+<li><p>And if there aren’t other people to read/answer it during the session (perhaps less likely in a small course), it seems to be less used.</p></li>
+</ul>
+</li>
+</ul>
+<div class="info docutils">
+<p>Breakoutrooms until xx:55</p>
+<p>Exercise/discussion: https://coderefinery.github.io/train-the-trainer/collaborative-notes/#exercise</p>
+</div>
+<ul>
+<li><p>Breakout room 1:</p>
+<ul class="simple">
+<li><p>Use of etherpad for collaborative discussion.</p></li>
+<li><p>Use of slido for polling and quizzing.</p></li>
+<li><p>Presemo as a slido alternative (https://www.aalto.fi/en/services/presemo-a-fully-web-based-classroom-participation-system)</p></li>
+<li><p>Use of text based approach for questions rather than live can be helpful if there is a language barrier issue.</p></li>
+</ul>
+<ul class="simple">
+<li><p>A good teaching session which had many questions coming spontaneously to the teacher is a non-entity of sorts. If the overall flow of feedback / questions increases it could indicate that the session will not prove to be a helpful experience. A signal that generates noise is, well, noise, if calling a spade a spade signals anything. Note that the ‘overall’ bit and the ‘to the teacher’ aspect are important. Both the best and the worst teaching session have two things in common: a teacher, and the fact that NO Materials of any kind are used, ie speech is the only channel of communication via a common language. The only difference is that it is not the same teacher, at least not in the same session at the same time.</p></li>
+</ul>
+<p>Another less mentioned, but perhaps more relevant indicator of a great session is the simple fact that at the end of the session EVERYONE feels empowered, NOT tired. This is not an easy to quantify thing, but screams out the quality of the experience loud. More often then not, such sessions differ little from each other, apart from in terms of the theme / topic and the participant mix. It ends up being the ‘keep your cake and eat it too,’ of sorts, not quite the far less amusing post-bombardment devastation scenario in the wake of a take it or leave it go at anything.</p>
+<ul class="simple">
+<li><p>profanity in collaborative documents where people can add content anonymously could be a problem (happens very rarely, fortunately and somewhat surprisingly)</p></li>
+</ul>
+</li>
+<li><p>Breakout Room 2:</p>
+<ul class="simple">
+<li><p>Good experiences with Zoom polls</p></li>
+<li><p>Handling questions in hybrid setups: all participants (on-site and online) ask questions in written form</p></li>
+<li><p>Collaborative notes can be challenging when conducting a course alone (without teaching assistants) :+1:</p></li>
+<li><p>Providing a method to ask questions anonymously can make asking easier for shy participants</p></li>
+<li><p>Questions can give valuable feedback on how the course is going</p></li>
+<li><p>Online collaborative whiteboarding platforms such as Miro</p>
+<ul>
+<li><p>Large monitors are useful for this not to have to drag a “periscope” around</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 4</p>
+<ul class="simple">
+<li><p>good experience with whatsapp chat for questions. since most learners have the app already and one thing less to install and set up</p>
+<ul>
+<li><p>reply to question is a way to handle multiple questions at the same time but it works well for smaller groups</p></li>
+</ul>
+</li>
+<li><p>experience with collaborative docs in in-person workshops: voice questions might “win” over the document</p></li>
+<li><p>“seeding” questions may help to not have an empty document</p></li>
+<li><p>it can help somebody to start and create a structure which helps others to see and follow</p></li>
+<li><p>we discussed the Carpentries sticky notes system (red sticky note: signal tech issues and use for feedback, green sticky note: signal that exercise worked and for positive feedback)</p>
+<ul>
+<li><p>Nice summary of sticky notes system: https://teachtogether.tech/en/#s:classroom-sticky-notes :+1:</p></li>
+</ul>
+</li>
+<li><p>What is the success rate of in-person workshops after COVID? Discussion: Teachers prefer in person and learners prefer remote or recorded to spool back and relearn.</p></li>
+</ul>
+</li>
+<li><p>Room 5</p>
+<ul class="simple">
+<li><p>Good experience with Collaborative tools as HackMD and HedgeDoc while teaching with no bad feedback</p>
+<ul>
+<li><p>When used with smaller groups works best as one-way, like sharing links with students and so on</p></li>
+<li><p>Needs to be done as a team, quite difficult if teaching alone</p></li>
+<li><p>Most useful when online/hybrid</p></li>
+</ul>
+</li>
+<li><p>Anonymisity is important for transparent feedback and no biasis in classrooms</p></li>
+<li><p>Not very collaborative but useful to share history or jupyter notebooks live https://github.com/mwakok/software_carpentries?tab=readme-ov-file#set-up-gitautopush</p></li>
+<li><p>Used Flinga before that seems like Figma and also onsite teaching using sticky notes</p>
+<ul>
+<li><p>There’s miro.com but can be a bit confusing, more for brainstorming than for teaching</p></li>
+</ul>
+</li>
+<li><p>Using quizzes apps like Kahoot is beneficial while teaching to have more engaging students</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Room 6</p>
+<ul class="simple">
+<li><p>teaching teenagers (in presence) but using shared pad becomes quickly very chaotic, so only usable for short moments when answering very precise questions</p>
+<ul>
+<li><p>Yeah, I can imagine.  For CR we try to keep it in this very limited format (all questions bullet points, only add to the end) and I think that helps.</p></li>
+</ul>
+</li>
+<li><p>using shared notepad for small workshop (5-10 people) to explore common thematic (mainly technical) to keep a shared notes and condense aftwerward (and publish on wiki to archive)</p></li>
+<li><p>Difference between teaching in person and online. Some people prefer in-person and sometimes you have no option but to organise it online.</p></li>
+<li><p>There are sometimes cultural differences and learners feel shy to ask / question the knowledge of the Teacher, so shared notes are a good way to safely ask questions.</p></li>
+</ul>
+</li>
+</ul>
+<p>Questions continue:</p>
+<ul class="simple">
+<li><p>Have we demonstrated how we do polls in HedgeDoc? Add your vote by adding an <code class="docutils literal notranslate"><span class="pre">o</span></code></p>
+<ul>
+<li><p>yes: oooo <em>(in session 1)</em></p></li>
+<li><p>no:</p></li>
+<li><p>:smile:</p></li>
+<li><p>not sure: o</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="episode-3-one-workshop-many-perspectives">
+<h4>Episode 3: One workshop, many perspectives<a class="headerlink" href="#episode-3-one-workshop-many-perspectives" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/overview/
+Next CodeRefinery workshop in September: https://coderefinery.github.io/2024-09-10-workshop/</p>
+<div class="info docutils">
+<p class="rubric" id="exercise-until-xx-39">Exercise until xx:39</p>
+<p>https://coderefinery.github.io/train-the-trainer/overview/#discussion</p>
+</div>
+<ul>
+<li><p>Room 1</p>
+<ul class="simple">
+<li><p>Send pre-workshop email with pre-requisite instructions on what should be set-up beforehand.</p>
+<ul>
+<li><p>But, also mention that if help is needed for set-up, we will be ready before the session officially starts.</p></li>
+</ul>
+</li>
+<li><p>Discussion on whether we push to work in a pre-ready environment (e.g. Binder, Colab) or in their own environment.</p></li>
+<li><p>Lots of help needed both before and after.</p></li>
+<li><p>Installations: as much as we can provide ready made environments for the learners, maybe installations will be something that the learners will face sooner or later. Maybe one should teach more about installations?</p></li>
+<li><p>My only cherished role in a teaching-learning session is the that of one who is living the moment as if there were no tomorrow. What cuts all ways really is that “By failing to prepare, you are preparing to fail.” ― Benjamin Franklin. A helpful motto: “When one teaches, two learn.” — Robert Heinlein. The best experience cannot be given, it can only be allowed to flow its way, so get out of its way.</p></li>
+</ul>
+</li>
+<li><p>Room 2</p>
+<ul class="simple">
+<li><p>Frequently, a single person fills all the roles for a single or multi-day workshop</p></li>
+<li><p>Collaboration with different centers/ universities can be challenging</p></li>
+<li><p>Preparing participants: it’s essential for the instructor to go through the demos and be sure that they will work (no unpleasant surprises live). This can be extended to advance-prep for participants.</p></li>
+<li><p>Best experience is to hear (live or in feedback notes) some positive things directed at you :)</p></li>
+<li><p>Fully prepared environments (eg self-hosted JupyterHub) can make preparation for participants easy</p></li>
+</ul>
+</li>
+<li><p>Room 3</p>
+<ul class="simple">
+<li><p>Some students have problems with setuping the environment. Maybe having a step by step instructions could help. But some students don’t want to “start” the course before hand.</p></li>
+<li><p>Preparing the environemnt before hand ensures everyone is onboard from day 1. The same thing happend in CSC training sessions and another session Peng attended.</p></li>
+<li><p>Had experience in attending as teacher and student in previous workshops</p></li>
+</ul>
+</li>
+<li><p>Room 4</p>
+<ul class="simple">
+<li><p>knowing the background of the audience is helpful</p>
+<ul>
+<li><p>Try and ask in advance of the background of the audience. Do a poll at the start of the workshop. In person one can do it interactive.</p></li>
+</ul>
+</li>
+<li><p>among co-instructors: discuss topics and flow</p></li>
+<li><p>if more people are involved, it can help changing roles from time to time to see different perspectives</p></li>
+<li><p>preparation is key</p></li>
+<li><p>Circulate instructions beforehand</p>
+<ul>
+<li><p>Do a poll before session: Have you installed (QGIS) successfully?</p></li>
+<li><p>Push hard to do this in the welcome email</p></li>
+</ul>
+</li>
+<li><p>communicate clearly to the participants</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Room 5</p>
+<ul class="simple">
+<li><p>We’ve all taken most roles</p></li>
+<li><p>How to prepare in advance?</p>
+<ul>
+<li><p>Meet and discuss once or twice</p></li>
+<li><p>Make a pre-survey to check for interest and background</p></li>
+<li><p>Going through the materials</p></li>
+<li><p>Checking the toolkit (zoom)</p></li>
+<li><p>Agree on the reponsibilities and back-up plans (bit of scenarios planning)</p></li>
+</ul>
+</li>
+<li><p>How to prepare trainings in advance?</p>
+<ul>
+<li><p>Collect resources and prepare the workshop plan</p></li>
+<li><p>Having the material readily available online ans sharing it</p></li>
+<li><p>Making a pre-survey</p></li>
+</ul>
+</li>
+<li><p>What was the best workshop experience for you as learner, helper or instructor? What made it great?</p>
+<ul>
+<li><p>learner</p>
+<ul>
+<li><p>Engaging and practical workshop with more exercices and follow-up theoretical part explanations</p></li>
+</ul>
+</li>
+<li><p>helper</p>
+<ul>
+<li><p>When the instructor is well prepared and as helper ther’s only typos to fix and interesting questions to answer</p></li>
+<li><p>Assist the instructor, coordinate the collaborative notes, and make sure that the time is respected</p></li>
+</ul>
+</li>
+<li><p>instructor</p>
+<ul>
+<li><p>I have a colleague whom I’ve ran the same workshop a few times already, goes quite smoothly now and we’ve made a few changes. Hard to reach that point with new colleagues but getting there</p></li>
+<li><p>Students/participants were engaging with the material and many good feedback collected even some of them asked for the next workshop</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Room 6</p>
+<ul>
+<li><p>What has made a great experience for you as a learner/helper/instructor?</p></li>
+<li><p class="rubric" id="common-ground-between-learners-teachers">Common ground between learners &amp; teachers</p>
+</li>
+<li><p>Motivation</p>
+<ul class="simple">
+<li><p>Teaching is much more enjoyable when the learners want to be there</p></li>
+<li><p>I spend a lot of time at the start of a workshop making sure learners feel that the content is possible for them to understand and master</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Poll: I have joined a CodeRefinery workshop before: (add an <code class="docutils literal notranslate"><span class="pre">o</span></code> for your answer)</p>
+<ul class="simple">
+<li><p>yes (within last 2 years): ooooooo</p></li>
+<li><p>yes (longer time ago): oo</p></li>
+<li><p>no: oooooooo</p></li>
+<li></li>
+</ul>
+<p>(questions would continue below:)</p>
+<ul class="simple">
+<li><p>What is the motivation / advantages of streaming workshop versus using zoom?</p>
+<ul>
+<li><p>We’ll cover this more in week 4, but roughly: zoom became unmanageable and essentially quiet once things got big.  Streaming allowed “one to many” communication with no limit, and collab notes allowed better interaction anyway.  By separating the rooms, it was more pleasant to teach.  Videos could be released immediately since there was no risk of privacy of participants.  There could still be in-person/online small groups who have “watching parties.”</p></li>
+</ul>
+</li>
+<li><p>What are the blue red and green font colors here, does it symbolify anything or just a convention HedgeDoc uses?</p>
+<ul>
+<li><p>Visual separation of formatting, mostly. (It helps to quickly realize you’ve missed/ mistyped a control Markdown symbol etc.)</p></li>
+<li><p>Yeah, it’s bascically “code highlighting” for markdown.  No special meaning but quite convenient for us.</p></li>
+</ul>
+</li>
+<li><p>Is this next workshop only for team leads or also open for helpers and coordinators?</p>
+<ul>
+<li><p>You mean the next session of this workshop or the upcoming “CodeRefinery workshop”(this one: https://coderefinery.github.io/2024-09-10-workshop/)?</p>
+<ul>
+<li><p>The upcoming workshop coordinators are alredy working, but can be joined if you are interested</p></li>
+<li><p>As helper roles we currently only have “collaborative notes helper”, which is all about helping to answer questions in the collaborative notes</p></li>
+<li><p>We do have some co-teaching slots open :)</p></li>
+<li><p>If interested: join the discussion in our chat: https://coderefinery.zulipchat.com/#narrow/stream/316508-coderefinery-tools-workshop/topic/Fall.202024.20CodeRefinery.20workshop</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Can a person have multiple roles in a workshop as a helper and a teacher?</p>
+<ul>
+<li><p>Yes, many teachers also contribute to the rest of the workshop by answering questions in collaborative notes. :+1:</p></li>
+<li><p>Some teachers also host a local classroom in week one and do their teaching in week two of the workshop</p></li>
+<li><p>Roles that do not go well together are broadcaster/director/host and instructor (goes well until there is a problem; co-teaching solves that partly)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="episode-4-sound">
+<h4>Episode 4: Sound<a class="headerlink" href="#episode-4-sound" title="Link to this heading"></a></h4>
+<p>https://coderefinery.github.io/train-the-trainer/sound/</p>
+<ul class="simple">
+<li><p>To me, Richard is a bit quieter than the other two :+1: :+1: :+1:</p>
+<ul>
+<li><p>to elaborate: I think that the audio coming from him is missing some mids</p></li>
+<li><p>Do you have any links about this kind of evaluation and adjustment?</p></li>
+</ul>
+</li>
+<li><p>Do you suggest / recommend a specific headset(s) with mounted microphone?</p>
+<ul>
+<li><p>in our experience headsets with a microphone will almost always be better than a separate microphone sitting on the desk or in the monitor</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Speakers have different tones of voice and speaking styles, is there a recommendation or experience from CR workshops for how this is adjusted and catered to environemnts for listeners?</p>
+<ul>
+<li><p>Yeah, people’s voices are different and we haven’t gone as far as voice training or improving.</p></li>
+</ul>
+</li>
+<li><p>How to change the volume for speakers? Tried Zoom settings and system settings and didn’t help.</p>
+<ul>
+<li><p>From linux I can use different pulsemixers <code class="docutils literal notranslate"><span class="pre">pavucontrol</span></code>, <code class="docutils literal notranslate"><span class="pre">pulsemixer</span></code> to set the gain to above 100%.  I’m not sure the equivalent on other OSs but</p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<div class="info docutils">
+<p>Exercise until xx:10
+https://coderefinery.github.io/train-the-trainer/sound/#exercises</p>
+</div>
+<ul class="simple">
+<li><p>room 1</p>
+<ul>
+<li><p>Practically, no typical headset is designed or can capture the technical purity of human voice within its natural environment. But one needs to understand the polar pattern of the (specific) microphone or how much of the signal will be picked up by the microphone from different directions, a sine qua non when it comes to mitigating unwanted sound sources to bleed into the signal.</p></li>
+</ul>
+</li>
+</ul>
+<p>For best results, keep the right direction &amp; distance to your (directional) mic. Usually, that’s between 15-30 cm to get get a natural sound. A microphone records everything it can, also silence, so check the headphone output BEFORE adjusting the gain, in some specific cases aim for a dry sound, ie the influence of the room or how audible the room is on the recording ! Finally, adjust the mix between dry and room sound, or change the frequency response in tandem using a compressor to reduce the dynamic range of a signal for a more consistent listening experience = the quietest parts of your signal will appear louder by reducing the loudest parts.</p>
+<p>It is all about one thing and one thing only - love your voice, let people fall in love with the acoustic quality of your charm. So remember: GIGO, it matters!</p>
+<ul class="simple">
+<li><p>Room 3</p>
+<ul>
+<li><p>Had different headsets and we could see the difference (bluetooth low quality)</p></li>
+<li><p>How to change the volume?</p>
+<ul>
+<li><p>It’s surprisingly hard to get more control than the basic slider you see in the apps!  You need to look.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>room 4</p>
+<ul>
+<li><p>headset is probably better listening experience but they can be uncomfortable to wear during long meeting days :+1:</p>
+<ul>
+<li><p>Yeah.  Luckily only instructors</p></li>
+<li><p>Therefore breaks are non-negotiable</p></li>
+</ul>
+</li>
+<li><p>loud keyboard can be an issue</p></li>
+<li><p>if one has a silent room that does not echo, it can be ok to teach without headset</p></li>
+<li><p>on Linux I am using <code class="docutils literal notranslate"><span class="pre">pulsemixer</span></code> to adjust levels and <code class="docutils literal notranslate"><span class="pre">pavucontrol</span></code> to change outputs/sources</p></li>
+<li><p>mic modes on mac</p></li>
+<li><p>check default microphone for zoom.</p></li>
+</ul>
+</li>
+<li><p>room 5</p>
+<ul>
+<li><p>Most tricks help tuning yourself but hard to do it as a group. Perhaps doing a short recording.</p>
+<ul>
+<li><p>Yeah.  Some independent recording/playing aronud, but also asking for advice.  I would do small group/one-on-one things.</p></li>
+</ul>
+</li>
+<li><p>Background noises cancellation tools or wise choice of quiet environments</p></li>
+<li><p>Audio check with colleagues or through the app with the audience saying numbers for example</p></li>
+<li><p>Zoom or Teams have sound checks but work different in the app than the browser. They also work different across Operating systems</p></li>
+<li><p>Some sound issues might be related to network speed or stability, also to RAM available. Worthwhile to try and control those as well</p></li>
+<li><p>Make it welcoming for the audience to give you feedback on the audio and other settings, give reminders</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="episode-5-how-to-prepare-a-quality-screen-share">
+<h4>Episode 5: How to prepare a quality screen-share<a class="headerlink" href="#episode-5-how-to-prepare-a-quality-screen-share" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/screenshare/</p>
+<ul>
+<li><p>If your Zoom does not support “share portion of screen”, sharing a tab and resizing it to portrait for yourself is a possible workaround (this at least works when joining the call from Chromium browser)</p>
+<ul class="simple">
+<li><p>Another workaround is to use an editor/IDE that displays multiple panels in one window and can show a web page, code files and terminal session +10</p></li>
+</ul>
+</li>
+<li><p>Is ‘share a portion of your screen’ where you draw a box in Zoom to share a section?</p>
+<ul class="simple">
+<li><p>yes :+1:</p></li>
+</ul>
+</li>
+<li><p>When using zsh, one can run something like this in a terminal</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>tail -n $NLASTCOMMANDS -f ~/.zsh_history | sed &#39;s/^.............../LAST COMMAND:/g&#39;
+</pre></div>
+</div>
+<p>(I place this in a window under the main terminal, I use i3)</p>
+</li>
+<li><p>I am a bit confused on what platform you are putting this code?</p>
+<ul class="simple">
+<li><p>Radovan is using Linux with (I think) the “i3 window manager”.  It can be quite involved and there is lots of personal customization here.</p></li>
+</ul>
+</li>
+<li><p>When teaching with a custom prompt, is it worth starting with the default (that your learners will see) and explicitly mentioning “I change these things to make it clearer when teaching”</p>
+<ul class="simple">
+<li><p>One should always comment on what may be different.  Thing is “default” may look different for many people :+1:</p></li>
+<li><p>“I am <em>not</em> going to teach you how to customise your prompt, but here’s an online tutorial, be prepared to lose several days of your life…” :laughing:</p></li>
+</ul>
+</li>
+<li><p>Now I can’t see the last line in the terminal</p>
+<ul class="simple">
+<li><p>Yep, that’s a problem.  It can be good to keep a buffer on the bottom of the screen.</p></li>
+<li><p>If you move your mouse outside the Zoom window, the controls should go away. But still a good note.</p>
+<ul>
+<li><p>My mouse was on another screen.</p></li>
+<li><p>Ok, thanks.</p></li>
+</ul>
+</li>
+<li><p>I think one can also make the zoom bars not auto-hide (then it won’t display under), but that is annoying also since it wastes space.</p></li>
+</ul>
+</li>
+<li><p>Does anybody still use shellshare? Does it work?</p>
+<ul class="simple">
+<li><p>We in CR haven’t used it much but we have seen it.</p></li>
+</ul>
+</li>
+<li><p>Does the stacking of the screens work on windows?</p>
+<ul class="simple">
+<li><p>Don’t know unfortunately</p></li>
+</ul>
+</li>
+</ul>
+<div class="info docutils">
+<p>Exercises (done together)
+https://coderefinery.github.io/train-the-trainer/screenshare/#exercises</p>
+<p>Write your cool tips and ideas below.
+Stay after xx:00, to</p>
+</div>
+<ul class="simple">
+<li><p>To be safe, I have created on my computer an account that I use only for teaching, so I do not need to do any manual set up</p></li>
+<li><p>share history or jupyter notebooks live (5-10 secs refresh rate) into a git repo. Share the link with the learners so they can catch up https://github.com/mwakok/software_carpentries?tab=readme-ov-file#set-up-gitautopush</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id7">
+<h3>Wrapup<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Next session Tuesday August 27 9 CEST: About teaching &amp; cool things we all would like to share</p></li>
+<li><p>All workshop materials will stay available (and be put on Zenodo right after the workshop, currently other epsisodes are still in development)</p></li>
+<li><p>CodeRefinery community: https://coderefinery.zulipchat.com/</p></li>
+<li><p>Cool gems session: If you want to share something, please edit your registration and fill it in there (link to modify in registration confirmation); or e-mail to support&#64;coderefinery.org</p></li>
+<li><p>If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support&#64;coderefinery.org, or join any of the upcoming Monday planning meetings at 14:00 (Europe/Stockholm time)</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Feedback about todays session<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:</p>
+<ul class="simple">
+<li><p>Sound and screen share optimization as well as relevant tools and good practices for online instruction. “While you may be unable to control your users’ mindset, you can anticipate it, and make sure that your user experience caters to it.” - Jonathan Cherki</p></li>
+<li><p>Nice opportunity to (re)think about my online teaching setup :+1: :+1: :+1:</p></li>
+<li><p>Other ways to display command history :+1:</p></li>
+<li><p>Did not know that bluetooth gear had so much latency! :+1:</p></li>
+<li><p>A good reminder about headsets with microphones</p></li>
+<li><p>Nice and friendly teaching. Thank you!</p></li>
+<li><p>Screen share with command history and terminal customisation</p></li>
+<li><p>Really useful tips on sound and screen sharing :+1:</p></li>
+<li><p>Nice experience share</p></li>
+<li><p>very useful and practical tips!</p></li>
+<li><p>Easy to follow along and filled with useful tips on sound, video etc.</p></li>
+<li></li>
+</ul>
+<p>What one thing would you improve about this session?</p>
+<ul class="simple">
+<li><p>Just digging to find something: I have read some of the things you have talked about here already in some blog posts, so perhaps these sessions are not as shokingly full of new content as I imagined (but actually sharing experiences is something I can’t do by reading a blog post)</p>
+<ul>
+<li><p>Perhaps: could you link some blog posts or other sources for what you have discussed so far? If it makes sense. Not sure.</p></li>
+</ul>
+</li>
+<li><p>Talking about interface optimization approaches, which applies to sound as much as to visuals or any other aspect either for that matter, it might offer a perspective to bear in mind the concept of introducing asymptotic complexity increment. The latter would mean the goal is measuring how fast the effort of engaging, on one or more of the three parallel levels of interaction, must change to reach higher levels of partial certainty on the correctness of the implementation of the method in question, in this case the pedagogical paradigm. For the former, lower is better I guess, or in this case, in the intended sense, slower is faster. Let us consider an abstract example: People liked using the search engine Google (a Google session to put it in a fancy way) in the early days because it was as simple as it could get, a literally featureless entry point with no bells and whistles. That was the level of its visible complexity, or rather Google set a bar as low as it one could have, and then any higher point of VISIBLE complexity that was to be introduced, such a move would only be on the path of an asymptotic curve curving towards the set bar, never reaching it, as far as the entry point is concerned. We still see the same level of complexity when we fire up google and we never feel distracted to start with, except for the rather forgivable nuisance of the GDPR conformity pop-up notice which appears only AFTER the first move has been made, and thankfully it works plain and simple from there on (unless one starts feeling lucky, pun intended). Now, think about Youtube … the user experience complexity is a totally different matter, the same company today (unfortunately) yet one now has a steadily worsening engagement experience. Good learning sessions tend to be more of the Google search engine experience and a far cry from the current Youtube trend I would opine. Or, to sum it up and keep it sweet and simple, it helps to identify the limits of human-human and human-technology interaction, within the framework of any applicable technology-technology interaction and joy is the result of respecting those limits. Wishful thinking ?</p></li>
+<li><p>Bring the cat back!</p>
+<ul>
+<li><p>I wish it came, but it’s been resting all morning!  I don’t bother it or stage apperances…</p></li>
+</ul>
+</li>
+<li><p>Maybe having a digest/ summary of previous iterations of this session might be interesting. I feel a lot of experiences have been exchanged and a lot of techniques/ tools have been mentioned. Spending some time in compiling this into a selected list and adding it as content to the course itself might be worthwhile.</p>
+<ul>
+<li><p>Good idea! We will write a blog post about this workshop and will include a summary of all discussions there :)</p></li>
+</ul>
+</li>
+<li><p>Possibly have some command line examples from Windows rather than (just) *nix? I will look at the screenshots after the session. :+1: :+1:</p>
+<ul>
+<li><p>Also, a thought if you do do breakout sessions with this work, do one for Unix, one for Windows, one for Mac as an option.</p></li>
+</ul>
+</li>
+<li><p>I could not follow the part Radovan showed codes (Radovan is using Linux with (I think) the “i3 window manager”.)</p></li>
+<li><p>..</p></li>
+</ul>
+<p>Any other comments?</p>
+<ul class="simple">
+<li><p>Looking forward to the topics of following sessions.</p></li>
+<li><p>Looking forward to the next sessions!</p></li>
+<li><p>Thank you!</p></li>
+<li><p>Relax, nothing else matters, live a life and have fun ! If you obey all the rules you may end up missing all the fun. ‘The best way to predict your future is to create it.’ - Abraham Lincoln :+1:</p></li>
+</ul>
+</section>
+<section id="day-3-sessiion-3-27-08-24-about-teaching-and-cool-things-we-all-would-like-to-share">
+<h3>Day 3 : sessiion 3 (27.08.24) - “About teaching and cool things we all would like to share”<a class="headerlink" href="#day-3-sessiion-3-27-08-24-about-teaching-and-cool-things-we-all-would-like-to-share" title="Link to this heading"></a></h3>
+<section id="id9">
+<h4>:calendar: Schedule<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time (CEST)</p></th>
+<th class="head"><p>Title</p></th>
+<th class="head"><p>EEST (UTC+3)</p></th>
+<th class="head"><p>BST (UTC+1)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8.45 -  9.00</p></td>
+<td><p>Connecting time</p></td>
+<td><p>9.45 - 10.00</p></td>
+<td><p>7.45 -  8.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.00 -  9.15</p></td>
+<td><p>Intro and Icebreaker</p></td>
+<td><p>10.00 - 10.15</p></td>
+<td><p>8.00 -  8.15</p></td>
+</tr>
+<tr class="row-even"><td><p>9.15 -  9.45</p></td>
+<td><p>Computational thinking</p></td>
+<td><p>10.15 - 10.45</p></td>
+<td><p>8.15 -  8.45</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.45 -  10.00</p></td>
+<td><p>Break</p></td>
+<td><p>10.25 - 11.00</p></td>
+<td><p>8.25 -  9.00</p></td>
+</tr>
+<tr class="row-even"><td><p>10.00 - 10.30</p></td>
+<td><p>Teaching philosophies</p></td>
+<td><p>11.00 - 11.30</p></td>
+<td><p>9.00 -  9.30</p></td>
+</tr>
+<tr class="row-odd"><td><p>10.30 - 11.00</p></td>
+<td><p>Co-teaching</p></td>
+<td><p>11.30 - 12.00</p></td>
+<td><p>9.30 -  10.00</p></td>
+</tr>
+<tr class="row-even"><td><p>11.00 - 11.15</p></td>
+<td><p>Break</p></td>
+<td><p>12.00 - 12.15</p></td>
+<td><p>10.00 - 10.15</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.15 - 11.50</p></td>
+<td><p>Sharing teaching gems (voluntary)</p></td>
+<td><p>12.15 - 12.50</p></td>
+<td><p>10.15 - 10.50</p></td>
+</tr>
+<tr class="row-even"><td><p>11.50 - 12.00</p></td>
+<td><p>Outro and feedback</p></td>
+<td><p>12.50 - 13.00</p></td>
+<td><p>10.50 - 11.00</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id10">
+<h4>:icecream: Icebreaker<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<section id="id11">
+<h5>Check-in<a class="headerlink" href="#id11" title="Link to this heading"></a></h5>
+<p>Which emoji best describes your current state of mind? <a class="reference external" href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a></p>
+<ul class="simple">
+<li><p>…</p></li>
+<li><p>:sleeping:</p></li>
+<li><p>:coffee:+2</p></li>
+<li><p>:robot:</p></li>
+<li><p>Still  little sleeppy :)</p></li>
+<li><p>🥴 (:woozy_face: still not converted 🤷‍♂️)</p></li>
+<li><p>Our planet could be a cube. It has six sides to it. It must be a cube. A cube it is, this Blue Planet … just wondering …</p></li>
+<li><p>🦾</p></li>
+<li><p>:sweat_smile:</p></li>
+<li><p>computer says no :-) some network trouble</p></li>
+<li><p>running late, and participating from a :train2:</p></li>
+</ul>
+</section>
+<section id="id12">
+<h5>Introduction in breakoutrooms<a class="headerlink" href="#id12" title="Link to this heading"></a></h5>
+<p>Name / Affiliation / Location</p>
+</section>
+<section id="best-classroom-experiences">
+<h5>Best classroom experiences<a class="headerlink" href="#best-classroom-experiences" title="Link to this heading"></a></h5>
+<p>As a learner or teacher; what was the best workshop/lesson/seminar you have attended? What made the experience great?</p>
+<ul class="simple">
+<li><p>Room 1</p>
+<ul>
+<li><p>First summer HPC streamed workshop (as a teacher).  Somehow the first felt the best</p></li>
+<li><p>CSC HPC summer workshop</p></li>
+<li><p>story telling teaching approach</p></li>
+</ul>
+</li>
+<li><p>Room 2</p>
+<ul>
+<li><p>NVIDIA DLI Course on Deep Learning</p>
+<ul>
+<li><p>very enthusiastic instructor</p></li>
+<li><p>intuitive and very accessible way of showing technical details and fostering deeper understanding</p></li>
+<li><p>a lot of hands-on material and smaller coding exercises</p></li>
+</ul>
+</li>
+<li><p>Anything as long as its interactive and somehow enjoyable from both teacher and learner sides</p></li>
+</ul>
+</li>
+<li><p>Room 4:</p>
+<ul>
+<li><p>EPCC MPI Distributed training workshop.</p>
+<ul>
+<li><p>Lots of hand on coding / experience gained.</p></li>
+<li><p>Very interactive instructor who also discussed ideas for more personalised cases of distributed computing.</p></li>
+</ul>
+</li>
+<li><p>Coderefinery RSE course</p>
+<ul>
+<li><p>relevance of topic to my current work.</p></li>
+<li><p>Dynamic / friendly / positive teaching style.</p></li>
+<li><p>Modular Code Development; very instructive</p></li>
+</ul>
+</li>
+<li><p>Some CSC courses / LinkedIn learning courses</p>
+<ul>
+<li><p>up to date materials and topics.</p></li>
+<li><p>Good way to merge theory with practicalities without making learner feel bored (Example: Jonathan Reichental)</p></li>
+<li><p>Challenging information to learn more and research about the topic</p></li>
+<li><p>Trainers are the experts in the field</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="success docutils">
+<p class="rubric" id="episode-on-teaching-gems">Episode on teaching gems</p>
+<p>If you want to share or demo something about tools and techniques you have found helpful in your teaching, please add your name/initials and rough topic below for smooth transition.</p>
+<blockquote>
+<div><p>Note: It does not have to be your tool or your idea, this episode is meant to share experiences and discover new things. You also do not need any slides or materials, a story will do fine :)
+Length of the stories will be depending on interest, but be prepared to fit it into 3 min (shortest possible).</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>RD: teaching clock</p></li>
+<li><p>RB: <a class="reference external" href="https://github.com/bast/teaching-setup">Containerized teaching setup</a></p>
+<ul>
+<li><p>Isolated home dir is a good idea!</p></li>
+</ul>
+</li>
+<li><p>AVM: <a class="reference external" href="https://www.thregr.org/wavexx/software/screenkey">Screenkey for showing keyboard shortcuts</a></p></li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id13">
+<h3>:question: Questions<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<section id="id14">
+<h4>General / Practicalities<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>What is this document for?</p>
+<ul>
+<li><p>Asking questions, collecting discussion points, taking collaborative notes (Zoom chat deactivated, can only be used for communication with the hosts)</p></li>
+</ul>
+</li>
+<li><p>Will the material be made available?</p>
+<ul>
+<li><p>Materials are and will stay available at https://coderefinery.github.io/train-the-trainer/</p>
+<ul>
+<li><p>Can I share them with a colleague</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+<li><p>Can I resuse them in my own teaching?</p>
+<ul>
+<li><p>Yes please :)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Will these sessions be recorded?</p>
+<ul>
+<li><p>No, but the materials (see above) should include everything needed for self-learning.</p></li>
+</ul>
+</li>
+<li><p>Can I get a certificate for this workshop?</p>
+<ul>
+<li><p>You can get a certificate of attendance after the workshop by sending an e-mail to support&#64;coderefinery.org, telling us a bit about what you have learned and which sessions you attended.</p></li>
+</ul>
+</li>
+<li><p>How often will we be talking in breakout rooms?</p>
+<ul>
+<li><p>We’ll have about one breakoutroom session per episode</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="episode-1-computational-thinking">
+<h4>Episode 1 : Computational thinking<a class="headerlink" href="#episode-1-computational-thinking" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/computational-thinking/ (Link to slides in the middle of material)</p>
+<section id="questions-to-audience">
+<h5>Questions to audience<a class="headerlink" href="#questions-to-audience" title="Link to this heading"></a></h5>
+<p>How might breaking down a complex problem into smaller parts change your approach to problem-solving in your current projects?</p>
+<ul class="simple">
+<li><p>Avoids cognitive overload</p></li>
+<li><p>I used to give an example about this in workshops of cutting long tree into pieces from top to avoid that it falls and destroy a house bloc.</p></li>
+<li><p>Easier to start on something small</p></li>
+<li><p>Each individual part is familiar and can take existing solutions.</p></li>
+<li><p>Only focus on the new things</p></li>
+<li><p>One can lose oversight of where is supposed to be getting to due to problems with summation of biases introduced during the solving of the parts.</p></li>
+<li><p>.</p></li>
+</ul>
+<p>Can you think of a research project where identifying patterns in your data led to new insights or breakthroughs?</p>
+<ul class="simple">
+<li><p>Multi-targeted drug design where you need to identify both chemical and biological pathways/patterns</p></li>
+<li><p>Distilling complex physics problems into simpler 1D statistics is very often done.</p></li>
+<li><p>I used to do bioinformatics, pretty much everything in biology is about patterns in strings of charachters (DNA, proteins). Finding those patterns and using them is the way to go</p></li>
+<li><p>Pattern recognition DOES NOT lead to new insight, it is new insight which allows for the recognition of a ‘pattern’, the latter being an allocation of possible bias.</p></li>
+<li></li>
+<li><p>..</p></li>
+</ul>
+<p>What challenges do you face when trying to simplify complex concepts in your field, and how do you decide which details to focus on?</p>
+<ul class="simple">
+<li><p>Absence of a terminology / jargon to describe a new idea. :+1:</p></li>
+<li><p>Similar to above, when teaching often students know what they want to achive, but don’t have the termonology to express it, so working through what they want is helpful, after teaching them some termonology.</p></li>
+<li><p>Whatever is most useful to the learner first?</p></li>
+<li><p>I work with researchers in different fields. I don’t always fully understand their domain knowledge but I can take the basiscs or generalities and get code that works for them</p></li>
+<li><p>A very practical problem is trying to resist going for a coffee in the midst of taking a shot at a complex concept, in the hope that the true details are to be found in the coffee.</p></li>
+<li><p>not all information is easy to find or a lot of conflicting information or even sometimes imformation explosion</p></li>
+</ul>
+<p>How do you determine the priority of tasks when designing algorithms for your academic projects, and what criteria do you use to ensure that the most critical tasks are addressed first?</p>
+<ul class="simple">
+<li><p>Working chronologically when going through a problem - start at the beginning.</p></li>
+<li><p>What gives the more insight with the least effort can be a nice start</p></li>
+<li><p>Talk to colleagues and Subject matter experts to understand various perspective to decide and prioritize.</p></li>
+<li><p>Logic will get you from A to B. Imagination will take you everywhere. - Albert Einstein.</p></li>
+<li><p>..</p></li>
+</ul>
+</section>
+<section id="questions-from-the-audience">
+<h5>Questions from the audience<a class="headerlink" href="#questions-from-the-audience" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>About the 4 core concepts, is this based on the model of how human brain works and perceives vision / abstract ideas?</p></li>
+<li><p>I don’t know if it’s based on how the brain works, but it’s related to creating a framework for solving programming programs that has been extrapolated to solve any other problem as well.</p></li>
+<li><p>Devil’s advocate question: cooking (by recipe) actually employs all four principles outlined here and has done so since before the advent of computers. Why then is this concept presented as “computational”?</p>
+<ul>
+<li><p>Random aside, this is an interesting connection to our “cooking metaphor to HPC”</p></li>
+</ul>
+</li>
+<li><p>Devil’s answer to the Devil’s advocate: Great question, cooking, as far as the act happens in the Devil’s kitchen, does not employ numerical algorithms. The Devil introduced the computer precisely to make man lose apetite for that what is cooked in the Devil’s kitchen to be served to all. Only then can the Devil eat the cake and keep it too …</p>
+<ul>
+<li><p>Well, an algorithm without numbers is still an algorithm, i.e. a set of rules :)</p></li>
+</ul>
+</li>
+<li><p>Are there other names for this technique? I may have missed something crucial, but it strikes me as ‘logical thinking’ in a way.</p>
+<ul>
+<li><p>Yes, you could also just see it as problem solving. Most people know how to do it and if you’ve worked with programming, you’ve probably applied it. It can be the case that it’s very obvious to some, but not to others.</p></li>
+</ul>
+</li>
+<li><p>Any chance we can ge a link to the slides?</p>
+<ul>
+<li><p>They are in the course material: https://coderefinery.github.io/train-the-trainer/computational-thinking/ :thumbs_up:</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="exercise-questions-to-discuss">
+<h5>Exercise questions to discuss<a class="headerlink" href="#exercise-questions-to-discuss" title="Link to this heading"></a></h5>
+<ol class="arabic simple">
+<li><p>Conceptually would the strategies provided by computational thinking help you in completing tasks more efficiently?</p></li>
+</ol>
+<ul class="simple">
+<li><p>Room 1:</p>
+<ul>
+<li><p>divide and conquer technique</p></li>
+<li><p>We discussed what happens if you <em>don’t</em> use these, since they are so natural</p></li>
+</ul>
+</li>
+<li><p>Room 2:</p>
+<ul>
+<li><p>in some cases yes, if the task is not too small</p></li>
+<li><p>not sure if more efficiently but it does help at least getting strted</p></li>
+<li><p>Computational thinking is an extension of what others have called solutionism: the belief that any given problem can be solved by the application of computation. Whatever the practical or social problem we face, there is an app for it. - James Bridle</p></li>
+</ul>
+</li>
+<li><p>Room 3:</p>
+<ul>
+<li><p>Helps in starting the task.</p></li>
+<li><p>For many it is the normal way to do problem solving. Also in Agile &amp; Scrum methodlogies.</p></li>
+</ul>
+</li>
+<li><p>Room 4:</p>
+<ul>
+<li><p>Yes, it helped me during my scientific research to manage multiple projects and research publications simultaneously.</p></li>
+<li></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple" start="2">
+<li><p>Do you think that the effectiveness of computational thinking depends on the person’s personality type?</p></li>
+</ol>
+<ul class="simple">
+<li><p>Room 1:</p>
+<ul>
+<li><p>yes, we agree it’s quite different. But good vision and motivation this can be effective</p></li>
+</ul>
+</li>
+<li><p>Room 2:</p>
+<ul>
+<li><p>yes, laying out all the steps necessary to achieve an overall goal can be very daunting; some people are not good at/ comfortable with following fine-grained instructions</p></li>
+<li><p>once the problem is broken down, different personalities might choose different ways to tackle the parts</p></li>
+<li><p>The degree to which something, that is a result of what one means by ‘Computational Thinking,’ is successful in producing a desired result, that is success, cannot be a function of personality.</p></li>
+</ul>
+</li>
+<li><p>Room 3:</p>
+<ul>
+<li><p>Yes. Different people have different ways to communicate.</p></li>
+<li><p>Online tools vs pen and paper</p></li>
+</ul>
+</li>
+<li><p>Room 4:</p>
+<ul>
+<li><p>We are all agree that it depends on the personality type but it could be learned and trained</p></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>Would this type of thinking be an option for you to integrate into your current workflow?</p></li>
+</ol>
+<ul class="simple">
+<li><p>Room 1:</p>
+<ul>
+<li><p>Yes; we didn’t know the name explicitly; but we use it</p></li>
+<li><p>It’s quite important for</p></li>
+</ul>
+</li>
+<li><p>Room 2:</p>
+<ul>
+<li><p>I’m already doing it implicitly :smile: :+1: :+1:</p></li>
+<li><p>Writing a program is like writing a song, its all about the tune, lyrics are merely the necessary nuisance a coder needs to put up with. The latter can, if so written, result in a lot of noise.</p></li>
+</ul>
+</li>
+<li><p>Room 3:</p>
+<ul>
+<li><p>Easy if you are working alone. But different team may have their own ways of working (inertia). One way would be then to gradually show the rest of the team its effectiveness.</p></li>
+<li><p>https://teamtopologies.com/key-concepts</p></li>
+</ul>
+</li>
+<li><p>Room 4:</p>
+<ul>
+<li><p>We are using it in our daily life so it’s already an option for us, only the terminologies are a bit new.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="episode-2-teaching-philosophies">
+<h4>Episode 2 : Teaching philosophies<a class="headerlink" href="#episode-2-teaching-philosophies" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/teaching-philosophies/</p>
+<p>Questions to discuss:</p>
+<ul class="simple">
+<li><p>Share your approach to teaching and your teaching philosophy with your group.</p></li>
+<li><p>Please share your tricks and solutions in the live document for others.</p></li>
+</ul>
+<p>Additional ice-breaker questions:</p>
+<ul class="simple">
+<li><p>What is your motivation for taking this training?</p></li>
+<li><p>How structured or informal are your own teaching needs?</p></li>
+<li><p>What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?</p></li>
+<li><p>What other skills need to be taught, but academic teaching isn’t the right setting?</p></li>
+</ul>
+</section>
+<section id="breakout-room-exercise">
+<h4>Breakout Room exercise<a class="headerlink" href="#breakout-room-exercise" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Room1</p>
+<ul>
+<li><p>Motivation</p>
+<ul>
+<li><p>For best practices in teaching, learning from each other, collaboration</p></li>
+</ul>
+</li>
+<li><p>Learning applied tech is like an apprecentiship: there is theory, but real learning happens by co-working with others.</p></li>
+<li><p>Worse is better: teach what can be used more quickly and it can be improved later</p></li>
+<li></li>
+<li><p>I think there are two bits of teaching - teach the basics and terminology so people know what they want to know, and then teaching how to find out how to do things like Richard said - how to find answers yourself.</p></li>
+<li><p>Using Jupyter notebooks - good for learning a technique, but not for learning the basics.</p></li>
+<li><p>Possibly command line usage has a branding problem - “programming other programs”?</p></li>
+<li><p>the skills we learn in CR training are expected to stay , it is not exam oriented</p></li>
+</ul>
+</li>
+<li><p>Room 2</p>
+<ul>
+<li><p>State objectives clearly and repeat them a few times</p></li>
+<li><p>Try to keep it informal, interactive, flexible</p></li>
+<li><p>Helps when having practical tasks in mind for the materials taught</p></li>
+<li><p>Leave some reasoning to the learner, not always giving full answers</p>
+<ul>
+<li><p>How to deal with frustration though: try some personal approaches, more clues…</p></li>
+</ul>
+</li>
+<li><p>The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires. — William Arthur Ward</p></li>
+<li><p>Teaching kids to count is fine, but teaching them what counts is best. –Bob Talbert</p></li>
+</ul>
+</li>
+<li><p>Room 4</p>
+<ul>
+<li><p>Question 1: What is your motivation for taking this training?</p>
+<ul>
+<li><p>Currently do instruction, wanting to improve as an instructor and helper when conducting software carpentries.</p></li>
+<li><p>Planning to start some side hustles providing online courses and why not joining the CR in the near future</p></li>
+</ul>
+</li>
+<li><p>Question 2: How structured or informal are your own teaching needs?</p>
+<ul>
+<li><p>More recently, follow software carpentries, but look into what aspects can be tailored to keep to different time slots.</p></li>
+<li><p>I used to be more informal in the past, repetetive practice sessions. Would like to be more structured given the teaching tools.</p></li>
+<li><p>I’ve done life-coaching and some teaching but I feel i’m both of them</p></li>
+</ul>
+</li>
+<li><p>Question 3: What difference do you notice between the teaching what we (also Carpentries) do and traditional academic teaching?</p>
+<ul>
+<li><p>Smaller size, and more targetted.</p></li>
+<li><p>Collaborative tools and targeted audience working with small groups</p></li>
+<li><p>Academic probably focuses on an audience with a more focused/narrow background, while this style encompasses a wider audience.</p></li>
+<li><p>Academic teaching keeps theory and practical lab sessions very separate, whereas carpentries combine both.</p></li>
+</ul>
+</li>
+<li><p>Question 4: What other skills need to be taught, but academic teaching isn’t the right setting?</p>
+<ul>
+<li><p>Public speaking, collaborative meeting skills</p></li>
+<li><p>Industrial cases and related work skills</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="episode-3-co-teaching">
+<h4>Episode 3: Co-teaching<a class="headerlink" href="#episode-3-co-teaching" title="Link to this heading"></a></h4>
+<p>Materials: https://coderefinery.github.io/train-the-trainer/co-teaching/</p>
+<ul class="simple">
+<li><p>In general: Co-teaching is a beast with at least two personalities each of which</p>
+<ul>
+<li><p>demand higher preparation requirements</p></li>
+<li><p>face remarkable complexity in terms of coteacher coordination</p></li>
+<li><p>in the virtual component face shortcomings related to the technical equipment and the failure of the human factor</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>Co-teaching requires the framework of co-operative learning. Team teaching does not by default translate into parallel learning, and vice versa.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Re: CodeRefinery in-person beginnings – I agree with the “didn’t work so well in-person”, I’m not sure if it’s that we weren’t as ready for it, or that the different characteristics made it not work so much</p></li>
+<li><p>How do the downsides compare to a single instructor monologuing?</p>
+<ul>
+<li><p>That’s a great question! The main difference is that a single instructor can teach himself to be good (i.e. not just boring monologuing) <strong>alone</strong>, while for teams of 2+ to work well, <strong>everyone</strong> needs to be baseline-competent. So the effort to avoid downsides gets reduced if (and only if) all team members share it.</p></li>
+</ul>
+</li>
+</ul>
+<div class="info docutils">
+<p>Exercise/Discussion: https://coderefinery.github.io/train-the-trainer/co-teaching/#exercise</p>
+<p>Questions:</p>
+<ul class="simple">
+<li><p>Have you already tried this or similar model in your teaching?</p></li>
+<li><p>Does it seem natural to apply this model in your subject area (tell what it is)? How could it be adapted to fit best?</p></li>
+<li><p>Have you tried or seen a different model for two instructors to present? Please share with us how it works.</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>room 1</p>
+<ul>
+<li><p>We have tendend to do presenter/interviewer more</p></li>
+<li><p>challenges are co-teaching with different personalities</p></li>
+</ul>
+</li>
+<li><p>room 2</p>
+<ul>
+<li><p>Main challenge: finding enough personell :smile:</p></li>
+<li><p>It’s not always possible/feasible to have colleagues co-teaching</p></li>
+<li><p>A combination of both, but presenter and interviewer could be difficult to plan an to follow</p></li>
+<li><p>Guide and demo-giver with technical / non-technical roles could be nice</p>
+<ul>
+<li><p>How to plan the guide and demo-giver</p>
+<ul>
+<li><p>First guide, then demo</p></li>
+<li><p>Demo, then guide describes</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Alternative model: main presenter + ‘technical expert’</p>
+<ul>
+<li><p>main presenter introduces concepts from a birdseye view and passes on to the technical expert for additional details, experiences and answers to questions from the audience</p></li>
+</ul>
+</li>
+<li><p>We frequently do a classical division: on person in presenting, one or more are answering questions in the chat; there is rarely any interaction between them however</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>As has been pointed out by Paolo Freire, in general, ‘education is suffering from narration sickness’ … ‘The outstanding characteristic of this narrative education, then, is the sonority of words, not their transforming power’. Perhaps one approach could be to rephrase the question after having the answer: It is not apriori about the model implemented, it is about whether that what was implemented was judged aposteriori to have succeeded in becoming, or at least could pretend to have done so, the intended context matched model implementation it probably was computed to be.</p></li>
+</ul>
+<ul class="simple">
+<li><p>room 4</p>
+<ul>
+<li><p>the co-teaching approach does not seem to be widely practiced</p></li>
+<li><p>it can be interesting to see “mistakes” which are less likely to happen in solo-teaching?</p></li>
+<li><p>co-teaching can be nicer for audience but maybe more stress/anxiety for instructors to prepare? more stress in terms of not knowing all the questions in advance. less stress worrying about forgetting something.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="teaching-gems">
+<h4>Teaching gems<a class="headerlink" href="#teaching-gems" title="Link to this heading"></a></h4>
+<p>(scroll up to find the green box “Episode on teaching gems”)</p>
+<p>What’s your favorite way of teaching? Any nice tools you use?</p>
+<p>Has anyone found a nice online tool to draw?</p>
+<ul class="simple">
+<li><p>I love this tool suite https://excalideck.com/</p>
+<ul>
+<li><p>For drawing https://excalidraw.com/</p></li>
+</ul>
+</li>
+<li><p>I have seen Miro …</p></li>
+<li><p>I think the Code Refineries use something for their graphics that looks a bit ‘cartoony’ - but I cannot remember what it is called!</p>
+<ul>
+<li><p>Drawn on remarkable and then coloured and tidied up in Inkscape. :+1:</p></li>
+</ul>
+</li>
+<li><p>I am a big fan of remarkable. I think sharing option is fairly good. Unfortunately bit expensive tool.</p>
+<ul>
+<li><p>true, for me it was worth it already for the pdf annotation for research papers, cannot read on computer screen</p></li>
+</ul>
+</li>
+<li><p>https://webwhiteboard.com/</p></li>
+<li><p>https://www.youtube.com/watch?v=4-l8MY5kYGc</p></li>
+<li><p>Figma and Kahoot are useful as well</p></li>
+</ul>
+<p>Screenkey: <a class="reference external" href="https://www.thregr.org/wavexx/software/screenkey">Screenkey for showing keyboard shortcuts</a></p>
+<ul class="simple">
+<li><p>Is there a Windows version people can recommend?</p>
+<ul>
+<li><p>I found this list of alternative for windows users like me: https://alternativeto.net/software/screenkey/ :+1:</p></li>
+</ul>
+</li>
+<li><p>I sometimes use the on-screen keyboard already provided by the OS :+1:</p></li>
+</ul>
+</section>
+</section>
+<section id="id15">
+<h3>Wrapup<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Next session Tuesday September 3rd 9 CEST: About teaching &amp; cool things we all would like to share</p></li>
+<li><p>All workshop materials will stay available (and be put on Zenodo right after the workshop, currently other epsisodes are still in development)</p></li>
+<li><p>CodeRefinery community: https://coderefinery.zulipchat.com/</p></li>
+<li><p>If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support&#64;coderefinery.org, or join any of the upcoming Monday planning meetings at 14 CEST</p></li>
+<li><p>Preparations for next week will be sent out by e-mail</p></li>
+</ul>
+</section>
+<section id="id16">
+<h3>Feedback about todays session<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<p>What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:</p>
+<ul class="simple">
+<li><p>The co-teaching lesson and experiences from others</p></li>
+<li><p>Discussions were quite good, had a nice group</p></li>
+<li><p>Breakout rooms and collaborative tools</p></li>
+<li><p>Computational thinking and co-teaching are interesting ideas! I have seen it before, but never knew or even recognized it was a method.</p></li>
+<li><p>Thanks for group discussions working with my chat only interaction! :smile:</p></li>
+<li><p>..</p></li>
+</ul>
+<p>What one thing would you improve about this session?</p>
+<ul class="simple">
+<li><p>Minor point - it would be useful to have the teaching gmes box at the bottom of the document rather than the top - tricky to scroll between! In the end I opened two windows which was easier.</p>
+<ul>
+<li><p>Thanks, yes agree. Also had that problem, but did not want to move it in between.</p></li>
+</ul>
+</li>
+<li><p>The meaning of teaching “philosophy” wasn’t very clear, felt more like teaching “styles”</p>
+<ul>
+<li><p>Thank you, we will take that into consideration</p></li>
+</ul>
+</li>
+<li><p>Some prepared slides to present for an intro about the topics</p>
+<ul>
+<li><p>You mean in addition to the materials? To use in the beginning of each session?</p></li>
+</ul>
+</li>
+<li><p>The <a class="reference external" href="https://coderefinery.github.io/train-the-trainer/teaching-philosophies/#instructor-views"><em>instructor views</em></a> segment could be named as additional material, if it was not meant to be discussed within the course.</p>
+<ul>
+<li><p>Thank you, we will take that into consideration</p></li>
+</ul>
+</li>
+</ul>
+<p>Any other comments?</p>
+<ul class="simple">
+<li><p>Keeping it short and sweet: If at first you don’t succeed in teaching, try to explain it like you’re talking to a room full of cats. Caveat: In a room full of computational thinkers maybe if you tell students that the brain is a computational device that is forbidden, they might get excited and start using it.</p></li>
+</ul>
+</section>
+<section id="day4-session-4-3-09-24-streaming-and-video-editing">
+<h3>Day4: Session 4 (3.09.24) - Streaming and video editing<a class="headerlink" href="#day4-session-4-3-09-24-streaming-and-video-editing" title="Link to this heading"></a></h3>
+<section id="id17">
+<h4>:calendar: Schedule<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time (CEST)</p></th>
+<th class="head"><p>Title</p></th>
+<th class="head"><p>EEST (UTC+3)</p></th>
+<th class="head"><p>BST (UTC+1)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8.45 -  9.00</p></td>
+<td><p>Connecting time</p></td>
+<td><p>9.45 - 10.00</p></td>
+<td><p>7.45 -  8.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>9.00 -  9.15</p></td>
+<td><p>Intro and Icebreaker</p></td>
+<td><p>10.00 - 10.15</p></td>
+<td><p>8.00 -  8.15</p></td>
+</tr>
+<tr class="row-even"><td><p>9.15 -  10.00</p></td>
+<td><p>Why we stream &amp; Behind the scenes</p></td>
+<td><p>10.15 - 11.00</p></td>
+<td><p>8.15 -  9.00</p></td>
+</tr>
+<tr class="row-odd"><td><p>10.00 -  10.15</p></td>
+<td><p>Break</p></td>
+<td><p>11.00 - 11.15</p></td>
+<td><p>9.00 -  9.15</p></td>
+</tr>
+<tr class="row-even"><td><p>10.15 - 10.35</p></td>
+<td><p>Video Editing</p></td>
+<td><p>11.15 - 11.35</p></td>
+<td><p>9.15 -  9.35</p></td>
+</tr>
+<tr class="row-odd"><td><p>10.35 - 10.55</p></td>
+<td><p>Exercise: Video Editing</p></td>
+<td><p>11.35 - 11.55</p></td>
+<td><p>9.35 -  9.55</p></td>
+</tr>
+<tr class="row-even"><td><p>10.55 - 11.10</p></td>
+<td><p>Break</p></td>
+<td><p>11.55 - 12.10</p></td>
+<td><p>9.55 - 10.10</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.10 - 11.30</p></td>
+<td><p>Open Broadcaster Software(OBS) introduction</p></td>
+<td><p>12.10 - 12.30</p></td>
+<td><p>10.10 - 10.30</p></td>
+</tr>
+<tr class="row-even"><td><p>11:30 - 11:50</p></td>
+<td><p>OBS setup &amp; what next</p></td>
+<td><p>12.30 - 12.50</p></td>
+<td><p>10.30 - 10.50</p></td>
+</tr>
+<tr class="row-odd"><td><p>11.50 - 12.00</p></td>
+<td><p>Outro and feedback</p></td>
+<td><p>12.50 - 13.00</p></td>
+<td><p>10.50 - 11.00</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id18">
+<h4>:icecream: Icebreaker<a class="headerlink" href="#id18" title="Link to this heading"></a></h4>
+<section id="id19">
+<h5>Check-in<a class="headerlink" href="#id19" title="Link to this heading"></a></h5>
+<p>Which emoji best describes your current state of mind? <a class="reference external" href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a></p>
+<ul class="simple">
+<li><p>:coffee: +</p></li>
+<li><p>:runner:</p></li>
+<li><p>:tired_face: Tired!</p></li>
+<li><p>:nerd_face:<img alt="" src="https://" /></p></li>
+<li><p><img alt="" src="https://notes.coderefinery.org/uploads/58bfdc31-ac86-4172-aef4-b7b4bd762533.png" /></p></li>
+<li><p>:cloud: :tea:</p></li>
+</ul>
+</section>
+<section id="id20">
+<h5>Introduction in breakoutrooms<a class="headerlink" href="#id20" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>Name / Affiliation / Location</p></li>
+</ul>
+<p>What’s the most number of people you have taught to?</p>
+<ul class="simple">
+<li><p>20 at a time, with 1 asleep, 2 fidgiting with some silly device and the rest were… well… staring at their good luck… straight ahead it was of course, right before them.</p></li>
+<li><p>~35</p></li>
+<li><p>~80 in a lecture in a previous (lecturer) role, 26 in a training course setting</p></li>
+<li><p>~30</p></li>
+<li><p>~50 in training spaces and more than 100 for public audience talk</p></li>
+<li><p>35 (software carpentry)</p></li>
+<li><p>CodeRefinery answer: The biggest ones are maybe 200-300 people.  “small” for a stream is ~100 people.</p></li>
+</ul>
+<p>What’s the most number of people you have taught with?</p>
+<ul class="simple">
+<li><p>5 or so</p></li>
+<li><p>2 or 3 in total</p></li>
+<li><p>3, as in three, none of them smiling. I wish I could figure out why… it was such fun really…</p></li>
+<li><p>7</p></li>
+<li><p>2 or 3</p></li>
+<li><p>3 (helpers, not really co-teaching)</p></li>
+<li><p>CodeRefinery answer: our biggest workshops are something like 10-20 people helping out in many different roles.</p></li>
+</ul>
+<p>How can you divide teaching into separate independent tasks?</p>
+<ul class="simple">
+<li><p>By content blocks, having roles like main and assistant…</p></li>
+<li><p>Having responsibility for different sections of the course.</p></li>
+<li><p>Wow, now thats what we call a question… bravo… indeed, how does one separate sleeping and snoring into separate independent tasks…</p></li>
+<li><p>Course, exercices, resources, tools and forms.</p></li>
+<li><p>Different people teach different topics</p></li>
+<li><p>CodeRefinery answer: the big logical blocks are instructors, in-person and breakout room helpers, and Notes-questions answers.</p></li>
+</ul>
+<p>What’s the most interesting or useful thing you’ve learned from an online workshop, and how have you applied it/planning to apply in your life or work</p>
+<ul class="simple">
+<li><p>Having breaks every hour or so</p></li>
+<li><p>New approach to screensharing, using the ‘portrait’ approach</p></li>
+<li><p>Manage breathing: reduce stress and use silence to let the audience grasp what you’re saying</p></li>
+<li><p>Well, the most interesting or useful thing I’ve learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That’s one small step for a man, one giant leap for mankind..</p></li>
+</ul>
+</section>
+</section>
+<section id="id21">
+<h4>:question: Questions<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+</section>
+<section id="why-we-stream">
+<h4><a class="reference external" href="https://coderefinery.github.io/train-the-trainer/why-we-stream/">Why we stream</a><a class="headerlink" href="#why-we-stream" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>If during streaming there is no interaction between the teacher and the audience, why don’t we just record the lectures and stream them? So one can do a better job, perhaps?</p>
+<ul>
+<li><p>Streaming it making it a “thing” that’s a group experience.  It feels good to be a part of it, so we hope that encourages people to actually attend.  All the mass Q&amp;A is fun, and the audience helps to make it easier to present.  Still, this is a good question.</p></li>
+<li><p>I really appriciate it being “a thing”. If it was just recorded, I would say I would watch it tomorrow, and then I never would.</p>
+<ul>
+<li><p>But then you can just fake it, and still have all the breakout rooms and collaborative document and so on. I appreciate the value of having a proper “event”.</p>
+<ul>
+<li><p>I think I follow you, but if you pre-recorded the talking bits, then the presentors couldn’t change what they do based on the feedback in the shared document.</p>
+<ul>
+<li><p>true, but I assumed that the teachers were too busy to actually do that. The more (less )division of labor between the teachers and the helpers (or collaborative document editors), the more (less) sense it makes to pre-record - IMHO</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>What interaction options do ‘streamers’ use, e.g. on Twitch/YouTube (not Code Refinary)?</p>
+<ul>
+<li><p>I’m besides chat and things that happen in chat, I’m not sure.  The Notes-doc is definitely unique to us.</p></li>
+</ul>
+</li>
+<li><p>Streaming is a kind of exercise for the movie star type. If you cannot be one, act like one, pretend, fool the listener into thinking you are one, take their brains and emotions under control. And if they don’t leave the session with tears of love for learning running down their chubby cheeks you know who to kick for doing a job just that bit worse than it should have been necessary.</p></li>
+<li><p>Have you kept track of streming stats? like how many people logged in and stayed troughout, how many interacted?</p>
+<ul>
+<li><p>Yes please, it would be good to see the stats</p></li>
+<li><p>Here is stats <a class="reference external" href="https://github.com/coderefinery/workshop-stats">repo</a></p></li>
+<li><p>Thanks, I get a 404 error, is it private?</p></li>
+<li><p>No, I don’t think so. https://github.com/coderefinery/workshop-stats</p></li>
+<li><p>Still get 404. Does it work for anyone else?</p>
+<ul>
+<li><p>Yeah I think it’s private.  We need to fix this…</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>How big is small (10-15), medium (~30-40)?</p>
+<ul>
+<li><p>I would say below 50 is small.</p></li>
+</ul>
+</li>
+<li><p>Have you considered scaling to more events instead of to a larger audience? I mean, this seems the opposite of scaling, but this kind of content would be more useful the more often is it taught (“I need to learn GIT/Python/* in December!”)</p>
+<ul>
+<li><p>We would, but right now we simply don’t have enough time and people to do more small events.  But yes, “scheduling conflict” is a big problem - the best we can do right now is written material+videos to follow up on (and hope it’s interesting enough)</p></li>
+<li><p><a class="reference external" href="https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024">Python for Scientific Computing 5-7/November/2024</a></p>
+<ul>
+<li><p>This was just an example. I mean, if I am a PHD student that needs to start working on a topic on Month X which happens to be inconveniently placed in the year, I will not benefit as much from having a workshop at Month X+3</p>
+<ul>
+<li><p>The materials are open and the videos are publically available on YouTube channel</p>
+<ul>
+<li><p>What’s the ratio of people watching videos afterwards vs people attending the event? That ratio can give an idea of the popularity of the two possible approaches.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The more you scale up the less interactive the course / workshop will need to be. It then becomes a question of priorities, and if teaching is a lower priority then learning than I guess there really should be no prizes for guessing which approach should reign the airwaves.</p></li>
+</ul>
+</li>
+<li><p>I guess outside Europe / Africa, time zones could be a problem?</p>
+<ul>
+<li><p>yes, that is true</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Sorry, I might have missed this: have you been rehearsing and/or doing dry runs?</p>
+<ul>
+<li><p>With instructors I like to try to do a dry run.  I often don’t do a live broadcast dry run these days since I’m confidente enough, but when you are just starting, it’s a good idea.</p></li>
+</ul>
+</li>
+<li><p>Do you always use Zoom for the ‘presenter end’ or have you tried other things? Teams? Jitsi? etc.?</p>
+<ul>
+<li><p>we use mostly zoom</p></li>
+<li><p>It was first pioneered using Jitsi.  You can probably use others, too.</p></li>
+</ul>
+</li>
+<li><p>A comment: for deRSE24 we have been using the <a class="reference external" href="https://docs.gwdg.de/doku.php?id=en:services:mobile_working:live_streaming:start">GWDG streaming service</a> and OBS, it worked quite well (with a 20s delay or so)</p>
+<ul>
+<li><p>Cool!  Yes, there is plenty of livestreaming options.  Twitch+our OBS config gives us 2-3s of latency (which is low enough for live Notes interaction).  You might be able to tune this if needed.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="behind-the-stream">
+<h4>Behind the stream<a class="headerlink" href="#behind-the-stream" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Does OBS take a lot of RAM or CPU? what are the specs on your machine?</p>
+<ul>
+<li><p>Richard have a relatively powerful computer with 8 AMD CPUs.</p></li>
+<li><p>4 CPUs are relatively enough for a good OBS setup, most important is a stable internet connection (ideally wired).</p></li>
+<li><p>An extra monitor is recommended for the setup</p></li>
+<li><p>See the hardware notesrecommendation <a class="reference external" href="https://coderefinery.github.io/train-the-trainer/obs/#hardware-requirements">here</a></p></li>
+</ul>
+</li>
+<li><p>Do you do a screenshare from Zoom -&gt; OBS or OBS -&gt; Zoom?</p>
+<ul>
+<li><p>Instructors share to Zoom, OBS captures Zoom, OBS sends to the world.</p></li>
+<li><p>When I am using OBS sfor a single-person presentation recording, I go the other way: OBS captures my desktop/camera, OBS generates the preview window, and then Zoom captures and broadcasts the preview window.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="video-editing">
+<h4><a class="reference external" href="https://coderefinery.github.io/train-the-trainer/video-editing/">Video editing</a><a class="headerlink" href="#video-editing" title="Link to this heading"></a></h4>
+<section id="poll">
+<h5>Poll<a class="headerlink" href="#poll" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>Have you tried video editing? Add an<code class="docutils literal notranslate"><span class="pre">o</span></code> as answer below</p>
+<ul>
+<li><p>yes: ooooo</p></li>
+<li><p>no :</p></li>
+<li><p>Video editing makes all the difference. I have never known a way to avoid this sacred of steps, so to speak. In short, no recording can ever be production ready by default in the books of the wiser among the streamers. In fact, during the editing one can considerably refine and improve the learning experience in great ways. But then one would need to invest both time and effort.</p></li>
+</ul>
+</li>
+<li><p>If <code class="docutils literal notranslate"><span class="pre">yes</span></code> Which are the tools you use?</p>
+<ul>
+<li><p>Windows Movie Maker / ClipChamp</p></li>
+<li><p>(raw stream from Zoom)</p></li>
+<li><p>I think it was shotcut - I did only basic trimming</p></li>
+<li><p>Kdenlive</p></li>
+<li><p>Clipchamp, OpenShot, Sony Vegas</p></li>
+<li><p>also ffmpeg from command line to cut beginning and end</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="questions">
+<h5>Questions<a class="headerlink" href="#questions" title="Link to this heading"></a></h5>
+<ul class="simple">
+<li><p>What is Whisper?</p>
+<ul>
+<li><p>Open-source model from OpenAI that converts speech to text transcripts.</p></li>
+<li><p>this one? https://openai.com/index/whisper/</p></li>
+<li><p>curious if anyone has tried it with languages other than english</p></li>
+<li><p>I heard that one of my spanish colleague try it with another software. I don’t remember the tool. But with AI bloom there are many licensed tools that can do it with fifferent language</p></li>
+</ul>
+</li>
+<li><p>What do you use to crop the videos?</p>
+<ul>
+<li><p>I see now, ffmpeg</p></li>
+</ul>
+</li>
+<li><p>how to merge multiple parts in one? I asked because you edited only the icebreaker part?</p>
+<ul>
+<li><p>you can manage it in input part, see ffmpeg-editlist readme.</p></li>
+</ul>
+</li>
+<li><p>Do you generate custom thumbnails for the video?</p>
+<ul>
+<li><p>no, because of the time, but its good to have.  If we had a volunteer to manage that, then we should!</p></li>
+</ul>
+</li>
+<li><p>Does anyone recommend any other (GUI) tools that work well? ffmpeg is very new to me!</p>
+<ul>
+<li><p>if you want a basic trimming and editing , you can use Quicktime player/imovies on mac</p></li>
+<li><p>Clipchamp as the  Microsoft video editor</p></li>
+<li><p>Thanks :smile:</p></li>
+</ul>
+</li>
+<li><p>How do subtitles get uploaded to YouTube?</p>
+<ul>
+<li><p>You upload the video and subtitles as part of upload.</p></li>
+<li><p>:+1:</p></li>
+</ul>
+</li>
+<li><p>How does codewhisperer compare against youtube’s automatically generated subtitles?</p>
+<ul>
+<li><p>by experience, whisper was better couple of years ago. We haven’t compared it recently</p></li>
+<li><p>I guess and advantage is that you can edit whisper subtitles in case something is odd or whatever, probs cannot do that in YouTube</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="open-broadcaster-software-obs-introduction-setup">
+<h4><a class="reference external" href="https://coderefinery.github.io/train-the-trainer/obs/">Open Broadcaster Software (OBS) introduction</a> &amp; <a class="reference external" href="https://coderefinery.github.io/train-the-trainer/obs-config/">setup</a><a class="headerlink" href="#open-broadcaster-software-obs-introduction-setup" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Are the profiles public?</p>
+<ul>
+<li><p>Yes, you can see it <a class="reference external" href="https://coderefinery.github.io/train-the-trainer/obs-config/#coderefinery-obs-configs">here</a></p></li>
+</ul>
+</li>
+<li><p>Does it work in Linux+Wayland?</p>
+<ul>
+<li><p>I think everything we do with OBS would.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="id22">
+<h3>Wrapup<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>All workshop materials will stay available (and be put on Zenodo right after the workshop)</p></li>
+<li><p>Upcoming Workshops</p>
+<ul>
+<li><p><a class="reference external" href="https://coderefinery.github.io/2024-09-10-workshop/">CodeRefinery workshop September 10-12, 17-19, 2024</a></p></li>
+<li><p><a class="reference external" href="https://www.kth.se/form/build-systems-course-and-hackathon-part-i">Build Systems Course and Hackathon</a></p></li>
+<li><p><a class="reference external" href="https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024">Python for Scientific Computing</a></p></li>
+</ul>
+</li>
+<li><p>CodeRefinery community: https://coderefinery.zulipchat.com/</p></li>
+<li><p>If you want to co-teach with us in the upcoming (or any future) CodeRefinery workshop; or just want to learn more about this opportunity: Let us know in chat, send an e-mail to support&#64;coderefinery.org</p></li>
+<li><p>A summary email will be sent out to all participants</p></li>
+</ul>
+</section>
+<section id="id23">
+<h3>Feedback about todays session<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<p>What one thing was the most valuable/useful thing you learned today? Or generally one thing you liked about this session:</p>
+<ul class="simple">
+<li><p>ffmpeg seems great, will give a try for fun!</p></li>
+<li><p>great to see everything in practice!</p></li>
+<li><p>Very insightful to see what happens behind the scenes.</p></li>
+</ul>
+<p>What one thing would you improve about this session?</p>
+<ul class="simple">
+<li><p>Some more interactivity would’ve been nice but since most the group preferred demo instead of exercise perhaps it’s only a personal opinion</p></li>
+<li><p>It would have been good to share the OBS profiles repo beforehand in the setup email - so I could have had it to hand. (https://github.com/coderefinery/obs-config)</p>
+<ul>
+<li><p>+1 good idea, we should do this next time</p></li>
+</ul>
+</li>
+<li><p>Perhaps a simpler starter OBS setup?</p>
+<ul>
+<li><p>Good idea… I should have, but basically ran out of time to prepare.</p></li>
+</ul>
+</li>
+</ul>
+<p>Any other comments?</p>
+<ul class="simple">
+<li><p>Cool to see the switch from RSE to trainer to AV guy, impressive!</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../streaming-whats-next/" class="btn btn-neutral float-left" title="What’s next?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../guide/" class="btn btn-neutral float-right" title="Instructor guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

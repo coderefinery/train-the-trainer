@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video editing &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=187304be"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Open Broadcaster Software (OBS) introduction" href="../obs/" />
+    <link rel="prev" title="Behind the stream" href="../streaming/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Video editing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#primary-articles">Primary articles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-this-relates-to-streaming">How this relates to streaming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-we-do-it">How we do it</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#exercise-a">Exercise A</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercise-b">Exercise B</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#see-also">See also</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Video editing</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/video-editing.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="video-editing">
+<span id="id1"></span><h1>Video editing<a class="headerlink" href="#video-editing" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Get to know ways of quick video editing to be able to provide
+accessible videos</p></li>
+<li><p>Learn how video editing can be distributed and done the same day.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: 20 min</p></li>
+<li><p>Exercises: 20 min</p></li>
+</ul>
+</div>
+<p>Video recordings could be useful for people watching later,
+but also are (perhaps more) useful for <strong>immediate review and catching
+up after missing a day in a workshop</strong>.  For this, they need to be
+released immediately, within a few hours of the workshop.
+CodeRefinery does this, and you can too.</p>
+<p>Hypothesis: videos must be processed the same evening as they were
+recorded, otherwise (it may never happen) or (it’s too late to be
+useful).  To do that, we have to make processing <em>good enough</em> (not
+perfect) and <em>fast</em> and the work <em>distributeable</em>.</p>
+<section id="primary-articles">
+<h2>Primary articles<a class="headerlink" href="#primary-articles" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Video editor role description:
+<a class="reference external" href="https://coderefinery.github.io/manuals/video-editor/">https://coderefinery.github.io/manuals/video-editor/</a></p></li>
+<li><p>ffmpeg-editlist: the primary tool: <a class="reference external" href="https://github.com/coderefinery/ffmpeg-editlist">https://github.com/coderefinery/ffmpeg-editlist</a></p>
+<ul>
+<li><p>Example YAML editlists:
+<a class="reference external" href="https://github.com/AaltoSciComp/video-editlists-asc">https://github.com/AaltoSciComp/video-editlists-asc</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="how-this-relates-to-streaming">
+<h2>How this relates to streaming<a class="headerlink" href="#how-this-relates-to-streaming" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>If you stream, then the audience <em>can not</em> appear in the recorded
+videos</p></li>
+<li><p>This allows you to release videos <em>very quickly</em> if you have the
+right tools.</p></li>
+<li><p>When you have a large audience, the videos start helping more
+(review a missed day, catch up later, review later)</p></li>
+<li><p>Thus</p>
+<ul>
+<li><p>If you would never want videos, there may never be a benefit to
+streaming</p></li>
+<li><p>If you want videos, it gives motivation to stream.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Basic principle: privacy is more important than any other factor.
+If we can’t guarantee privacy, we can’t release videos at all.</p>
+<ul>
+<li><p>Disclaimers such as “if you don’t want to appear in a recording,
+leave your video off and don’t say anything”, since a) accidents
+happen especially when coming back from breakout rooms.  b) it
+creates an incentive to not interact or participate in the course.</p></li>
+</ul>
+</li>
+<li><p>Livestreaming is important here: by separating the instruction from
+the audience audio/video, there is no privacy risk in the raw
+recording.  They could be released or shared unprocessed.</p></li>
+<li><p>Our overall priorities</p>
+<ol class="arabic simple">
+<li><p>No learner (or anyone not staff) video, audio, names, etc. are
+present in the recordings.</p></li>
+<li><p>Good descriptions.</p></li>
+<li><p>Removing breaks and other dead time.</p></li>
+<li><p>Splitting videos into useful chunks (e.g. per-episode), perhaps
+equal with the next one:</p></li>
+<li><p>Good Table of Contents information so learners can jump to the
+right spots (this also helps with “good description”.)</p></li>
+</ol>
+</li>
+<li><p><a class="reference external" href="https://github.com/coderefinery/ffmpeg-editlist">ffmpeg-editlist</a>
+allows us to define an edit in a text file (crowdsourceable on
+Github), and then generate videos very quickly.</p></li>
+</ul>
+</section>
+<section id="how-we-do-it">
+<h2>How we do it<a class="headerlink" href="#how-we-do-it" title="Link to this heading"></a></h2>
+<p>The full explanation is in the form of the exercises below.  As a
+summary:</p>
+<ul class="simple">
+<li><p>Record raw video (if from a stream, audience can’t possibly be in
+it)</p></li>
+<li><p>Run Whisper to get good-enough subtitles.  Distribute to someone for
+checking and improving.</p></li>
+<li><p>Define the editing steps (which segments become which videos and
+their descriptions) in a YAML file.</p></li>
+<li><p>Run ffmpeg-editlist, which takes combines the previous three steps
+into final videos.</p></li>
+</ul>
+</section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Link to this heading"></a></h2>
+<section id="exercise-a">
+<h3>Exercise A<a class="headerlink" href="#exercise-a" title="Link to this heading"></a></h3>
+<p>These exercises will take you through the whole sequence.</p>
+<div class="admonition-editing-1-get-your-sample-video exercise important admonition" id="exercise-1">
+<p class="admonition-title">Editing-1: Get your sample video</p>
+<p>Download a sample video:</p>
+<ul class="simple">
+<li><p>Video (raw): <a class="reference external" href="http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.mkv">http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.mkv</a></p></li>
+<li><p>Whisper subtitles (of raw video):
+<a class="reference external" href="http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.srt">http://users.aalto.fi/~darstr1/sample-video/ffmpeg-editlist-demo-kickstart-2023.srt</a></p></li>
+<li><p><a class="reference external" href="https://scicomp.aalto.fi/training/scip/kickstart-2023/#schedule">Schedule of
+workshop</a>
+(day 1, 11:35–12:25) - used for making the descriptions.  :::::</p></li>
+</ul>
+<div class="admonition-editing-2-run-whisper-to-generate-raw-subtitles-and-test-video exercise important admonition" id="exercise-0">
+<p class="admonition-title">Editing-2: Run Whisper to generate raw subtitles and test video.</p>
+<p>First off, install Whisper and generate the base subtitles, based
+on the.  Since this is probably too much to expect for a short
+lesson, they are provided for you (above), but if you want you can
+try using Whisper, or generating the subtitles some other way.</p>
+<p>You can start generating subtitles now, while you do the next
+steps, so that they are ready by the time you are ready to apply
+the editlist.  ffmpeg-editlist can also slice up the subtitles from
+the main video to make subtitles for each segment you cut out.</p>
+<p>Whisper is left as an exercise to the reader.</p>
+<div class="admonition-solution solution important dropdown admonition" id="solution-0">
+<p class="admonition-title">Solution</p>
+<p>Example Whisper command:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>whisper<span class="w"> </span>--device<span class="w"> </span>cuda<span class="w"> </span>--output_format<span class="w"> </span>srt<span class="w"> </span>--initial_prompt<span class="o">=</span><span class="s2">&quot;Welcome to CodeRefinery day four.&quot;</span><span class="w"> </span>--lang<span class="w"> </span>en<span class="w"> </span>--condition_on_previous_text<span class="w"> </span>False<span class="w"> </span>INPUT.mkv
+</pre></div>
+</div>
+<p>An initial prompt like this make Whisper more likely to output
+full sentences, instead of a stream of words with no
+punctuation.</p>
+</div>
+</div>
+</div>
+<div class="admonition-editing-3-create-the-basic-editlist-yaml-file exercise important admonition" id="exercise-2">
+<p class="admonition-title">Editing-3: Create the basic editlist.yaml file</p>
+<p>Install
+<a class="reference external" href="https://github.com/coderefinery/ffmpeg-editlist">ffmpeg-editlist</a> and
+try to follow its instructions, to create an edit with these features:</p>
+<ul class="simple">
+<li><p>The input definition.</p></li>
+<li><p>Two output sections: the “Intro to the course”, and “From data
+storage to your science” talks (Remember it said the recording
+started at 11:35… look at the schedule for hints on when it
+might start!).  This should have a start/end timestamp from the
+<em>original</em> video.</p></li>
+</ul>
+<p>A basic example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">input</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">day1-raw.mkv</span>
+
+<span class="c1"># This is the output from one section.  Your result should have two of these sections.</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">output</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">part1.mkv</span>
+<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">something</span>
+<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
+<span class="w">    </span><span class="no">some long</span>
+<span class="w">    </span><span class="no">description of the</span>
+<span class="w">    </span><span class="no">segment</span>
+<span class="w">  </span><span class="nt">editlist</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10:00</span><span class="w">    </span><span class="c1"># start timestamp of the section, in *original* video</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20:00</span><span class="w">      </span><span class="c1"># end timestamp of the section, in the *original* video</span>
+</pre></div>
+</div>
+<div class="admonition-solution solution important dropdown admonition" id="solution-1">
+<p class="admonition-title">Solution</p>
+<p>This is an excerpt from our <a class="reference external" href="https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L16-L53">actual editlist file of this
+course</a></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">input</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">day1-obs.mkv</span>
+
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">output</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">day1-intro.mkv</span>
+<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.2 Introduction</span>
+<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
+<span class="w">    </span><span class="no">General introduction to the workshop.</span>
+
+<span class="w">    </span><span class="no">https://scicomp.aalto.fi/training/kickstart/intro/</span>
+
+<span class="w">  </span><span class="nt">editlist</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:24:10</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:37:31</span>
+
+
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">output</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">day1-from-data-storage-to-your-science.mkv</span>
+<span class="w">  </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.3</span><span class="nv"> </span><span class="s">From</span><span class="nv"> </span><span class="s">data</span><span class="nv"> </span><span class="s">storage</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">science&quot;</span>
+<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
+<span class="w">    </span><span class="no">Data is how most computational work starts, whether it is</span>
+<span class="w">    </span><span class="no">externally collected, simulation code, or generated. And these</span>
+<span class="w">    </span><span class="no">days, you can work on data even remotely, and these workflows</span>
+<span class="w">    </span><span class="no">aren&#39;t obvious. We discuss how data storage choices lead to</span>
+<span class="w">    </span><span class="no">computational workflows.</span>
+
+<span class="w">    </span><span class="no">https://hackmd.io/@AaltoSciComp/SciCompIntro</span>
+
+<span class="w">  </span><span class="nt">editlist</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:37:43</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:50:05</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="discussion admonition">
+<p class="admonition-title">Discussion: what makes a video easy to edit?</p>
+<ul class="simple">
+<li><p>Clear speaking and have high audio quality.</p></li>
+<li><p>For subtitle generation: Separate sentences cleanly, otherwise it
+gets in a “stream of words” instead of “punctuated sentences”
+mode.</p></li>
+<li><p>Clearly screen-sharing the place you are at, including section
+name.</p></li>
+<li><p>Clear transitions, “OK, now let’s move on to the next lesson,
+LESSON-NAME.  Going back to the main page, we see it here.”</p></li>
+<li><p>Clearly indicate where the transitions are</p></li>
+<li><p>Hover mouse cursor over the area you are currently talking about.</p></li>
+<li><p>Scroll screen when you move on to a new topic.</p></li>
+<li><p>Accurate course webpage and sticking to the schedule</p></li>
+</ul>
+<p>All of these are also good for learners.  By editing videos, you
+become an advocate for good teaching overall.</p>
+</div>
+<div class="admonition-editing-4-run-ffmpeg-editlist exercise important admonition" id="exercise-3">
+<p class="admonition-title">Editing-4: Run ffmpeg-editlist</p>
+<p>Install ffmpeg-editlist: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ffmpeg-editlist[srt]</span></code> (you
+may want to use a virtual environment, but these are very minimal
+dependencies).</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">ffmpeg</span></code> command line tool must be available in your
+<code class="docutils literal notranslate"><span class="pre">PATH</span></code>.</p>
+<div class="admonition-solution solution important dropdown admonition" id="solution-2">
+<p class="admonition-title">Solution</p>
+<p>It can be run with (where <code class="docutils literal notranslate"><span class="pre">.</span></code> is the directory containing the
+input files):</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ffmpeg-editlist<span class="w"> </span>editlist.yaml<span class="w"> </span>.
+</pre></div>
+</div>
+<p>Just running like this is quick and works, but the stream may be
+garbled in the first few seconds (because it’s missing a key
+frame).  (A future exercise will go over fixing this.
+Basically, add the <code class="docutils literal notranslate"><span class="pre">--reencode</span></code> option, which re-encodes the
+video (this is <strong>slow</strong>).  Don’t do it yet.</p>
+<p>Look at the <code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> files that come out.</p>
+</div>
+</div>
+<div class="admonition-editing-5-add-more-features exercise important admonition" id="exercise-4">
+<p class="admonition-title">Editing-5: Add more features</p>
+<ul>
+<li><p>Several chapter definitions.(re-run and you should see a
+<code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> file also generated).  Video chapter definitions
+are timestamps of the <em>original</em> video, that get translated to
+timestamps of the <em>output</em> video.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">output</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">part1.mkv</span>
+<span class="w">  </span><span class="nt">editlist</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10:00</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">-</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Introduction</span><span class="w">    </span><span class="c1">#  &lt;-- New, `-` means &quot;at start time&quot;</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">10:45</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Part 1</span><span class="w">      </span><span class="c1">#  &lt;-- New</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">15:00</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Part 2</span><span class="w">      </span><span class="c1">#  &lt;-- New</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">end</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">20:00</span>
+</pre></div>
+</div>
+<p>Look at the <code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> files that come out now.  What is new in it?</p>
+</li>
+<li><p>Add in “workshop title”, “workshop description”, and see the
+<code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> files that come out now.  This is ready for
+copy-pasting into a YouTube description (first line is the title,
+rest is the description).</p>
+<p>Look at the new <code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> files.  What is new?</p>
+</li>
+</ul>
+<div class="admonition-solution solution important dropdown admonition" id="solution-3">
+<p class="admonition-title">Solution</p>
+<ul>
+<li><p>This course actually didn’t have chapters for the first day
+sessions, but you can <a class="reference external" href="https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L239-L262">see chapters for day 2
+here</a>,
+for example.</p></li>
+<li><p><a class="reference external" href="https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2023.yaml#L1-L13">Example of the workshop description for this
+course</a></p></li>
+<li><p>Example info.txt file for the general introduction to the
+course.  The part after the <code class="docutils literal notranslate"><span class="pre">-----</span></code> is the workshop description.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>1.2 Introduction - HPC/SciComp Kickstart summer 2023
+
+General introduction to the workshop.
+
+https://scicomp.aalto.fi/training/kickstart/intro/
+
+00:00 Begin introduction       &lt;-- Invented for the exercise demo, not real
+03:25 Ways to attend           &lt;-- Invented for the exercise demo, not real
+07:12 What if you get lost     &lt;-- Invented for the exercise demo, not real
+
+-----
+
+This is part of the Aalto Scientific Computing &quot;Getting
+started with Scientific Computing and HPC Kickstart&quot; 2023
+workshop.  The videos are available to everyone, but may be
+most useful to the people who attended the workshop and want
+to review later.
+
+Playlist:
+https://www.youtube.com/playlist?list=PLZLVmS9rf3nMKR2jMglaN4su3ojWtWMVw
+
+Workshop webpage:
+https://scicomp.aalto.fi/training/scip/kickstart-2023/
+
+Aalto Scientific Computing: https://scicomp.aalto.fi/
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="admonition-editing-6-subtitles exercise important admonition" id="exercise-5">
+<p class="admonition-title">Editing-6: Subtitles</p>
+<p>Re-run ffmpeg-editlist with the <code class="docutils literal notranslate"><span class="pre">--srt</span></code> option (you have to
+install it with <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ffmpeg-editlist[srt]</span></code> to pull in the
+necessary dependency).  Notice how <code class="docutils literal notranslate"><span class="pre">.srt</span></code> files come out now.</p>
+<p>Use some subtitle editor to edit the <em>original</em> subtitle file, to
+fix up any transcription mistakes you may find.  You could edit
+directly, use <code class="docutils literal notranslate"><span class="pre">subtitle-editor</span></code> on Linux, or find some other
+tool.</p>
+<p>What do you learn from editing the subtitles?</p>
+<div class="admonition-solution solution important dropdown admonition" id="solution-4">
+<p class="admonition-title">Solution</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ffmpeg-editlist<span class="w"> </span>--srt<span class="w"> </span>editlist.yaml
+</pre></div>
+</div>
+<p>There should now be a <code class="docutils literal notranslate"><span class="pre">.srt</span></code> file also generated.  It
+generated by finding the <code class="docutils literal notranslate"><span class="pre">.srt</span></code> of the original video, and
+cutting it the same way it cuts the video.  Look and you see it
+aligns with the original.</p>
+<p>This means that someone could have been working on fixing the
+Whisper subtitles while someone else was doing the yaml-editing.</p>
+</div>
+</div>
+<div class="admonition-editing-6-subtitles exercise important admonition" id="exercise-6">
+<p class="admonition-title">Editing-6: Subtitles</p>
+<p>Re-run ffmpeg-editlist with the <code class="docutils literal notranslate"><span class="pre">--srt</span></code> option (you have to
+install it with <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">ffmpeg-editlist[srt]</span></code> to pull in the
+necessary dependency).  Notice how <code class="docutils literal notranslate"><span class="pre">.srt</span></code> files come out now.</p>
+<p>Use some subtitle editor to edit the <em>original</em> subtitle file, to
+fix up any transcription mistakes you may find.  You could edit
+directly, use <code class="docutils literal notranslate"><span class="pre">subtitle-editor</span></code> on Linux, or find some other
+tool.</p>
+<p>What do you learn from editing the subtitles?</p>
+</div>
+<div class="admonition-editing-7-generate-the-final-output-file exercise important admonition" id="exercise-7">
+<p class="admonition-title">Editing-7: Generate the final output file.</p>
+<ul class="simple">
+<li><p>Run ffmpeg-editlist with the <code class="docutils literal notranslate"><span class="pre">--reencode</span></code> option: this
+re-encodes the video and makes sure that there is no black point
+at the start.</p></li>
+<li><p>If you re-run with <code class="docutils literal notranslate"><span class="pre">--check</span></code>, it won’t output a new video file,
+but it <em>will</em> re-output the <code class="docutils literal notranslate"><span class="pre">.info.txt</span></code> and <code class="docutils literal notranslate"><span class="pre">.srt</span></code> files.
+This is useful when you adjust descriptions or chapters.</p></li>
+</ul>
+</div>
+<div class="discussion admonition">
+<p class="admonition-title">Discussion: how to distribute this?</p>
+<p>Create a flowchat of all the parts that need to be done, and which
+parts can be done in parallel.  Don’t forget things that you might
+need to do before the workshop starts.</p>
+<p>How hard was this editing?  Was it worth it?</p>
+</div>
+</section>
+<section id="exercise-b">
+<h3>Exercise B<a class="headerlink" href="#exercise-b" title="Link to this heading"></a></h3>
+<p>This is a more limited (and older) version of the above exercise,
+using an synthetic example video.</p>
+<div class="admonition-use-ffmpeg-editlist-to-edit-this-sample-video exercise important admonition" id="exercise-8">
+<p class="admonition-title">Use ffmpeg-editlist to edit this sample video</p>
+<p>Prerequisites: <code class="docutils literal notranslate"><span class="pre">ffmpeg</span></code> must be installed on your computer
+outside of Python.  Be able to install ffmpeg-editlist.  This is
+simple in a Python virtual environment, but if not the only
+dependency is <code class="docutils literal notranslate"><span class="pre">PyYAML</span></code>.</p>
+<ul class="simple">
+<li><p>Download the sample video: <a class="reference external" href="http://users.aalto.fi/~darstr1/sample-video/sample-video-to-edit.raw.mkv">http://users.aalto.fi/~darstr1/sample-video/sample-video-to-edit.raw.mkv</a></p></li>
+<li><p>Copy a sample editlist YAML</p></li>
+<li><p>Modify it to cut out the dead time at the beginning and the end.</p></li>
+<li><p>If desired, add a description and table-of-contents to the
+video.</p></li>
+<li><p>Run ffmpeg-editlist to produce a processed video.</p></li>
+</ul>
+<div class="admonition-solution solution important dropdown admonition" id="solution-5">
+<p class="admonition-title">Solution</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">input</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sample-video-to-edit.raw.mkv</span>
+<span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">output</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sample-video-to-edit.processed.mkv</span>
+<span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;</span>
+<span class="w">  </span><span class="nt">editlist</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">start</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:16</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">00:15</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">demonstration</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">00:20</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">discussion</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">stop</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">00:25</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$ </span>ffmpeg-editlist<span class="w"> </span>editlist.yaml<span class="w"> </span>video/<span class="w"> </span>-o<span class="w"> </span>video/
+</pre></div>
+</div>
+<p>Along with the processed video, we get
+<code class="docutils literal notranslate"><span class="pre">sample-video-to-edit.processed.mkv.info.txt</span></code>::</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">sample</span> <span class="n">video</span>
+
+
+<span class="mi">00</span><span class="p">:</span><span class="mi">00</span> <span class="n">Demonstration</span>
+<span class="mi">00</span><span class="p">:</span><span class="mi">04</span> <span class="n">Discussion</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="see-also">
+<h2>See also<a class="headerlink" href="#see-also" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>ffmpeg-editlist demo: <a class="reference external" href="https://www.youtube.com/watch?v=thvMNTBJg2Y">https://www.youtube.com/watch?v=thvMNTBJg2Y</a></p></li>
+<li><p>Full demo of producing videos (everything in these exercises): <a class="reference external" href="https://www.youtube.com/watch?v=_CoBNe-n2Ak">https://www.youtube.com/watch?v=_CoBNe-n2Ak</a></p></li>
+<li><p>Example YAML editlists:
+<a class="reference external" href="https://github.com/AaltoSciComp/video-editlists-asc">https://github.com/AaltoSciComp/video-editlists-asc</a></p></li>
+</ul>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Video editing is very useful for learning</p></li>
+<li><p>Set your time budget and make it good enough in that time</p></li>
+<li><p>Reviewing videos improves your teaching, too.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../streaming/" class="btn btn-neutral float-left" title="Behind the stream" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../obs/" class="btn btn-neutral float-right" title="Open Broadcaster Software (OBS) introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

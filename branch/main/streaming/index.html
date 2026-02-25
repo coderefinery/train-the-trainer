@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Behind the stream &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Video editing" href="../video-editing/" />
+    <link rel="prev" title="Why we stream" href="../why-we-stream/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Behind the stream</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#who-does-what">Who does what</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#window-layouts">Window layouts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coderefinery-control-panel">CodeRefinery control panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-scenes-are-controlled">How scenes are controlled</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#getting-it-set-up">Getting it set up</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-can-go-wrong">What can go wrong</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alternatives">Alternatives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-a">Q&amp;A</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Behind the stream</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/streaming.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="behind-the-stream">
+<span id="streaming"></span><h1>Behind the stream<a class="headerlink" href="#behind-the-stream" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Take a first look at the broadcaster’s view.</p></li>
+<li><p>Get to know what happens “behind the stream” of a workshop</p></li>
+<li><p>See what the “broadcaster” sees and what they need to do.</p></li>
+<li><p>Not yet: learn details of how to do this.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: 20 min</p></li>
+<li><p>Q&amp;A 10 min</p></li>
+</ul>
+</div>
+<p>In this episode, you’ll see an end-to-end view of streaming from the
+broadcaster’s point of view.  It’s a tour but not an explanation or
+tutorial.</p>
+<section id="who-does-what">
+<h2>Who does what<a class="headerlink" href="#who-does-what" title="Link to this heading"></a></h2>
+<p>We have certain role definitions:</p>
+<ul class="simple">
+<li><p><strong>Broadcaster</strong>: Our term for the person who manages the streaming.</p></li>
+<li><p><strong>Director</strong>: Person who is guiding the instructors to their
+sessions, changing the scenes, calling the breaks, etc.</p>
+<ul>
+<li><p>Could be the same as broadcaster.</p></li>
+</ul>
+</li>
+<li><p><strong>Instructor</strong>: One who is teaching.  They don’t have to know
+anything else about how streaming works.</p></li>
+</ul>
+<p>This lesson describes what the Broadcaster/Director sees.</p>
+</section>
+<section id="window-layouts">
+<h2>Window layouts<a class="headerlink" href="#window-layouts" title="Link to this heading"></a></h2>
+<p>What does the broadcaster see on their screen?</p>
+<ul class="simple">
+<li><p>What are the main windows you see?</p></li>
+<li><p>What do each of them do?</p></li>
+<li><p>Which ones do you need to focus on?</p></li>
+<li><p>How do you keep all this straight in your head?</p></li>
+</ul>
+</section>
+<section id="coderefinery-control-panel">
+<h2>CodeRefinery control panel<a class="headerlink" href="#coderefinery-control-panel" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>A custom application that controls scenes</p></li>
+<li><p>Based on OBS-websocket (remote control connection for OBS - we’ll
+learn about this later)</p></li>
+<li><p>Can also work remotely, so that you can have a remote director</p></li>
+</ul>
+</section>
+<section id="how-scenes-are-controlled">
+<h2>How scenes are controlled<a class="headerlink" href="#how-scenes-are-controlled" title="Link to this heading"></a></h2>
+<p>What has to be done during a course?</p>
+<ul class="simple">
+<li><p>How do you start the stream?</p></li>
+<li><p>How do you change the view?</p></li>
+<li><p>How do you adjust things based on what the instructors share?</p></li>
+<li><p>How do you coordinate with the instructors?</p></li>
+<li><p>How do you know when to change the view?</p></li>
+</ul>
+</section>
+<section id="getting-it-set-up">
+<h2>Getting it set up<a class="headerlink" href="#getting-it-set-up" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>How hard was it to figure this out?</p></li>
+<li><p>How hard is it to set it up for each new workshop?</p></li>
+</ul>
+</section>
+<section id="what-can-go-wrong">
+<h2>What can go wrong<a class="headerlink" href="#what-can-go-wrong" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>What’s the worst that has happened?</p></li>
+<li><p>What if you need to walk away for a bit?</p></li>
+<li><p>Someone broadcasts something unexpectedly</p></li>
+</ul>
+</section>
+<section id="alternatives">
+<h2>Alternatives<a class="headerlink" href="#alternatives" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Youtube vs Twitch</p></li>
+<li><p>Zoom stream directly to YouTube/Twitch</p></li>
+<li><p>Direct streaming platform, e.g. streamyard</p></li>
+</ul>
+</section>
+<section id="q-a">
+<h2>Q&amp;A<a class="headerlink" href="#q-a" title="Link to this heading"></a></h2>
+<p>Q&amp;A from audience</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>The broadcaster’s view shouldn’t be so scary.</p></li>
+<li><p>There is a lot to manage, but each individual part isn’t that hard.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../why-we-stream/" class="btn btn-neutral float-left" title="Why we stream" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../video-editing/" class="btn btn-neutral float-right" title="Video editing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

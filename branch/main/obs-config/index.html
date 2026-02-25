@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Broadcaster Software (OBS) setup &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="What’s next?" href="../streaming-whats-next/" />
+    <link rel="prev" title="Open Broadcaster Software (OBS) introduction" href="../obs/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Open Broadcaster Software (OBS) setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#coderefinery-obs-configs">CodeRefinery OBS configs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-the-obs-config">Installing the OBS config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#initial-setup">Initial setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-up-the-remote-control">Set up the remote control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup-before-each-course">Setup before each course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-a">Q&amp;A</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Open Broadcaster Software (OBS) setup</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/obs-config.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="open-broadcaster-software-obs-setup">
+<span id="obs-config"></span><h1>Open Broadcaster Software (OBS) setup<a class="headerlink" href="#open-broadcaster-software-obs-setup" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>See how to configure OBS using the pre-made CodeRefinery scene
+collections</p></li>
+<li><p>Modify the collections to suit your needs.</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: ?? min</p></li>
+<li><p>Hands-on: ?? min</p></li>
+<li><p>Q&amp;A: ?? min</p></li>
+</ul>
+</div>
+<div class="{See docutils">
+<ul class="simple">
+<li><p>The previous episode <a class="reference internal" href="../obs/"><span class="doc">Open Broadcaster Software (OBS) introduction</span></a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/manuals/obs/">OBS theory in CodeRefinery manuals</a></p></li>
+</ul>
+</div>
+<p>In this lesson, we’ll see how to configure OBS from scratch for your
+purposes.  We’ll do this by deleting the instructor’s configuration
+and trying to recreate it</p>
+<p>This section is short, since it has never been done before: we’ll just
+give it a short and update the lesson later.</p>
+<section id="coderefinery-obs-configs">
+<h2>CodeRefinery OBS configs<a class="headerlink" href="#coderefinery-obs-configs" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>CodeRefinery configs are shared in a repository:
+<a class="reference external" href="https://github.com/coderefinery/obs-config">https://github.com/coderefinery/obs-config</a></p></li>
+<li><p>These can be imported to pre-configure some things</p></li>
+<li><p>There are two types of configs:</p>
+<ul>
+<li><p>Profiles</p>
+<ul>
+<li><p>Servers, resolutions, audio, video, etc.</p></li>
+</ul>
+</li>
+<li><p>Scene collections</p>
+<ul>
+<li><p>The graphical layouts.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="installing-the-obs-config">
+<h2>Installing the OBS config<a class="headerlink" href="#installing-the-obs-config" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Clone the git repository.</p></li>
+<li><p>Import the profile and scene collections under their respective
+menus.</p></li>
+</ul>
+</section>
+<section id="initial-setup">
+<h2>Initial setup<a class="headerlink" href="#initial-setup" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Click through each menu and change anything that is needed</p></li>
+<li><p>Set the streaming server</p></li>
+</ul>
+<div class="admonition-the-instructor-will-go-through-the-setup demo admonition" id="demo-0">
+<p class="admonition-title">The instructor will go through the setup.</p>
+<ul class="simple">
+<li><p>Reset configuration: <code class="docutils literal notranslate"><span class="pre">mv</span> <span class="pre">.config/obs-studio/</span> <span class="pre">.config/obs-studio-old/</span></code></p></li>
+<li><p>Import <code class="docutils literal notranslate"><span class="pre">profiles/TeachingStreamingv3/</span></code></p></li>
+<li><p>Import <code class="docutils literal notranslate"><span class="pre">scenes/TeachingStreamingZoomv3.json</span></code></p></li>
+</ul>
+</div>
+</section>
+<section id="set-up-the-remote-control">
+<h2>Set up the remote control<a class="headerlink" href="#set-up-the-remote-control" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Create a Python environment and install it: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">https://github.com/coderefinery/obs-cr/archive/refs/heads/master.zip</span></code></p></li>
+<li><p>Run it: <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">obs_cr/control.py</span> <span class="pre">localhost:4445</span> <span class="pre">TOKEN</span> <span class="pre">--broadcaster</span></code></p></li>
+<li><p>There are more options but let’s not cover them yet… and leave
+this for a hands-on session.</p></li>
+</ul>
+</section>
+<section id="setup-before-each-course">
+<h2>Setup before each course<a class="headerlink" href="#setup-before-each-course" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Re-confirm audio</p></li>
+<li><p>Re-confirm each scene</p></li>
+<li><p>Test everything</p></li>
+<li><p>rkdarst has a <a class="reference external" href="https://docs.google.com/spreadsheets/d/1g8Bc_76OPcv1vYWtB54wz6HsXQcb3B1GtQFga4Oanw4/edit?gid=0#gid=0">rather long
+checklist</a>,
+but each individual step is short.</p></li>
+</ul>
+</section>
+<section id="q-a">
+<h2>Q&amp;A<a class="headerlink" href="#q-a" title="Link to this heading"></a></h2>
+<p>We’ll answer audience questions.</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Most of our configuration has been OBS may seem complicated, but it’s a graphical application and most
+pieces make sense once you know how it works.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../obs/" class="btn btn-neutral float-left" title="Open Broadcaster Software (OBS) introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../streaming-whats-next/" class="btn btn-neutral float-right" title="What’s next?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

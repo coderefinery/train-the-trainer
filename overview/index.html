@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A workshop seen from different perspectives &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Sound" href="../sound/" />
+    <link rel="prev" title="Collaborative notes" href="../collaborative-notes/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">A workshop seen from different perspectives</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#one-workshop-many-parts">One workshop - many parts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#before-the-workshop">Before the workshop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#during-the-workshop">During the workshop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#after-the-workshop">After the workshop</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#this-sounds-like-a-lot-of-people-and-time-investment">This sounds like a lot of people and time investment!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-did-we-get-to-this-setup">How did we get to this setup?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#workshop-roles-and-their-journeys">Workshop roles and their journeys</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#individual-learner-journey">Individual learner journey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#instructor-journey">Instructor journey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#team-lead-local-host-journey">Team lead / Local host journey</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-roles">Other roles</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#different-roles-as-stepping-stones-for-community-involvement">Different roles as stepping stones for community involvement</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">A workshop seen from different perspectives</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/overview.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="a-workshop-seen-from-different-perspectives">
+<span id="workshop-overview"></span><h1>A workshop seen from different perspectives<a class="headerlink" href="#a-workshop-seen-from-different-perspectives" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Understand the general structure of CodeRefinery workshops and why it is the way it is</p></li>
+<li><p>Get to know the different roles of a workshop and which ones are the most essential ones</p></li>
+<li><p>Understand the importance of  installation instructions and how they contribute to learners success</p></li>
+<li><p>Understand the importance of onboarding and a welcoming community for volunteers in a workshop</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Teaching: 20 min</p></li>
+<li><p>Exercises: 15 min</p></li>
+<li><p>Roles journeys can be shortened to looking only at instructor role.</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This episode focuses on the large scale streamed workshop setup. Some of the features can also be applied to smaller scale workshops though.</p>
+</div>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading"></a></h2>
+<div class="admonition-discussion discussion important admonition" id="discussion-0">
+<p class="admonition-title">Discussion</p>
+<p>In breakoutrooms: choose one or two questions to talk about your own experiences; summary in collaborative notes:</p>
+<ul class="simple">
+<li><p>What kind of roles have you been in yourself regarding workshops?</p></li>
+<li><p>How were you prepared for your role?</p></li>
+<li><p>What are the things you would like to know before a workshop?</p></li>
+<li><p>How are you preparing your participants for your trainings?</p></li>
+<li><p>What was the best workshop experience for you as learner, helper or instructor? What made it great?</p></li>
+</ul>
+</div>
+</section>
+<section id="one-workshop-many-parts">
+<h2>One workshop - many parts<a class="headerlink" href="#one-workshop-many-parts" title="Link to this heading"></a></h2>
+<figure class="align-default" id="id1">
+<img alt="../_images/CR_workshop_setup.png" src="../_images/CR_workshop_setup.png" />
+<figcaption>
+<p><span class="caption-text">Image showing the different phases of a CodeRefinery workshop described below. Also showing that while there is only two people teaching, many people work behind the scenes.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<section id="before-the-workshop">
+<h3>Before the workshop<a class="headerlink" href="#before-the-workshop" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>During winter/summer: “Someone” takes the coordinator role for the next workshop</p></li>
+<li><p>Coordinator fills other roles:</p>
+<ul>
+<li><p>Coordinator: collects necessary lesson updates, supports other coordinators</p></li>
+<li><p>Registration coordinator: Sets up web page, starts and manages registration</p></li>
+<li><p>Instructor coordinator: Finds instructors and onboards them</p></li>
+<li><p>Advertising coordinator: Prepares advertizement texts and finds people to distribute them</p></li>
+<li><p>Team coordinator: Gathers local organizers/teams</p></li>
+<li><p>Bring your own code session coordinator: If available, offer BYOC session after main workshop</p></li>
+</ul>
+</li>
+<li><p>Instructor: Onboarding with (instructor-) coordinator and previous instructor of lesson; update of lesson materials (urgent issues and personal touches)</p></li>
+<li><p>Local organizer/Team lead: Group <a class="reference external" href="https://coderefinery.github.io/manuals/team-leaders/">onboarding</a> ~ week/or two before workshop</p></li>
+<li><p>Learner: Gets <a class="reference external" href="https://coderefinery.github.io/installation/">installation instructions</a>, invited to installation help session, workshop info from event page and summary via e-mail</p></li>
+<li><p>Collaborative notes manager sets up the notes document</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="rubric" id="onboarding-manuals"><a class="reference external" href="https://coderefinery.github.io/manuals/team-leaders/">Onboarding manuals</a></p>
+<ul class="simple">
+<li><p><strong>Outline of what will happen during the workshop</strong></p></li>
+<li><p>Discussion of different strategies to handle the exercise sessions</p></li>
+<li><p>Lowering the barrier to ask for support by meeting some organizers</p></li>
+<li><p>Q&amp;A</p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="rubric" id="installation-instructions"><a class="reference external" href="https://coderefinery.github.io/installation/">Installation instructions</a></p>
+<ul class="simple">
+<li><p>Instructions for all operating systems</p></li>
+<li><p>Goal: Learners leave the workshop and are ready to apply the learned tools and techniques to their own work</p></li>
+<li><p>Support session for installation challenges</p></li>
+</ul>
+</div>
+</section>
+<section id="during-the-workshop">
+<h3>During the workshop<a class="headerlink" href="#during-the-workshop" title="Link to this heading"></a></h3>
+<figure class="align-default" id="id2">
+<img alt="../_images/BYOC.png" src="../_images/BYOC.png" />
+<figcaption>
+<p><span class="caption-text">Image showing the different ways learners can do the exercises. No matter which way they choose, they always watch the stream and interact with instructors and organizers via collaborative notes. Individual learners do the exercises alone, people in online or local classrooms in addition get to discuss with their peers.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Everyone watches stream</p></li>
+<li><p>Co-instructors
+- Present content
+- Answer questions in collaborative notes</p></li>
+<li><p>Collaborative notes manager</p>
+<ul>
+<li><p>Keeps the collaborative notes clean</p></li>
+<li><p>Helps answering questions</p></li>
+<li><p>Adds sections</p></li>
+<li><p>Archives the document after each day</p></li>
+</ul>
+</li>
+<li><p>Learners do exercises individually or in team</p></li>
+<li><p>Local organizer / Team lead</p>
+<ul>
+<li><p>Guides learners through exercises</p></li>
+<li><p>Facilitates discussion</p></li>
+</ul>
+</li>
+<li><p>(Registration-) coordinator sends out e-mails to participants after each day (summary + preparation)</p></li>
+<li><p>Director/Broadcaster manages the streaming (see session 4)</p></li>
+</ul>
+</section>
+<section id="after-the-workshop">
+<h3>After the workshop<a class="headerlink" href="#after-the-workshop" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Coordinator collects lessons learned based on experience and feedback and turns them into issues</p></li>
+<li><p>Coordinator organizes debriefing week after the workshop, where anyone can join to give feedback</p></li>
+<li><p>“Someone” sends out post-workshop survey half a year after workshop</p></li>
+<li><p>Coordinator organizes “Bring your own code” sessions</p></li>
+<li><p>Broadcaster prepares and shares recording (see session 4)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="rubric" id="bring-your-own-code-sessions">Bring your own code sessions</p>
+<p>We want to support learners to apply what they have learned in the workshop to their own work by offering one/two sessions where they can drop in, and discuss challenges with CodeRefinery instructors and helpers.</p>
+<figure class="align-default" id="id3">
+<img alt="../_images/welcome.png" src="../_images/welcome.png" />
+<figcaption>
+<p><span class="caption-text">Image showing a classroom learning about git leading to a discussion between student and teacher to start a welcoming environment for asking for help.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="this-sounds-like-a-lot-of-people-and-time-investment">
+<h2>This sounds like a lot of people and time investment!<a class="headerlink" href="#this-sounds-like-a-lot-of-people-and-time-investment" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Many roles can be combined or adjusted as needed</p></li>
+<li><p>Some roles can be taken on by multiple people</p></li>
+</ul>
+<p>So how many people are needed for this kind of workshop?</p>
+<ul class="simple">
+<li><p>Recommended minimum: 2-3 people</p></li>
+<li><p>Optimum: ~ 4-5 people
+The more people you involve, the more time goes into coordination work.</p></li>
+</ul>
+</section>
+<section id="how-did-we-get-to-this-setup">
+<h2>How did we get to this setup?<a class="headerlink" href="#how-did-we-get-to-this-setup" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Collaborative</strong> in-person workshops since 2016 around the Nordics</p></li>
+<li><p>Moved online in 2020</p></li>
+<li><p>Started with “traditional zoom” workshops, breakoutrooms, volunteer helpers</p></li>
+<li><p>Thought about scaling and ease of joining -&gt; current setup (More about this in session 4)</p></li>
+<li><p>Continuous development</p></li>
+</ul>
+<p>We also still do smaller scale local workshops, if instructors are available.
+<strong>You can offer your own CodeRefinery workshop</strong> by inviting other CodeRefinery instructors.
+You can also reuse single lessons and integrate them into your own teaching.</p>
+</section>
+<section id="workshop-roles-and-their-journeys">
+<h2>Workshop roles and their journeys<a class="headerlink" href="#workshop-roles-and-their-journeys" title="Link to this heading"></a></h2>
+<section id="individual-learner-journey">
+<h3>Individual learner journey<a class="headerlink" href="#individual-learner-journey" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Registration</p></li>
+<li><p>Installation</p></li>
+<li><p>(if appicable: Invited to local meetup)</p></li>
+<li><p>Workshop</p>
+<ul>
+<li><p>Watch stream</p></li>
+<li><p>Q&amp;A in notes</p></li>
+<li><p>Exercises alone or in team</p></li>
+<li><p>Daily feedback</p></li>
+</ul>
+</li>
+<li><p>Debrief/ Feedback session</p></li>
+<li><p>Post workshop survey</p></li>
+</ul>
+</section>
+<section id="instructor-journey">
+<h3>Instructor journey<a class="headerlink" href="#instructor-journey" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Indicate interest in CodeRefinery chat</p></li>
+<li><p>Onboarding</p></li>
+<li><p>Lesson material updates</p></li>
+<li><p>Teaching</p></li>
+<li><p>(if wished: supports answering questions in notes)</p></li>
+<li><p>Debrief</p></li>
+</ul>
+</section>
+<section id="team-lead-local-host-journey">
+<h3>Team lead / Local host journey<a class="headerlink" href="#team-lead-local-host-journey" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Registration</p></li>
+<li><p>(if applicable: run own registration)</p></li>
+<li><p>Onboarding</p></li>
+<li><p>Workshop</p>
+<ul>
+<li><p>Watch stream</p></li>
+<li><p>Facilitate exercises/discussions</p></li>
+<li><p>Daily feedback</p></li>
+</ul>
+</li>
+<li><p>Debrief / feedback / survey</p></li>
+</ul>
+</section>
+<section id="other-roles">
+<h3>Other roles<a class="headerlink" href="#other-roles" title="Link to this heading"></a></h3>
+<p>Director and broadcaster roles will be discussed in Session 4.
+For more in-depth descriptions and other roles (host, instructor, registration coordinator, etc), see also our <a class="reference external" href="https://coderefinery.github.io/manuals/roles-overview/">CodeRefinery manuals</a>.</p>
+</section>
+</section>
+<section id="different-roles-as-stepping-stones-for-community-involvement">
+<h2>Different roles as stepping stones for community involvement<a class="headerlink" href="#different-roles-as-stepping-stones-for-community-involvement" title="Link to this heading"></a></h2>
+<figure class="align-default" id="id4">
+<img alt="../_images/steps.png" src="../_images/steps.png" />
+<figcaption>
+<p><span class="caption-text">Image showing a person jumping from step to step following learner, helper, expert helper, co-instructor, co-organizer.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>There is no “one way” to get involved. Do what feels right.
+Interested in teaching with us? Let us know and we can discuss what is a suitable path <strong>for you</strong>!</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>CodeRefinery workshops are a collaborative effort with many different roles</p></li>
+<li><p>Onboarding the different roles is one key aspect of our workshops</p></li>
+<li><p>Everyone has their own path</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../collaborative-notes/" class="btn btn-neutral float-left" title="Collaborative notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../sound/" class="btn btn-neutral float-right" title="Sound" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

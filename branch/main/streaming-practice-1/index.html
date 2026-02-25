@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streaming practice 1 &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Preparation" href="../preparation/" />
+    <link rel="prev" title="Livestream practice" href="../streaming-practice/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Streaming practice 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#going-live">Going live</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#doing-a-demo">Doing a demo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-a">Q&amp;A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#saying-bye">Saying bye</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Streaming practice 1</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/streaming-practice-1.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="streaming-practice-1">
+<h1>Streaming practice 1<a class="headerlink" href="#streaming-practice-1" title="Link to this heading"></a></h1>
+<p>This series of exercises introduces you to the practices of livestream
+teaching.  It’s nothing that radical, but since you don’t directly see
+the audience, you need to interact with your co-instructor to make the
+session appear engaging.</p>
+<p>Basics of this lesson:</p>
+<ul class="simple">
+<li><p>There are four role-playing scenarios.</p></li>
+<li><p>First, there is a demo and discussion together.</p></li>
+<li><p>Then, go to breakout rooms to practice with a partner.  Practice
+with each person in each role.</p></li>
+<li><p>Then, we come back to the main room and see polished demos
+(hopefully from each group, but we’ll see the time)</p></li>
+</ul>
+<p>Not in scope for this lesson:</p>
+<ul class="simple">
+<li><p>Actual lesson content (use the <a class="reference internal" href="../sample-teaching-plan/"><span class="doc">Sample teaching plan</span></a> or a
+lesson you already know or make up something that sounds good for
+the purposes of this lesson).</p></li>
+<li><p>How to teach well.</p></li>
+<li><p>Technical aspects of making a good screenshare and audio quality.</p></li>
+<li><p>Director and broadcaster related things (but someone will simulate
+that for you).</p></li>
+</ul>
+<section id="going-live">
+<h2>Going live<a class="headerlink" href="#going-live" title="Link to this heading"></a></h2>
+<p>Purpose: saying the first words after a session starts.</p>
+<p>You may think that starting a session isn’t hard, and it isn’t.  But
+if it’s extra smooth, it leaves a good first impression.  Instructors
+also often make the mistake of going straight to the topic and not
+framing the whole session at the start.</p>
+<p>You want to prepare so that once you go live, it’s all smooth.  The
+things you need to consider:</p>
+<ul class="simple">
+<li><p>During the break, review notes and what will happen in the upcoming
+session.</p></li>
+<li><p>Get everyone not active to turn off their videos.</p></li>
+<li><p>Decide who speaks first.</p></li>
+<li><p>Decide who does what over the next session. (talker, typer, primary,
+secondary, etc.)</p></li>
+<li><p><strong>Give a natural, motivating intro of the whole lesson,
+suitable for a wide audience.  It should set the expectations for
+what comes next.</strong>  Start with a minute or two of broad intro before
+getting into the actual technical topic.</p></li>
+</ul>
+<p>The roles:</p>
+<ul class="simple">
+<li><p>Director: person pushing the buttons to go live (could be one of the
+speakers).  Counts down 3 [pushes “back”], 2, 1, [pause].</p></li>
+<li><p>Instructor A: speaks first and leads in to the main program.
+Engages instructor B.</p></li>
+<li><p>Instructor B: engages when it’s time.</p></li>
+</ul>
+<div class="admonition-the-going-live-process-with-the-director admonition">
+<p class="admonition-title">The “going live” process with the director</p>
+<ul class="simple">
+<li><p>(Director: Announce it’s almost time)</p></li>
+<li><p>(Director: asks everyone else in the call to turn off their videos.)</p></li>
+<li><p>Decide who is sharing screen</p></li>
+<li><p>Decide who is speaking first when you go live and what the first
+words will be.  (These first words are most important and you should
+think of what you’ll say.)</p></li>
+<li><p>Director: In the director’s panel, configure the “back to” setting,
+broadcaster audio, and jingle</p></li>
+<li><p>Director: countdowns “Starting in 3 2 1”, (click the button),
+(everyone takes a breath for zero), then go.</p></li>
+<li><p>Speaker begins talking</p></li>
+<li><p>(Remember that each time you go back live is a good time to review
+the notes + answer questions)</p></li>
+</ul>
+</div>
+<div class="admonition-exercise-live-1-begin-a-session-smoothly-10-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">Exercise Live-1: Begin a session smoothly (10 min)</p>
+<p>You will practice going live (but without the director part) in
+breakout rooms.  In the main room, a few groups will demo and a
+director will cue you to start.  Swap and try again</p>
+<ul class="simple">
+<li><p>Break into groups of two</p></li>
+<li><p>Choose a lesson to practice.  For example (not limited to this):</p>
+<ul>
+<li><p><a class="reference internal" href="../sample-teaching-plan/"><span class="doc">Sample teaching plan</span></a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-intro/browsing/">https://coderefinery.github.io/git-intro/browsing/</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/testing/">https://coderefinery.github.io/testing/</a></p></li>
+<li><p>You could do something else, too.</p></li>
+</ul>
+</li>
+<li><p>Practice giving the first two minutes of the lesson.  The emphasis
+is doing it several times to make it feel smooth.</p></li>
+<li><p>A good strategy:</p>
+<ul>
+<li><p>Plan it all in advance</p></li>
+<li><p>Decide who speaks first (A)</p></li>
+<li><p>Simulate a countdown “3… 2… 1… [pause]… [begin]”</p></li>
+<li><p>A starts speaking and asks a question of B to engage them.</p></li>
+<li><p>Brief intro discussion before moving to the technical topics.</p></li>
+<li><p>Stop once you get to the technical topic. (“OK, let’s move on to
+the main material now.”)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="doing-a-demo">
+<h2>Doing a demo<a class="headerlink" href="#doing-a-demo" title="Link to this heading"></a></h2>
+<p>Demos work great with co-teaching.  In this session, we will practice
+the “talker/typer” system: the <strong>talker</strong> explains what is going on
+while the <strong>typer</strong> does the typing.</p>
+<div class="admonition-team-teaching-via-talker-and-typer admonition">
+<p class="admonition-title">Team teaching via talker and typer.</p>
+<p>“Talker” and “typer” is one way of looking at roles for a session.
+This is separate from “<strong>primary</strong>” (keeps time and ensures overall
+flow) and “<strong>secondary</strong>” in lesson preparation.  For example, the
+primary can be the typer, give the intro, and then ask the typer “so,
+explain to me how we do X.”</p>
+<p>See more: <a class="reference internal" href="../co-teaching/"><span class="doc">Co-teaching</span></a></p>
+</div>
+<p>Talker responsibilities:</p>
+<ul class="simple">
+<li><p>Manage the overall flow and timing.  They can keep an eye on the
+lesson and clock on their screen.</p></li>
+<li><p>Carefully say what the typer should do.  Describe it clearly, as if
+the typer was a student and didn’t know the topic already.</p></li>
+<li><p>Ask the typer “what do you think?” to keep a conversation going</p></li>
+<li><p>Ask the typer “what should come next?” if they ever get lost or
+wonder what comes next.</p></li>
+</ul>
+<p>Typer responsibilities:</p>
+<ul class="simple">
+<li><p>Does what the talker says (this slows things down and forces
+everything to be said).  Don’t rush ahead!</p></li>
+<li><p>Should ask questions about confusing points or if the talker makes
+misses some steps that the learners need to hear.  This keeps a
+conversation going.</p></li>
+<li><p>Jump in to remind the talker about what should go next, etc.</p></li>
+</ul>
+<div class="admonition-exercise-demo-1-practice-a-demo-10-min exercise important admonition" id="exercise-1">
+<p class="admonition-title">Exercise Demo-1: Practice a demo (10 min)</p>
+<p>Stay in your groups of 2.  Practice doing a demo for 2-3 minutes.
+Swap and try again.  This isn’t a lot of time, but try to at least:</p>
+<ul class="simple">
+<li><p>Divide to talker and typer.</p></li>
+<li><p>Do the demo in takler/typer format as described above.</p>
+<ul>
+<li><p>You can use the same sample lessons mentioned above</p></li>
+</ul>
+</li>
+<li><p>Typer should ask at least one clarification from the talker.</p></li>
+<li><p>Talker should ask at least one question to the typer.</p></li>
+</ul>
+</div>
+</section>
+<section id="q-a">
+<h2>Q&amp;A<a class="headerlink" href="#q-a" title="Link to this heading"></a></h2>
+<p>Q&amp;A is via the notes document, which can be just as or even more
+powerful than a live Q&amp;A.  In this exercise, we do a practice Q&amp;A
+session.</p>
+<p>Considerations:</p>
+<ul class="simple">
+<li><p>Screenshare the notes so that the audience can see what you are
+discussing.  (It’s good to do this periodically even if there aren’t
+questions, so people will know it’s being monitored.)</p></li>
+<li><p>Try to involve both co-instructors.  For example, one person can
+find an interesting question and first ask the other person what
+they think before giving their own answer.</p></li>
+<li><p>If there are many questions you may divide up one person mainly
+looking for question (and talking sometimes) and the other mainly
+answering (and looking sometimes)</p></li>
+</ul>
+<div class="admonition-exercise-notes-1-simulate-a-q-a-via-notes exercise important admonition" id="exercise-2">
+<p class="admonition-title">Exercise Notes-1: Simulate a Q&amp;A via Notes</p>
+<p>Divide into groups of <strong>three</strong> for this one.</p>
+<p>The goal is to have two people discussing questions in a notes
+document while another is adding questions live.  (The third person
+can also possibly be answering some of the question to simulate other
+helpers).  The <a class="reference internal" href="../sample-teaching-plan/"><span class="doc">Sample teaching plan</span></a> has some sample questions.</p>
+<p>Expected steps:</p>
+<ul class="simple">
+<li><p>One instructor shares the notes</p></li>
+<li><p>Instructors scroll through and discuss the questions</p>
+<ul>
+<li><p>Keep in mind that the answers to some questions can be “we will
+discuss later”.</p></li>
+</ul>
+</li>
+<li><p>(If using the indicator panel) End once “time” is called via the
+control panel indicator light.</p></li>
+<li><p>If there is a third person and using live notes, they can go
+answering questions at the same time the instructors are talking.</p></li>
+</ul>
+<p>Sample questions you can be asked:</p>
+<ul class="simple">
+<li><p>If you have a “sample audience”, they can ask questions in a notes
+dock from the <a class="reference internal" href="../sample-teaching-plan/"><span class="doc">Sample teaching plan</span></a>.</p></li>
+<li><p>If you are only two people, you could use notes from one of old
+CodeRefinery workshops (pretend you are in the workshop, helpers
+have already answered many questions, and you are following up on
+important things in the stream):</p>
+<ul>
+<li><p>Day 1, committing:
+<a class="reference external" href="https://coderefinery.github.io/2025-03-25-workshop/questions/day1/#commiting">https://coderefinery.github.io/2025-03-25-workshop/questions/day1/#commiting</a></p></li>
+<li><p>Day 2, inspecting history: <a class="reference external" href="https://coderefinery.github.io/2025-03-25-workshop/questions/day2/#inspecting-history">https://coderefinery.github.io/2025-03-25-workshop/questions/day2/#inspecting-history</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="saying-bye">
+<h2>Saying bye<a class="headerlink" href="#saying-bye" title="Link to this heading"></a></h2>
+<p>Going to a break/exercise isn’t hard.  But, since there’s no
+opportunity to ask more questions, you should make sure that
+everything is done.</p>
+<p>Considerations:</p>
+<ul class="simple">
+<li><p>Give a wrap-up of the session that is just ending, so that people
+can unpack.</p></li>
+<li><p>Give clear directions of what learners should do next, for example:</p>
+<ul>
+<li><p>Do an exercise (state the goals which should be accomplished by
+the end), or</p></li>
+<li><p>Take a break and don’t forget to walk around some.</p></li>
+<li><p>When to be back.</p></li>
+<li><p>Update the notes with the info.</p></li>
+</ul>
+</li>
+<li><p>Someone will be waiting to switch the livestream to break mode.
+They can’t read your mind, so <strong>someone should say “bye”</strong> to
+indicate the session is over.  Then, the director will immediately
+switch to break mode.</p></li>
+</ul>
+<div class="admonition-exercise-bye-1-wrap-up-and-say-bye-smoothly exercise important admonition" id="exercise-3">
+<p class="admonition-title">Exercise Bye-1: Wrap up and say bye smoothly</p>
+<p>Simulate a session ending according to the things above.  It’s your
+choice what session, but here are some suggestions:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../sample-teaching-plan/"><span class="doc">Sample teaching plan</span></a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-intro/commits/">https://coderefinery.github.io/git-intro/commits/</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/testing/test-design/">https://coderefinery.github.io/testing/test-design/</a></p></li>
+<li><p>Anything you have done</p></li>
+</ul>
+<p>Try to include the following bits:</p>
+<ul class="simple">
+<li><p>Summarize what was just (pretended to be) learned</p></li>
+<li><p>Say what comes next (break or exercise)</p></li>
+<li><p>Some small interaction between co-instructors (asking each other a
+question)</p></li>
+<li><p>Whoever is talking least adds a description in the notes of what
+comes next.</p></li>
+</ul>
+<p>Example notes description for going to an exercise:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:::</span><span class="n">info</span>
+<span class="c1">### Exercise Cloning until xx:12.</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">coderefinery</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">git</span><span class="o">-</span><span class="n">intro</span><span class="o">/</span><span class="n">local</span><span class="o">-</span><span class="n">workflow</span><span class="o">/</span><span class="c1">#exercise</span>
+
+<span class="o">*</span> <span class="n">Try</span> <span class="n">to</span> <span class="n">complete</span> <span class="n">at</span> <span class="n">least</span> <span class="n">steps</span> <span class="mi">1</span><span class="o">-</span><span class="mf">7.</span>  <span class="n">We</span> <span class="n">will</span> <span class="n">be</span> <span class="n">using</span> <span class="n">this</span> <span class="ow">in</span> <span class="n">the</span> <span class="nb">next</span> <span class="n">exercise</span><span class="o">.</span>
+
+<span class="p">:::</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h2>
+<p>We went over some of the most common things you’ll experience when
+co-teaching via livestream.  Think about these when preparing your
+lessons to teach.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../streaming-practice/" class="btn btn-neutral float-left" title="Livestream practice" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../preparation/" class="btn btn-neutral float-right" title="Preparation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

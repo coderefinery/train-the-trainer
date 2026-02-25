@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson development with version control &mdash; Community teaching training  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=0c089442" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=187304be"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="../_static/copybutton.js?v=f281be69"></script>
+        <script src="../_static/minipres.js?v=a0d29692"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Backwards lesson design" href="../backward-lesson-design/" />
+    <link rel="prev" title="Placeholder" href="../placeholder/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Community teaching training
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Preparation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Pre-workshop preparation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../welcome/">Welcome and introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about-coderefinery/">About the CodeRefinery project and CodeRefinery workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Teaching tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-online/">Teaching online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../team-teaching/">Team teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hackmd/">HackMD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teams/">Teams</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../livestreaming/">Livestreaming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../instructor-tech-setup/">Instructor tech setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-recording/">Video recording</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distributed/">Distributed workshop organization</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Workshop organization</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../why-teach-together/">Why teach together?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distributed/">Distributed workshop organization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaboration-models/">Collaboration models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workshop-roles/">Workshop roles</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Social-technical considerations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../why-are-computers-hard/">Why are computers hard?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../diversity-and-inclusion/">Diversity and inclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder/">Accessibility and usability (placeholder)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder/">Mentoring (placeholder)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Lesson design and development</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lesson development with version control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#version-control-and-static-site-generators">Version control and static site generators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coderefinery-lesson-tools">CodeRefinery lesson tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#recommendations-and-lessons-learned">Recommendations and lessons learned</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#see-also">See also</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../backward-lesson-design/">Backwards lesson design</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Wrap-up, future, and getting involved</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../future/">Possibilities for Carpentries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../future/#coderefinery-s-plans">CodeRefinery’s plans</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../other-resources/">Other resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises/">Exercise list</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Old contents - we need to move/merge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../02-teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-teaching-style/">Interactive teaching style</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-teaching-style/#the-carpentries-and-coderefinery-approaches-to-teaching">The Carpentries and CodeRefinery approaches to teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workshops-online/">Running a workshop: online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-strategies/">How to teach online</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-practice/">Teaching practice and feedback</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Community teaching training</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Lesson development with version control</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/community-teaching/blob/master/content/lessons-with-version-control.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lesson-development-with-version-control">
+<h1>Lesson development with version control<a class="headerlink" href="#lesson-development-with-version-control" title="Link to this heading"></a></h1>
+<p>So, we want to practically share.  We have these minimum requirements:</p>
+<ul class="simple">
+<li><p>Someone can get the preferred form of modification, to improve
+without limitation.</p></li>
+<li><p>It is trivial to track differences and send the changes back to the
+source, with little cost to the original maintainer.</p></li>
+</ul>
+<p>Especially with the second of these, version control in an online
+platform seems to be the only reasonable option.</p>
+<section id="version-control-and-static-site-generators">
+<h2>Version control and static site generators<a class="headerlink" href="#version-control-and-static-site-generators" title="Link to this heading"></a></h2>
+<p>CodeRefinery and the Carpentries use git and Github to develop
+lessons.  The general procedure is this:</p>
+<ul class="simple">
+<li><p>Version control to store the raw files in text format</p></li>
+<li><p>A static website compiler to convert them to HTML files</p></li>
+<li><p>Serving to the public via Github Pages (but this could be replaced
+with other systems)</p></li>
+</ul>
+<p>This allows for true collaborative development and community
+contributions.</p>
+<p>Carpentries uses a custom website complierer based on R, CodeRefinery
+uses the Sphinx documentation engine which is used in many different
+projects for documentation.  CodeRefinery’s use of a standard tool
+allows us to build on a huge and growing ecosystem of extensions and
+themes, and promotes local reuse.</p>
+<p>The exact static website generator used isn’t so important, as long as
+some form of version control is used.</p>
+<p>A open-source license is the last bit to consider: without a license,
+it can’t be reused and passed on, and there is little incentive for
+someone to contribute.</p>
+</section>
+<section id="coderefinery-lesson-tools">
+<h2>CodeRefinery lesson tools<a class="headerlink" href="#coderefinery-lesson-tools" title="Link to this heading"></a></h2>
+<p>CodeRefinery uses the following tools to actually make its lessons
+right now:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/">Sphinx</a> (a common documentation
+generator, widely used in open source projects in general)</p></li>
+<li><p>The <a class="reference external" href="https://github.com/coderefinery/sphinx-lesson">sphinx-lesson</a>, which is more of
+a small collection of other extensions than new development itself.</p></li>
+<li><p>Github for hosting lessons: <a class="reference external" href="https://github.com/coderefinery/">https://github.com/coderefinery/</a></p></li>
+<li><p>Github Actions and Github Pages for building and web serving our
+lessons.</p></li>
+</ul>
+</section>
+<section id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Link to this heading"></a></h2>
+<div class="admonition-contribute-to-a-sample-lesson exercise important admonition" id="exercise-0">
+<p class="admonition-title">Contribute to a sample lesson</p>
+<ul class="simple">
+<li><p>Open this very lesson in GitHub (it uses the same format as
+typical CodeRefinery lessons):
+<a class="reference external" href="https://github.com/coderefinery/community-teaching/">https://github.com/coderefinery/community-teaching/</a></p></li>
+<li><p>Browse the files and understand the general idea.  Check out at
+least these and use HackMD to record their functions:</p>
+<ul>
+<li><p>.github/workflows/sphinx.yml</p></li>
+<li><p>content/conf.py</p></li>
+<li><p>content/index.rst</p></li>
+<li><p>content/lessons-with-version-control.rst</p></li>
+</ul>
+</li>
+<li><p>If you want, try to make a pull request to this lesson.  It
+doesn’t have to have any significant content, it can be a pure
+test pull request.</p></li>
+</ul>
+</div>
+<div class="admonition-advanced-create-your-own-lesson exercise important admonition" id="exercise-1">
+<p class="admonition-title">(advanced) Create your own lesson</p>
+<p>Use the
+<a class="reference external" href="https://github.com/coderefinery/sphinx-lesson-template">sphinx-lesson-template</a>
+to create a new lesson of your choice.  Alternatively, use the current
+Carpentries system, or some other system of your choice.</p>
+</div>
+</section>
+<section id="recommendations-and-lessons-learned">
+<h2>Recommendations and lessons learned<a class="headerlink" href="#recommendations-and-lessons-learned" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Convert feedback about lessons and suggestions for improvements into <em>issues</em>
+so that these don’t get lost.</p></li>
+<li><p>Make your lesson citable: get a DOI.</p></li>
+<li><p>Credit contributors (not only Git commits).</p></li>
+<li><p>Instructor guide is essential for new instructors.</p></li>
+<li><p>Lesson changes should be accompanied with instructor guide changes (it’s like
+a documentation for the lesson material).</p></li>
+<li><p>Apply and validate <a class="reference internal" href="../backward-lesson-design/#backwards-lesson-design"><span class="std std-ref">Backwards lesson design</span></a> again and again.</p></li>
+<li><p>Make it possible to try out new ideas (by making the lesson branch-able).</p></li>
+<li><p>Before making larger changes, talk with somebody and discuss these changes.</p></li>
+<li><p>For substantial changes we recommend to first open an issue and describe your
+idea and collect feedback before you start with an extensive rewrite.</p></li>
+<li><p>For things still under construction, open a draft pull request to collect
+feedback and to signal to others what you are working on.</p></li>
+</ul>
+</section>
+<section id="see-also">
+<h2>See also<a class="headerlink" href="#see-also" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-intro/">CodeRefinery git-intro</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/git-collaborative/">CodeRefinery git-collaborative</a></p></li>
+<li><p><a class="reference external" href="https://docs.carpentries.org/topic_folders/lesson_development/index.html">Carpentries lesson development</a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../placeholder/" class="btn btn-neutral float-left" title="Placeholder" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../backward-lesson-design/" class="btn btn-neutral float-right" title="Backwards lesson design" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020-, The contributors.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why we stream &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Behind the stream" href="../streaming/" />
+    <link rel="prev" title="Session 4 intro" href="../session-4-intro/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Why we stream</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#icebreaker-questions">Icebreaker questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-streaming-and-recording">What is streaming and recording?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#history">History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#benefits-and-disadvantages">Benefits and disadvantages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#future-prospects-briefly">Future prospects (briefly)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-a">Q&amp;A</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Why we stream</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/why-we-stream.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="why-we-stream">
+<span id="id1"></span><h1>Why we stream<a class="headerlink" href="#why-we-stream" title="Link to this heading"></a></h1>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Learn the general history of CodeRefinery streaming.</p></li>
+<li><p>Discuss the benefits of streaming and recording</p></li>
+<li><p>Discuss the downsides and difficulties</p></li>
+</ul>
+</div>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>Discussion: 10 min</p></li>
+<li><p>Q&amp;A: 5 min</p></li>
+<li><p>Exercises: 0 min</p></li>
+</ul>
+</div>
+<p>This is a general discussion of the topics of the day, focused on the
+history of why we stream and record, how we got here, and how people
+feel about it.  We won’t focus on how anything is done.</p>
+<section id="icebreaker-questions">
+<h2>Icebreaker questions<a class="headerlink" href="#icebreaker-questions" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>What is the most people you have taught for?</p></li>
+<li><p>What are the distinct parts of teaching, that can be
+separated? (teaching, helping, etc)</p></li>
+</ul>
+</section>
+<section id="what-is-streaming-and-recording">
+<h2>What is streaming and recording?<a class="headerlink" href="#what-is-streaming-and-recording" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Streaming is mass communication: one to many</p>
+<ul>
+<li><p>Interaction audience→presenters is more limited (but different)</p></li>
+</ul>
+</li>
+<li><p>Using consumer-grade tools, normal people can reach huge audiences
+by Twitch/YouTube/etc.</p></li>
+<li><p>This isn’t actually that hard: people with much less training than
+us do it all the time.</p></li>
+<li><p>They reach huge audiences and maintain engagement for long events.</p></li>
+</ul>
+<p><strong>Recording and rapid video editing is useful even without
+streaming.</strong></p>
+</section>
+<section id="history">
+<h2>History<a class="headerlink" href="#history" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>In-person workshops</p>
+<ul>
+<li><p>3 × full day, required travel, infrequent, one-shot</p></li>
+</ul>
+</li>
+<li><p>Covid and remote teaching</p>
+<ul>
+<li><p>Traditional “Zoom” teaching several times</p></li>
+</ul>
+</li>
+<li><p>Mega-CodeRefinery workshop</p>
+<ul>
+<li><p>100-person Zoom teaching</p></li>
+<li><p>Emphasis on teams</p></li>
+</ul>
+</li>
+<li><p>Research Software Hour</p>
+<ul>
+<li><p>Livestream free-form discussions on Twitch</p></li>
+</ul>
+</li>
+<li><p>Streamed “HPC Kickstart” courses</p></li>
+</ul>
+</section>
+<section id="benefits-and-disadvantages">
+<h2>Benefits and disadvantages<a class="headerlink" href="#benefits-and-disadvantages" title="Link to this heading"></a></h2>
+<p>Benefits:</p>
+<ul class="simple">
+<li><p>Larger size gives more (but different) interaction possibility</p>
+<ul>
+<li><p>“Notes” for async Q&amp;A</p></li>
+</ul>
+</li>
+<li><p>Recording (with no privacy risk) allows instant reviews</p></li>
+<li><p>Stream-scale allows for many of the things you have learned about in
+days 1-3.</p></li>
+</ul>
+<p>Disadvantages:</p>
+<ul class="simple">
+<li><p>Requires training for using the tools</p></li>
+<li><p>Requires a certain scale to be worth it</p></li>
+<li><p>Coordination is much harder for big events</p></li>
+</ul>
+<p>When would I recommend it?</p>
+<ul class="simple">
+<li><p>No: For small courses</p></li>
+<li><p>Questionable: Medium sized courses with no videos</p></li>
+<li><p>Yes: When you want the largest audience</p></li>
+<li><p>Yes: When you want without registration required</p></li>
+<li><p>Yes: When you want good reusability/fast videos</p></li>
+</ul>
+</section>
+<section id="future-prospects-briefly">
+<h2>Future prospects (briefly)<a class="headerlink" href="#future-prospects-briefly" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Streaming probably stays as a CodeRefinery tool</p></li>
+<li><p>We <em>can</em> scale our courses much larger than they are now.  Why don’t
+we, together with others?</p></li>
+<li><p>These tools are useful in other places too</p>
+<ul>
+<li><p>I’ve used them to record my own talks to make videos of my
+single-person presentations or record conference talks nicer than Zoom.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="q-a">
+<h2>Q&amp;A<a class="headerlink" href="#q-a" title="Link to this heading"></a></h2>
+<p>Q&amp;A from audience</p>
+<div class="admonition-keypoints keypoints admonition" id="keypoints-0">
+<p class="admonition-title">Keypoints</p>
+<ul class="simple">
+<li><p>Streaming optimizes a course for different things</p></li>
+<li><p>The disadvantages can be compensated for</p></li>
+<li><p>There are benefits and disadvantages</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../session-4-intro/" class="btn btn-neutral float-left" title="Session 4 intro" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../streaming/" class="btn btn-neutral float-right" title="Behind the stream" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
