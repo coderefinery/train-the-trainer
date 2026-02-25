@@ -123,6 +123,7 @@ streaming-practice-1
 :maxdepth: 1
 :caption: Resources
 
+preparation
 notes-archive
 guide
 All lessons <https://coderefinery.org/lessons/>
