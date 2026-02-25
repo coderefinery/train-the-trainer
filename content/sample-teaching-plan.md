@@ -26,8 +26,8 @@ the streaming/team teaching exercises.
 For demos, A talks and B types the demo.
 
 - A: introduce demo and asks B if they want to type
-- Action: B opens a termnial and `cd` to existing project dir
-    - mentions how termainal may be hard but isn't part of today's lesson.
+- Action: B opens a terminal and `cd` to existing project dir
+    - mentions how terminal may be hard but isn't part of today's lesson.
 - Actions: A talks, B types
     - (make two files if they don't exist yet)
     - `git init`
