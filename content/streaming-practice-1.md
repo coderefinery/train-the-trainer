@@ -73,7 +73,7 @@ The roles:
   the notes + answer questions)
 :::
 
-:::{exercise} Going live (10 min)
+:::{exercise} Exercise Live-1: Begin a session smoothly (10 min)
 You will practice going live (but without the director part) in
 breakout rooms.  In the main room, a few groups will demo and a
 director will cue you to start.  Swap and try again
@@ -131,12 +131,13 @@ Typer responsibilities:
   conversation going.
 * Jump in to remind the talker about what should go next, etc.
 
-:::{exercise} Doing a demo (10 min)
+:::{exercise} Exercise Demo-1: Practice a demo (10 min)
 Stay in your groups of 2.  Practice doing a demo for 2-3 minutes.
 Swap and try again.  This isn't a lot of time, but try to at least:
 
 * Divide to talker and typer.
 * Do the demo in takler/typer format as described above.
+  * You can use the same sample lessons mentioned above
 * Typer should ask at least one clarification from the talker.
 * Talker should ask at least one question to the typer.
 :::
@@ -160,7 +161,7 @@ Considerations:
   looking for question (and talking sometimes) and the other mainly
   answering (and looking sometimes)
 
-::::{exercise} Notes Q&A
+::::{exercise} Exercise Notes-1: Simulate a Q&A via Notes
 Divide into groups of **three** for this one.
 
 The goal is to have two people discussing questions in a notes
@@ -216,7 +217,7 @@ Considerations:
   indicate the session is over.  Then, the director will immediately
   switch to break mode.
 
-::::{exercise} Saying bye
+::::{exercise} Exercise Bye-1: Wrap up and say bye smoothly
 Simulate a session ending according to the things above.  It's your
 choice what session, but here are some suggestions:
 * {doc}`sample-teaching-plan`
