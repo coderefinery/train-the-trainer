@@ -36,8 +36,8 @@ Do these once you join the session or right before.
 This is used for non-verbal communication between instructors.
 
 ```{figure} https://coderefinery.github.io/manuals/_images/instructor-obs--controlpanel.png
-
 The instructor version of the control panel, running on a phone. Click the “Fullscreen & wakelock” to make it full screen and not powersave.
+
 - "Live" red square (top left) lets you know you may be visible to the
   audience
 - The other buttons (from "Warn" to "Faster") can alert you to other
