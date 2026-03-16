@@ -9,6 +9,15 @@ practices compared to {doc}`the previous practice
 - Smooth beginning of each segment
 - Use of the instructor control panel
 
+:::{admonition} Expected outcomes of this session
+
+- You have done a test with screenshare and audio.  Someone confirms
+  it looks good.
+- You understand the stream mechanics and what to expect when going
+  live and un-live.  You have practiced it once.
+- (optional) You understand the basics of the control panel.
+
+:::
 
 
 ## First things (while we are getting ready)
@@ -22,10 +31,31 @@ Do these once you join the session or right before.
 - Open the Notes document.
 
 
+## The stream status display / control panel
+
+This is used for non-verbal communication between instructors.
+
+```{figure} https://coderefinery.github.io/manuals/_images/instructor-obs--controlpanel.png
+
+The instructor version of the control panel, running on a phone. Click the “Fullscreen & wakelock” to make it full screen and not powersave.
+- "Live" red square (top left) lets you know you may be visible to the
+  audience
+- The other buttons (from "Warn" to "Faster") can alert you to other
+  conditions.
+- The purpose square in the top right is a session countdown.  It
+  turns purple as you get towards the end.
+- "Break" will end the session (the broadcaster usually does this but
+  you can)
+```
+
+There are some sound effects for different events.
+
+
 
 ## Going live
 
-Same as the previous exercises.  Remember to:
+This is a refresher to the exercises we have done in the last session.
+Remember to:
 
 - Confirm what you will do next.
 - Ask everyone else to turn off their screens.
