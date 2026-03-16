@@ -116,6 +116,7 @@ streaming-whats-next
 
 streaming-practice
 streaming-practice-1
+streaming-practice-2
 ```
 
 
