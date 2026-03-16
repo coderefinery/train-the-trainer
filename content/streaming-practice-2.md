@@ -1,4 +1,4 @@
-# Streaming practice 2 (final check)
+# Streaming practice 2 (livestream mechanics, final check)
 
 This livestream teaching practice adds in the actual livestreaming
 practices compared to {doc}`the previous practice
