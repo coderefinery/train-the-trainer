@@ -1,4 +1,4 @@
-# Streaming practice 1
+# Streaming practice 1 (team teaching)
 
 This series of exercises introduces you to the practices of livestream
 teaching.  It's nothing that radical, but since you don't directly see
