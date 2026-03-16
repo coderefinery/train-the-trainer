@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streaming practice 2 (livestream mechanics, final check) &mdash; Train the trainer workshop  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_lesson.css?v=e9df6548" />
+      <link rel="stylesheet" type="text/css" href="../_static/term_role_formatting.css?v=4194e21c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+    <link rel="shortcut icon" href="../_static/coderefinery.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=187304be"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/minipres.js?v=a0d29692"></script>
+      <script>let toggleHintShow = 'Click to show';</script>
+      <script>let toggleHintHide = 'Click to hide';</script>
+      <script>let toggleOpenOnPrint = 'true';</script>
+      <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Preparation" href="../preparation/" />
+    <link rel="prev" title="Streaming practice 1 (team teaching)" href="../streaming-practice-1/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            Train the trainer workshop
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Session 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-development/">Lesson design and development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons-with-git/">Lessons with version control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../feedback-and-impact/">How we collect feedback and measure impact</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 2</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../coderefinery-intro/">About the CodeRefinery project and CodeRefinery workshops in general</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-notes/">Collaborative notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../overview/">A workshop seen from different perspectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sound/">Sound</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../screenshare/">How to prepare a quality screen-share</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 3</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../computational-thinking/">Computational thinking</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-philosophies/">CodeRefinery teaching philosophies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../co-teaching/">Co-teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cool-gems/">Sharing teaching gems</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Session 4</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../session-4-intro/">Session 4 intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../why-we-stream/">Why we stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming/">Behind the stream</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../video-editing/">Video editing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs/">Open Broadcaster Software (OBS) introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../obs-config/">Open Broadcaster Software (OBS) setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-whats-next/">What’s next?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Hands-on practice</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice/">Livestream practice</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming-practice-1/">Streaming practice 1 (team teaching)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Streaming practice 2 (livestream mechanics, final check)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#first-things-while-we-are-getting-ready">First things (while we are getting ready)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-stream-status-display-control-panel">The stream status display / control panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#going-live">Going live</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#going-to-a-break">Going to a break</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alerting-to-a-problem-using-the-control-panel">Alerting to a problem / using the control panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-practice">Other practice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-next">What’s next</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes-archive/">Collaborative notes archives from workshops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/">All lessons</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org/lessons/reusing/">Reusing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Train the trainer workshop</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Streaming practice 2 (livestream mechanics, final check)</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/train-the-trainer/blob/master/content/streaming-practice-2.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="streaming-practice-2-livestream-mechanics-final-check">
+<h1>Streaming practice 2 (livestream mechanics, final check)<a class="headerlink" href="#streaming-practice-2-livestream-mechanics-final-check" title="Link to this heading"></a></h1>
+<p>This livestream teaching practice adds in the actual livestreaming
+practices compared to <a class="reference internal" href="../streaming-practice-1/"><span class="doc">the previous practice</span></a>.  We do final verification and practice of:</p>
+<ul class="simple">
+<li><p>Screenshare layout, size, etc.</p></li>
+<li><p>Audio quality</p></li>
+<li><p>Smooth beginning of each segment</p></li>
+<li><p>Use of the instructor control panel</p></li>
+</ul>
+<div class="admonition-expected-outcomes-of-this-session admonition">
+<p class="admonition-title">Expected outcomes of this session</p>
+<ul class="simple">
+<li><p>You have done a test with screenshare and audio.  Someone confirms
+it looks good.</p></li>
+<li><p>You understand the stream mechanics and what to expect when going
+live and un-live.  You have practiced it once.</p></li>
+<li><p>(optional) You understand the basics of the control panel.</p></li>
+</ul>
+</div>
+<section id="first-things-while-we-are-getting-ready">
+<h2>First things (while we are getting ready)<a class="headerlink" href="#first-things-while-we-are-getting-ready" title="Link to this heading"></a></h2>
+<p>Do these once you join the session or right before.</p>
+<ul class="simple">
+<li><p>Arrange your screen for the proper vertical layout and looking good
+for learners.</p></li>
+<li><p>Ensure your audio is as good as it can be.</p></li>
+<li><p>Open the instructor status panel that the broadcaster sends you.</p></li>
+<li><p>Open the Notes document.</p></li>
+</ul>
+</section>
+<section id="the-stream-status-display-control-panel">
+<h2>The stream status display / control panel<a class="headerlink" href="#the-stream-status-display-control-panel" title="Link to this heading"></a></h2>
+<p>This is used for non-verbal communication between instructors.</p>
+<figure class="align-default" id="id1">
+<img alt="https://coderefinery.github.io/manuals/_images/instructor-obs--controlpanel.png" src="https://coderefinery.github.io/manuals/_images/instructor-obs--controlpanel.png" />
+<figcaption>
+<p><span class="caption-text">The instructor version of the control panel, running on a phone. Click the “Fullscreen &amp; wakelock” to make it full screen and not powersave.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+<div class="legend">
+<ul class="simple">
+<li><p>“Live” red square (top left) lets you know you may be visible to the
+audience</p></li>
+<li><p>The other buttons (from “Warn” to “Faster”) can alert you to other
+conditions.</p></li>
+<li><p>The purpose square in the top right is a session countdown.  It
+turns purple as you get towards the end.</p></li>
+<li><p>“Break” will end the session (the broadcaster usually does this but
+you can)</p></li>
+</ul>
+</div>
+</figcaption>
+</figure>
+<p>There are some sound effects for different events.</p>
+</section>
+<section id="going-live">
+<h2>Going live<a class="headerlink" href="#going-live" title="Link to this heading"></a></h2>
+<p>This is a refresher to the exercises we have done in the last session.
+Remember to:</p>
+<ul class="simple">
+<li><p>Confirm what you will do next.</p></li>
+<li><p>Ask everyone else to turn off their screens.</p></li>
+<li><p>Decide who begins (says “hi”).</p></li>
+<li><p>Broadcaster begins countdown “3… 2… 1… [breath]… [you can begin]”</p></li>
+</ul>
+<p>What is new:</p>
+<ul class="simple">
+<li><p>You have a control panel you can run in your web browser that will
+show what the stream status is.  It should also beep a countdown to
+beginning, and will confirm once thing are showing.</p></li>
+<li><p>You can set a countdown in the control panel.  Set an end time by
+entering <code class="docutils literal notranslate"><span class="pre">&#64;35</span></code>, to, for example, end the countdown at the next <code class="docutils literal notranslate"><span class="pre">xx:35</span></code></p></li>
+</ul>
+</section>
+<section id="going-to-a-break">
+<h2>Going to a break<a class="headerlink" href="#going-to-a-break" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Remember to tell the audience what to do during the break</p></li>
+<li><p>Remember to say “bye” for the broadcaster to turn off the stream</p>
+<ul>
+<li><p>You can also click “Break” on the instructor status panel.</p></li>
+</ul>
+</li>
+<li><p>Do a quick debrief before you take your own break.</p></li>
+</ul>
+<p>What is new:</p>
+<ul class="simple">
+<li><p>The control panel will beep when you go un-live, and you can also
+verify status that way.</p></li>
+</ul>
+</section>
+<section id="alerting-to-a-problem-using-the-control-panel">
+<h2>Alerting to a problem / using the control panel<a class="headerlink" href="#alerting-to-a-problem-using-the-control-panel" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>If you need to communicate something to an instructor, you can push
+one of the indicator lights on the control panel.</p>
+<ul>
+<li><p>It will highlight and play a sound for instructors.  They can
+respond to it when it fits the lesson.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="other-practice">
+<h2>Other practice<a class="headerlink" href="#other-practice" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>You may decide if you want to practice Q&amp;A, teaching, going to
+exercises, etc.</p></li>
+</ul>
+</section>
+<section id="what-s-next">
+<h2>What’s next<a class="headerlink" href="#what-s-next" title="Link to this heading"></a></h2>
+<p>Enjoy teaching!</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../streaming-practice-1/" class="btn btn-neutral float-left" title="Streaming practice 1 (team teaching)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../preparation/" class="btn btn-neutral float-right" title="Preparation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CodeRefinery project.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
